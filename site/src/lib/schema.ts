@@ -13,6 +13,7 @@ export const ID = {
   business: `${S}/#business`,
   website: `${S}/#website`,
   owner: `${S}/#ryan-blouin`,
+  logo: `${S}/#logo`,
   page: (path: string) => `${S}${path}#webpage`,
   service: (slug: string) => `${S}/services/${slug}/#service`,
 };
@@ -36,6 +37,8 @@ export function coreNodes() {
     founder: { '@id': ID.owner },
     foundingDate: String(BUSINESS.founded),
     openingHoursSpecification: BUSINESS.hoursSchema ? { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '09:00', closes: '17:00' } : null,
+    logo: { '@id': ID.logo },
+    image: { '@id': ID.logo },
     sameAs: [...BUSINESS.sameAs],
     aggregateRating: hasReviewProof()
       ? { '@type': 'AggregateRating', ratingValue: BUSINESS.reviews.rating, reviewCount: BUSINESS.reviews.count, bestRating: 5 }
@@ -73,7 +76,19 @@ export function coreNodes() {
     inLanguage: 'en-US',
   };
 
-  return [business, owner, website];
+  /* The client's own logo, the one image every template renders (in the header).
+     Supplied by the client 1 Oct 2026 — a real brand asset, not stock. */
+  const logo = {
+    '@type': 'ImageObject',
+    '@id': ID.logo,
+    url: `${S}/brand/bps-logo-480.webp`,
+    contentUrl: `${S}/brand/bps-logo-480.webp`,
+    width: 480,
+    height: 160,
+    caption: `${BUSINESS.name} logo`,
+  };
+
+  return [business, owner, website, logo];
 }
 
 export function webPageNode(path: string, title: string, description: string, crumbs: { name: string; item: string }[]) {

@@ -1,5 +1,5 @@
 /**
- * Generates public/favicon.svg and public/og-default.png from the palette in
+ * Generates public/og-default.png from the palette in
  * src/styles/base.css.
  *
  * These two files are the only places the brand appears outside the site
@@ -11,7 +11,7 @@
  *
  *   npm run gen:brand
  */
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
 import { chromium } from 'playwright-core';
 import { BUSINESS, hasReviewProof, hasLicenceNumber } from '../src/data/business.ts';
 
@@ -28,17 +28,15 @@ const PAPER = token('paper');
 const MUTED = token('muted');
 const RULE = token('rule');
 
-/* --- favicon ----------------------------------------------------------- */
-const favicon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Blouin Pest Services">
-  <rect width="64" height="64" rx="12" fill="${PAGE}"/>
-  <path d="M32 12 L44 24 L44 46 L20 46 L20 24 Z" fill="none" stroke="${RULE}" stroke-width="4" stroke-linejoin="round"/>
-  <circle cx="32" cy="35" r="5" fill="${PAPER}"/>
-</svg>
-`;
-writeFileSync('public/favicon.svg', favicon);
+/* --- logo ---------------------------------------------------------------
+ * The client's logo, supplied 1 Oct 2026: glowing mark on opaque black.
+ * brand/logo-master.png is the master; public/brand/bps-logo-*.webp,
+ * favicon-48.png and apple-touch-icon.png were cut from it. It is blended with
+ * `screen` (as in the site header) so its black becomes the card's page colour.
+ * The placeholder house-icon favicon.svg is retired. */
+const LOGO = `data:image/png;base64,${readFileSync('brand/logo-master.png').toString('base64')}`;
 
 /* --- open graph card ---------------------------------------------------- */
-const DISPLAY = 'Newsreader, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif';
 const BODY = '"DM Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
 
 /* Only proof the site itself is allowed to state goes on the card. */
@@ -51,29 +49,24 @@ const card = `<!doctype html><meta charset="utf-8"><style>
   * { box-sizing: border-box; margin: 0; }
   body { width: 1200px; height: 630px; background: ${PAGE}; color: ${PAPER}; font-family: ${BODY}; }
   .card { height: 100%; display: flex; flex-direction: column; }
-  .body { flex: 1; padding: 74px 80px 0; position: relative; }
-  .rule { width: 84px; height: 4px; background: ${RULE}; margin-bottom: 34px; }
-  h1 { font-family: ${DISPLAY}; font-size: 76px; font-weight: 600; letter-spacing: -.015em; line-height: 1.05; }
-  .sub { font-size: 30px; color: ${MUTED}; margin-top: 18px; }
+  .body { flex: 1; padding: 48px 80px 0 60px; position: relative; }
+  .logo { display: block; width: 540px; height: auto; mix-blend-mode: screen; }
+  .sub { font-size: 30px; color: ${MUTED}; margin: 18px 0 0 20px; }
+  .pests { margin-left: 20px; }
+  .proof { left: 80px; }
   .pests { font-size: 24px; color: ${MUTED}; margin-top: 38px; line-height: 1.55; max-width: 620px; }
   .proof { position: absolute; left: 80px; bottom: 44px; font-size: 21px; color: ${MUTED}; font-weight: 600; }
   .proof b { color: ${PAPER}; }
-  .mark { position: absolute; right: 80px; top: 150px; }
   .foot { background: ${PANEL}; border-top: 4px solid ${RULE}; padding: 26px 80px;
           display: flex; gap: 34px; align-items: center; font-size: 26px; font-weight: 700; letter-spacing: .01em; }
   .foot .dot { color: ${RULE}; }
 </style>
 <div class="card">
   <div class="body">
-    <div class="rule"></div>
-    <h1>Blouin Pest Services</h1>
+    <img class="logo" src="${LOGO}" alt="Blouin Pest Services">
     <p class="sub">Maine pest control, owner-operated</p>
     <p class="pests">Rodents &middot; Ants &middot; Ticks &middot; Mosquitoes<br>Cockroaches &middot; Bed bugs &middot; Exclusion and sealing</p>
     ${PROOF}
-    <svg class="mark" width="190" height="190" viewBox="0 0 64 64">
-      <path d="M32 12 L44 24 L44 46 L20 46 L20 24 Z" fill="none" stroke="${RULE}" stroke-width="3" stroke-linejoin="round"/>
-      <circle cx="32" cy="35" r="5" fill="${PAPER}"/>
-    </svg>
   </div>
   <div class="foot"><span>blouinpest.com</span><span class="dot">&#9670;</span><span>207-740-4441</span></div>
 </div>`;
@@ -86,4 +79,4 @@ await page.setContent(card, { waitUntil: 'load' });
 await page.screenshot({ path: 'public/og-default.png' });
 await browser.close();
 
-console.log(`gen:brand — favicon.svg and og-default.png written from base.css (page ${PAGE}, rule ${RULE})`);
+console.log(`gen:brand — og-default.png written from base.css (page ${PAGE}, rule ${RULE})`);

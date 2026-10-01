@@ -97,11 +97,13 @@ hr { border: 0; border-top: 1px solid var(--hairline); margin: 2.25rem 0; }
 header.site { background: var(--page); border-bottom: 1px solid var(--hairline); }
 header.site .wrap { padding: 1rem 0 .85rem; }
 header.site .brand {
-  display: inline-flex; align-items: baseline; gap: .5rem;
-  font-family: var(--display); font-size: 1.35rem; font-weight: 600; letter-spacing: -.012em;
+  display: inline-flex; align-items: flex-end; gap: .75rem;
   color: var(--paper); text-decoration: none;
 }
-header.site .brand .mark { color: var(--rule); }
+/* The client's logo (supplied 1 Oct 2026) is opaque: glow and hex texture on
+   black. `screen` turns its black into the page colour, so it sits on --page with
+   no box edge. Width/height attributes reserve the box, so it costs no CLS. */
+header.site .brand img { display: block; height: 80px; width: auto; mix-blend-mode: screen; }
 header.site .brand small { font-family: var(--body); font-size: .75rem; font-weight: 500; color: var(--faint); letter-spacing: .02em; text-transform: uppercase; }
 nav.site { padding-top: .7rem; }
 nav.site ul { display: flex; flex-wrap: wrap; gap: .4rem; list-style: none; margin: 0; padding: 0; }
@@ -290,7 +292,7 @@ footer.site .colophon { border-top: 1px solid var(--hairline); margin-top: 1.8re
   body { font-size: 1.0625rem; }
   .topbar .tagline { display: none; }
   .topbar .wrap { justify-content: flex-end; }
-  header.site .brand { font-size: 1.15rem; }
+  header.site .brand img { height: 60px; }
   header.site .brand small { display: none; }
   .ctaband { padding: 1.75rem 1.15rem; }
   .answer { padding-right: 1.15rem; }

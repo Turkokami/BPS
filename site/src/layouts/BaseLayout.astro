@@ -35,7 +35,8 @@ const nodes = [...core, ...webPageNode(path, title, description, [{ name: 'Home'
     <meta property="og:image" content={`${BUSINESS.site}/og-default.png`} />
     <meta property="og:site_name" content={BUSINESS.name} />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <script type="application/ld+json" set:html={graph(nodes)} />
   </head>
   <body>
