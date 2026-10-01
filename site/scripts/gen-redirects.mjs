@@ -37,6 +37,13 @@ const authorised = JSON.parse(fs.readFileSync('../architecture/demand/authorised
 const slugOf = (legacy) => legacy
   .replace(/^\/pest-control-/, '').replace(/-maine(-\d+)?$/, '')
   .replace(/^\//, '').replace(/-me-pest-control$/, '');
+/*
+ * With trailingSlash: true, Vercel 308s /foo to /foo/ BEFORE redirects are
+ * matched, so a slash-less source never fires and every legacy URL 404s. Sources
+ * are written with the slash; a rule whose source is then its own destination
+ * (/about -> /about/) is just the slash redirect and is dropped.
+ */
+const withSlash = (s) => `${s.replace(/\/$/, '')}/`;
 const redirects = [
   ...Object.entries(SERVICE_MAP).map(([source, destination]) => ({ source, destination, permanent: true })),
   ...LEGACY_TOWNS.map((source) => {
@@ -44,7 +51,7 @@ const redirects = [
     const destination = authorised.includes(slug) ? `/locations/${slug}/` : '/service-area/';
     return { source, destination, permanent: true };
   }),
-];
+].map((r) => ({ ...r, source: withSlash(r.source) })).filter((r) => r.source !== r.destination);
 
 const config = {
   $schema: 'https://openapi.vercel.sh/vercel.json',

@@ -7,587 +7,572 @@
   "cleanUrls": false,
   "redirects": [
     {
-      "source": "/residential-pest-control-maine",
+      "source": "/residential-pest-control-maine/",
       "destination": "/services/residential-pest-control/",
       "permanent": true
     },
     {
-      "source": "/commercial-pest-control-maine",
+      "source": "/commercial-pest-control-maine/",
       "destination": "/services/commercial-pest-control/",
       "permanent": true
     },
     {
-      "source": "/rodent-control-maine",
+      "source": "/rodent-control-maine/",
       "destination": "/services/rodent-control/",
       "permanent": true
     },
     {
-      "source": "/ant-control-maine",
+      "source": "/ant-control-maine/",
       "destination": "/services/ant-control/",
       "permanent": true
     },
     {
-      "source": "/tick-and-mosquito-control-maine",
+      "source": "/tick-and-mosquito-control-maine/",
       "destination": "/services/tick-control/",
       "permanent": true
     },
     {
-      "source": "/cockroach-and-bed-bug-control-maine",
+      "source": "/cockroach-and-bed-bug-control-maine/",
       "destination": "/services/bed-bug-control/",
       "permanent": true
     },
     {
-      "source": "/about",
-      "destination": "/about/",
-      "permanent": true
-    },
-    {
-      "source": "/contact",
-      "destination": "/contact/",
-      "permanent": true
-    },
-    {
-      "source": "/reviews",
-      "destination": "/reviews/",
-      "permanent": true
-    },
-    {
-      "source": "/home",
+      "source": "/home/",
       "destination": "/",
       "permanent": true
     },
     {
-      "source": "/pest-control-auburn-maine",
+      "source": "/pest-control-auburn-maine/",
       "destination": "/locations/auburn/",
       "permanent": true
     },
     {
-      "source": "/pest-control-durham-maine",
+      "source": "/pest-control-durham-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-greene-maine",
+      "source": "/pest-control-greene-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-lewiston-maine",
+      "source": "/pest-control-lewiston-maine/",
       "destination": "/locations/lewiston/",
       "permanent": true
     },
     {
-      "source": "/pest-control-lisbon-falls-maine",
+      "source": "/pest-control-lisbon-falls-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-mechanic-falls-maine",
+      "source": "/pest-control-mechanic-falls-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-minot-maine",
+      "source": "/pest-control-minot-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-poland-maine",
+      "source": "/pest-control-poland-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-sabattus-maine",
+      "source": "/pest-control-sabattus-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-turner-maine",
+      "source": "/pest-control-turner-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-baldwin-maine",
+      "source": "/pest-control-baldwin-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-cape-elizabeth-maine",
+      "source": "/pest-control-cape-elizabeth-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-casco-maine",
+      "source": "/pest-control-casco-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-cumberland-maine",
+      "source": "/pest-control-cumberland-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-falmouth-maine",
+      "source": "/pest-control-falmouth-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-gorham-maine",
+      "source": "/pest-control-gorham-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-gray-maine",
+      "source": "/pest-control-gray-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-harpswell-maine",
+      "source": "/pest-control-harpswell-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-naples-maine",
+      "source": "/pest-control-naples-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-new-gloucester-maine",
+      "source": "/pest-control-new-gloucester-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-north-yarmouth-maine",
+      "source": "/pest-control-north-yarmouth-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-portland-maine",
+      "source": "/pest-control-portland-maine/",
       "destination": "/locations/portland/",
       "permanent": true
     },
     {
-      "source": "/pest-control-raymond-maine",
+      "source": "/pest-control-raymond-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-scarborough-maine",
+      "source": "/pest-control-scarborough-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-south-portland-maine",
+      "source": "/pest-control-south-portland-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-standish-maine",
+      "source": "/pest-control-standish-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-westbrook-maine",
+      "source": "/pest-control-westbrook-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-windham-maine",
+      "source": "/pest-control-windham-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-yarmouth-maine",
+      "source": "/pest-control-yarmouth-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-avon-maine",
+      "source": "/pest-control-avon-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-chesterville-maine",
+      "source": "/pest-control-chesterville-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-farmington-maine",
+      "source": "/pest-control-farmington-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-industry-maine",
+      "source": "/pest-control-industry-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-jay-maine",
+      "source": "/pest-control-jay-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-livermore-falls-maine",
+      "source": "/pest-control-livermore-falls-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-new-sharon-maine",
+      "source": "/pest-control-new-sharon-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-temple-maine",
+      "source": "/pest-control-temple-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-wilton-maine",
+      "source": "/pest-control-wilton-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-augusta-maine",
+      "source": "/pest-control-augusta-maine/",
       "destination": "/locations/augusta/",
       "permanent": true
     },
     {
-      "source": "/pest-control-belgrade-maine",
+      "source": "/pest-control-belgrade-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-chelsea-maine",
+      "source": "/pest-control-chelsea-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-farmingdale-maine",
+      "source": "/pest-control-farmingdale-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-gardiner-maine",
+      "source": "/pest-control-gardiner-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-hallowell-maine",
+      "source": "/pest-control-hallowell-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-litchfield-maine",
+      "source": "/pest-control-litchfield-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-manchester-maine",
+      "source": "/pest-control-manchester-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-monmouth-maine",
+      "source": "/pest-control-monmouth-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-mount-vernon-maine",
+      "source": "/pest-control-mount-vernon-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-randolph-maine",
+      "source": "/pest-control-randolph-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-readfield-maine",
+      "source": "/pest-control-readfield-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-sidney-maine",
+      "source": "/pest-control-sidney-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-vassalboro-maine",
+      "source": "/pest-control-vassalboro-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-waterville-maine",
+      "source": "/pest-control-waterville-maine/",
       "destination": "/locations/waterville/",
       "permanent": true
     },
     {
-      "source": "/pest-control-west-gardiner-maine",
+      "source": "/pest-control-west-gardiner-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-winthrop-maine",
+      "source": "/pest-control-winthrop-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-winslow-maine",
+      "source": "/pest-control-winslow-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-andover-maine",
+      "source": "/pest-control-andover-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-bethel-maine",
+      "source": "/pest-control-bethel-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-dixfield-maine",
+      "source": "/pest-control-dixfield-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-fryeburg-maine",
+      "source": "/pest-control-fryeburg-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-greenwood-maine",
+      "source": "/pest-control-greenwood-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-hartford-maine",
+      "source": "/pest-control-hartford-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-mexico-maine",
+      "source": "/pest-control-mexico-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-norway-maine",
+      "source": "/pest-control-norway-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-oxford-maine",
+      "source": "/pest-control-oxford-maine/",
       "destination": "/locations/oxford/",
       "permanent": true
     },
     {
-      "source": "/pest-control-paris-maine",
+      "source": "/pest-control-paris-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-peru-maine",
+      "source": "/pest-control-peru-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-rumford-maine",
+      "source": "/pest-control-rumford-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-sumner-maine",
+      "source": "/pest-control-sumner-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-waterford-maine",
+      "source": "/pest-control-waterford-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-west-paris-maine",
+      "source": "/pest-control-west-paris-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-woodstock-maine",
+      "source": "/pest-control-woodstock-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/arrowsic-me-pest-control",
+      "source": "/arrowsic-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/bath-me-pest-control",
+      "source": "/bath-me-pest-control/",
       "destination": "/locations/bath/",
       "permanent": true
     },
     {
-      "source": "/bowdoin-me-pest-control",
+      "source": "/bowdoin-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/bowdoinham-me-pest-control",
+      "source": "/bowdoinham-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/phippsburg-me-pest-control",
+      "source": "/phippsburg-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/topsham-me-pest-control",
+      "source": "/topsham-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/west-bath-me-pest-control",
+      "source": "/west-bath-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/woolwich-me-pest-control",
+      "source": "/woolwich-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/alfred-me-pest-control",
+      "source": "/alfred-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/arundel-me-pest-control",
+      "source": "/arundel-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/berwick-me-pest-control",
+      "source": "/berwick-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/biddeford-me-pest-control",
+      "source": "/biddeford-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/kennebunk-me-pest-control",
+      "source": "/kennebunk-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/kennebunkport-me-pest-control",
+      "source": "/kennebunkport-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/kittery-me-pest-control",
+      "source": "/kittery-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/lebanon-me-pest-control",
+      "source": "/lebanon-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/lyman-me-pest-control",
+      "source": "/lyman-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/north-berwick-me-pest-control",
+      "source": "/north-berwick-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/ogunquit-me-pest-control",
+      "source": "/ogunquit-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/saco-me-pest-control",
+      "source": "/saco-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/sanford-me-pest-control",
+      "source": "/sanford-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/shapleigh-me-pest-control",
+      "source": "/shapleigh-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/south-berwick-me-pest-control",
+      "source": "/south-berwick-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/waterboro-me-pest-control",
+      "source": "/waterboro-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/wells-me-pest-control",
+      "source": "/wells-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/york-me-pest-control",
+      "source": "/york-me-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-lewiston-maine-1",
+      "source": "/pest-control-lewiston-maine-1/",
       "destination": "/locations/lewiston/",
       "permanent": true
     },
     {
-      "source": "/pest-control-rumford-maine-1",
+      "source": "/pest-control-rumford-maine-1/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-androscoggin-county-maine",
+      "source": "/pest-control-androscoggin-county-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-franklin-county-maine",
+      "source": "/pest-control-franklin-county-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-cumberland-county-maine",
+      "source": "/pest-control-cumberland-county-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-kennebec-county-maine",
+      "source": "/pest-control-kennebec-county-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/pest-control-oxford-county-maine",
+      "source": "/pest-control-oxford-county-maine/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/sagadahoc-county-pest-control",
+      "source": "/sagadahoc-county-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     },
     {
-      "source": "/york-county-pest-control",
+      "source": "/york-county-pest-control/",
       "destination": "/service-area/",
       "permanent": true
     }
