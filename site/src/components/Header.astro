@@ -17,17 +17,17 @@ const secondary = [
 ];
 ---
 <header class="site">
+  <a class="banner" href="/">
+    <img
+      src="/brand/bps-banner-1440.webp"
+      srcset="/brand/bps-banner-720.webp 720w, /brand/bps-banner-1440.webp 1440w, /brand/bps-banner-1920.webp 1920w"
+      sizes="(min-width: 960px) 960px, 100vw"
+      width="1440" height="481"
+      alt="Blouin Pest Services"
+      fetchpriority="high"
+    />
+  </a>
   <div class="wrap">
-    <a class="brand" href="/">
-      <img
-        src="/brand/bps-logo-240.webp"
-        srcset="/brand/bps-logo-240.webp 240w, /brand/bps-logo-480.webp 480w"
-        sizes="240px"
-        width="240" height="80"
-        alt="Blouin Pest Services"
-      />
-      <small>Lewiston, Maine</small>
-    </a>
     <nav class="site" aria-label="Primary">
       <ul>
         {primary.filter((l) => l.href !== '/locations/').map((l) => (

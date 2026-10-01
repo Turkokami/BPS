@@ -96,28 +96,29 @@ hr { border: 0; border-top: 1px solid var(--hairline); margin: 2.25rem 0; }
 /* ---- header ------------------------------------------------------------ */
 header.site { background: var(--page); border-bottom: 1px solid var(--hairline); }
 header.site .wrap { padding: 1rem 0 .85rem; }
-header.site .brand {
-  display: inline-flex; align-items: flex-end; gap: .75rem;
-  color: var(--paper); text-decoration: none;
-}
-/* The client's logo (supplied 1 Oct 2026) is opaque: glow and hex texture on
-   black. `screen` turns its black into the page colour, so it sits on --page with
-   no box edge. Width/height attributes reserve the box, so it costs no CLS. */
-header.site .brand img { display: block; height: 80px; width: auto; mix-blend-mode: screen; }
-header.site .brand small { font-family: var(--body); font-size: .75rem; font-weight: 500; color: var(--faint); letter-spacing: .02em; text-transform: uppercase; }
-nav.site { padding-top: .7rem; }
-nav.site ul { display: flex; flex-wrap: wrap; gap: .4rem; list-style: none; margin: 0; padding: 0; }
+/* The client's logo (supplied 1 Oct 2026) as a full-width banner. The artwork is
+   glow and hex texture on pure black and its edges are black, so a black band
+   continues it seamlessly at any width. Width/height attributes reserve the box
+   (no CLS); it is the LCP element, hence fetchpriority="high" in Header.astro. */
+header.site .banner { display: block; background: #000; border-bottom: 1px solid var(--hairline); }
+header.site .banner img { display: block; width: 100%; max-width: 960px; height: auto; margin: 0 auto;
+  /* fade the texture into the band so wide screens show no seam */
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+          mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
+/* Both menu rows centred under the banner; primary chips sized as real buttons. */
+nav.site { padding-top: .2rem; }
+nav.site ul { display: flex; flex-wrap: wrap; justify-content: center; gap: .55rem; list-style: none; margin: 0; padding: 0; }
 nav.site li { max-width: none; }
 nav.site a {
-  display: inline-flex; align-items: center; min-height: 34px;
-  padding: .4rem .55rem; border: 1px solid var(--rule); border-radius: var(--r-sm);
+  display: inline-flex; align-items: center; justify-content: center; min-height: 46px;
+  padding: .6rem 1.1rem; border: 1px solid var(--rule); border-radius: var(--r-sm);
   background: transparent; color: var(--blue-lift);
-  font-size: .8125rem; font-weight: 700; text-decoration: none; letter-spacing: .005em;
+  font-size: 1rem; font-weight: 700; text-decoration: none; letter-spacing: .005em;
 }
 nav.site a:hover { background: var(--chip); }
 nav.site a[aria-current="page"] { background: var(--chip); color: var(--white); }
-nav.site.secondary { padding-top: .45rem; }
-nav.site.secondary a { border-color: transparent; color: var(--muted); font-weight: 500; padding-inline: .2rem; }
+nav.site.secondary { padding-top: .55rem; }
+nav.site.secondary a { min-height: 40px; border-color: transparent; color: var(--muted); font-size: .9375rem; font-weight: 500; padding-inline: .5rem; }
 nav.site.secondary a:hover { background: transparent; color: var(--blue-lift); text-decoration: underline; }
 
 /* ---- buttons ----------------------------------------------------------- */
@@ -302,8 +303,6 @@ footer.site .colophon { border-top: 1px solid var(--hairline); margin-top: 1.8re
   body { font-size: 1.0625rem; }
   .topbar .tagline { display: none; }
   .topbar .wrap { justify-content: flex-end; }
-  header.site .brand img { height: 60px; }
-  header.site .brand small { display: none; }
   .ctaband { padding: 1.75rem 1.15rem; }
   .answer { padding-right: 1.15rem; }
 }
