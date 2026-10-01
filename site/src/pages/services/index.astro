@@ -4,6 +4,20 @@ import CallToAction from '../../components/CallToAction.astro';
 import { attestedServices, PROBLEMS, NOT_OFFERED } from '../../data/services';
 import { title, description } from '../../lib/seo';
 const services = attestedServices();
+/* Picture buttons cut from the client's "Pest buttons" sheet (1 Oct 2026), one
+   per service page that has artwork, in the sheet's order. Only slugs that are a
+   live, attested service render; the sheet's Spider, Termite/WDO and "Core
+   Protection Programs" tiles have no page here and are not used (termite work is
+   in NOT_OFFERED and outside the 7A/7E licence). Masters: site/brand/buttons/. */
+/* alt = the words printed on the tile, so a voice-control user can say what they see. */
+const BUTTONS: [string, string][] = [
+  ['rodent-control', 'Rodent Control'], ['ant-control', 'Ant Control'], ['tick-control', 'Tick Control'],
+  ['mosquito-control', 'Mosquito Control'], ['cockroach-control', 'Cockroach Control'], ['bed-bug-control', 'Bed Bug Control'],
+  ['wasp-and-hornet-control', 'Wasp & Hornet Control'], ['residential-pest-control', 'Residential Pest Control'],
+  ['commercial-pest-control', 'Commercial Pest Control'],
+];
+const live = new Set(services.map((s) => s.slug));
+const buttons = BUTTONS.filter(([slug]) => live.has(slug)).map(([slug, label]) => ({ slug, label }));
 ---
 <BaseLayout
   title={title('Pest Control Services in Maine')}
@@ -13,6 +27,21 @@ const services = attestedServices();
 >
   <h1>Services</h1>
   <p class="lede">Each service has its own page because each one is a different job. Below each, the specific situations people call about.</p>
+  <ul class="pestbuttons" aria-label="Choose a service">
+    {buttons.map((s, i) => (
+      <li>
+        <a href={`/services/${s.slug}/`}>
+          <img
+            src={`/brand/buttons/${s.slug}.webp`}
+            width="417" height="282"
+            alt={s.label}
+            loading={i < 3 ? 'eager' : 'lazy'} decoding="async"
+          />
+        </a>
+      </li>
+    ))}
+  </ul>
+  <h2 class="allservices">Every service, and the problems under each</h2>
   <div class="grid">
     {services.map((s) => (
       <div class="card">

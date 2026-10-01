@@ -219,6 +219,19 @@ ol > li::before {
 .quickmenu ol, nav ol, .crumbs ol { counter-reset: none; }
 
 figure { margin: .4rem 0 1.4rem; }
+/* Services page picture buttons (client artwork on black). `screen` turns the
+   black canvas padding into the page colour; the frame glow stays as drawn. */
+.pestbuttons { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); gap: .9rem; list-style: none; margin: 1.2rem 0 2rem; padding: 0; }
+.pestbuttons li { max-width: none; margin: 0; }
+.pestbuttons a { display: block; border-radius: var(--r-sm); transition: transform .15s ease, filter .15s ease; }
+.pestbuttons a:hover { transform: translateY(-3px); filter: brightness(1.12) drop-shadow(0 6px 14px rgba(47, 129, 247, .35)); }
+.pestbuttons img { display: block; width: 100%; height: auto; mix-blend-mode: screen; }
+@media (max-width: 559px) {
+  .pestbuttons { grid-template-columns: repeat(2, 1fr); gap: .5rem; }
+  .pestbuttons li:last-child:nth-child(odd) { grid-column: 1 / -1; justify-self: center; width: calc(50% - .25rem); }
+}
+@media (prefers-reduced-motion: reduce) { .pestbuttons a { transition: none; } .pestbuttons a:hover { transform: none; } }
+h2.allservices { margin-top: 1rem; }
 /* Quoted reviews: hairline-separated, like the FAQ, not a card wall. */
 .reviews { margin: 1rem 0 1.6rem; }
 .review { margin: 0; padding: 1.1rem 0; border-top: 1px solid var(--hairline); }
