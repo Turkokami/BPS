@@ -1,0 +1,87 @@
+{
+ "mined": "2026-09-24, Google Business Profile public reviews, read in Chrome. 100 of 100 reviews captured; 90 carry text.",
+ "profile_now": {
+  "rating": 5.0,
+  "count": 100,
+  "note": "was 98 on 22 Sep \u2014 two new reviews in two days"
+ },
+ "ratings": {
+  "5": 99,
+  "4": 1
+ },
+ "recency": {
+  "1 year ago": 29,
+  "4 months ago": 23,
+  "3 months ago": 14,
+  "10 months ago": 9,
+  "6 months ago": 5,
+  "7 months ago": 4,
+  "edited 4 months ago": 4,
+  "2 months ago": 3,
+  "note": "heavily weighted to the last 12 months \u2014 consistent with a 2025 founding"
+ },
+ "pest_themes_counted_in_review_text": {
+  "ticks": 19,
+  "ants": 14,
+  "mosquitoes": 9,
+  "mice": 9,
+  "commercial/rental/restaurant": 7,
+  "wasps/hornets/yellowjackets": 5,
+  "spiders": 3,
+  "sealing/exclusion/entry points": 3,
+  "carpenter ants": 2,
+  "cockroaches": 2,
+  "bed bugs": 1,
+  "rodents/rats": 1
+ },
+ "towns_named_by_customers": {
+  "Bethel": 1,
+  "Portland": 1,
+  "Bath": 1,
+  "Oxford": 1
+ },
+ "town_quotes": [
+  {
+   "town": "Bethel",
+   "when": "4 months ago",
+   "quote": "Outstanding experience with Blouin Pest Control. They were professional, responsive, and did a great job treating our property... Highly recommend to anyone looking for reliable pest control service in the Bethel area."
+  },
+  {
+   "town": "Portland",
+   "when": "11 months ago",
+   "quote": "We had a bedbug situation in Portland and needed someone quick! Blouin Pest Services were incredible. They came quickly, were very friendly and knowledgeable."
+  },
+  {
+   "town": "Bath",
+   "when": "a year ago",
+   "quote": "We purchased a new home and found out it was infested with ants and mice..."
+  },
+  {
+   "town": "Oxford",
+   "when": "edited 3 months ago",
+   "quote": "Friendly service, very knowledgeable and fair pricing. Serviced our home in Oxford. Would recommend!"
+  }
+ ],
+ "job_detail_quotes": [
+  "Showed up to look at a problem with mice in the wall... showed us where the mice were getting in along the foundation (6 months ago)",
+  "Mouse infestation at our camp and Blouin fixed it for good (4 months ago)",
+  "Took care of 3 wasp nests for me after spraying them myself didn't work... I signed up for his monthly service (edited 4 months ago)",
+  "Mouse infestation. They were able to locate where the mice were coming into the house and seal it all up (7 months ago)",
+  "Major wasp, hornet, yellow jacket problem at our house every year (3 months ago)",
+  "Fighting apartment pests for a long time and within a couple visits... (10 months ago)",
+  "Great at locating the bee's nest. It was in a very difficult place to reach under our deck (a year ago)",
+  "Treated my lawn for tick and mosquito and my shed for carpenter ants same day I called (a year ago)",
+  "Removed the hornets nests that we had and then sprayed the property (a year ago)",
+  "He sprays our fence and exterior of our home (2 months ago)",
+  "Sprayed camp, was punctual (10 months ago)"
+ ],
+ "photos": {
+  "total_on_profile": 9,
+  "by_owner": 9,
+  "by_customers": "none visible",
+  "content": "generic \u2014 one appears to be a bait station or trap on a work surface, one a roofline/sky shot. No before-and-after, no attic, no sealing work, no van, no Ryan.",
+  "assessment": "The photo asset base is effectively empty. This is the cheapest high-value fix available and it costs a phone and five minutes a job."
+ },
+ "service_area_on_gbp": "A service-area polygon is drawn on the profile: a wedge running roughly Sanford and Kennebunkport in the south, through Portland, Scarborough, Gorham and Windham, up the Lewiston-Auburn corridor to Augusta and Waterville/Vassalboro, and west to Farmington and Wilton. It matches the counties in the build's demand map.",
+ "method_note": "Reviews were read from the public profile. No account was used, nothing was posted, and no review text is published anywhere without the client's decision."
+}

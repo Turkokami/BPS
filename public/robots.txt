@@ -1,0 +1,31 @@
+# Blouin Pest Services
+# Every AI crawler is allowed deliberately: the content is the asset and
+# answer-engine retrieval is the point. Keystone v3.2, Dimension 13.
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://www.blouinpest.com/sitemap.xml
+Sitemap: https://www.blouinpest.com/sitemap-core.xml
+Sitemap: https://www.blouinpest.com/sitemap-services.xml
+Sitemap: https://www.blouinpest.com/sitemap-problems.xml
+Sitemap: https://www.blouinpest.com/sitemap-library.xml
+Sitemap: https://www.blouinpest.com/sitemap-geo.xml

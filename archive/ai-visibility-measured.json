@@ -1,0 +1,101 @@
+{
+ "method": "Google AI Overviews only, observed in Chrome 2026-09-23. Prompt set held constant. Runs per prompt noted. Not ChatGPT/Perplexity/AI Mode \u2014 those need separate sessions and are not covered by this pass.",
+ "observations": [
+  {
+   "prompt": "pest control lewiston maine",
+   "runs": 1,
+   "aio": false,
+   "blouin_on_page": true,
+   "note": "no AI Overview; Blouin appears on the page (map pack area), not in organic top results",
+   "organic_top": [
+    "gshieldpest.com",
+    "fox-pest.com",
+    "androscogginpestsolutions.com",
+    "yelp.com",
+    "bigbluebug.com",
+    "pinestatepest.com"
+   ]
+  },
+  {
+   "prompt": "how to get rid of mice in my attic in maine",
+   "runs": 2,
+   "aio": true,
+   "aio_runs_with_aio": 2,
+   "cited": [
+    "pinestatepest.com"
+   ],
+   "blouin_cited": 0
+  },
+  {
+   "prompt": "bed bug treatment auburn maine",
+   "runs": 1,
+   "aio": false,
+   "blouin_cited": 0
+  },
+  {
+   "prompt": "browntail moth treatment maine",
+   "runs": 2,
+   "aio": true,
+   "cited": [
+    "maine.gov"
+   ],
+   "blouin_cited": 0,
+   "organic_top": [
+    "maine.gov",
+    "mainegeneral.org",
+    "pinestatepest.com",
+    "northernlighthealth.org"
+   ]
+  },
+  {
+   "prompt": "tick yard spraying maine cost",
+   "runs": 2,
+   "aio": true,
+   "cited": [
+    "ecoguard4me.com",
+    "pinestatepest.com",
+    "oh-deer.com",
+    "gtlawnservice.com"
+   ],
+   "blouin_cited": 0
+  },
+  {
+   "prompt": "rodent control auburn maine",
+   "runs": 1,
+   "aio": false,
+   "blouin_on_page": false,
+   "organic_top": [
+    "fox-pest.com",
+    "yelp.com",
+    "gshieldpest.com",
+    "pinestatepest.com",
+    "orkin.com"
+   ]
+  }
+ ],
+ "summary": {
+  "blouin_citation_rate": "0 of 9 observations across 6 prompts",
+  "pine_state_citations": "cited or top-3 organic on 4 of 6 prompts",
+  "implication": "the citations on informational prompts go to whoever has the library page; Blouin's current site has zero library URLs",
+  "platforms_covered": "Google AI Overviews (6 prompts, 9 observations) and Perplexity (2 observations). ChatGPT and Google AI Mode not covered \u2014 they need signed-in sessions."
+ },
+ "platform_2_perplexity": {
+  "method": "Perplexity, logged out, 2026-09-24. Two usable observations; a third query was stopped by a Cloudflare bot check and was not retried.",
+  "observations": [
+   {
+    "prompt": "how to get rid of mice in my attic in maine",
+    "cited": "scottsmiraclegro +3 of 10 sources",
+    "local_operator_named": false,
+    "blouin": false,
+    "pine_state": false
+   },
+   {
+    "prompt": "browntail moth treatment maine who to call",
+    "cited": "Maine CDC and Maine DACF state resources",
+    "local_operator_named": false,
+    "blouin": false
+   }
+  ],
+  "finding": "Perplexity answered both informational prompts from national brands and state agencies rather than local operators. That is the opposite of Google AI Overviews, which cited a local operator (Pine State) for the same mice prompt. The route into Perplexity-style answers is being the best-sourced local explainer \u2014 a page that names Maine CDC, the Maine Forest Service and the Board of Pesticides Control in its visible sentences, which is how the new build's library pages are written."
+ }
+}

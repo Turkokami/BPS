@@ -1,0 +1,81 @@
+{
+ "measured": "2026-09-23, Chrome, real network, single run per URL unless noted; cache state uncontrolled. Navigation Timing + Resource Timing, NOT a Lighthouse mobile median \u2014 labelled accordingly.",
+ "live_site": {
+  "blouinpest.com/": {
+   "ttfb_ms": 3750,
+   "load_ms": 5634,
+   "doc_kb": 62,
+   "total_kb": 630,
+   "requests": 93,
+   "scripts": 53,
+   "script_kb": 414,
+   "css_kb": 149
+  },
+  "blouinpest.com/pest-control-lewiston-maine": {
+   "ttfb_ms": 487,
+   "load_ms": 1781,
+   "doc_kb": 37,
+   "total_kb": 1150,
+   "requests": 77,
+   "scripts": 53
+  }
+ },
+ "competitors": {
+  "gshieldpest.com": {
+   "ttfb_ms": 483,
+   "load_ms": 1431,
+   "total_kb": 144,
+   "requests": 49,
+   "scripts": 20
+  },
+  "pinestatepest.com": {
+   "ttfb_ms": 929,
+   "load_ms": 1475,
+   "total_kb": 67,
+   "requests": 70,
+   "scripts": 13
+  },
+  "modernpest.com": {
+   "ttfb_ms": 170,
+   "load_ms": 1699,
+   "total_kb": 152,
+   "requests": 151,
+   "scripts": 52
+  },
+  "bigbluebug.com": {
+   "ttfb_ms": 818,
+   "load_ms": 1753,
+   "total_kb": 39,
+   "requests": 56,
+   "scripts": 27
+  },
+  "androscogginpestsolutions.com": {
+   "ttfb_ms": 1188,
+   "load_ms": 3124,
+   "total_kb": 1445,
+   "requests": 37,
+   "scripts": 18
+  }
+ },
+ "new_build_lighthouse": {
+  "method": "median of five, mobile, simulated throttling, dist served locally",
+  "home": {
+   "perf": 100,
+   "lcp_s": 0.66,
+   "tbt_ms": 0,
+   "cls": 0,
+   "a11y": 100,
+   "seo": 100,
+   "kb": 14
+  },
+  "service_page": {
+   "perf": 100,
+   "lcp_s": 0.81,
+   "tbt_ms": 0,
+   "cls": 0,
+   "a11y": 100,
+   "seo": 100,
+   "kb": 23
+  }
+ }
+}

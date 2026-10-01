@@ -1,0 +1,38 @@
+{
+  "verified": "2026-09-29",
+  "method": "Anonymous in-browser fetch of the Board's own DataTable sources. The cloud proxy 403s maine.gov, so this was read in the browser, as the standard requires.",
+  "sources": {
+    "applicators": "https://www.maine.gov/dacf/php/pesticides/data_from_pega/Applicators.txt",
+    "companies": "https://www.maine.gov/dacf/php/pesticides/data_from_pega/Companies.txt",
+    "applicator_page": "https://www.maine.gov/dacf/php/pesticides/licensed-commericial-applicators.shtml",
+    "company_page": "https://www1.maine.gov/dacf/php/pesticides/pesticide-application-companies.shtml"
+  },
+  "applicator_record": {
+    "name": "Blouin, Ryan",
+    "licence": "CMA-6425",
+    "expires": "2027-12-31",
+    "type": "Commercial Master Applicator",
+    "categories": "7A, 7E",
+    "company": "Blouin Pest Services",
+    "of_total_rows": 2014
+  },
+  "company_record": {
+    "name": "Blouin Pest Services",
+    "address": "3 Loubier Ave, Lewiston, ME 04240",
+    "county": "Androscoggin",
+    "phone": "(207) 740-4441",
+    "categories": "7A, 7E",
+    "email": "ryan@blouinpest.com",
+    "flag": "FH (for hire)",
+    "of_total_rows": 403
+  },
+  "agreement_with_site": {
+    "licence_number": "matches business.ts",
+    "categories": "matches business.ts exactly (7A, 7E)",
+    "phone": "matches business.ts (207-740-4441)",
+    "email": "matches business.ts (ryan@blouinpest.com)",
+    "firm_licence": "company appears in the for-hire directory, which confirms the firm licence is held; the number itself is not published in this dataset",
+    "expiry": "NEW — 2027-12-31 was an outstanding client item and is now sourced from the regulator",
+    "street_address": "the Board publishes 3 Loubier Ave. The client asked that the street address not appear on the website, and it does not. That instruction stands; this note only records that the address is already public via the regulator."
+  }
+}

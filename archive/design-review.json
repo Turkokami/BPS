@@ -1,0 +1,18 @@
+{
+ "reviewed": "2026-09-24, rendered pages captured at 390x844 and 1280x900 with Chromium, reviewed by eye",
+ "score_new_build": "3 (provisional, Keystone v3.2 Dimension 7)",
+ "basis": "Clean, legible, genuinely mobile-first, WCAG-AA contrast by construction, fast. What holds it at 3 rather than 4: no logo, no photography, and a palette that is tasteful but not distinctive. Brand distinctiveness is an explicit part of this dimension and it cannot be earned without the client's assets.",
+ "issues_found_and_fixed": [
+  "Mobile header consumed about 290px of an 844px viewport before any content \u2014 the phone button duplicated the sticky call bar. Header CTA now hidden below 720px; header is roughly 170px.",
+  "'Call 207-740-4441' wrapped onto two lines in the sticky bar. Now nowrap with a slightly smaller size and a fixed-width Text button.",
+  "Service card headings broke awkwardly across lines in narrow grid columns. Card heading size reduced inside .grid."
+ ],
+ "not_changed": [
+  "Desktop layout reviewed at 1280 and left alone \u2014 hierarchy, measure and card grid all read correctly."
+ ],
+ "unlocks_4_or_5": [
+  "Logo file",
+  "Photographs of Ryan and of real jobs",
+  "A brand colour that is his rather than ours"
+ ]
+}

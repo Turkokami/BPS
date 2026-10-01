@@ -1,0 +1,32 @@
+{
+  "name": "blouin-pest-services",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node scripts/gen-authorised.mjs && astro check && astro build && npm run verify",
+    "preview": "astro preview",
+    "verify": "node scripts/content-links.mjs && node scripts/dead-links.mjs && node scripts/seo-audit.mjs && node scripts/word-count.mjs && node scripts/dedup.mjs && node scripts/citability.mjs && node scripts/a11y.mjs && node scripts/keyword-map-check.mjs && node scripts/validate-schema.mjs && node scripts/gate-integrity.mjs",
+    "research": "node scripts/research-report.mjs",
+    "typecheck": "tsc -p tsconfig.check.json --noEmit",
+    "audit:rendered": "CHROME_PATH=${CHROME_PATH:-/opt/pw-browsers/chromium-1194/chrome-linux/chrome} node scripts/axe-audit.mjs",
+    "gen:brand": "CHROME_PATH=${CHROME_PATH:-/opt/pw-browsers/chromium-1194/chrome-linux/chrome} node scripts/gen-brand-assets.mjs",
+    "preflight": "node scripts/preflight.mjs",
+    "crawl": "CHROME_PATH=${CHROME_PATH:-/opt/pw-browsers/chromium-1194/chrome-linux/chrome} node scripts/crawl.mjs",
+    "launch": "npm run build && npm run preflight -- --net && npm run audit:rendered && npm run crawl"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.0",
+    "axe-core": "^4.13.0",
+    "linkedom": "^0.18.5",
+    "playwright-core": "^1.63.0",
+    "typescript": "^5.6.0",
+    "unist-util-visit": "^5.1.0"
+  }
+}
