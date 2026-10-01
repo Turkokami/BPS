@@ -50,7 +50,7 @@ export const BUSINESS = {
     source: 'Google Business Profile',
     rating: 5.0,
     count: 100,
-    observed: '2026-09-24',                    // read from the live profile; re-check before launch
+    observed: '2026-10-01',                    // re-read 1 Oct 2026 (100 reviews, 99 five-star, one four-star); re-check before launch
     profileUrl: 'https://www.linktr.ee/blouinpest',
   },
   /** Service warranty, attested 28 Sep 2026. It stays OFF the indexable site until

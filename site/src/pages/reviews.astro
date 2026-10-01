@@ -2,6 +2,8 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CallToAction from '../components/CallToAction.astro';
 import { BUSINESS, hasReviewProof } from '../data/business';
+import { REVIEWS, REVIEWS_READ_ON } from '../data/reviews';
+const readOn = new Date(`${REVIEWS_READ_ON}T12:00:00Z`).toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 import { title, description } from '../lib/seo';
 const path = '/reviews/';
 ---
@@ -22,15 +24,29 @@ const path = '/reviews/';
   )}
   <p>
     Reviews are published here as text — readable by people, by search engines and by answer engines — rather than inside a widget
-    that crawlers cannot read. Each one appears word for word with the reviewer's first name and the month, exactly as it stands on
-    the Google Business Profile. Nothing is written, edited or summarised on a customer's behalf, and the figure above is re-read
+    that crawlers cannot read. Each one appears word for word with the reviewer's first name and the month (or the year, where
+    Google says only "a year ago"), exactly as it stands on the Google Business Profile. Nothing is written, edited or summarised on a customer's behalf, and the figure above is re-read
     from the profile rather than typed once and left to go stale.
   </p>
-  <p class="notice">
-    <strong>Quoted reviews are being added.</strong> The rating and count are live and verified; the individual quotes go up as each
-    one is checked against the profile on the day it is published.
+  <h2 id="quoted">What customers wrote</h2>
+  <p>
+    {REVIEWS.length} of the reviews, chosen because each one names the pest and what happened, checked against the profile on
+    {readOn}. Spelling and punctuation are the customer's own.
   </p>
-  {BUSINESS.reviews.profileUrl && <p><a href={BUSINESS.reviews.profileUrl}>Read the reviews on Google</a></p>}
+  <div class="reviews">
+    {REVIEWS.map((r) => (
+      <figure class="review">
+        <p class="review-meta">
+          <span class="stars" aria-label={`${r.stars} out of 5 stars`}>{'★'.repeat(r.stars)}{'☆'.repeat(5 - r.stars)}</span>
+          <span class="pests">{r.pests.join(' · ')}</span>
+        </p>
+        <blockquote><p>{r.text}</p></blockquote>
+        <figcaption>{r.name}, {r.month} · Google</figcaption>
+        {r.reply && <p class="review-reply"><strong>Ryan replied:</strong> {r.reply}</p>}
+      </figure>
+    ))}
+  </div>
+  {BUSINESS.reviews.profileUrl && <p><a href={BUSINESS.reviews.profileUrl}>Read all the reviews on Google</a></p>}
   <h2>How we ask for reviews</h2>
   <ul>
     <li>We ask every customer once, after the work is finished.</li>
