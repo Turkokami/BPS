@@ -139,15 +139,38 @@ orphaned at cutover.
 - Privacy sign-off (unlocks `/privacy/`)
 - GorillaDesk booking-form embed, to replace the interim call/text block
 - Firm licence number
-- Direct Facebook, Yelp and Angi URLs — only the Linktree is published
+- ~~Direct Facebook, Yelp and Angi URLs~~ — found 1 Oct in Google's results
+  (plus Thumbtack and the Google listing itself) and added to `sameAs`. He only
+  needs to confirm each is his.
 - Job examples for Greene, Leeds, Poland, Brunswick, Saco, Biddeford, Kennebunk
   and Kennebunkport, which unseal eight more towns
 - Any flea job, and any cluster-fly or stink-bug job — the last two citability
   gaps, and no review in the corpus covers either
 - Recurring-customer count, if he wants it published
 
-**Before launch, re-read the Google review figure.** It is 5.0 from 100, read on
-24 September. It moved from 98 to 100 during the audit week.
+**Before launch, re-read the Google review figure.** It is 5.0 from 100, re-read
+on 1 October (99 five-star, one four-star). It moved from 98 to 100 during the
+audit week.
+
+---
+
+## Update — 1 October 2026
+
+- **Logo.** The client's own logo (supplied 1 Oct) is in the header, favicon,
+  touch icon, share card and schema (`ImageObject`). Master in `brand/`.
+- **Reviews.** `/reviews/` now quotes 22 Google reviews word for word, read off
+  the live profile on 1 Oct. `src/data/reviews.ts` records what was left out and
+  why (guarantee-like wording, a price, a meaning-reversing typo, a reviewer
+  sharing the owner's surname — ask Ryan whether Matthew Blouin is family).
+- **"Read the reviews on Google"** pointed at the Linktree. It now opens the
+  Google listing.
+- **Old site scraped.** Nothing else on Squarespace is usable: its photos are
+  stock (Unsplash, town scenery) or Canva graphics built on stock, so the
+  photography item above is unchanged.
+- **Windows builds.** Every verify script now normalises path separators; two
+  gates had been failing and three silently skipping checks on Windows.
+- **Redirects.** All 114 now resolve; with `trailingSlash: true` the slash-less
+  sources had never matched (fixed in `gen-redirects.mjs`).
 
 ---
 

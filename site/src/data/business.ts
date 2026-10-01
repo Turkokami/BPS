@@ -51,7 +51,9 @@ export const BUSINESS = {
     rating: 5.0,
     count: 100,
     observed: '2026-10-01',                    // re-read 1 Oct 2026 (100 reviews, 99 five-star, one four-star); re-check before launch
-    profileUrl: 'https://www.linktr.ee/blouinpest',
+    // The Google listing itself (CID from the profile's review dialog, 1 Oct 2026).
+    // It was the Linktree, which made "Read the reviews on Google" a dead end.
+    profileUrl: 'https://maps.google.com/?cid=2009510692584227543',
   },
   /** Service warranty, attested 28 Sep 2026. It stays OFF the indexable site until
    *  the written service agreement exists and the page language matches it —
@@ -74,7 +76,17 @@ export const BUSINESS = {
     ecoClaim: "'eco-friendly pest management' — replaced with the named EcoVIA MT option",
     regulator: "'I work closely with the Maine Board of Pesticides' — removed; the business follows the rules, it does not partner with the regulator",
   },
-  sameAs: ['https://www.linktr.ee/blouinpest'], // Facebook, Yelp and Angi profiles exist; direct URLs PENDING
+  /* Direct profile URLs found 1 Oct 2026 in Google's results for the business,
+     each showing his name and 207-740-4441. Confirm with the client; remove any
+     that is not his. Facebook and Thumbtack fetched 200; Yelp and Angi 403 bots. */
+  sameAs: [
+    'https://www.linktr.ee/blouinpest',
+    'https://maps.google.com/?cid=2009510692584227543',
+    'https://www.facebook.com/blouinpest/',
+    'https://www.yelp.com/biz/blouin-pest-services-lewiston',
+    'https://www.angi.com/companylist/us/me/lewiston/blouin-pest-services-llc-reviews-1.htm',
+    'https://www.thumbtack.com/me/lewiston/exterminators/blouin-pest-services/service/573446559150800902',
+  ],
   /** Lead capture. A static site cannot email, so the form is the client's own
    *  CRM embed. Until the embed code arrives the contact page renders call and
    *  text, which is what he asked for in the meantime. */
