@@ -30,7 +30,7 @@ import path from 'node:path';
 const walk = (d, out = []) => {
   if (!fs.existsSync(d)) return out;
   for (const e of fs.readdirSync(d, { withFileTypes: true })) {
-    const p = path.join(d, e.name);
+    const p = path.join(d, e.name).replace(/\\/g, '/');
     e.isDirectory() ? walk(p, out) : /\.(astro|css)$/.test(p) && out.push(p);
   }
   return out;

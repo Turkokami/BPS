@@ -7,7 +7,7 @@ import fs from 'node:fs'; import path from 'node:path';
 const ROOT = 'src/content', MIN_WORDS = 10, MAX_PAGES = 2;
 const walk = (d, out = []) => { if (!fs.existsSync(d)) return out;
   for (const e of fs.readdirSync(d, { withFileTypes: true })) {
-    const p = path.join(d, e.name); e.isDirectory() ? walk(p, out) : /\.(md|mdx)$/.test(p) && out.push(p);
+    const p = path.join(d, e.name).replace(/\\/g, '/'); e.isDirectory() ? walk(p, out) : /\.(md|mdx)$/.test(p) && out.push(p);
   } return out; };
 const map = new Map();
 for (const f of walk(ROOT)) {

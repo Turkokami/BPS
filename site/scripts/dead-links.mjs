@@ -3,7 +3,7 @@
 import fs from 'node:fs'; import path from 'node:path';
 const DIST = 'dist';
 const walk = (d, out = []) => { for (const e of fs.readdirSync(d, { withFileTypes: true })) {
-  const p = path.join(d, e.name); e.isDirectory() ? walk(p, out) : p.endsWith('.html') && out.push(p);
+  const p = path.join(d, e.name).replace(/\\/g, '/'); e.isDirectory() ? walk(p, out) : p.endsWith('.html') && out.push(p);
 } return out; };
 if (!fs.existsSync(DIST)) { console.error('dead-links: no dist/ — run astro build first'); process.exit(1); }
 const files = walk(DIST); let bad = 0;

@@ -33,7 +33,7 @@ const satisfies = (types, required) =>
     ? [...types].some((t) => WEBPAGE_SUBTYPES.includes(String(t)))
     : [...types].some((t) => String(t).includes(required));
 const walk = (d, out = []) => { for (const e of fs.readdirSync(d, { withFileTypes: true })) {
-  const p = path.join(d, e.name); e.isDirectory() ? walk(p, out) : p.endsWith('.html') && out.push(p);
+  const p = path.join(d, e.name).replace(/\\/g, '/'); e.isDirectory() ? walk(p, out) : p.endsWith('.html') && out.push(p);
 } return out; };
 const files = walk(DIST); const errs = [];
 for (const f of files) {

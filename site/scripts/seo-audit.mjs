@@ -3,7 +3,7 @@
 import fs from 'node:fs'; import path from 'node:path';
 const DIST = 'dist', TITLE_MAX = 60, D_MIN = 110, D_MAX = 165;
 const walk = (d, out = []) => { for (const e of fs.readdirSync(d, { withFileTypes: true })) {
-  const p = path.join(d, e.name); e.isDirectory() ? walk(p, out) : p.endsWith('.html') && out.push(p);
+  const p = path.join(d, e.name).replace(/\\/g, '/'); e.isDirectory() ? walk(p, out) : p.endsWith('.html') && out.push(p);
 } return out; };
 if (!fs.existsSync(DIST)) {
   console.log(`seo-audit: no ${DIST}/ yet — this check runs on built HTML, after \`astro build\``);

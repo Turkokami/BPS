@@ -25,7 +25,7 @@ const note = [];
 const htmlFiles = [];
 (function walk(d) {
   for (const e of fs.readdirSync(d, { withFileTypes: true })) {
-    const p = path.join(d, e.name);
+    const p = path.join(d, e.name).replace(/\\/g, '/');
     if (e.isDirectory()) walk(p);
     else if (p.endsWith('.html')) htmlFiles.push(p);
   }
@@ -86,7 +86,7 @@ for (const [route, p] of pages) {
 const assets = new Set();
 (function walkAll(d) {
   for (const e of fs.readdirSync(d, { withFileTypes: true })) {
-    const p = path.join(d, e.name);
+    const p = path.join(d, e.name).replace(/\\/g, '/');
     if (e.isDirectory()) walkAll(p);
     else assets.add(p.slice(DIST.length).replace(/\\/g, '/'));
   }
