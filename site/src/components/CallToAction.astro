@@ -1,0 +1,14 @@
+---
+import { BUSINESS, hasGuarantee } from '../data/business';
+const { heading = 'Talk to the person who does the work', id = 'cta-heading' } = Astro.props;
+---
+<section class="ctaband" aria-labelledby={id}>
+  <h2 id={id}>{heading}</h2>
+  <p>Call or text {BUSINESS.owner.name} directly. Free inspections and quotes on every service.</p>
+  <div class="cta-row">
+    <a class="cta" href={`tel:${BUSINESS.phoneE164}`}>Call {BUSINESS.phone}</a>
+    <a class="cta ghost" href={`sms:${BUSINESS.phoneE164}`}>Text {BUSINESS.phone}</a>
+  </div>
+  <p class="cta-note">{BUSINESS.hours}. {BUSINESS.emergency}</p>
+  {hasGuarantee() && <p><a href="/our-guarantee/">{BUSINESS.guarantee.name} — read the terms</a></p>}
+</section>

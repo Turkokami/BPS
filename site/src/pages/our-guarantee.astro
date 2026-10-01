@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CallToAction from '../components/CallToAction.astro';
+import PendingNotice from '../components/PendingNotice.astro';
+import { BUSINESS, guaranteePublishable } from '../data/business';
+import { title, description } from '../lib/seo';
+const path = '/our-guarantee/';
+---
+<BaseLayout
+  title={title('Our Guarantee')}
+  description={description('What Blouin Pest Services stands behind: free inspections, follow-up rounds included in the quoted job, and a plain answer on anything that belongs to another trade.')}
+  path={path}
+  noindex={!guaranteePublishable()}
+  crumbs={[{ name: 'Our guarantee', item: path }]}
+>
+  <h1>Our guarantee</h1>
+  {guaranteePublishable() ? (
+    <>
+      <div class="answer"><p><strong>{BUSINESS.guarantee.name}.</strong> {BUSINESS.guarantee.terms}</p></div>
+      <p>If something covered by this comes back inside the period, call. It is part of the work rather than a new job.</p>
+    </>
+  ) : (
+    <>
+      <PendingNotice reason="The terms below are the ones Ryan has given us, and they are held back from the indexable site until the written service agreement exists and its wording matches this page — his instruction, and the right one." />
+      <h2>The service warranty, as attested</h2>
+      <p>{BUSINESS.guarantee.terms}</p>
+      <h2>What it does not cover</h2>
+      <ul>
+        <li>A new nest in a different location, after a one-time nest removal — that is a new job.</li>
+        <li>A different pest, or the same pest at a different property.</li>
+        <li>Work where the preparation and access instructions were not followed.</li>
+        <li>Periods when the service plan or payments are not current.</li>
+        <li>Conditions we identified in writing as needing repair, where the repair has not been made.</li>
+      </ul>
+      <h2>What we do stand behind today</h2>
+      <ul>
+        <li>Inspections and quotes are free, and the quote separates treatment from any sealing or repair work.</li>
+        <li>Follow-up rounds for bed bugs and cockroaches are part of the quoted job, not an extra.</li>
+        <li>If a job is not finished at the scheduled last visit, we say so and keep working.</li>
+        <li>Anything we find that belongs to another trade is named in the report rather than treated around.</li>
+      </ul>
+    </>
+  )}
+  <CallToAction />
+</BaseLayout>

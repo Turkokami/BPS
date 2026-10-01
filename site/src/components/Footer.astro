@@ -1,0 +1,51 @@
+---
+import { BUSINESS, hasLicenceNumber } from '../data/business';
+import { attestedServices } from '../data/services';
+import { linkableTowns } from '../lib/geo';
+import { COUNTY_NAMES } from '../data/geo';
+import { ROUTED_TOWNS } from '../data/authorised';
+const towns = linkableTowns();
+const counties = [...new Set(ROUTED_TOWNS.map((t) => t.county))];
+const year = new Date().getFullYear();
+---
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h2>Blouin Pest Services</h2>
+        <p>Maine pest control, owner-operated. {BUSINESS.owner.name} inspects, treats and follows up.</p>
+        <p>
+          <a href={`tel:${BUSINESS.phoneE164}`}>{BUSINESS.phone}</a><br />
+          <a href={`mailto:${BUSINESS.email}`}>{BUSINESS.email}</a><br />
+          {BUSINESS.hours}
+        </p>
+      </div>
+      <div>
+        <h2>Services</h2>
+        <ul>{attestedServices().map((s) => <li><a href={`/services/${s.slug}/`}>{s.name}</a></li>)}</ul>
+      </div>
+      <div>
+        <h2>Where we work</h2>
+        <p class="counties">{counties.map((c) => COUNTY_NAMES[c]).join(' · ')}</p>
+        <ul>
+          {towns.map((t) => <li><a href={`/locations/${t.slug}/`}>{t.name}</a></li>)}
+        </ul>
+      </div>
+      <div>
+        <h2>Company</h2>
+        <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/reviews/">Reviews</a></li>
+          <li><a href="/library/">Pest library</a></li>
+          <li><a href="/compliance/maine-pesticide-licensing/">Licensing and compliance</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/privacy/">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="colophon">
+      &copy; {year} {BUSINESS.legalName}.
+      {hasLicenceNumber() && <span> {BUSINESS.license.type} #{BUSINESS.license.number}, licensed and regulated by the {BUSINESS.license.authority}.</span>}
+    </p>
+  </div>
+</footer>

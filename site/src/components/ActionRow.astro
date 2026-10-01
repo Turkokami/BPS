@@ -1,0 +1,12 @@
+---
+import { BUSINESS } from '../data/business';
+/** The reference layout puts the two contact actions immediately under the
+ *  direct answer, before any prose, so the fastest path off the page is above
+ *  the fold on every template rather than only the homepage. */
+const { note = true } = Astro.props;
+---
+<div class="cta-row">
+  <a class="cta" href={`tel:${BUSINESS.phoneE164}`}>Call {BUSINESS.phone}</a>
+  <a class="cta ghost" href={`sms:${BUSINESS.phoneE164}`}>Text {BUSINESS.phone}</a>
+</div>
+{note && <p class="cta-note">{BUSINESS.hours} &middot; Free inspections and quotes</p>}

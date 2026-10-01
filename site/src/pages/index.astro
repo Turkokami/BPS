@@ -1,0 +1,101 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CallToAction from '../components/CallToAction.astro';
+import Faq from '../components/Faq.astro';
+import QuickMenu from '../components/QuickMenu.astro';
+import { BUSINESS, hasReviewProof } from '../data/business';
+import { attestedServices } from '../data/services';
+import { ROUTED_TOWNS } from '../data/authorised';
+import { COUNTY_NAMES } from '../data/geo';
+import { linkableTowns } from '../lib/geo';
+import { title, description } from '../lib/seo';
+import { faqNode } from '../lib/schema';
+
+const counties = [...new Set(ROUTED_TOWNS.map((c) => c.county))].map((c) => COUNTY_NAMES[c]);
+const services = attestedServices();
+const towns = linkableTowns();
+const faqs = [
+  { q: 'What areas do you cover?', a: `Blouin Pest Services works across ${counties.slice(0, -1).join(', ')} and ${counties.slice(-1)} in southern and central Maine.` },
+  { q: 'Do you charge for an inspection?', a: 'No. Inspections and quotes are free, and the quote separates treatment from any sealing or exclusion work so you can see what you are paying for.' },
+  { q: 'Who turns up?', a: `${BUSINESS.owner.name} does the inspection, the treatment and the follow-up. It is the same person each visit.` },
+  { q: 'How soon can someone come out?', a: BUSINESS.emergency },
+];
+const t = title('Maine Pest Control');
+const d = description('Owner-operated pest control across southern and central Maine: rodents, ants, ticks, mosquitoes, cockroaches and bed bugs. Free inspections. Call or text 207-740-4441.');
+---
+<BaseLayout title={t} description={d} path="/" extraNodes={[faqNode('/', faqs)]}>
+  <h1>Pest control across Maine, from the person who does the work</h1>
+
+  <div class="answer">
+    <p>
+      <strong>Blouin Pest Services is owner-operated.</strong> {BUSINESS.owner.name} inspects, treats and follows up —
+      rodents, ants, ticks, mosquitoes, cockroaches and bed bugs — across {counties.slice(0, -1).join(', ')} and {counties.slice(-1)}.
+      Inspections and quotes are free, and the quote separates the treatment from any sealing or repair work, so you can
+      see what you are buying and compare it against anyone else's.
+    </p>
+  </div>
+
+  <div class="cta-row">
+    <a class="cta" href={`tel:${BUSINESS.phoneE164}`}>Call {BUSINESS.phone}</a>
+    <a class="cta ghost" href={`sms:${BUSINESS.phoneE164}`}>Text {BUSINESS.phone}</a>
+  </div>
+  <p class="cta-note">{BUSINESS.hours} &middot; {BUSINESS.emergency}</p>
+
+  <QuickMenu label="What we handle" items={services.map((s) => ({ href: `/services/${s.slug}/`, label: s.name }))} />
+  <QuickMenu label="Where we work" items={towns.map((x) => ({ href: `/locations/${x.slug}/`, label: x.name }))} />
+
+  {hasReviewProof() && (
+    <p class="proof">
+      <a href="/reviews/">Rated {BUSINESS.reviews.rating.toFixed(1)} from {BUSINESS.reviews.count} Google reviews</a> — read from the Google
+      Business Profile on {BUSINESS.reviews.observed}. {BUSINESS.customers.charAt(0).toUpperCase() + BUSINESS.customers.slice(1)}.
+    </p>
+  )}
+
+  <h2>What we get called for most</h2>
+  <p>
+    Three jobs account for most of the calls, and each is a different kind of problem.
+    <a href="/services/rodent-control/">Rodents</a> arrive with the first hard cold and are a sealing problem as much as
+    a treatment one. <a href="/services/carpenter-ant-control/">Carpenter ants</a> show up in spring and are usually a
+    moisture problem in timber a gutter or a window seal has been wetting. <a href="/services/tick-control/">Ticks</a>
+    are a yard problem rather than a house problem, and the treatment follows the edge of the property rather than the
+    building. The other ten are listed under <a href="/services/">services</a>, and the menu above jumps straight to any of them.
+  </p>
+
+  <h2>What happens when you call</h2>
+  <ol>
+    <li><strong>Inspect first.</strong> The room you noticed the problem in is usually not the room the problem lives in.</li>
+    <li><strong>Treat what is there</strong>, in the licensed category the work falls under.</li>
+    <li><strong>Close the way in.</strong> Sealing is what stops you paying for the same job every year.</li>
+    <li><strong>Write it down.</strong> Every visit produces a record of what was found, what was applied and what is recommended — including work that belongs to another trade.</li>
+  </ol>
+
+  <h2>Exclusion, which is where we are most useful</h2>
+  <p>
+    Treatment kills what is inside the building today. Sealing decides whether you are making this call again next
+    autumn. Most of the rodent work here ends with a list of gaps — a dryer vent, a sill plate, a gap behind a bulkhead —
+    and the quote prices that separately so you can do it now or do it later with your eyes open.
+  </p>
+
+  <h2>Where we work</h2>
+  <p>
+    Southern and central Maine: {counties.join(', ')}. {BUSINESS.radius} Call and ask about your town — if it is outside
+    the area we cover we will say so rather than booking it.
+  </p>
+
+  <h2>When we are busiest, and when we are not</h2>
+  <p>
+    Tick and mosquito programmes run monthly from April to September. Rodent work peaks with the first hard cold, and
+    exclusion done in September prevents the winter that follows. If you are reading this outside tick season, that is the
+    cheapest month of the year to have the building sealed properly.
+  </p>
+
+  <h2>Licensed, and checkable</h2>
+  <p>
+    {BUSINESS.license.type} #{BUSINESS.license.number}, categories {BUSINESS.license.categories.map((c) => c.split(' ')[0]).join(' and ')},
+    licensed and regulated by the {BUSINESS.license.authority}. <a href="/compliance/maine-pesticide-licensing/">What that means and how to check it</a>.
+  </p>
+
+  <Faq faqs={faqs} />
+
+  <CallToAction />
+</BaseLayout>

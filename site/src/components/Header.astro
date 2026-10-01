@@ -1,0 +1,39 @@
+---
+const { path = '/' } = Astro.props;
+const on = (p: string) => (p === '/' ? path === '/' : path.startsWith(p)) ? 'page' : undefined;
+const primary = [
+  { href: '/', label: 'Home' },
+  { href: '/services/', label: 'Services' },
+  { href: '/service-area/', label: 'Service area' },
+  { href: '/locations/', label: 'Towns' },
+  { href: '/library/', label: 'Pest library' },
+  { href: '/about/', label: 'About' },
+  { href: '/contact/', label: 'Contact' },
+];
+const secondary = [
+  { href: '/reviews/', label: 'Reviews' },
+  { href: '/our-guarantee/', label: 'Our guarantee' },
+  { href: '/compliance/maine-pesticide-licensing/', label: 'Licensing' },
+];
+---
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <span class="mark" aria-hidden="true">&#9670;</span>
+      Blouin Pest Services
+      <small>Lewiston, Maine</small>
+    </a>
+    <nav class="site" aria-label="Primary">
+      <ul>
+        {primary.filter((l) => l.href !== '/locations/').map((l) => (
+          <li><a href={l.href} aria-current={on(l.href)}>{l.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+    <nav class="site secondary" aria-label="Secondary">
+      <ul>
+        {secondary.map((l) => <li><a href={l.href} aria-current={on(l.href)}>{l.label}</a></li>)}
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CallToAction from '../../components/CallToAction.astro';
+import Faq from '../../components/Faq.astro';
+import ActionRow from '../../components/ActionRow.astro';
+import QuickMenu from '../../components/QuickMenu.astro';
+import { linkableTowns } from '../../lib/geo';
+import FieldProof from '../../components/FieldProof.astro';
+import PendingNotice from '../../components/PendingNotice.astro';
+import { PROBLEMS, serviceBySlug } from '../../data/services';
+import { serviceNode, faqNode } from '../../lib/schema';
+import { areaServed } from '../../lib/geo';
+import { title as mkTitle, description as mkDesc } from '../../lib/seo';
+
+export async function getStaticPaths() {
+  const docs = await getCollection('service');
+  return docs.map((doc) => ({ params: { service: doc.slug }, props: { doc } }));
+}
+const { doc } = Astro.props;
+const service = serviceBySlug(doc.slug)!;
+const { Content } = await doc.render();
+const path = `/services/${doc.slug}/`;
+const problems = PROBLEMS.filter((p) => p.service === doc.slug);
+const noindex = !service.attested;
+const nodes = [serviceNode(service, areaServed()), faqNode(path, doc.data.faqs)];
+---
+<BaseLayout
+  title={mkTitle(doc.data.title)}
+  description={mkDesc(doc.data.description)}
+  path={path}
+  noindex={noindex}
+  crumbs={[{ name: 'Services', item: '/services/' }, { name: service.name, item: path }]}
+  extraNodes={nodes}
+>
+  <h1>{doc.data.title}</h1>
+  {noindex && <PendingNotice reason="This service has not been confirmed as one Blouin Pest Services currently sells, so the page is unpublished pending the owner's confirmation." />}
+  <div class="answer"><p>{doc.data.answer}</p></div>
+  <ActionRow />
+  {!noindex && <QuickMenu label="Where we work" items={linkableTowns().map((t) => ({ href: `/locations/${t.slug}/`, label: t.name }))} />}
+  <Content />
+  {problems.length > 0 && (
+    <section>
+      <h2>Specific situations</h2>
+      <ul>{problems.map((p) => <li><a href={`/services/${doc.slug}/${p.slug}/`}>{p.title}</a></li>)}</ul>
+    </section>
+  )}
+  <FieldProof text={doc.data.firstPartyData} />
+  <Faq faqs={doc.data.faqs} />
+  <p><small>Licensed category for this work in Maine: {service.licenceCategory}. <a href="/compliance/maine-pesticide-licensing/">What Maine requires</a>. Updated {doc.data.updated}.</small></p>
+  <CallToAction />
+</BaseLayout>

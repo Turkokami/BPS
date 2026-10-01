@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CallToAction from '../../components/CallToAction.astro';
+import { ROUTED_TOWNS, AUTHORISED_TOWNS, DECLINED_TOWNS } from '../../data/authorised';
+import { COUNTY_NAMES, townName } from '../../data/geo';
+import { title, description } from '../../lib/seo';
+import { BUSINESS } from '../../data/business';
+const counties = [...new Set(ROUTED_TOWNS.map((t) => t.county))];
+---
+<BaseLayout
+  title={title('Where Blouin Pest Services Works')}
+  description={description('The Maine counties Blouin Pest Services covers, and how to check whether your town is in range. Call or text 207-740-4441.')}
+  path="/service-area/"
+  crumbs={[{ name: 'Service area', item: '/service-area/' }]}
+>
+  <h1>Where we work</h1>
+  <p class="lede">Blouin Pest Services covers southern and central Maine from a base in the Lewiston–Auburn area.</p>
+  <ul>{counties.map((c) => <li>{COUNTY_NAMES[c]}</li>)}</ul>
+  {AUTHORISED_TOWNS.length > 0 && (
+    <section>
+      <h2>Towns with their own page</h2>
+      <ul>{AUTHORISED_TOWNS.map((t) => <li><a href={`/locations/${t.slug}/`}>{townName(t.slug)}</a></li>)}</ul>
+    </section>
+  )}
+  <h2>Is my town covered?</h2>
+  <p>
+    Coverage is not the same as having a page for every town. This site publishes a town page only where there is evidence
+    that people in that town are searching for this work — a deliberate choice, and the reason you will not find {DECLINED_TOWNS.length + ROUTED_TOWNS.length}
+    near-identical town pages here. Call or text {BUSINESS.phone} and ask; if you are outside the area we will say so rather than booking the job.
+  </p>
+  <CallToAction heading="Ask about your town" />
+</BaseLayout>

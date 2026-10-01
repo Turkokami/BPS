@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { BUSINESS, hasForm } from '../data/business';
+import { title, description } from '../lib/seo';
+const path = '/contact/';
+---
+<BaseLayout
+  title={title('Contact Blouin Pest Services')}
+  description={description('Call or text Ryan Blouin on 207-740-4441, or email ryan@blouinpest.com. Free inspections across southern and central Maine.')}
+  path={path}
+  crumbs={[{ name: 'Contact', item: path }]}
+>
+  <h1>Contact</h1>
+  <p class="lede">Call or text and you will reach {BUSINESS.owner.name} directly.</p>
+  <div class="cta-row">
+    <a class="cta" href={`tel:${BUSINESS.phoneE164}`}>Call {BUSINESS.phone}</a>
+    <a class="cta ghost" href={`sms:${BUSINESS.phoneE164}`}>Text {BUSINESS.phone}</a>
+  </div>
+  <dl class="facts">
+    <dt>Phone and text</dt><dd><a href={`tel:${BUSINESS.phoneE164}`}>{BUSINESS.phone}</a></dd>
+    <dt>Email</dt><dd><a href={`mailto:${BUSINESS.email}`}>{BUSINESS.email}</a></dd>
+    <dt>Service area</dt><dd>Southern and central Maine — <a href="/service-area/">see the counties</a></dd>
+    <dt>Hours</dt><dd>{BUSINESS.hours}. If a call is missed it goes to voicemail — leave a message or send a text and Ryan will come back to you.</dd>
+    <dt>Emergency work</dt><dd>{BUSINESS.emergency}</dd>
+    <dt>Payment</dt><dd>{BUSINESS.payment.join(', ')}.</dd>
+  </dl>
+  <h2>What to have ready</h2>
+  <ul>
+    <li>What you have seen or heard, and where in the building.</li>
+    <li>When it happens — time of day matters more than people expect.</li>
+    <li>Whether anything has already been treated, and with what.</li>
+    <li>Whether there are children, pets or livestock on the property.</li>
+  </ul>
+  <h2>Send a message instead</h2>
+  {hasForm() ? (
+    <div set:html={BUSINESS.forms.gorilladeskEmbed} />
+  ) : (
+    <p>
+      A booking form is being connected to the scheduling system Ryan already uses, so that a request lands in the same place as
+      everything else rather than in a separate inbox. Until it is live, calling or texting is the fastest route — and it reaches
+      him directly rather than an answering service.
+    </p>
+  )}
+
+  <h2>What it costs to have us look</h2>
+  <p>
+    Residential inspections and quotes are free. Commercial inspections carry a fee that depends on the size of the property, the
+    documentation or reporting required, and the pest involved — and that fee is credited toward the work if you go ahead.
+  </p>
+</BaseLayout>

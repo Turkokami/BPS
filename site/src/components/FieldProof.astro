@@ -1,0 +1,24 @@
+---
+/**
+ * First-party proof, rendered on the page rather than sitting in frontmatter.
+ * Part 6.5 counts a citability signal only where a reader (or an answer engine)
+ * can see it, and M1 item 2 wants proof from the geography on the geography's
+ * own page. Nothing here is generated and no customer is identified.
+ *
+ * Two kinds of proof ship on this site and they need different headings. Most
+ * entries describe a confirmed job — those carry the phrase "confirmed job",
+ * which is the marker every one of them uses. The rest are counts taken from
+ * the client's own review corpus, and calling a count "work we have actually
+ * done" would overstate it. The heading follows the evidence rather than the
+ * other way round.
+ */
+const { text, heading, id = 'proof-heading' } = Astro.props;
+const isJob = typeof text === 'string' && /confirmed job/i.test(text);
+const title = heading ?? (isJob ? 'Work we have actually done' : 'What our own record shows');
+---
+{text && (
+  <section class="proofbox" aria-labelledby={id}>
+    <h2 id={id}>{title}</h2>
+    <p>{text}</p>
+  </section>
+)}

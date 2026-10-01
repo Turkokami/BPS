@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import CallToAction from '../../../components/CallToAction.astro';
+import Faq from '../../../components/Faq.astro';
+import FieldProof from '../../../components/FieldProof.astro';
+import { PROBLEMS, serviceBySlug } from '../../../data/services';
+import { faqNode } from '../../../lib/schema';
+import { title as mkTitle, description as mkDesc } from '../../../lib/seo';
+
+export async function getStaticPaths() {
+  const docs = await getCollection('problem');
+  return docs.map((doc) => {
+    const p = PROBLEMS.find((x) => x.slug === doc.slug)!;
+    return { params: { service: p.service, problem: doc.slug }, props: { doc, service: p.service } };
+  });
+}
+const { doc, service } = Astro.props;
+const svc = serviceBySlug(service)!;
+const { Content } = await doc.render();
+const path = `/services/${service}/${doc.slug}/`;
+---
+<BaseLayout
+  title={mkTitle(doc.data.title)}
+  description={mkDesc(doc.data.description)}
+  path={path}
+  crumbs={[{ name: 'Services', item: '/services/' }, { name: svc.name, item: `/services/${service}/` }, { name: doc.data.title, item: path }]}
+  extraNodes={[faqNode(path, doc.data.faqs)]}
+>
+  <h1>{doc.data.title}</h1>
+  <div class="answer"><p>{doc.data.answer}</p></div>
+  <Content />
+  <FieldProof text={doc.data.firstPartyData} />
+  <Faq faqs={doc.data.faqs} />
+  <p><a href={`/services/${service}/`}>More on {svc.name.toLowerCase()}</a> · <small>Updated {doc.data.updated}</small></p>
+  <CallToAction />
+</BaseLayout>

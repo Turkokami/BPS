@@ -1,0 +1,16 @@
+---
+/** The reference site opens with two collapsed indexes carrying counts, so a
+ *  visitor can jump straight to their pest or their town without scrolling the
+ *  page. Counts are rendered from the real arrays, never typed by hand. */
+interface Item { href: string; label: string }
+interface Props { label: string; items: Item[]; open?: boolean; id?: string }
+const { label, items, open = false, id } = Astro.props as Props;
+---
+{items.length > 0 && (
+  <details class="quickmenu" open={open}>
+    <summary id={id}>{label} <span class="count">{items.length}</span></summary>
+    <ul>
+      {items.map((i) => <li><a href={i.href}>{i.label}</a></li>)}
+    </ul>
+  </details>
+)}

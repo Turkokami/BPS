@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CallToAction from '../../components/CallToAction.astro';
+import PendingNotice from '../../components/PendingNotice.astro';
+import { ROUTED_COUNTIES, AUTHORISED_TOWNS, isIndexableCounty, ROUTED_TOWNS } from '../../data/authorised';
+import { COUNTY_NAMES, townName } from '../../data/geo';
+import { attestedServices } from '../../data/services';
+import { title as mkTitle, description as mkDesc } from '../../lib/seo';
+
+export async function getStaticPaths() {
+  return ROUTED_COUNTIES.map((c) => ({ params: { county: c.slug }, props: { slug: c.slug.replace(/-county$/, '') } }));
+}
+const { slug } = Astro.props;
+const name = COUNTY_NAMES[slug];
+const path = `/service-area/${slug}-county/`;
+const towns = ROUTED_TOWNS.filter((t) => t.county === slug);
+const linkable = AUTHORISED_TOWNS.filter((t) => t.county === slug);
+const noindex = !isIndexableCounty(slug);
+/* Five of the seven counties now DO carry a confirmed job — Lewiston and Auburn
+   in Androscoggin, Portland in Cumberland, Augusta and Waterville in Kennebec,
+   Oxford in Oxford, Bath in Sagadahoc — so the Part 6A second signal is met and
+   the notice must not claim otherwise. What is holding these hubs back is the
+   page, not the gate: they are about 130 words of links, and publishing a thin
+   hub to satisfy a gate is the behaviour the gate exists to prevent. */
+const hasJob = linkable.length > 0;
+const reason = hasJob
+  ? `This county hub is built and not published yet. The Part 6A demand gate is satisfied — ${linkable.length === 1 ? 'a confirmed job' : 'confirmed jobs'} in ${linkable.map((t) => townName(t.slug)).join(' and ')} ${linkable.length === 1 ? 'is' : 'are'} on record for this county — but the page itself is a list of links rather than something worth reading. It publishes when it is written, not when the gate clears.`
+  : `This county hub is built and held back under the Part 6A demand gate: competitor coverage is on record (${towns.length} ${towns.length === 1 ? 'town' : 'towns'} in this county covered by at least two of the five measured competitors) but a second signal — a completed job in this county, Search Console data, or keyword volume — is not.`;
+---
+<BaseLayout
+  title={mkTitle(`Pest Control in ${name}, Maine`)}
+  description={mkDesc(`Pest control across ${name}, Maine: rodents, ants, ticks, mosquitoes, cockroaches and bed bugs, owner-operated. Call or text 207-740-4441.`)}
+  path={path}
+  noindex={noindex}
+  crumbs={[{ name: 'Service area', item: '/service-area/' }, { name, item: path }]}
+>
+  <h1>Pest control in {name}</h1>
+  {noindex && <PendingNotice reason={reason} />}
+  <p class="lede">Blouin Pest Services works across {name} and the surrounding counties in southern and central Maine.</p>
+  <h2>Services available here</h2>
+  <ul>{attestedServices().map((s) => <li><a href={`/services/${s.slug}/`}>{s.name}</a></li>)}</ul>
+  {linkable.length > 0 && (
+    <section>
+      <h2>Towns in {name} with their own page</h2>
+      <ul>{linkable.map((t) => <li><a href={`/locations/${t.slug}/`}>{townName(t.slug)}</a></li>)}</ul>
+    </section>
+  )}
+  <CallToAction />
+</BaseLayout>

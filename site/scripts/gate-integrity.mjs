@@ -60,7 +60,7 @@ const htmlFiles = [];
   }
 })(DIST);
 
-const urlOf = (f) => f.replace(/^dist/, '').replace(/index\.html$/, '');
+const urlOf = (f) => f.replace(/\\/g, '/').replace(/^dist/, '').replace(/index\.html$/, '');
 const pages = new Map(htmlFiles.map((f) => [urlOf(f), read(f)]));
 
 const sitemapUrls = new Set();

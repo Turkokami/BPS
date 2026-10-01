@@ -1,0 +1,15 @@
+{
+  "comment": "Keystone 7A offline harness. Standalone on purpose — it does NOT extend astro/tsconfigs/strict, because in the sandbox npm install and astro build cannot run and that base config is absent. Type-checks the pure-TS data and lib modules only, which is where the logic errors live. The real build uses tsconfig.json via `astro check`.",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": false,
+    "types": []
+  },
+  "include": ["src/data/**/*.ts", "src/lib/**/*.ts"]
+}

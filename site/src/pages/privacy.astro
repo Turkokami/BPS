@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { BUSINESS } from '../data/business';
+import { title, description } from '../lib/seo';
+const path = '/privacy/';
+---
+<BaseLayout
+  title={title('Privacy', { brand: true })}
+  description={description('What Blouin Pest Services does with the information you give us. Short version: we use it to do the work you asked for, and we do not sell it.')}
+  path={path}
+  noindex={true}
+  crumbs={[{ name: 'Privacy', item: path }]}
+>
+  <h1>Privacy</h1>
+  <p class="lede">Short version: we use your information to do the work you asked for. We do not sell it, and we do not share it with anyone who is not doing that work.</p>
+
+  <h2>What we collect</h2>
+  <ul>
+    <li>What you tell us when you call, text or email: your name, contact details, the address of the property, and what is happening there.</li>
+    <li>Notes and photographs taken during an inspection or a treatment, kept as the service record.</li>
+    <li>What you send through the booking form on the contact page, which goes into the scheduling system Ryan uses to run jobs.</li>
+    <li>Standard web server logs. Where site analytics are in use they are for traffic measurement only, and this site runs no advertising trackers.</li>
+  </ul>
+
+  <h2>What we do with it</h2>
+  <ul>
+    <li>Schedule and carry out the work, and keep the records the state requires of a licensed applicator.</li>
+    <li>Contact you about your job, your quote and any follow-up visit.</li>
+    <li>Nothing else. We do not sell, rent or trade customer information.</li>
+    <li>We do not run a marketing text list. Texting Ryan reaches Ryan; it does not sign you up to anything.</li>
+  </ul>
+
+  <h2>Photographs</h2>
+  <p>
+    Inspection photographs are part of your service record. We ask before using any photograph publicly, and where we do,
+    nothing that identifies the property or the household appears with it.
+  </p>
+
+  <h2>How long we keep it</h2>
+  <p>Service records are kept for as long as the state requires and as long as they are useful to you if a problem recurs. Ask and we will tell you what we hold.</p>
+
+  <h2>Asking us about your information</h2>
+  <p>
+    Call or email {BUSINESS.owner.name} on <a href={`tel:${BUSINESS.phoneE164}`}>{BUSINESS.phone}</a> or
+    <a href={`mailto:${BUSINESS.email}`}> {BUSINESS.email}</a> and ask. You can request a copy of what we hold about you, ask us to
+    correct it, or ask us to delete anything we are not required to keep.
+  </p>
+
+  <p class="notice"><strong>Draft.</strong> Written to match how the business actually handles enquiries, and awaiting Ryan's review alongside the written service agreement. Noindex until both are signed off.</p>
+</BaseLayout>

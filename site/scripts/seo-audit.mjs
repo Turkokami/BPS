@@ -33,7 +33,7 @@ const CTR_TOKEN = [
   ['specificity', /\b(attic|basement|apartment|rental|yard|wall|exclusion|inspection|free\s*(quote|inspection)|insured|licen[cs]ed|calendar|explained)\b/i],
 ];
 for (const f of files) {
-  const h = fs.readFileSync(f, 'utf8'); const u = f.replace(/^dist/, '').replace(/index\.html$/, '');
+  const h = fs.readFileSync(f, 'utf8'); const u = f.replace(/\\/g, '/').replace(/^dist/, '').replace(/index\.html$/, '');
   /*
    * Page class decides how hard the CTR rules bite, and this is a judgement the
    * standard forces rather than one worth arguing with. A commercial page at

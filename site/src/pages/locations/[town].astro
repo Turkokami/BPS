@@ -1,0 +1,73 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CallToAction from '../../components/CallToAction.astro';
+import FieldProof from '../../components/FieldProof.astro';
+import Faq from '../../components/Faq.astro';
+import ActionRow from '../../components/ActionRow.astro';
+import QuickMenu from '../../components/QuickMenu.astro';
+import PendingNotice from '../../components/PendingNotice.astro';
+import { ROUTED_TOWNS, isIndexableTown } from '../../data/authorised';
+import { COUNTY_NAMES, townName } from '../../data/geo';
+import { attestedServices } from '../../data/services';
+import { title as mkTitle, description as mkDesc } from '../../lib/seo';
+
+/**
+ * Town routes exist for every town that clears at least one Part 6A signal, and
+ * are noindex and unlinked until a second signal lands. The body deliberately
+ * does NOT contain generated local colour: under mandate M1 a town page ships
+ * with three verifiable local specifics and first-party proof from that town,
+ * and inventing either is what the substance gate exists to prevent.
+ */
+export async function getStaticPaths() {
+  const docs = await getCollection('city');
+  return ROUTED_TOWNS.map((t) => ({
+    params: { town: t.slug },
+    props: { row: t, doc: docs.find((d) => d.data.town === t.slug) ?? null },
+  }));
+}
+const { row, doc } = Astro.props;
+// Astro needs a capitalised binding that is definitely a component at compile
+// time; a possibly-null one fails `astro check`. Render conditionally instead.
+const rendered = doc ? await doc.render() : null;
+const name = townName(row.slug);
+const county = COUNTY_NAMES[row.county];
+const path = `/locations/${row.slug}/`;
+const noindex = !isIndexableTown(row.slug);
+---
+<BaseLayout
+  title={mkTitle(doc ? doc.data.title : `Pest Control in ${name}, ME`)}
+  description={mkDesc(doc ? doc.data.description : `Rodents, ants, ticks, cockroaches and bed bugs in ${name}, Maine. Owner-operated, free inspections. Call or text 207-740-4441.`)}
+  path={path}
+  noindex={noindex}
+  crumbs={[{ name: 'Service area', item: '/service-area/' }, { name: county, item: `/service-area/${row.county}-county/` }, { name, item: path }]}
+>
+  <h1>{doc ? doc.data.title : `Pest control in ${name}, Maine`}</h1>
+  {noindex && (
+    <PendingNotice reason={`Part 6A: this town has one signal on record — ${row.s4} — and needs a second (a completed job here, Search Console impressions, or keyword volume) before it is published. The page is intentionally empty of local detail until that evidence exists.`} />
+  )}
+  {doc ? (
+    <>
+      <div class="answer"><p>{doc.data.answer}</p></div>
+      <ActionRow />
+      <QuickMenu label="What we handle" items={attestedServices().map((s) => ({ href: `/services/${s.slug}/`, label: s.name }))} />
+      {rendered && <rendered.Content />}
+      <FieldProof text={doc.data.firstPartyProof} heading={`Work we have done in ${name}`} id={`proof-${row.slug}`} />
+      <section aria-labelledby={`facts-${row.slug}`}>
+        <h2 id={`facts-${row.slug}`}>Local detail, with its source</h2>
+        <ul>{doc.data.localFacts.map((f: string) => <li>{f}</li>)}</ul>
+      </section>
+      <Faq faqs={doc.data.faqs} />
+      <h2>Services available in {name}</h2>
+      <ul>{attestedServices().map((s) => <li><a href={`/services/${s.slug}/`}>{s.name}</a></li>)}</ul>
+      <p><small>Updated {doc.data.updated}. {county} — <a href={`/service-area/${row.county}-county/`}>other towns we cover</a>.</small></p>
+    </>
+  ) : (
+    <>
+      <p class="lede">Blouin Pest Services covers {name} and the rest of {county}.</p>
+      <h2>Services</h2>
+      <ul>{attestedServices().map((s) => <li><a href={`/services/${s.slug}/`}>{s.name}</a></li>)}</ul>
+    </>
+  )}
+  <CallToAction heading={`Book an inspection in ${name}`} />
+</BaseLayout>

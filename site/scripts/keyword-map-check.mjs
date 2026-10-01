@@ -89,7 +89,7 @@ const walk = (d, out = []) => {
   if (!fs.existsSync(d)) return out;
   for (const e of fs.readdirSync(d, { withFileTypes: true })) {
     const p = path.join(d, e.name);
-    e.isDirectory() ? walk(p, out) : /\.(md|mdx)$/.test(p) && out.push(p);
+    e.isDirectory() ? walk(p, out) : /\.(md|mdx)$/.test(p) && out.push(p.replace(/\\/g, '/'));
   }
   return out;
 };

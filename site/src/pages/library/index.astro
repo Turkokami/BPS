@@ -1,0 +1,14 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { title, description } from '../../lib/seo';
+const docs = (await getCollection('library')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+<BaseLayout title={title('Maine Pest Library')} description={description('Guides for Maine households: the pest calendar, seasonal timing, and what the state actually requires of pest control companies.')} path="/library/" crumbs={[{ name: 'Library', item: '/library/' }]}>
+  <h1>Pest library</h1>
+  <p class="lede">Written for Maine conditions, with the sources named in the text.</p>
+  <ul>
+    {docs.map((d) => <li><a href={`/library/${d.slug}/`}>{d.data.title}</a> — {d.data.description}</li>)}
+    <li><a href="/compliance/maine-pesticide-licensing/">Maine pesticide licensing, explained for homeowners</a></li>
+  </ul>
+</BaseLayout>

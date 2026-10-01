@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CallToAction from '../components/CallToAction.astro';
+import { BUSINESS, hasReviewProof } from '../data/business';
+import { title, description } from '../lib/seo';
+const path = '/reviews/';
+---
+<BaseLayout
+  title={title('Reviews of Blouin Pest Services')}
+  description={description('What Blouin Pest Services customers say, with the Google rating and the date it was read. No review text is reproduced without the customer’s own words.')}
+  path={path}
+  crumbs={[{ name: 'Reviews', item: path }]}
+>
+  <h1>Reviews</h1>
+  {hasReviewProof() && (
+    <div class="answer">
+      <p>
+        <strong>{BUSINESS.reviews.rating.toFixed(1)} out of 5, from {BUSINESS.reviews.count} Google reviews.</strong>
+        Read from the {BUSINESS.reviews.source} on {BUSINESS.reviews.observed}. That figure moves, and this page is updated when it does.
+      </p>
+    </div>
+  )}
+  <p>
+    Reviews are published here as text — readable by people, by search engines and by answer engines — rather than inside a widget
+    that crawlers cannot read. Each one appears word for word with the reviewer's first name and the month, exactly as it stands on
+    the Google Business Profile. Nothing is written, edited or summarised on a customer's behalf, and the figure above is re-read
+    from the profile rather than typed once and left to go stale.
+  </p>
+  <p class="notice">
+    <strong>Quoted reviews are being added.</strong> The rating and count are live and verified; the individual quotes go up as each
+    one is checked against the profile on the day it is published.
+  </p>
+  {BUSINESS.reviews.profileUrl && <p><a href={BUSINESS.reviews.profileUrl}>Read the reviews on Google</a></p>}
+  <h2>How we ask for reviews</h2>
+  <ul>
+    <li>We ask every customer once, after the work is finished.</li>
+    <li>We do not offer discounts, credits or anything else in exchange for a review.</li>
+    <li>We do not screen customers for a likely rating before asking.</li>
+    <li>Nobody at Blouin Pest Services writes a review for a customer.</li>
+  </ul>
+  <CallToAction />
+</BaseLayout>

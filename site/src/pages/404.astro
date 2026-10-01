@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { attestedServices } from '../data/services';
+import { title, description } from '../lib/seo';
+---
+<BaseLayout title={title('Page not found', { brand: false })} description={description('That page does not exist on this site. Every service, the service area, the pest library and the contact details are listed here.')} path="/404/" noindex={true}>
+  <h1>That page does not exist</h1>
+  <p class="lede">It may have moved, or the link may be wrong. Everything on this site is one of these:</p>
+  <ul>
+    {attestedServices().map((s) => <li><a href={`/services/${s.slug}/`}>{s.name}</a></li>)}
+    <li><a href="/service-area/">Where we work</a></li>
+    <li><a href="/library/">Pest library</a></li>
+    <li><a href="/about/">About</a></li>
+    <li><a href="/contact/">Contact</a></li>
+  </ul>
+</BaseLayout>

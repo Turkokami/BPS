@@ -1,0 +1,12 @@
+---
+/** Rendered on any route the Part 6A gate has not authorised. The page exists so
+ *  it can be reviewed and flipped in one CSV edit; it is noindex and unlinked
+ *  until then, and this notice makes that state visible to anyone previewing.
+ *
+ *  The trailing sentence used to say "until the evidence is on record", which
+ *  became wrong for the five county hubs whose evidence IS on record and which
+ *  are held back on page quality instead. It states the mechanism now, and the
+ *  reason prop states the cause. */
+const { reason } = Astro.props;
+---
+<p class="notice"><strong>Not published.</strong> {reason} It is excluded from every sitemap, linked from nowhere, and carries noindex until that changes.</p>

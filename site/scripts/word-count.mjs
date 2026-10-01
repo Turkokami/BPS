@@ -70,7 +70,7 @@ const failures = [];
 const rows = [];
 
 for (const f of files) {
-  const rel = f.replace(`${ROOT}/`, '');
+  const rel = f.replace(/\\/g, '/').replace(`${ROOT}/`, '');
   const collection = rel.split('/')[0];
   const band = BANDS[collection];
   const raw = fs.readFileSync(f, 'utf8');

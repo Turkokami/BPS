@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CallToAction from '../../components/CallToAction.astro';
+import { attestedServices, PROBLEMS, NOT_OFFERED } from '../../data/services';
+import { title, description } from '../../lib/seo';
+const services = attestedServices();
+---
+<BaseLayout
+  title={title('Pest Control Services in Maine')}
+  description={description('Every service Blouin Pest Services offers in Maine: rodents, ants, ticks, mosquitoes, cockroaches, bed bugs, and residential and commercial programmes.')}
+  path="/services/"
+  crumbs={[{ name: 'Services', item: '/services/' }]}
+>
+  <h1>Services</h1>
+  <p class="lede">Each service has its own page because each one is a different job. Below each, the specific situations people call about.</p>
+  <div class="grid">
+    {services.map((s) => (
+      <div class="card">
+        <h2><a href={`/services/${s.slug}/`}>{s.name}</a></h2>
+        <p>{s.intent.charAt(0).toUpperCase() + s.intent.slice(1)}.</p>
+        {PROBLEMS.filter((p) => p.service === s.slug).length > 0 && (
+          <ul>
+            {PROBLEMS.filter((p) => p.service === s.slug).map((p) => (
+              <li><a href={`/services/${s.slug}/${p.slug}/`}>{p.title}</a></li>
+            ))}
+          </ul>
+        )}
+      </div>
+    ))}
+  </div>
+  <section>
+    <h2>What we do not do</h2>
+    <p>Saying so here saves you a phone call, and us one:</p>
+    <ul>{NOT_OFFERED.map((n) => <li>{n}</li>)}</ul>
+    <p>
+      Maine licenses pest control by category and an applicator may only treat in the categories they hold. Blouin Pest Services
+      holds 7A and 7E, which covers everything listed above this section and nothing in the list below it.
+    </p>
+  </section>
+  <CallToAction />
+</BaseLayout>
