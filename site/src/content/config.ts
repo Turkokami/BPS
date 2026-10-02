@@ -29,8 +29,19 @@ const cityGate = {
   uniqueFact: z.string(),
 };
 
+/** County hubs carry the same substance gate as towns, keyed by county slug
+ *  ('androscoggin', matching geo.ts). A hub without a document stays the gated
+ *  link-list scaffold; the demand map flips it to PAGE only once this exists. */
+const countyGate = {
+  county: z.string(),
+  localFacts: z.array(z.string()).min(3),
+  firstPartyProof: z.string(),
+  uniqueFact: z.string(),
+};
+
 export const collections = {
   city: defineCollection({ type: 'content', schema: z.object({ ...citable, ...cityGate }) }),
+  county: defineCollection({ type: 'content', schema: z.object({ ...citable, ...countyGate }) }),
   service: defineCollection({ type: 'content', schema: z.object({ ...citable, service: z.string() }) }),
   problem: defineCollection({ type: 'content', schema: z.object({ ...citable, service: z.string() }) }),
   library: defineCollection({ type: 'content', schema: z.object({ ...citable }) }),

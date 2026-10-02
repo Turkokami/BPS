@@ -29,7 +29,7 @@ it sits at one signal and stays sealed. The other 37 pending towns have S4 only.
 The sealed routes render, carry `noindex`, appear in no sitemap and are linked
 from nowhere — `scripts/gate-integrity.mjs` asserts all of that on every build.
 
-**The county hubs are noindex too.** Same gate, same reason.
+**Five county hubs are published, two are not.** Androscoggin, Cumberland, Kennebec, Oxford and Sagadahoc were written on 2 October 2026 to the same substance gate as the towns (`src/content/county/`, schema in `config.ts`) and flipped to PAGE in the demand map. Franklin and York have no job on record and stay sealed. A hub with no document renders the old link-list scaffold, so flipping a county to PAGE without writing it first would publish a thin page — write, then flip.
 
 **No license number anywhere.** `BUSINESS.license.number` is `null`, so the
 credential is absent from the page and from the `Person` node rather than being

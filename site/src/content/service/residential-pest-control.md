@@ -1,13 +1,13 @@
 ---
 title: "Residential Pest Control in Maine"
-description: "A year-round home pest programme built around Maine's seasons: what is covered, when visits happen, and what you pay. Call or text Ryan at 207-740-4441."
+description: "A year-round home pest programme built around Maine's seasons: what is covered, when visits happen, and what is left out. Call or text Ryan at 207-740-4441."
 answer: "A residential programme covers the pests a Maine house actually gets across the year — rodents in autumn, ants in spring, ticks and mosquitoes through summer, cockroaches and bed bugs whenever they arrive — with scheduled visits timed to the seasons rather than to a billing cycle."
 snippetShape: "paragraph+table"
 quantifiedFact: "Maine issues sixteen commercial applicator categories; a residential structural programme runs under 7A, and yard tick or mosquito work under 7E."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "One person does the inspection, the treatment and the follow-up. You are not handed to a different technician who has not seen the house."
 firstPartyData: "Ongoing exterior programme on a residential property — fence line and exterior of the home treated on a monthly schedule (confirmed job, current customer)."
-updated: "2026-09-23"
+updated: "2026-10-02"
 service: "residential-pest-control"
 faqs:
   - q: "Am I locked into a contract?"
@@ -43,11 +43,21 @@ Every visit produces a short report: what was inspected, what was found, what wa
 
 Blouin Pest Services is owner-operated. The same person inspects, treats and follows up, which is the practical difference between a programme and a route stop.
 
-Free inspection and quote. Call or text and you will speak to the person who will be at the house.
+Call or text 207-740-4441 and you will speak to the person who will be at the house. Hours are 9am to 5pm, seven days a week, and same-day emergency service is available when there is an opening.
+
+One customer described signing up after a one-off nest job, quoted exactly from the business's Google profile:
+
+> "I signed up for his monthly service to spray around the house because it was a good deal for the season - and hes been great at communicating and showing up like clockwork." — Jeremie, June 2026, Google
 
 ## What a first year usually looks like
 
 The first year of a programme is front-loaded: a full inspection, the exclusion work that comes out of it, and treatment for whatever is already active. By the second year the exclusion list is shorter, the visits are lighter, and the conversation moves from fixing to watching. That is the shape a programme should have. If your costs are identical in year three to year one, nothing structural was ever fixed.
+
+## How Maine's rules shape a home programme
+
+The Maine Board of Pesticides Control's Got Pests? service states the state's policy plainly: Maine aims to minimise reliance on pesticides, and the Department of Agriculture, Conservation and Forestry and the Maine IPM Council encourage integrated pest management, with pesticides as a last resort. A residential programme built that way leans on inspection, exclusion and the conditions list, and treats where the evidence points.
+
+Who you are matters too. The Board's Chapter 26 rule on indoor applications covers condominiums and rented residential buildings, among others. Under it, a tenant whose unit is to be treated without their own request must get the Board's written notice at least 24 hours and no more than seven days beforehand, and the rule bars treating a tenant's unit over their objection unless a public health or code enforcement official has found an immediate need. The chapter exempts a commercial application that residents have contracted for in their own home, so a homeowner hiring for their own house sits outside it, but the rule's thinking — identify the pest first, choose the lower-risk product, keep people out of the treated room — is a fair standard to ask of anyone working in your home. Landlords and condominium boards should read the [commercial pest control](/services/commercial-pest-control/) page, which covers the notice and posting side.
 
 ## Questions worth asking any company, including us
 
@@ -87,15 +97,15 @@ Most recurring pest problems in Maine houses are moisture problems or structural
 
 ## Scheduling and access
 
-Exterior work does not need you home; interior work does. Visits are scheduled with you rather than assigned, and we will text before arriving. If access fails, the visit is re-booked rather than marked complete.
+Exterior work does not need you home; interior work does. Visits are scheduled with you rather than assigned. If access fails, the visit is re-booked rather than marked complete.
 
 ## What happens if something comes back
 
-Call. Between-visit problems on an active programme are part of the programme, not a new job, and the point of the written record is that the next visit starts from what was already found rather than from scratch.
+Call or text and describe what you are seeing. The point of the written record is that whoever looks at it next starts from what was already found, which product went where, and which gap was still open — rather than from scratch.
 
 ## What is not in a programme
 
-Wildlife — raccoons, squirrels, bats, birds — is separate work with separate rules, and bats in particular are protected with a legally constrained exclusion window. Carpentry, roofing, gutter and moisture repairs are named in the report and quoted by the relevant trade. Lawn and ornamental treatments sit in different licence categories and are not part of a structural pest programme unless we hold and state those categories.
+Wildlife removal — raccoons, squirrels, bats, birds — is not work Blouin Pest Services offers, and nor are termite work or browntail moth treatment; the services page names all three. Carpentry, roofing, gutter and moisture repairs are named in the report and quoted by the relevant trade. Lawn and ornamental treatments sit in different licence categories and are not part of a structural pest programme unless we hold and state those categories.
 
 Saying so up front avoids the most common disappointment in this trade: a customer who believed a general programme covered everything that walks, flies or leaks.
 

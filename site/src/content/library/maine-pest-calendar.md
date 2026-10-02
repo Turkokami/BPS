@@ -1,93 +1,73 @@
 ---
 title: "The Maine Pest Calendar"
-description: "What shows up in a Maine house month by month, from late-winter carpenter ants to the autumn rodent move indoors, and what to do ahead of each one."
-answer: "Maine's pest year runs in a predictable sequence: interior carpenter ants and overwintering insects in late winter, ant swarms and first ticks in spring, mosquitoes and wasps through summer, and the rodent move indoors with the first hard cold. Work done a few weeks ahead of each arrival costs less than work done during it."
+description: "What shows up in and around a Maine house through the year, with timing from UMaine Extension and Maine CDC, and what to do ahead of each arrival."
+answer: "Maine's pest year has fixed points the state's own experts publish: adult deer ticks peak in April–May and again in late October and nymphs in June and early July (UMaine Tick Lab); wasp colonies start in spring and peak in mid to late summer (UMaine Extension); cluster flies, seed bugs and lady beetles move into buildings from late summer through October (UMaine Extension); and two hard frosts sharply cut mosquito-borne disease risk (Maine CDC). Work done a few weeks ahead of each point costs less than work done during it."
 snippetShape: "paragraph+table"
-quantifiedFact: "Maine issues sixteen commercial pesticide applicator categories; the ones covering everything in this calendar are 7A for structural pests, 7E for ticks and biting flies, and 7F for termites."
-primaryAuthority: "Maine Board of Pesticides Control"
+quantifiedFact: "UMaine Cooperative Extension's Tick Lab reports adult deer ticks from early spring to late fall with two peaks, one in April or May and another in late October, and nymph numbers peaking in June and early July. Maine licenses structural pest work under category 7A and tick work under 7E (Maine Board of Pesticides Control)."
+primaryAuthority: "University of Maine Cooperative Extension (Tick Lab; Home and Garden IPM); Maine CDC; Maine Board of Pesticides Control"
 statedPosition: "Almost every seasonal pest problem in this state is cheaper to prevent by four weeks than to treat on the day it arrives."
 firstPartyData: null
-updated: "2026-09-23"
+updated: "2026-10-02"
 faqs:
   - q: "What is the single best month to do exclusion work?"
-    a: "Late summer into early autumn, before the first hard cold pushes rodents toward the building. Sealing in November means sealing with animals already inside."
+    a: "Late summer. UMaine Extension's cluster fly fact sheet has adults searching for overwintering sites in late summer and puts exterior treatment of their resting areas at mid to late August, and the same gaps let in the bugs and beetles that follow in September and October. Sealing in November means sealing with insects already inside."
   - q: "Why do I see ants indoors in February?"
-    a: "Because nothing is foraging in from outside in a Maine February. Ants moving around a warm house in late winter generally mean a colony inside the structure."
+    a: "UMaine Extension notes that carpenter ant workers wandering indoors in spring and early summer have usually come in from an outdoor nest looking for food and water. In the depth of a Maine winter nothing is foraging in from outside, so steady ant activity in a heated house then is a reason to have the structure itself checked."
 ---
 
-Maine's pest pressure is seasonal in a way that southern states' is not. The winter compresses the calendar, and that makes the year unusually predictable — which in turn makes it manageable, if the work happens ahead of the arrival rather than during it.
+Maine's pest pressure is seasonal in a way that southern states' is not, and the timing is not guesswork: UMaine Cooperative Extension, its Tick Lab and the Maine Center for Disease Control and Prevention all publish when the main household pests appear. This calendar is built from those sources. It deliberately does not use the business's own job history for timing, because those jobs are not dated precisely enough to support a month-by-month claim.
 
-| Period | What arrives | What to do ahead of it |
+| Period | What the sources say happens | What to do ahead of it |
 | --- | --- | --- |
-| January–February | Carpenter ants active indoors, overwintering cluster flies and stink bugs at windows | Note where ants appear; look for frass below sills. Book the inspection now, not in May |
-| March–April | Ant swarms begin, first adult ticks on thaw days, rodents still inside from winter | Clear leaf litter as it thaws; start the tick edge plan; finish any interior rodent work |
-| May–June | Peak ant activity, tick nymphs, carpenter ant swarmers, wasp queens starting nests | Tick treatment in the nymph window; check eaves and sheds for new nests weekly |
-| July–August | Mosquitoes, wasps and hornets at full colony size, stored-product pests, bed bug travel season | Empty standing water twice weekly; inspect luggage after travel |
-| September–October | Rodents moving indoors, spiders, boxelder bugs, autumn adult ticks | Exclusion work before the first hard frost; last tick round; check the woodpile before stacking |
-| November–December | Rodents established in attics and walls, browntail webs visible once leaves drop | Interior rodent work; clip reachable browntail webs |
+| January–March | Cluster flies wake and appear at windows on warm, sunny days (Got Pests?, Maine Board of Pesticides Control); browntail webs can still be clipped (Maine Forest Service) | Vacuum, note which walls they come from; clip reachable browntail webs before mid-April |
+| April–May | First adult deer tick peak (UMaine Tick Lab); yellowjacket queens emerge and start nests (Maine State Apiarist); boxelder bugs try to leave buildings (Got Pests?) | Rake leaf litter, create a tick-safe edge; check eaves and sheds for starter nests |
+| June–July | Deer tick nymphs peak (UMaine Tick Lab); wasp colonies growing fast (UMaine Extension) | Daily tick checks; deal with nests near doors while they are small |
+| August | Wasp colonies at or near peak (UMaine Extension); cluster flies start seeking overwintering sites (UMaine Extension) | Seal and screen the sunny walls; exterior cluster fly treatment window |
+| September–October | Western conifer seed bugs enter (UMaine Extension); Asian lady beetles move indoors, typically in October (UMaine Extension); second adult tick peak in late October (UMaine Tick Lab) | Finish exclusion; last tick precautions of the year |
+| October–December | Yellowjacket colonies die after the first hard frost (Maine State Apiarist); two hard frosts sharply reduce mosquito-borne disease risk (Maine CDC) | Leave late wasp nests to the cold; plan next year's exclusion list |
 
 ## The two dates that matter most
 
-**Late summer for exclusion.** Rodent exclusion is the highest-value work available to a Maine homeowner, and the window closes when the animals move in. Sealing a soffit return in September prevents a winter of activity; sealing it in December seals something inside.
+**Late summer, for sealing.** UMaine Extension's cluster fly fact sheet has the adults hunting for attics and wall voids in late summer, and Extension's pages on the western conifer seed bug and the multicolored Asian lady beetle put their move indoors at the end of summer, early fall and October. The cracks, vent screens and utility gaps that admit all three also admit mice, so one round of sealing in August does several jobs at once. The [overwintering insects guide](/library/overwintering-insects-in-maine-houses/) covers that work in detail.
 
-**Late spring for ticks.** The nymph window is when unnoticed bites are most likely, because a nymph is the size of a poppy seed. Habitat work done in April and a treatment timed to the nymph emergence covers the period that matters.
+**June, for ticks.** The UMaine Tick Lab describes deer tick nymphs as about the size of a poppy seed and puts their numbers at a peak in June and early July. A tick that small is easy to miss, so habitat work in spring and careful daily checks through early summer cover the stretch that matters. [Tick control](/services/tick-control/) explains what yard treatment involves.
+
+## Month by month
+
+**January.** The quiet month outdoors. Cluster flies in the walls are dormant; UMaine Extension's fact sheet says they become active on warm days or when indoor heat is turned on, and only after a period of cold. If you hear activity in the ceiling, note where and when rather than guessing.
+
+**February.** Sunny spells bring the first insects to south- and west-facing windows. A vacuum is the right tool. Write down which rooms — that list is next August's sealing plan.
+
+**March.** The Maine Forest Service says browntail moth webs within safe reach can be clipped between October and March, and that caterpillars leave the webs to feed in mid-April, after which clipping no longer helps. (Blouin Pest Services does not treat browntail moth; this is homeowner work or a job for a licensed arborist.)
+
+**April.** The UMaine Tick Lab puts the first adult deer tick peak in April or May. Rake leaf litter away from the lawn edge and the play area. Maine CDC's tick-safe-zone advice includes keeping the lawn mowed, moving wood piles and bird feeders away from the house, and laying a 3-foot strip of wood chips or crushed stone between lawn and woods.
+
+**May.** Overwintered yellowjacket queens are out choosing nest sites, according to the Maine State Apiarist. UMaine Extension adds that nuisance nests are most easily removed in early spring, before the colony grows, so a weekly look under eaves, deck rails and the shed door pays off now. Boxelder bugs that wintered indoors are heading out; Got Pests? describes them gathering on the south and west sides of buildings on sunny days, trying to get in each autumn and out each spring.
+
+**June.** Nymph ticks at their peak (UMaine Tick Lab). Carpenter ant workers indoors this time of year have often come in from an outdoor nest looking for food and water, by UMaine Extension's account — worth tracing back rather than spraying where they are seen.
+
+**July.** Wasp colonies are growing quickly. Maine CDC tests mosquito pools, birds and animals for EEE, Jamestown Canyon and West Nile viruses during the season, and posts its surveillance reports publicly; empty anything holding water around the house.
+
+**August.** UMaine Extension describes wasps as most troublesome in mid to late summer, when colonies peak. Cover food and drinks outdoors and keep bin lids tight. This is also when cluster flies start looking for winter quarters, and when Extension says their outdoor resting areas can be treated.
+
+**September.** Western conifer seed bugs start moving in (UMaine Extension). Finish screening soffit and gable vents and sealing gaps on the sunny side of the house.
+
+**October.** Asian lady beetles arrive, which is why UMaine Extension lists "Halloween lady beetle" among their nicknames. The second adult deer tick peak comes in late October (UMaine Tick Lab), so hunting and leaf-raking season is still tick season.
+
+**November.** The Maine State Apiarist notes that yellowjacket colonies die after the first hard frost, so a nest found now rarely needs treating. Maine CDC says two hard frosts across most of the state dramatically reduce the risk of mosquito-borne disease.
+
+**December.** Interior season. Firewood brought in now deserves a look first — UMaine Extension advises always checking it for carpenter ants before it comes indoors. Whatever got in during the autumn is now in the walls until spring; the useful work is noting where, so the gaps can be closed before next August.
 
 ## What the calendar does not cover
 
-Bed bugs and cockroaches do not follow the seasons — they follow travel, furniture and buildings. They arrive whenever they arrive, and waiting for a season to change does nothing.
-
-## How this connects to licensing
-
-Each item in this calendar sits in a licensed category. Structural work — rodents, ants, cockroaches, bed bugs — is category 7A. Ticks and biting flies are 7E. Termites are 7F. The Maine Board of Pesticides Control requires applicators to treat only in the categories they hold, and publishes a public directory of licensed commercial applicators so anyone can check before hiring.
-
-## Month by month, with what to do
-
-**January.** The quietest month outdoors and one of the busiest indoors. Carpenter ants moving in a warm house now mean an interior colony. Rodents that got in during autumn are established and breeding. Browntail webs are visible against a bare canopy. Book the inspection now: this is the month with the most availability in the trade and the least competition for a slot.
-
-**February.** As January, plus the first cluster flies and stink bugs waking at sunny windows. Check the attic if you have heard anything overhead, and note where droppings are rather than sweeping them away.
-
-**March.** Thaw. The first adult ticks become active on warm days, well before anyone expects them. Rodents begin moving back out as food appears. Good month to rake the leaf litter along the wood line while the ground is firm.
-
-**April.** Ant season begins. Carpenter ant swarmers appear, wasp queens start looking for eaves and sheds, and tick activity builds. Gutters cleared now prevent the wet sills that produce next winter's carpenter ants.
-
-**May.** Peak swarm and expansion. Tick nymphs begin. Mosquito breeding starts in whatever water is standing. The most valuable month of the year to walk your own property looking for water.
-
-**June.** Nymph ticks at their peak — the stage most easily missed. Wasp nests become noticeable. Mosquito pressure builds after each rain.
-
-**July.** Mosquitoes and wasps at full strength. Stored-product pests in pantries. Bed bug season, driven by travel rather than weather.
-
-**August.** Wasp and hornet colonies at maximum size and at their most defensive. Late-summer rodent scouting begins along foundations.
-
-**September.** The most important month in the Maine pest calendar. The first cool nights move rodents toward buildings. Exclusion work done now prevents the whole winter. Autumn tick adults become active.
-
-**October.** Rodents indoors in earnest. Cluster flies, boxelder bugs and stink bugs gather on warm walls and find their way in. Last practical month for exterior sealing before the weather closes it.
-
-**November.** Leaves down, browntail webs visible, interior rodent work in full swing. Stack firewood away from the house rather than against it.
-
-**December.** Interior work. Anything you hear in the ceiling now will still be there in March if nothing is done, and it will have company.
+Bed bugs and cockroaches do not follow the seasons — they follow travel, furniture and shared walls, and they arrive whenever they arrive. Mice and rats are a structural problem more than a seasonal one; this page does not put a month on their arrival because we have not found a Maine source that does, but the late-summer sealing above closes the same gaps they use. See [rodent exclusion](/services/rodent-exclusion/) for that work.
 
 ## Two rules that cover most of it
 
-**Fix water, and most insect problems get smaller.** Carpenter ants, cockroaches, mosquitoes and the fungus that follows a leak all respond to the same gutter, the same seal, the same vapour barrier.
+**Fix water, and most insect problems get smaller.** UMaine Extension's carpenter ant fact sheet traces infestations to leaks around chimneys, roof valleys, gutters, windows and door frames, and to plumbing leaks under kitchens and bathrooms. A gutter that overflows onto a sill is both a carpenter ant risk and a pool of standing water; [mosquito control](/services/mosquito-control/) covers the water side.
 
-**Seal before the cold, not during it.** Exclusion in September is prevention. The same work in January is a repair with animals already inside.
+**Seal before the cold, not during it.** Every overwintering insect in Extension's fact sheets is looking for a way in from late summer onward. Sealing in August is prevention; the same work in January is a repair with the insects already inside.
 
-## Planning a year, not reacting to a month
+## How this connects to licensing
 
-A household that works to this calendar spends less than one that reacts. The pattern that works:
-
-**Two fixed jobs a year.** A rodent exclusion review in late summer, and an interior inspection in late winter. Those two visits catch most of what a Maine house produces, and each one is cheaper than the emergency it prevents.
-
-**Two seasonal decisions.** Whether to run tick treatment, decided in April; whether to run mosquito work, decided in May after the water audit. Both are property-specific and neither is automatic.
-
-**One winter walk.** Once the leaves are down, walk your own boundary and look at branch tips for browntail webs, at the roofline for gaps, and at the gutters for the overflow that will produce next year's carpenter ants.
-
-## Maine-specific factors that change the calendar
-
-**Snow load and ice dams.** Ice damming lifts drip edge and opens the eave. Every February ice dam is a rodent entry the following September, which is why the two jobs are connected.
-
-**Seasonal properties.** Camps and lake houses closed from October to May are rodent magnets: no human traffic, stored soft goods, and a structure nobody inspects for seven months. Closing-up and opening-up inspections are worth more on these than on an occupied home.
-
-**Firewood.** Stacking wood against the house is the single most common self-inflicted pest problem in this state. Keep it off the ground, away from the wall, and bring in only what you will burn that day.
-
-**Wet springs.** A late, wet spring pushes ant swarms later and compresses tick nymph emergence into a shorter, sharper window. Timing treatment to conditions rather than to a date matters more here than it does further south.
+Each item in this calendar sits in a licensed category. Structural work — rodents, ants, cockroaches, bed bugs, wasp nests and overwintering insects on a building — is category 7A. Ticks and biting flies are 7E. The Maine Board of Pesticides Control requires commercial applicators to treat only in the categories they hold, and publishes a public directory so anyone can check before hiring. The [licensing page](/compliance/maine-pesticide-licensing/) sets out what each category means.

@@ -44,9 +44,30 @@ const slugOf = (legacy) => legacy
  * (/about -> /about/) is just the slash redirect and is dropped.
  */
 const withSlash = (s) => `${s.replace(/\/$/, '')}/`;
+/* County legacy URLs (/pest-control-oxford-county-maine, /york-county-pest-control)
+   follow the same rule: their own hub once it is PAGE in the demand map, the
+   service-area hub until then. Quote-aware split, as in gate-integrity.mjs. */
+const splitRow = (line) => {
+  const out = []; let cur = ''; let q = false;
+  for (const ch of line) {
+    if (ch === '"') q = !q;
+    else if (ch === ',' && !q) { out.push(cur); cur = ''; }
+    else cur += ch;
+  }
+  out.push(cur); return out;
+};
+const demand = fs.readFileSync('../architecture/demand/demand-map.csv', 'utf8').replace(/\r/g, '').trim().split('\n').map(splitRow);
+const dHead = demand[0];
+const publishedCounties = new Set(demand.slice(1)
+  .filter((r) => r[dHead.indexOf('url')].startsWith('/service-area/') && r[dHead.indexOf('decision')] === 'PAGE')
+  .map((r) => r[dHead.indexOf('county')]));
+const countyOf = (legacy) => (legacy.match(/(androscoggin|cumberland|franklin|kennebec|oxford|sagadahoc|york)-county/) || [])[1];
+
 const redirects = [
   ...Object.entries(SERVICE_MAP).map(([source, destination]) => ({ source, destination, permanent: true })),
   ...LEGACY_TOWNS.map((source) => {
+    const county = countyOf(source);
+    if (county) return { source, destination: publishedCounties.has(county) ? `/service-area/${county}-county/` : '/service-area/', permanent: true };
     const slug = slugOf(source);
     const destination = authorised.includes(slug) ? `/locations/${slug}/` : '/service-area/';
     return { source, destination, permanent: true };

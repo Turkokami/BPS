@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CallToAction from '../../components/CallToAction.astro';
-import { ROUTED_TOWNS, AUTHORISED_TOWNS, DECLINED_TOWNS } from '../../data/authorised';
+import { ROUTED_TOWNS, AUTHORISED_TOWNS, DECLINED_TOWNS, isIndexableCounty } from '../../data/authorised';
 import { COUNTY_NAMES, townName } from '../../data/geo';
 import { title, description } from '../../lib/seo';
 import { BUSINESS } from '../../data/business';
@@ -15,7 +15,8 @@ const counties = [...new Set(ROUTED_TOWNS.map((t) => t.county))];
 >
   <h1>Where we work</h1>
   <p class="lede">Blouin Pest Services covers southern and central Maine from a base in the Lewiston–Auburn area.</p>
-  <ul>{counties.map((c) => <li>{COUNTY_NAMES[c]}</li>)}</ul>
+  {/* A county links only once its hub is published (gate rows are keyed "<name>-county"). */}
+  <ul>{counties.map((c) => <li>{isIndexableCounty(`${c}-county`) ? <a href={`/service-area/${c}-county/`}>{COUNTY_NAMES[c]}</a> : COUNTY_NAMES[c]}</li>)}</ul>
   {AUTHORISED_TOWNS.length > 0 && (
     <section>
       <h2>Towns with their own page</h2>

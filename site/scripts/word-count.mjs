@@ -33,6 +33,7 @@ const BANDS = {
   service:      { min: 1200, max: 2500, label: 'T2 core service spoke' },
   problem:      { min: 700,  max: 1400, label: 'T3 problem micro page' },
   city:         { min: 800,  max: 1600, label: 'T4 city page' },
+  county:       { min: 700,  max: 1400, label: 'T4 county hub' },
   cityService:  { min: 800,  max: 1600, label: 'T4 city x service page' },
   neighborhood: { min: 400,  max: 900,  label: 'T5 neighborhood page' },
   library:      { min: 1200, max: 2500, label: 'T6 library profile' },
@@ -90,7 +91,7 @@ for (const f of files) {
   // ---- substance gate: this IS the gate, and it fails the build -------------
   // Item 1 — three verifiable local specifics, declared in frontmatter so they
   // are auditable rather than asserted. Geo page types must carry them.
-  const geoTypes = ['city', 'cityService', 'neighborhood'];
+  const geoTypes = ['city', 'county', 'cityService', 'neighborhood'];
   if (geoTypes.includes(collection)) {
     const facts = (fm.match(/^\s*-\s+["']?.+$/gm) || []).length;
     const hasLocalFacts = /localFacts:/.test(fm);

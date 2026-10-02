@@ -7,7 +7,7 @@ quantifiedFact: "Maine's category 7A explicitly covers Structural General Pest C
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "In a multi-unit building, treating only the unit that called is a temporary result. We scope the adjacent units from the start."
 firstPartyData: "Recurring pest problem in an apartment property resolved within a couple of visits after a long-running issue (confirmed job, about ten months ago)."
-updated: "2026-09-23"
+updated: "2026-10-02"
 service: "commercial-pest-control"
 faqs:
   - q: "Can you work outside business hours?"
@@ -42,25 +42,35 @@ Bed bugs and German cockroaches move through wall voids, pipe chases and corrido
 
 Where access is the constraint — and it usually is — the plan documents what was reachable and what was not, so a manager can act on it.
 
+## Maine's notice and posting rules
+
+The rule that does most to shape commercial and multi-unit work in this state is Chapter 26 of the Maine Board of Pesticides Control's rules, "Standards for Indoor Pesticide Applications and Notification for All Occupied Buildings Except K-12 Schools". The Board says it applies to governmental, commercial and institutional buildings, condominiums, rented residential buildings, and licensed childcare facilities and nursery schools. In outline, from the rule text:
+
+- **Businesses and agencies.** The Board-approved written notice must be posted where employee notices usually go, at least 24 hours and no more than seven days before an application, and stay up for at least 48 hours afterwards.
+- **Rented homes and condominiums.** Residents of a unit being treated at someone else's request get the notice individually in the same 24-hour-to-seven-day window; for common areas it is posted and left up for 48 hours after.
+- **Information on request.** Anyone notified may ask for the product's trade name and EPA registration number, the date, time and location, the label's re-entry interval, and a contact name and number, and the applicator must supply them.
+- **Tenant consent.** A tenant's unit may not be treated over their objection unless a public health or code enforcement official has found an immediate need.
+- **Exemptions.** Baits, gels, pastes, dusts and granular products placed where occupants cannot readily reach them, and crack-and-crevice treatments done to minimise vapours, are exempt from the notice steps.
+
+The applicator can hand the notice to the building manager to post or distribute, but must confirm it was done before treating. On a multi-unit job that confirmation is part of the schedule, which is one more reason the first visit is a planning visit.
+
+## What Chapter 26 asks of the applicator
+
+The same rule requires commercial applicators working inside these buildings to use integrated pest management, identify the pest and how bad the infestation is before applying anything, and give the client a written evaluation of the conditions that encourage pests along with specific, practical non-pesticide recommendations. Chapter 26 also limits what can be used while people are in the room: unless the label prohibits it, only baits, gels, pastes, granules and crack-and-crevice treatments. The rule's own definition of IPM says applications are not made to a pre-determined schedule but only where monitoring or history shows they are needed. The written conditions report described above is not a courtesy; for these buildings it is part of the rule.
+
+## What a small business said
+
+Quoted exactly from the business's Google profile:
+
+> "Within 3 weeks he had done a better job than the previous company in the last 12 months. Ryan understands working with a small business and is very responsive, helpful, and professional." — Gabe, March 2026, Google
+
 ## Licensing and insurance
 
 The Maine Board of Pesticides Control requires a firm licence for custom applicator companies other than sole proprietors with no employees. That licence runs $300 for three years, and requires both proof of insurance and a designated Commercial Master applicator who carries responsibility for pest management decisions and employee training. Any commercial customer is entitled to ask a contractor for those details, and to check the Board's public directory of licensed commercial applicators.
 
-## What the inspection costs
+## The site survey
 
-Commercial inspections carry a fee, unlike residential ones. It varies with the size of the property, the documentation or reporting the site needs, and the pest involved — and it is credited toward the work if you go ahead. That is deliberate: a commercial survey that produces a usable scope takes real time, and pricing it at zero would mean pricing it into everybody's first invoice instead.
-
-You get a written scope you can compare line by line against anyone else's.
-
-## Documentation that survives an inspection
-
-A health inspector is not interested in whether the building has pests; they are interested in whether there is a system. That means a current service record, a site plan with monitoring devices numbered and located, a log showing trends rather than a stack of receipts, and evidence that recommendations were acted on. A file that shows the same recommendation repeated for eight months with no action is worse than a thin file.
-
-We keep the record in a form you can hand over, and we write recommendations so they can be closed out rather than left open indefinitely.
-
-## Pricing a commercial programme
-
-Commercial quotes are built from four things: the square footage and layout, the pest pressure found at the baseline inspection, the service frequency the premises actually needs, and the access constraints. We quote from a site survey, not over the phone, because a phone quote for a restaurant is a guess that gets corrected upward later.
+A commercial survey that produces a usable scope takes real time: the size of the property, the documentation or reporting the site needs and the pest involved all change how long it runs. Ask about the survey when you call. What comes out of it is a written scope you can compare line by line against anyone else's.
 
 ## What an inspector is actually looking for
 

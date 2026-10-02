@@ -213,3 +213,30 @@ The rendered audit and the crawl are a floor, not an audit. Still needs a person
 - A screen-reader pass. Focus order and whether the page makes sense read aloud.
 - Ryan reading his own about page and the guarantee wording.
 - Someone who is not us clicking through on a real phone on real mobile data.
+
+---
+
+## Update — 2 October 2026: content finished
+
+- **Every page is now inside its word band** (17 band warnings → 0; median page
+  723 → 1,079 words). The seven town pages, seven service pages and three library
+  pages were deepened from fetched, named sources: U.S. Census ACS 2020–2024
+  housing tables, Maine CDC's 2024 Lyme and tickborne illness report, the UMaine
+  Tick Lab (town tables and 2025 surveillance report), UMaine Extension and Maine
+  DACF/School IPM fact sheets, US CDC (fleas, hantavirus clean-up, rodent
+  sealing), Penn State/UNH/UC IPM where Maine had no sheet, 14 M.R.S. §6021-A
+  (bed bugs, landlord and tenant duties) and BPC Chapter 26 (notification and
+  IPM for commercial and rental work).
+- **Five county hubs are written and published** — Androscoggin, Cumberland,
+  Kennebec, Oxford, Sagadahoc — each carrying the town substance gate (three
+  sourced local facts, the county's confirmed jobs, a unique fact). Franklin and
+  York stay sealed: no job on record. Their legacy Squarespace URLs now redirect to
+  their own hubs. Sitemaps: 42 → 47 URLs.
+- **Claims removed during the pass** because nothing attested them: a commercial
+  inspection fee, "between-visit problems are part of the programme" (reads as
+  free re-treatment), "we text before arriving", unsourced seasonal claims on the
+  calendar, two unsourced Oxford local facts.
+- **Still open, unchanged:** flea, overwintering-insects and pest-calendar
+  firstPartyData (need a real job); every client item in section 5. Two small
+  things to confirm with Ryan: the attic FAQ's "a day or two of work", and the
+  wasp page's "quoted per nest".

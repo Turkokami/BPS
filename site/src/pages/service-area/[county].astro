@@ -1,6 +1,10 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CallToAction from '../../components/CallToAction.astro';
+import FieldProof from '../../components/FieldProof.astro';
+import Faq from '../../components/Faq.astro';
+import ActionRow from '../../components/ActionRow.astro';
 import PendingNotice from '../../components/PendingNotice.astro';
 import { ROUTED_COUNTIES, AUTHORISED_TOWNS, isIndexableCounty, ROUTED_TOWNS } from '../../data/authorised';
 import { COUNTY_NAMES, townName } from '../../data/geo';
@@ -8,14 +12,19 @@ import { attestedServices } from '../../data/services';
 import { title as mkTitle, description as mkDesc } from '../../lib/seo';
 
 export async function getStaticPaths() {
-  return ROUTED_COUNTIES.map((c) => ({ params: { county: c.slug }, props: { slug: c.slug.replace(/-county$/, '') } }));
+  const docs = await getCollection('county');
+  return ROUTED_COUNTIES.map((c) => {
+    const slug = c.slug.replace(/-county$/, '');
+    return { params: { county: c.slug }, props: { slug, doc: docs.find((d) => d.data.county === slug) ?? null } };
+  });
 }
-const { slug } = Astro.props;
+const { slug, doc } = Astro.props;
+const rendered = doc ? await doc.render() : null;
 const name = COUNTY_NAMES[slug];
 const path = `/service-area/${slug}-county/`;
 const towns = ROUTED_TOWNS.filter((t) => t.county === slug);
 const linkable = AUTHORISED_TOWNS.filter((t) => t.county === slug);
-const noindex = !isIndexableCounty(slug);
+const noindex = !isIndexableCounty(`${slug}-county`);   // gate rows are keyed "<name>-county"
 /* Five of the seven counties now DO carry a confirmed job — Lewiston and Auburn
    in Androscoggin, Portland in Cumberland, Augusta and Waterville in Kennebec,
    Oxford in Oxford, Bath in Sagadahoc — so the Part 6A second signal is met and
@@ -28,15 +37,29 @@ const reason = hasJob
   : `This county hub is built and held back under the Part 6A demand gate: competitor coverage is on record (${towns.length} ${towns.length === 1 ? 'town' : 'towns'} in this county covered by at least two of the five measured competitors) but a second signal — a completed job in this county, Search Console data, or keyword volume — is not.`;
 ---
 <BaseLayout
-  title={mkTitle(`Pest Control in ${name}, Maine`)}
-  description={mkDesc(`Pest control across ${name}, Maine: rodents, ants, ticks, mosquitoes, cockroaches and bed bugs, owner-operated. Call or text 207-740-4441.`)}
+  title={mkTitle(doc ? doc.data.title : `Pest Control in ${name}, Maine`)}
+  description={mkDesc(doc ? doc.data.description : `Pest control across ${name}, Maine: rodents, ants, ticks, mosquitoes, cockroaches and bed bugs, owner-operated. Call or text 207-740-4441.`)}
   path={path}
   noindex={noindex}
   crumbs={[{ name: 'Service area', item: '/service-area/' }, { name, item: path }]}
 >
-  <h1>Pest control in {name}</h1>
+  <h1>{doc ? doc.data.title : `Pest control in ${name}`}</h1>
   {noindex && <PendingNotice reason={reason} />}
-  <p class="lede">Blouin Pest Services works across {name} and the surrounding counties in southern and central Maine.</p>
+  {doc ? (
+    <>
+      <div class="answer"><p>{doc.data.answer}</p></div>
+      <ActionRow />
+      {rendered && <rendered.Content />}
+      <FieldProof text={doc.data.firstPartyProof} heading={`Work we have done in ${name}`} id={`proof-${slug}`} />
+      <section aria-labelledby={`facts-${slug}`}>
+        <h2 id={`facts-${slug}`}>Local detail, with its source</h2>
+        <ul>{doc.data.localFacts.map((f: string) => <li>{f}</li>)}</ul>
+      </section>
+      <Faq faqs={doc.data.faqs} />
+    </>
+  ) : (
+    <p class="lede">Blouin Pest Services works across {name} and the surrounding counties in southern and central Maine.</p>
+  )}
   <h2>Services available here</h2>
   <ul>{attestedServices().map((s) => <li><a href={`/services/${s.slug}/`}>{s.name}</a></li>)}</ul>
   {linkable.length > 0 && (

@@ -80,7 +80,7 @@ for (const f of files) {
      Reading both here is what lets a city file hold the fact once instead of
      twice; two fields saying the same thing is how they drift apart, which is
      exactly what had happened before 29 September. */
-  const proofField = rel.startsWith('city/') ? 'firstPartyProof' : 'firstPartyData';
+  const proofField = /^(city|county)\//.test(rel) ? 'firstPartyProof' : 'firstPartyData';
   const signals = {
     quantifiedFact: /^quantifiedFact:/m.test(fm),
     primaryAuthority: /^primaryAuthority:/m.test(fm),
@@ -108,6 +108,7 @@ if (fs.existsSync('dist')) {
     if (rel.startsWith('library/')) return `library/${slug}`;
     if (rel.startsWith('compliance/')) return `compliance/${slug}`;
     if (rel.startsWith('city/')) return one('town') ? `locations/${one('town')}` : null;
+    if (rel.startsWith('county/')) return one('county') ? `service-area/${one('county')}-county` : null;
     return null;
   };
   /* Compare on words rather than characters. The renderer turns apostrophes and

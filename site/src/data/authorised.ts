@@ -115,16 +115,15 @@ export const DECLINED_TOWNS: string[] = [
 ];
 
 export const AUTHORISED_COUNTIES: GeoRow[] = [
-
+  { slug: "androscoggin-county", county: "androscoggin", signals: 2, s4: "Y (county-level coverage by GreenShield + PineState)" },
+  { slug: "cumberland-county", county: "cumberland", signals: 2, s4: "Y (county-level coverage by GreenShield + PineState)" },
+  { slug: "kennebec-county", county: "kennebec", signals: 2, s4: "Y (county-level coverage by GreenShield + PineState)" },
+  { slug: "oxford-county", county: "oxford", signals: 2, s4: "Y (county-level coverage by GreenShield + PineState)" },
+  { slug: "sagadahoc-county", county: "sagadahoc", signals: 2, s4: "Y (county-level coverage by GreenShield + PineState)" }
 ];
 
 export const PENDING_COUNTIES: GeoRow[] = [
-  { slug: "androscoggin-county", county: "androscoggin", signals: 1, s4: "Y (county-level coverage by GreenShield + PineState)" },
-  { slug: "cumberland-county", county: "cumberland", signals: 1, s4: "Y (county-level coverage by GreenShield + PineState)" },
   { slug: "franklin-county", county: "franklin", signals: 1, s4: "Y (county-level coverage by GreenShield + PineState)" },
-  { slug: "kennebec-county", county: "kennebec", signals: 1, s4: "Y (county-level coverage by GreenShield + PineState)" },
-  { slug: "oxford-county", county: "oxford", signals: 1, s4: "Y (county-level coverage by GreenShield + PineState)" },
-  { slug: "sagadahoc-county", county: "sagadahoc", signals: 1, s4: "Y (county-level coverage by GreenShield + PineState)" },
   { slug: "york-county", county: "york", signals: 1, s4: "Y (county-level coverage by GreenShield + PineState)" }
 ];
 

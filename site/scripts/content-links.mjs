@@ -39,11 +39,22 @@ const services = slugs('service');
 const map = fs.readFileSync('../architecture/demand/demand-map.csv', 'utf8').replace(/\r/g, '').trim().split('\n');
 const iUrl = map[0].split(',').indexOf('url');
 const iDec = map[0].split(',').indexOf('decision');
-const authorised = new Set(map.slice(1).map((l) => l.split(',')).filter((r) => r[iDec] === 'PAGE').map((r) => r[iUrl]));
+// Quote-aware, as in gate-integrity.mjs: evidence cells contain commas, and a
+// naive split shifted columns so Auburn and Bath read as unpublished.
+const splitRow = (line) => {
+  const out = []; let cur = ''; let q = false;
+  for (const ch of line) {
+    if (ch === '"') q = !q;
+    else if (ch === ',' && !q) { out.push(cur); cur = ''; }
+    else cur += ch;
+  }
+  out.push(cur); return out;
+};
+const authorised = new Set(map.slice(1).map(splitRow).filter((r) => r[iDec] === 'PAGE').map((r) => r[iUrl]));
 
 // Static routes that exist as files rather than as content entries.
 const STATIC = new Set([
-  '/', '/services/', '/locations/', '/surface-library/', '/compliance/',
+  '/', '/services/', '/locations/', '/library/', '/compliance/',
   '/case-studies/', '/reviews/', '/about/', '/contact/', '/privacy/',
   '/our-guarantee/', '/financing/', '/gallery/', '/team/randy-fee/',
 ]);
@@ -60,7 +71,7 @@ for (const f of files) {
       let p;
       if (!ok && (p = href.match(/^\/services\/([a-z-]+)\/$/))) ok = services.has(p[1]);
       if (!ok && (p = href.match(/^\/services\/[a-z-]+\/([a-z-]+)\/$/))) ok = problems.has(p[1]);
-      if (!ok && (p = href.match(/^\/surface-library\/([a-z-]+)\/$/))) ok = library.has(p[1]);
+      if (!ok && (p = href.match(/^\/library\/([a-z-]+)\/$/))) ok = library.has(p[1]);
       if (!ok && (p = href.match(/^\/compliance\/([a-z-]+)\/$/))) ok = compliance.has(p[1]);
       if (!ok) failures.push(`${rel}:${i + 1}  →  ${href}`);
     }
