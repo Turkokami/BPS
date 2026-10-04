@@ -1,13 +1,13 @@
 ---
 title: "Mosquito Control in Maine"
-description: "Mosquito reduction for Maine properties: breeding-site removal, targeted harbourage treatment, and honest limits on what any yard programme can do. 207-740-4441."
+description: "Mosquito reduction for Maine properties: breeding-site removal, targeted treatment, and honest limits on any yard programme. Call 207-740-4441."
 answer: "Mosquito control on a property is breeding-site removal first and treatment second. Mosquitoes develop in standing water measured in tablespoons, not ponds, so the walk-through that finds the water sources on your property does more for the season than any single application."
 snippetShape: "paragraph+list"
 quantifiedFact: "Mosquito and biting-fly work in Maine is licensed under commercial category 7E, and the Board of Pesticides Control requires applicators to treat only in the categories they hold."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "We will not promise a mosquito-free yard. We reduce what the property produces and treat where they rest, and we tell you which of the two is doing the work."
 firstPartyData: "Lawn treated for mosquitoes alongside tick work on the same property, same-day booking (confirmed job, about a year ago)."
-updated: "2026-09-23"
+updated: "2026-10-04"
 service: "mosquito-control"
 faqs:
   - q: "How long does a treatment last?"
@@ -29,7 +29,7 @@ Mosquito larvae develop in still water, and it takes very little. On a typical p
 - Clogged gutters, especially on the shaded side
 - Corrugated downspout extensions that hold water in the ribs
 - Tyres, buckets, and the rim of a rain barrel that is not screened
-- A birdbath or pet bowl that is not emptied twice a week
+- A birdbath or pet bowl that is not emptied and refilled at least once a week, the Maine CDC minimum
 - Low spots that hold water for more than a few days after rain
 - Untended pool covers and unmaintained water features
 
@@ -83,7 +83,7 @@ Black flies breed in moving water — streams and brooks, often well beyond your
 
 ## What you can do without hiring anyone
 
-Empty or store anything that holds water. Screen the rain barrel. Clean the gutters. Replace corrugated downspout extensions with smooth ones. Refresh birdbaths and pet bowls twice a week. Fill the low spot that holds water for a week after rain. Thin dense shade near the patio.
+Empty or store anything that holds water. Screen the rain barrel. Clean the gutters. Replace corrugated downspout extensions with smooth ones. Maine CDC advises dumping and replacing the water in outdoor birdbaths and pet bowls at least once a week. Fill the low spot that holds water for a week after rain. Thin dense shade near the patio.
 
 That list costs a weekend and it will do more for July than anything sold by the application. We would rather tell you that and be called when it is not enough.
 

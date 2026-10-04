@@ -7,7 +7,7 @@ quantifiedFact: "Tick work in Maine requires commercial applicator category 7E, 
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "No yard is made tick-free by spraying it. We say what the treatment does, and we write the habitat items down whether or not you hire us."
 firstPartyData: "A confirmed job: lawn treated for ticks and mosquitoes, booked and completed the same day (about a year ago)."
-updated: "2026-09-23"
+updated: "2026-10-04"
 service: "tick-control"
 faqs:
   - q: "Does a barrier of wood chips really do anything?"
@@ -30,7 +30,7 @@ The useful question about ticks is not how many are on the property but where pe
 
 ## What treatment adds
 
-A targeted application to the edge habitat reduces what is present in that band for a period of weeks. Timed to the nymph window in late spring and the adult surge in autumn, it covers the two periods when unnoticed bites are most likely. It does not stop ticks arriving on deer, and a programme that claims otherwise is selling certainty it does not have.
+A targeted application to the edge habitat reduces what is present in that band for a period of weeks. Run monthly from April into the second adult peak, which the UMaine Tick Lab puts in late October, it covers both the nymph window in late spring and the autumn adult surge — the two periods when unnoticed bites are most likely. It does not stop ticks arriving on deer, and a programme that claims otherwise is selling certainty it does not have.
 
 ## After time outdoors
 

@@ -16,7 +16,11 @@
  *    page stays gated pending the written agreement (BUSINESS.guarantee);
  *  - reviews quoting a price, while pricing is unconfirmed by the client;
  *  - a review whose typo reverses its meaning;
- *  - a reviewer sharing the owner's surname, and the site builder's own review.
+ *  - a reviewer sharing the owner's surname, and the site builder's own review;
+ *  - anything amounting to a pesticide SAFETY claim ("safe for my dog", an owner
+ *    reply saying pesticides are applied "safely"): republished by the business it
+ *    becomes the business's claim (FTC endorsement guides 16 CFR 255; EPA treats
+ *    safety claims as misleading, 40 CFR 156.10(a)(5)(ix)). Removed 4 Oct 2026 audit.
  * Re-read the profile before adding to this list; never paraphrase.
  */
 export interface Review {
@@ -84,10 +88,6 @@ export const REVIEWS: Review[] = [
     text: 'Highly recommend this company. They showed up to look at a problem with mice in the wall. They\'re knowledgeable and professional. Showed us where the mice were getting in along the foundation and garage. They sealed all the access areas and set traps with results the next day. I\'ll call them again if I ever need help with any type of pest control.',
   },
   {
-    name: 'Cheri', month: 'March 2026', stars: 5, pests: ['Mice'],
-    text: 'I live in the country and had a little mouse problem. These gentleman came to my house and explained every where they were coming in and explained the whole process of how we can eliminate them. Even went on to tell me how safe this is for my dog. Very, very respectful guys! Would highly recommend to anyone needing some help!!',
-  },
-  {
     name: 'Gabe', month: 'March 2026', stars: 5, pests: ['Commercial'],
     text: 'Ryan and his team are outstanding to work with. We were disappointed with our previous pest control company and called Ryan out of the blue on a weekend. He responded within an hour and was able to come out in-person soon after. Within 3 weeks he had done a better job than the previous company in the last 12 months. Ryan understands working with a small business and is very responsive, helpful, and professional. We look forward to working with him and his team for a long time.',
   },
@@ -118,6 +118,5 @@ export const REVIEWS: Review[] = [
   {
     name: 'Shirley', month: '2025', stars: 4, pests: ['General pest control'],
     text: 'They communicate VERY well. The only thing I would ask differently is, a pamphlet on the product used. This way customers can look up to reassure themselves this product is not harmful to our plants and animals. This is our first year and first months use So far excellent results. No complaints',
-    reply: 'Hey Shirley! Thank you for your review. I do like that idea to be more informative. I am very up front about any chemical usage and can give you any information as for the specific products being used. I always be sure to apply pesticides safely for any animals or plants in the area.',
   },
 ];

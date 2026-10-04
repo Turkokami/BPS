@@ -9,7 +9,7 @@ const path = '/reviews/';
 ---
 <BaseLayout
   title={title('Reviews of Blouin Pest Services')}
-  description={description('What Blouin Pest Services customers say, with the Google rating and the date it was read. No review text is reproduced without the customer’s own words.')}
+  description={description(`${REVIEWS.length} Google reviews of Blouin Pest Services quoted word for word, with the ${BUSINESS.reviews.rating.toFixed(1)} rating from ${BUSINESS.reviews.count} reviews read on ${readOn}.`)}
   path={path}
   crumbs={[{ name: 'Reviews', item: path }]}
 >
@@ -47,12 +47,7 @@ const path = '/reviews/';
     ))}
   </div>
   {BUSINESS.reviews.profileUrl && <p><a href={BUSINESS.reviews.profileUrl}>Read all the reviews on Google</a></p>}
-  <h2>How we ask for reviews</h2>
-  <ul>
-    <li>We ask every customer once, after the work is finished.</li>
-    <li>We do not offer discounts, credits or anything else in exchange for a review.</li>
-    <li>We do not screen customers for a likely rating before asking.</li>
-    <li>Nobody at Blouin Pest Services writes a review for a customer.</li>
-  </ul>
+  {/* "How we ask for reviews" (ask once, no incentives, no screening, none written for a customer)
+      removed in the 4 Oct 2026 audit until Ryan attests it — restore once he has. */}
   <CallToAction />
 </BaseLayout>

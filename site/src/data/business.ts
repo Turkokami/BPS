@@ -91,6 +91,8 @@ export const BUSINESS = {
    *  CRM embed. Until the embed code arrives the contact page renders call and
    *  text, which is what he asked for in the meantime. */
   forms: { gorilladeskEmbed: null as string | null },
+  /** The privacy page stays noindex and unlinked until Ryan signs the draft off. */
+  privacySignedOff: false,
   site: 'https://www.blouinpest.com',
 } as const;
 
@@ -98,5 +100,6 @@ export const hasLicenceNumber = () => Boolean(BUSINESS.license.number);
 /** Terms exist, but the page publishes only once the written agreement does. */
 export const hasGuarantee = () => Boolean(BUSINESS.guarantee.name && BUSINESS.guarantee.terms);
 export const guaranteePublishable = () => hasGuarantee() && BUSINESS.guarantee.agreementSigned;
+export const privacyPublishable = () => BUSINESS.privacySignedOff;
 export const hasForm = () => Boolean(BUSINESS.forms.gorilladeskEmbed);
 export const hasReviewProof = () => Boolean(BUSINESS.reviews.count && BUSINESS.reviews.observed);

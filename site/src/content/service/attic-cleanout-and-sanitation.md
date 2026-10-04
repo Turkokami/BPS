@@ -1,13 +1,13 @@
 ---
 title: "Attic Clean-Outs, Insulation Removal and Sanitation"
-description: "After rodents: removing soiled insulation, sanitising the space and re-insulating — in the right order, once the building is sealed. Call or text 207-740-4441."
+description: "After rodents: removing soiled insulation, sanitising and re-insulating, in the right order, once the building is sealed. Call 207-740-4441."
 answer: "An attic that has been occupied through a Maine winter usually has compressed, soiled insulation along the travel paths, droppings through the bays, and sometimes gnawed wiring. The order that matters is: exclude, remove the animals, then clean out and re-insulate. New insulation installed over an open roofline is new insulation with a runway through it by spring."
 snippetShape: "paragraph+list"
 quantifiedFact: "The U.S. CDC's rodent clean-up method: ventilate for 30 minutes, wear rubber or plastic gloves, soak droppings and urine with 1.5 cups of household bleach per gallon of water (1 part bleach to 9 parts water) for 5 minutes, and never sweep or vacuum them."
 primaryAuthority: "U.S. Centers for Disease Control and Prevention"
 statedPosition: "Not every attic needs stripping, and we will say so when yours does not. A clean-out sold before the building is sealed is a clean-out you will pay for twice."
 firstPartyData: "On a Maine home where mice were travelling inside the structure, the entry was located along the foundation and sealed before any remediation was discussed, and the household was shown the route the animals had been using (confirmed job)."
-updated: "2026-10-02"
+updated: "2026-10-04"
 service: "attic-cleanout-and-sanitation"
 faqs:
   - q: "Do I have to replace all the insulation?"
@@ -17,7 +17,7 @@ faqs:
   - q: "How long does it take?"
     a: "A typical residential attic is a day or two of work once the sealing is complete. The timeline is usually set by the exclusion work in front of it rather than the clean-out itself."
   - q: "Is hantavirus actually found in Maine?"
-    a: "Yes. The UMaine Animal Health Laboratory reported Maine's first diagnosed human case of hantavirus in 2011, and the U.S. CDC names the deer mouse as the most common carrier in the United States. Cases are uncommon, but the clean-up precautions are cheap and the illness is not."
+    a: "Yes. Maine CDC confirmed the state's first human case of hantavirus in 2011 and a second in 2025, and the U.S. CDC says the hantavirus behind most illness in the United States is spread by the deer mouse. Cases are uncommon, but the clean-up precautions are cheap and the illness is not."
   - q: "How do I tell a deer mouse from a house mouse?"
     a: "University of California IPM says the bicoloured tail is the easiest feature: a deer mouse's tail is dark on top and white underneath, and the animal has white feet and underparts with larger eyes and ears than a house mouse. Treat droppings from either species with the same care, because you cannot tell them apart by the droppings."
   - q: "How much insulation should go back in?"
@@ -43,9 +43,9 @@ If you see any of those, look from the hatch and stop there. Climbing in to inve
 
 ## Why droppings in a roof space are treated carefully
 
-The U.S. CDC says people get hantavirus from contact with rodents such as rats and mice, especially through exposure to their urine, droppings and saliva, and it names the deer mouse as the most common carrier in the United States. The virus it carries, Sin Nombre, causes hantavirus pulmonary syndrome. The CDC's figures are sobering: symptoms usually appear one to eight weeks after contact with an infected rodent, and 38 per cent of people who develop respiratory symptoms may die.
+The U.S. CDC says people get hantavirus from contact with rodents such as rats and mice, especially through exposure to their urine, droppings and saliva, and that the most common hantavirus causing illness in the United States is spread by the deer mouse. That virus, Sin Nombre, causes hantavirus pulmonary syndrome. The CDC's figures are sobering: symptoms usually appear one to eight weeks after contact with an infected rodent, and 38 per cent of people who develop respiratory symptoms may die.
 
-That is not a problem confined to other states. The UMaine Animal Health Laboratory reported the first diagnosed human case in Maine in 2011, and its director's advice to Maine residents was to keep rodents out of the house, barn or camp and, when cleaning up after them, not to breathe the dust.
+That is not a problem confined to other states. Maine CDC confirmed Maine's first human case in 2011 and a second in 2025. After that first case, the director of the UMaine Animal Health Laboratory advised Maine residents to keep rodents out of the house, barn or camp, and not to breathe the dust when cleaning up.
 
 The risk in an attic is not touching a mouse. It is stirring up dried droppings and nesting material in an enclosed space and breathing what comes off them. Sweeping and vacuuming are the two quickest ways to do that, which is why neither has any place in a rodent clean-up. The CDC also notes that the one hantavirus known to pass from person to person is not found in the United States, so the concern is the space, not the household.
 
@@ -63,7 +63,7 @@ A few droppings on a shelf or along one stretch of the attic floor are a reasona
 
 The CDC's warning is the line to remember: do not vacuum or sweep rodent urine, droppings or nesting material, because it can put tiny droplets containing virus into the air. The UMaine Animal Health Laboratory adds a mask before entering a space that may be contaminated.
 
-Where the job is bigger than that — droppings through most of the bays, nesting in the insulation, a space that has held animals for more than one season — the CDC's own advice for heavy infestations is to bring in a professional rather than tackle it as a household chore.
+Where the job is bigger than that — droppings through most of the bays, nesting in the insulation, a space that has held animals for more than one season — the CDC treats a heavy infestation as a job for workers with proper respiratory protection — a half-mask respirator with a HEPA filter — which is a reason to bring in a professional rather than tackle it as a household chore.
 
 ## The order of work, and why it is not negotiable
 

@@ -1,17 +1,17 @@
 ---
 title: "Tick Control in Maine"
-description: "Yard tick control in Maine: where ticks actually live on a property, what a perimeter treatment does and does not do, and how to make a yard less hospitable. 207-740-4441."
+description: "Yard tick control in Maine: where ticks live on a property, what a perimeter treatment does and does not do. Call or text 207-740-4441."
 answer: "Tick control on a Maine property is a habitat job with a treatment component, not the other way round. Ticks concentrate where lawn meets woods, leaf litter and stone walls; treating that edge and changing the habitat reduces pressure where people and pets actually spend time. No treatment makes a yard tick-free, and anyone promising that is selling something."
 snippetShape: "paragraph+list"
 quantifiedFact: "Tick work in Maine is licensed under category 7E, Biting Fly and Other Arthropod Vectors, a separate commercial category from structural pest control — the Maine Board of Pesticides Control requires an applicator to hold each category they treat in."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "We treat the edge habitat and tell you what the yard itself is doing. A tick programme that skips the habitat conversation is selling repeat visits."
 firstPartyData: "Lawn treated for ticks and mosquitoes on the same visit as a carpenter ant job on the property, booked and completed the day the customer called (confirmed job, about a year ago)."
-updated: "2026-09-23"
+updated: "2026-10-04"
 service: "tick-control"
 faqs:
   - q: "When should tick treatment start in Maine?"
-    a: "Adult ticks are active any time the ground is not frozen, including thaws in late winter, and nymphs — the stage most associated with disease transmission — peak through late spring and early summer. Programmes generally start as soon as the ground is workable and run through the autumn adult surge."
+    a: "Adult ticks are active any time the ground is not frozen, including thaws in late winter, and nymphs — the stage most associated with disease transmission — peak through late spring and early summer. Programmes start in April and run monthly into the autumn adult peak, which the UMaine Tick Lab puts in late October."
   - q: "Is one treatment enough for the season?"
     a: "No. Treatment knocks down what is present in the treated zone; new ticks arrive on deer, rodents and birds continuously. Programmes are staged through the season, and the habitat work is what reduces how much arrives."
   - q: "What can I do myself?"
@@ -39,7 +39,7 @@ That is why the work is staged: treat before the nymph peak, again through the s
 
 ## The habitat half of the job
 
-The part of tick control nobody sells hard enough is the part that costs nothing. A three-foot dry barrier of wood chips or gravel where the lawn meets the woods is a meaningful obstacle to tick movement. Moving the swing set and the seating area out of the shade at the wood line changes where people spend time. Clearing leaf litter in spring removes overwintering habitat. Keeping the feeder away from the house moves rodent traffic away from the house.
+The most useful part of tick control is often the part that costs nothing. A three-foot dry barrier of wood chips or gravel where the lawn meets the woods is a meaningful obstacle to tick movement. Moving the swing set and the seating area out of the shade at the wood line changes where people spend time. Clearing leaf litter in spring removes overwintering habitat. Keeping the feeder away from the house moves rodent traffic away from the house.
 
 We will write those items into the report with the treatment plan, and we will say when the habitat work would do more for you than a fourth application.
 
@@ -54,11 +54,11 @@ A tick programme in Maine is not one date on a calendar. The ground here is work
 1. **Early season.** Walk the property, mark the edge habitat, and get the first application down once the ground has thawed and the adults from last autumn are moving again.
 2. **Nymph window.** Late spring into early summer is when the nymphs — poppy-seed sized, easy to miss, and the stage most associated with disease transmission — are active. This is the round that matters most for households with children and dogs.
 3. **Midsummer.** Pressure drops in hot dry spells and rebounds after rain. Treatment is adjusted to conditions rather than applied on a fixed date.
-4. **Autumn.** Adults surge again as temperatures fall, and they stay active into late autumn whenever the ground is unfrozen. The last round of the year covers the period when people are raking, stacking wood and clearing beds.
+4. **Autumn.** Adults surge again as temperatures fall, peaking in late October by the UMaine Tick Lab's count, and they stay active whenever the ground is unfrozen. The last round of the year covers that peak, when people are raking, stacking wood and clearing beds.
 
 ## When the programme runs
 
-Tick and mosquito service runs monthly from April through September, which is the window in which it does anything useful. Outside that window the honest advice is habitat work and a spring booking rather than a winter application.
+Tick work runs monthly through the season, from April into the autumn adult peak in October; mosquito work runs April to September. Outside those windows the honest advice is habitat work and a spring booking rather than a winter application.
 
 ## What we write down after the walk-through
 
@@ -74,14 +74,14 @@ Ticks arrive on hosts. Deer move along the tree line at night, and the white-foo
 
 ## What ticks are doing through a Maine year
 
-Ticks are not a summer pest here. Adult deer ticks are active whenever the ground is unfrozen, which in a mild winter means January thaw days as well as November. That is why the advice on this page is seasonal rather than monthly, and why an autumn round matters as much as a spring one.
+Ticks are not a summer pest here. Adult deer ticks are active whenever the ground is unfrozen, which in a mild winter means January thaw days as well as November. That is why the programme carries on into October rather than stopping with the summer, and why an autumn round matters as much as a spring one.
 
 The rough shape of the year on a Maine property:
 
 - **Thaw to late spring.** Adults that overwintered become active and quest at knee height along the edge. People pick these up raking, clearing brush and walking dogs.
 - **Late spring into summer.** Nymphs emerge. They are poppy-seed sized, they quest low, and they are the stage most often missed on a body check. This is the window that shapes the treatment plan.
 - **High summer.** Larvae appear; pressure in dry heat drops and rebounds after rain.
-- **Autumn.** A second adult surge, coinciding with yard clean-up, wood stacking and hunting season.
+- **Autumn.** A second adult surge, which the UMaine Tick Lab puts in late October, coinciding with yard clean-up, wood stacking and hunting season.
 
 ## Checking a person and a dog
 
@@ -97,4 +97,4 @@ We will not tell you a treated yard is a safe yard. Ticks arrive on animals that
 
 Tick and biting-fly work in Maine sits in commercial applicator category 7E, which is separate from the 7A category that covers structural pest control. The Maine Board of Pesticides Control is explicit that commercial applicators may only apply in the categories they are licensed for, and it publishes a directory of licensed commercial applicators that anyone can check before hiring.
 
-Free inspection and quote, an honest answer about what treatment will and will not do, and a yard plan you can act on whether or not you hire us.
+Free residential inspection and quote, an honest answer about what treatment will and will not do, and a yard plan you can act on whether or not you hire us.

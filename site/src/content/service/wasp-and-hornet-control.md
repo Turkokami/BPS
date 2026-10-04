@@ -7,11 +7,11 @@ quantifiedFact: "UMaine Cooperative Extension describes yellowjackets as about 1
 primaryAuthority: "University of Maine Cooperative Extension (Home and Garden IPM); Maine Board of Pesticides Control"
 statedPosition: "We will tell you when a nest can be left alone, and when a nest found in October is already finishing on its own."
 firstPartyData: "Three wasp nests cleared for a customer whose own spraying had not worked, who then took a monthly programme (confirmed job, about four months ago). A bee nest located and treated in a hard-to-reach spot under a deck (about a year ago). A property with recurring wasp, hornet and yellowjacket nests every year, now on a programme (about three months ago)."
-updated: "2026-10-02"
+updated: "2026-10-04"
 service: "wasp-and-hornet-control"
 faqs:
   - q: "Can you come the same day?"
-    a: "Often, and a nest by a door or over a deck is treated as urgent, particularly where somebody in the household reacts badly to stings. Call or text and say where the nest is and how close it is to where people are."
+    a: "Same-day emergency service is available; call or text for the next opening. A nest by a door or over a deck is treated as urgent, particularly where somebody in the household reacts badly to stings. Call or text and say where the nest is and how close it is to where people are."
   - q: "What if the nest is inside a wall?"
     a: "The void is treated and the entry stays open until activity stops. Sealing a live nest into a wall pushes the colony through the plaster into the room on the other side, which is a far worse problem than the one you called about."
   - q: "Will they come back to the same spot next year?"

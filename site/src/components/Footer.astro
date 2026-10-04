@@ -1,5 +1,5 @@
 ---
-import { BUSINESS, hasLicenceNumber } from '../data/business';
+import { BUSINESS, hasLicenceNumber, privacyPublishable } from '../data/business';
 import { attestedServices } from '../data/services';
 import { linkableTowns } from '../lib/geo';
 import { COUNTY_NAMES } from '../data/geo';
@@ -39,7 +39,7 @@ const year = new Date().getFullYear();
           <li><a href="/library/">Pest library</a></li>
           <li><a href="/compliance/maine-pesticide-licensing/">Licensing and compliance</a></li>
           <li><a href="/contact/">Contact</a></li>
-          <li><a href="/privacy/">Privacy</a></li>
+          {privacyPublishable() && <li><a href="/privacy/">Privacy</a></li>}
         </ul>
       </div>
     </div>

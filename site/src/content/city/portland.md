@@ -25,7 +25,7 @@ faqs:
   - q: "Do you treat the units either side?"
     a: "We inspect them, and we treat the ones with evidence. Bed bugs and German cockroaches move through wall voids and pipe chases, so a single treated unit in a building is a treated island."
   - q: "How fast can you get to Portland?"
-    a: "Call or text and you will get a straight answer the same day. Urgent work — a bed bug report, a nest by a doorway — gets priority over routine visits."
+    a: "Call or text and you will get a straight answer about timing. Same-day emergency service is available; call or text for the next opening."
   - q: "What does Maine law say a landlord has to do about bed bugs?"
     a: "Under 14 M.R.S. §6021-A, a landlord who is told about possible bed bugs must inspect within five days and, if they are confirmed, contact a certified, insured pest control agent within ten. The same section obliges the tenant to give access and follow the preparation steps."
 ---
@@ -46,7 +46,7 @@ An old building divided into several flats is the ideal arrangement for bed bugs
 
 In an owner-occupied house, a bed bug infestation is a household problem with a household solution. In a three-unit building it is a building problem: the insects travel through wall voids, along pipe chases, under doors and along corridors, and they are carried between units in laundry baskets and on furniture.
 
-The research backs that up. A study by Purdue University and Rutgers entomologists, published in the Journal of Economic Entomology in 2010, followed a 223-unit apartment building in Indianapolis and found that 53% of apartments next to an infested one were infested too — and that half of the residents with bed bugs did not know they had them. That second figure is the one Portland landlords should sit with: the tenant who calls is often not the first unit affected, just the first to notice.
+The research backs that up. A study by Purdue University and Rutgers entomologists, published in the Journal of Economic Entomology in 2010, followed a 223-unit apartment building in Indianapolis and found that 53% of apartments next to an infested one were infested too — and that half of the interviewed residents whose homes were infested did not know it. That second figure is the one Portland landlords should sit with: the tenant who calls is often not the first unit affected, just the first to notice.
 
 We scope a Portland bed bug job to include the units sharing a wall, a floor or a ceiling with the one that reported it, and we treat the confirmed ones in the same window rather than one at a time as complaints arrive. Buildings that do it the other way round spend more over a year and lose their tenants' patience long before the insects are gone.
 
@@ -66,7 +66,7 @@ The statute defines that agent as a certified commercial pesticide applicator, a
 
 ## Our work here
 
-We have done bed bug work in Portland — the call came in with the household needing somebody quickly, and the job was handled that week. Sue, who left a Google review in November 2025, put it in her own words: "We had a bedbug situation in Portland and needed someone quick!" That is the kind of work this city produces: urgent, building-aware, and usually more about access and sequencing than about which product goes where.
+We have done bed bug work in Portland — the call came in with the household needing somebody quickly, and we got there quickly. Sue, who left a Google review in November 2025, put it in her own words: "We had a bedbug situation in Portland and needed someone quick!" That is the kind of work this city produces: urgent, building-aware, and usually more about access and sequencing than about which product goes where.
 
 ## The older housing stock
 
@@ -82,4 +82,4 @@ Portland is not tick country in the way the Midcoast is. Maine CDC's 2024 report
 
 If you are a tenant, you can call us and we will tell you what we see, but the treatment has to be arranged by whoever holds the building. If you are a landlord or a property manager, we will put the scope in writing: the units to inspect, the treatment dates, the second-round dates, and a record of any unit we could not access. That last item is the one that explains most buildings that are still seeing activity six months later.
 
-Free inspections and quotes. Call or text Ryan Blouin on 207-740-4441.
+Free residential inspections and quotes. Call or text Ryan Blouin on 207-740-4441.

@@ -105,6 +105,19 @@ for (const [slug, state] of countyState) {
   }
 }
 
+// ---- any noindex route, linked from an indexable page ----------------------
+// The geography checks above only cover towns. /our-guarantee/ and /privacy/
+// were noindex yet linked from all 42 indexable pages (header chip, CTA,
+// footer) until the 4 Oct 2026 audit, and nothing caught it. This is the
+// general rule: a held-back page is reachable from nowhere a reader or crawler
+// starts. Links between noindex pages (a sealed town's breadcrumb to its sealed
+// county) are fine.
+for (const [u, html] of pages) {
+  if (!isNoindex(html) || u === '/404.html') continue;
+  const from = [...pages.entries()].filter(([v, h]) => v !== u && !isNoindex(h) && h.includes(`href="${u}"`)).map(([v]) => v);
+  if (from.length) errs.push(`GATE LEAK  ${u} is noindex but is linked from ${from.length} indexable page(s): ${from.slice(0, 3).join(', ')}`);
+}
+
 // ---- unattested services ---------------------------------------------------
 const services = read('src/data/services.ts');
 for (const m of services.matchAll(/slug: '([^']+)'[\s\S]*?attested: (true|false)/g)) {

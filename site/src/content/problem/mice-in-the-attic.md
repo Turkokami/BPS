@@ -1,13 +1,13 @@
 ---
 title: "Scratching in the Attic at Night"
-description: "What overhead scratching in a Maine house usually means, how to tell mice from squirrels from something bigger, and what to do before it becomes an insulation job."
+description: "What scratching overhead in a Maine house usually means, how to tell mice from squirrels, and what to do first. Call or text 207-740-4441."
 answer: "Overhead scratching after dark is usually mice or flying squirrels; daytime activity in the same space is more often grey squirrels. The species matters because it changes where the entry is — mice come in low and travel up, squirrels come in at the roofline."
 snippetShape: "paragraph+table"
-quantifiedFact: "Structural rodent work in Maine is performed under commercial applicator category 7A, one of sixteen categories the Board of Pesticides Control issues."
+quantifiedFact: "Structural rodent work in Maine is performed under category 7A, Structural General Pest Control, one of the commercial categories the Maine Board of Pesticides Control issues."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "We identify the species from evidence before quoting anything, because the wrong identification means the wrong entry point and a repeat visit."
 firstPartyData: "A confirmed job on a Maine home where the mice were travelling inside the structure: the entry was found along the foundation and sealed, and the household was shown the route (about six months ago)."
-updated: "2026-09-23"
+updated: "2026-10-04"
 service: "rodent-control"
 faqs:
   - q: "Could it be something other than rodents?"
@@ -18,12 +18,12 @@ faqs:
 
 Noise overhead at night is the most common way a Maine household finds out it has rodents, and it is usually reported weeks after the animals moved in.
 
-| What you hear | When | Most often |
-| --- | --- | --- |
-| Light scratching, scurrying, faint squeaks | After dark, especially the first hours | Mice |
-| Gliding thumps, quick runs, chirps | Dusk and night | Flying squirrels |
-| Heavy rolling, gnawing, daytime movement | Daylight, early morning | Grey squirrels |
-| Slow heavy movement, vocalisations | Night | Raccoons |
+| What you hear | When | Most often | Who handles it |
+| --- | --- | --- | --- |
+| Light scratching, scurrying, faint squeaks | After dark, especially the first hours | Mice | Rodent control (us) |
+| Gliding thumps, quick runs, chirps | Dusk and night | Flying squirrels | A wildlife specialist |
+| Heavy rolling, gnawing, daytime movement | Daylight, early morning | Grey squirrels | A wildlife specialist |
+| Slow heavy movement, vocalisations | Night | Raccoons | A wildlife specialist |
 
 ## What to do first
 
@@ -34,7 +34,7 @@ Noise overhead at night is the most common way a Maine household finds out it ha
 
 ## Why the species changes the job
 
-Mice generally enter low — sill gaps, utility penetrations, bulkheads — and travel up inside walls to the attic, so mouse work is interior voids plus low exterior sealing. Squirrels enter at the roofline and need exclusion work at height, sometimes with a one-way door. Bats are protected and are a different conversation entirely, with a legally constrained exclusion window.
+Mice generally enter low — sill gaps, utility penetrations, bulkheads — and travel up inside walls to the attic, so mouse work is interior voids plus low exterior sealing. Squirrels enter at the roofline and need a wildlife specialist; wildlife removal is not a service Blouin Pest Services offers. Bats are protected in Maine, and the Department of Inland Fisheries and Wildlife advises excluding them only from mid-August to mid-October or in early spring.
 
 That is why the inspection identifies the species from droppings, gnawing and travel marks before anything is quoted.
 
@@ -42,7 +42,7 @@ That is why the inspection identifies the species from droppings, gnawing and tr
 
 An attic that has been occupied through a Maine winter typically shows compressed and soiled insulation in the travel paths, and sometimes gnawed wiring. The remediation is sequenced: exclude, remove, then remediate. New insulation installed while the roofline is still open is new insulation with a runway through it.
 
-Free inspection and a written quote that separates removal from sealing. Call or text 207-740-4441.
+Free residential inspection and a written quote that separates removal from sealing. Call or text 207-740-4441.
 
 ## What the inspection tells you that the noise cannot
 
@@ -67,7 +67,7 @@ A fifth, less obvious route: mice entering at ground level and travelling up ins
 
 ## Cleaning up afterwards
 
-Do not dry-sweep or vacuum rodent droppings in an enclosed space. Ventilate first, dampen the material, and remove it wet, wearing gloves and a mask. Deer mice are the species associated with hantavirus in the United States, and while cases are rare, the precaution costs nothing.
+Do not dry-sweep or vacuum rodent droppings in an enclosed space. Ventilate first, dampen the material, and remove it wet, wearing rubber or plastic gloves (CDC) and a mask, as UMaine's Animal Health Laboratory advises. Deer mice are the species associated with hantavirus in the United States, and while cases are rare, the precaution costs nothing.
 
 Insulation in the travel paths is usually compressed and soiled after a season of occupation. Not every attic needs stripping and we will say when yours does not. When it does, the sequence is exclude, remove, then remediate — new insulation over an open roofline is money spent on a future mouse runway.
 

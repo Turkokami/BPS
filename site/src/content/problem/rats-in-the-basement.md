@@ -7,11 +7,11 @@ quantifiedFact: "Rodent work performed for compensation in Maine requires a comm
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "Rat pressure is rarely one property's problem. We will say when the neighbouring bins, feeders or burrows are driving it, even though that is an awkward conversation."
 firstPartyData: "Across the hundred customer reviews read on 24 September 2026, mice are named nine times and rats or unspecified rodents once. In this service area the animal in a basement is overwhelmingly a mouse, and a confirmed mouse job here ended with the entry located along the foundation and sealed before any remediation was discussed."
-updated: "2026-09-23"
+updated: "2026-10-04"
 service: "rodent-control"
 faqs:
   - q: "How do I tell rat droppings from mouse droppings?"
-    a: "Size. Mouse droppings are rice-grain sized; rat droppings are two to three times larger with blunt or tapered ends depending on species. Rats also leave grease marks along the walls they travel."
+    a: "Size and shape. The Northeastern IPM Center puts mouse droppings at 1/8 to 1/4 inch long with pointed ends, and rat droppings at 1/2 to 3/4 inch long with blunt ends. Rats also leave grease marks along the walls they travel."
   - q: "Do I need to tell my neighbours?"
     a: "It helps. Rats forage across property lines, and a single unsecured bin or feeder can sustain a population that keeps arriving at your foundation."
 ---
@@ -42,7 +42,7 @@ A rat in a Maine basement is a structural access problem, not a housekeeping one
 4. Remove the food source that is sustaining the pressure, or say plainly whose it is.
 5. Re-inspect, because rats test a repair.
 
-Free inspection and quote, with the sealing listed separately so you can see what you are buying. Call or text 207-740-4441.
+Free residential inspection and quote, with the sealing listed separately so you can see what you are buying. Call or text 207-740-4441.
 
 ## Why the outside work decides the result
 
@@ -54,7 +54,7 @@ The exterior sequence — document burrows, remove or secure the food source, se
 
 | Sign | Mouse | Rat |
 | --- | --- | --- |
-| Droppings | Rice-grain size, scattered widely | Two to three times larger, often clustered |
+| Droppings | 1/8 to 1/4 inch, pointed ends, scattered widely (Northeastern IPM Center) | 1/2 to 3/4 inch, blunt ends, often clustered (Northeastern IPM Center) |
 | Gnawing | Small, neat, fine tooth marks | Coarse, wider, cuts through soft plastic and lead |
 | Grease marks | Faint if any | Obvious smears along wall runs |
 | Entry size | Gap the width of a pencil | Chews an opening if there is not one |

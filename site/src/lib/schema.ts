@@ -40,9 +40,9 @@ export function coreNodes() {
     logo: { '@id': ID.logo },
     image: { '@id': ID.logo },
     sameAs: [...BUSINESS.sameAs],
-    aggregateRating: hasReviewProof()
-      ? { '@type': 'AggregateRating', ratingValue: BUSINESS.reviews.rating, reviewCount: BUSINESS.reviews.count, bestRating: 5 }
-      : null,
+    /* No aggregateRating: the figure is Google's, and Google's review-snippet
+       rules exclude ratings collected on another site. It stays visible, dated,
+       on /reviews/ instead. */
   });
 
   const owner = clean({

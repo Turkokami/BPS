@@ -1,20 +1,20 @@
 ---
 title: "Pest Control in Waterville, Maine"
-description: "Bed bug and pest control for Waterville homes and rental properties, including multi-unit buildings where the problem crosses walls. Call or text 207-740-4441."
+description: "Bed bug and pest control for Waterville homes and rentals, including multi-unit buildings where problems cross walls. Call or text 207-740-4441."
 answer: "Waterville is a majority-rental city — the Census Bureau puts owner occupancy at 48.8% — with a large share of multi-unit housing. For bed bugs and cockroaches that changes the job entirely: the unit that reports the problem is rarely the only one that has it, and a building treated one unit at a time never finishes."
 snippetShape: "paragraph+list"
-quantifiedFact: "The U.S. Census Bureau records 6,804 households in Waterville and a July 2025 population of 17,579, up 5.4% on 2020, with owner occupancy at 48.8%."
+quantifiedFact: "The U.S. Census Bureau records 6,804 households in Waterville and a July 2025 population of 17,579, up 5.4% on the April 2020 estimates base, with owner occupancy at 48.8%."
 primaryAuthority: "U.S. Census Bureau QuickFacts"
 statedPosition: "In a multi-unit building we inspect the connecting units from the start. A property manager who treats one unit at a time pays for the same infestation three times."
 updated: "2026-10-02"
 town: "waterville"
 localFacts:
-  - "Population 17,579 as of July 2025, up 5.4% on the 2020 census count of 15,828 (U.S. Census Bureau QuickFacts)"
+  - "Population 17,579 as of July 2025, up 5.4% on the April 2020 estimates base of 16,673 (U.S. Census Bureau, Vintage 2025 population estimates)"
   - "6,804 households at 2.08 persons per household, owner occupancy 48.8% (U.S. Census Bureau)"
   - "Median home value $184,600 and median gross rent $978 (U.S. Census Bureau QuickFacts, 2020–2024)"
   - "Only 2,990 of Waterville's 7,312 housing units (40.9%) are detached houses; 1,252 (17.1%) are in two-unit buildings and 950 (13.0%) in buildings of three or four (U.S. Census Bureau, American Community Survey 2020–2024 5-year, table B25024)"
   - "1,579 Waterville housing units (21.6%) were built in the 1970s and 2,239 (30.6%) in 1939 or earlier (U.S. Census Bureau, American Community Survey 2020–2024 5-year, table B25034)"
-  - "16 of 36 ticks submitted from Waterville (44.4%) carried the Lyme bacterium and 10 (27.8%) carried Anaplasma (UMaine Cooperative Extension Tick Lab, all available town data)"
+  - "16 of 36 ticks submitted from Waterville (44.4%) carried the Lyme bacterium and 10 (27.8%) carried Anaplasma (UMaine Cooperative Extension Tick Lab town data, 2019–2022 seasons)"
 firstPartyProof: "Bed bug job for a property-management company in Waterville, confirmed by the owner: one unit reported the problem, inspection found a large infestation and activity in connecting units, and the affected units were treated until the infestation was eliminated."
 uniqueFact: "This is the only site in the market that explains why a Waterville bed bug job has to be scoped across connecting units rather than per complaint — and it is the job we actually did here."
 faqs:
@@ -28,7 +28,7 @@ faqs:
     a: "If the problem is bed bugs or cockroaches, yes — the other half is the connecting unit, and a shared basement or attic is a common crossing point between the two. It is a smaller scope than an apartment block, but it is still a two-unit scope."
 ---
 
-Waterville is the northern edge of the routine service area and a city that produces a particular kind of work: multi-unit rental buildings, older housing, and problems that cross between households.
+Waterville sits inside the routine service area, and it is a city that produces a particular kind of work: multi-unit rental buildings, older housing, and problems that cross between households.
 
 ## Why the building matters more than the unit
 
@@ -42,7 +42,7 @@ That sequencing is the whole difference. Treating the reporting unit alone would
 
 ## A city of two- and four-unit houses
 
-Waterville's multi-unit housing is mostly small buildings rather than big blocks. The U.S. Census Bureau's American Community Survey (2020–2024 five-year estimates) counts 7,312 housing units in the city, and only 2,990 — 40.9% — are detached houses, the lowest share of the four river cities this site covers. Two-unit buildings account for 1,252 units (17.1%) and three- and four-unit buildings for another 950 (13.0%), so close to a third of the city lives in a house shared with between one and three other households.
+Waterville's multi-unit housing is mostly small buildings rather than big blocks. The U.S. Census Bureau's American Community Survey (2020–2024 five-year estimates) counts 7,312 housing units in the city, and only 2,990 — 40.9% — are detached houses, the lowest share among Waterville, Augusta, Lewiston and Auburn. Two-unit buildings account for 1,252 units (17.1%) and three- and four-unit buildings for another 950 (13.0%), so close to a third of the city's housing units are in buildings of two to four homes.
 
 That shape changes the scope in a useful way. In a duplex or a small multi-family house, "connecting units" is a short list: the unit above or below, the one through the party wall, and the shared spaces. The cellar, the common stairwell, the shared laundry and the attic belong to everyone and are often checked by no one, which makes them the first places the inspection goes for mouse nesting and for signs of bed bugs crossing between households.
 
@@ -62,9 +62,9 @@ The <a href="/services/bed-bug-control/">bed bug control</a> page sets out the t
 
 ## Ticks around Waterville
 
-Waterville's numbers from UMaine Cooperative Extension's Tick Lab stand out among the four cities on this site. Of 36 ticks submitted from the town, 16 (44.4%) tested positive for *Borrelia burgdorferi*, the Lyme bacterium, and 10 (27.8%) for *Anaplasma*, which causes anaplasmosis — the highest proportions for either organism among Waterville, Augusta, Lewiston and Auburn in the lab's town data. The sample is small and self-selected, so read it as a sign of what local ticks carry rather than a measured rate.
+Waterville's numbers from UMaine Cooperative Extension's Tick Lab stand out among the four river cities on this site (Waterville, Augusta, Lewiston and Auburn). Of 36 ticks submitted from the town, 16 (44.4%) tested positive for *Borrelia burgdorferi*, the Lyme bacterium, and 10 (27.8%) for *Anaplasma*, which causes anaplasmosis — the highest proportions for either organism among Waterville, Augusta, Lewiston and Auburn in the lab's town data. The sample is small and self-selected, so read it as a sign of what local ticks carry rather than a measured rate.
 
-Across Kennebec County, Maine CDC's 2024 reportable-disease summary lists a Lyme disease rate of 229.6 cases per 100,000 residents, effectively level with the state's 230.1. Properties with a wooded or overgrown boundary are where yard treatment earns its keep; the <a href="/services/tick-control/">tick control</a> page explains the April-to-September programme.
+Across Kennebec County, Maine CDC's 2024 tickborne illness report lists a Lyme disease rate of 229.6 cases per 100,000 residents, effectively level with the state's 230.0. Properties with a wooded or overgrown boundary are where yard treatment earns its keep; the <a href="/services/tick-control/">tick control</a> page explains the April-to-September programme.
 
 ## For homeowners here
 
@@ -72,6 +72,6 @@ The same city also has ordinary single-family work: mice moving in with the firs
 
 ## Distance
 
-Waterville is near the outer edge of the routine 1.5-hour radius from Lewiston, so scheduling here is planned rather than same-day. For larger or commercial jobs, further travel is available.
+Waterville is within the routine 1.5-hour radius from Lewiston. Same-day emergency service is available; call or text for the next opening. For larger or commercial jobs, further travel is available.
 
 Free residential inspections and quotes. Commercial inspections carry a fee based on the property, the documentation required and the pest, credited toward the work if you proceed. Call or text Ryan Blouin on 207-740-4441.

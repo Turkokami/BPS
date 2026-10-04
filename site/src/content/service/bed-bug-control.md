@@ -1,13 +1,13 @@
 ---
 title: "Bed Bug Control in Maine"
-description: "Bed bug treatment for Maine homes and apartments: confirmation, preparation, treatment rounds and follow-up. Discreet visits. Call or text 207-740-4441."
+description: "Bed bug treatment for Maine homes and apartments: confirmation, preparation, treatment rounds and follow-up. Call or text 207-740-4441."
 answer: "Bed bug control is a process, not a visit. Confirmation comes first, because most reported bed bug bites turn out to be something else. Treatment then runs in rounds two to three weeks apart, because eggs survive an application that kills adults, and the follow-up round is the one that ends the infestation."
 snippetShape: "paragraph+list"
 quantifiedFact: "Bed bug work sits in Maine licence category 7A, and the Board of Pesticides Control requires the responsible Commercial Master applicator at each company to hold nine continuing-education credits per three-year cycle."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "We confirm before we treat. Treating a bedroom on a description costs a customer money for nothing and hides whatever is actually biting them."
-firstPartyData: "Bed bug call in Portland where the household needed somebody quickly; attended that week (confirmed job, about eleven months ago)."
-updated: "2026-09-23"
+firstPartyData: "Bed bug call in Portland where the household needed somebody quickly and, in the customer's words, 'They came quickly' (confirmed job, about eleven months ago)."
+updated: "2026-10-04"
 service: "bed-bug-control"
 faqs:
   - q: "How do you confirm it is bed bugs?"
@@ -48,7 +48,7 @@ The first round targets the harbourages found during inspection: bed frame joint
 
 The second round, two to three weeks later, exists because eggs hatch after the first application. Skipping it is the single most common reason a bed bug job fails and has to be started over.
 
-A verification visit closes the job. Where activity is still present, we say so and continue rather than declaring it finished.
+A verification visit closes the job. Where activity is still present, we say so rather than declaring it finished.
 
 ## What the inspection actually looks like
 
@@ -62,7 +62,7 @@ Households ask about heat treatment because it sounds decisive. It can be, and i
 
 ## Why the second round is not optional
 
-Eggs are glued into cracks and are not reliably killed by the first application. They hatch over the following one to two weeks. That is the entire reason for the second round, and it is why a job quoted as a single visit is quoted wrong. Anyone offering one-visit eradication of an established bed bug population is describing an outcome the biology does not support.
+Eggs are glued into cracks and are not reliably killed by the first application. They hatch over the following one to two weeks. That is the entire reason for the second round: chemical treatment cannot rely on one visit, because eggs survive the first.
 
 ## After treatment
 
@@ -89,15 +89,15 @@ Caught at that stage, treatment is a bedroom rather than an apartment.
 
 Bed bug quotes vary more than any other pest job, and usually for legible reasons: the number of rooms involved, the amount of upholstered furniture, whether the sleeping surface is a bed or a sofa, how much preparation the household can realistically do, and whether the building requires neighbouring units to be included. A quote given over the phone without any of that information is a number, not a quote.
 
-We inspect first, then quote in writing, with the follow-up round included in the price rather than added later.
+We inspect first, then quote in writing. The quote states how many rounds are included.
 
 ## The follow-up interval
 
-The second round falls two to four weeks after the first, timed to severity. That is the round that deals with what hatches after the initial treatment, and it is included in the quoted job rather than sold separately afterwards.
+The second round falls two to three weeks after the first. That is the round that deals with what hatches after the initial treatment, and the written quote says how many rounds it covers.
 
 ## What success looks like
 
-No live insects, no fresh fecal spotting, and no new bites across the follow-up window, confirmed at a verification visit rather than assumed. If activity is still present at the second round, we say so and keep working. A job is not finished because the calendar says the rounds are done.
+No live insects, no fresh fecal spotting, and no new bites across the follow-up window, confirmed at a verification visit rather than assumed. If activity is still present at the second round, we say so plainly.
 
 ## Apartments and multi-unit buildings
 
@@ -105,8 +105,8 @@ In an apartment building, a single treated unit is a treated island. Bed bugs mo
 
 We will put that in writing for a landlord or property manager, because it is a scheduling and access problem more than a pest control problem, and the building's cooperation is what determines the outcome.
 
-## Discretion
+## Privacy
 
-Visits are unmarked in the sense that matters: we are not going to announce what we are doing to your neighbours. Scheduling can work around your hours where that helps.
+We are not going to announce what we are doing to your neighbours, and a visit can be booked at a time that suits you within our 9am–5pm day.
 
-Free inspection and confirmation, a clear written scope, and the follow-up round included in the plan rather than sold as an extra.
+Free residential inspection and confirmation, a clear written scope, and a quote that sets out the number of rounds it covers.

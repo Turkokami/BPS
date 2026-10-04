@@ -24,7 +24,7 @@ faqs:
     a: "Outside first. The burrows, the travel routes and whatever is feeding them are all outdoors. Secured exterior stations and filled burrows deal with that; sealing the structure stops them coming in."
 ---
 
-Kennebec County is the capital county, and it behaves like two places at once. Augusta and Waterville sit on the Kennebec River with older housing, a lot of it rented or converted into apartments. Beyond them the county opens into lakes, farmland and woodland, with camps and year-round homes on wooded lots. Both of our confirmed jobs here were in the cities, but the tick numbers come from the countryside.
+Kennebec County is the capital county, and it behaves like two places at once. Augusta and Waterville sit on the Kennebec River with older housing, a lot of it rented or converted into apartments. Beyond them the county opens into lakes, farmland and woodland, with camps and year-round homes on wooded lots. Both of our confirmed jobs here were in the cities, while the tick figures cover the whole county.
 
 ## The county in figures
 

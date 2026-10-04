@@ -6,8 +6,8 @@ snippetShape: "paragraph+list"
 quantifiedFact: "Bed bug treatment in Maine is licensed work under category 7A, and the Board of Pesticides Control requires each company to designate a Commercial Master applicator responsible for pest management decisions and employee training."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "We confirm with physical evidence before treating, and we tell a landlord plainly when treating one unit will not hold."
-firstPartyData: "A confirmed bed bug job in Portland, attended within the week the household called (about eleven months ago)."
-updated: "2026-09-23"
+firstPartyData: "A confirmed bed bug job in Portland where, in the customer's words, 'They came quickly' (about eleven months ago)."
+updated: "2026-10-04"
 service: "bed-bug-control"
 faqs:
   - q: "Should I throw out my furniture?"
@@ -39,7 +39,7 @@ Bed bugs are a building-scale problem handled at unit scale, which is why they p
 - Run a second round two to three weeks later, because eggs survive the first.
 - Record which units were inaccessible and re-book them; access gaps are how buildings end up treating the same infestation for a year.
 
-Free inspection and confirmation, a written scope for the building, and follow-up rounds included in the plan. Call or text 207-740-4441.
+Free inspection and confirmation for residential units, and a written scope for the building. The quote states how many rounds are included. Call or text 207-740-4441.
 
 ## What a landlord should ask for
 
@@ -71,7 +71,7 @@ Where the sofa is the sleeping surface, it is the primary harbourage and it gets
 
 ## Timeline and cost, honestly
 
-A single unit caught early is usually two rounds and a verification visit across four to six weeks. A cluster of units, or a unit with heavy furniture involvement, runs longer and costs more. Quotes vary because the work varies; anyone quoting a building over the phone without inspecting it is guessing.
+A single unit caught early is usually two rounds and a verification visit across four to six weeks. A cluster of units, or a unit with heavy furniture involvement, runs longer and costs more. Quotes vary because the work varies; a building quoted over the phone without an inspection is a guess.
 
 ## For landlords
 

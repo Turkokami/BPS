@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { BUSINESS } from '../data/business';
+import { BUSINESS, privacyPublishable } from '../data/business';
 import { title, description } from '../lib/seo';
 const path = '/privacy/';
 ---
@@ -8,7 +8,7 @@ const path = '/privacy/';
   title={title('Privacy', { brand: true })}
   description={description('What Blouin Pest Services does with the information you give us. Short version: we use it to do the work you asked for, and we do not sell it.')}
   path={path}
-  noindex={true}
+  noindex={!privacyPublishable()}
   crumbs={[{ name: 'Privacy', item: path }]}
 >
   <h1>Privacy</h1>
@@ -18,8 +18,8 @@ const path = '/privacy/';
   <ul>
     <li>What you tell us when you call, text or email: your name, contact details, the address of the property, and what is happening there.</li>
     <li>Notes and photographs taken during an inspection or a treatment, kept as the service record.</li>
-    <li>What you send through the booking form on the contact page, which goes into the scheduling system Ryan uses to run jobs.</li>
-    <li>Standard web server logs. Where site analytics are in use they are for traffic measurement only, and this site runs no advertising trackers.</li>
+    {BUSINESS.forms.gorilladeskEmbed && <li>What you send through the booking form on the contact page, which goes into the scheduling system Ryan uses to run jobs.</li>}
+    <li>Nothing from simply visiting. This site sets no cookies and runs no analytics, advertising or tracking scripts. The host, Vercel, keeps standard server logs (such as IP address and the page requested) for security and operation.</li>
   </ul>
 
   <h2>What we do with it</h2>

@@ -7,7 +7,7 @@ quantifiedFact: "Cockroach work in Maine rentals and food premises is performed 
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "We write the scope so the landlord's part and the tenant's part are separate and visible. Most failed rental jobs are access failures, not treatment failures."
 firstPartyData: "Seven of the hundred customer reviews read on 24 September 2026 describe multi-unit, rental or restaurant premises — the settings this pest actually turns up in locally. One tenant had been fighting an apartment infestation for a long stretch before the building was treated properly, and reported it resolved within a couple of visits (confirmed job, about ten months ago)."
-updated: "2026-09-23"
+updated: "2026-10-04"
 service: "cockroach-control"
 faqs:
   - q: "Can a tenant just buy sprays?"
@@ -36,9 +36,9 @@ German cockroaches live inside the structure, close to warmth, food and water, a
 
 ## What we do
 
-Baiting in the harbourages, growth regulator where the population is established, follow-up rounds built into the plan, and a written scope that separates the sanitation items from the treatment items so neither side has to guess.
+Baiting in the harbourages, growth regulator where the population is established, a quote that states how many rounds are included, and a written scope that separates the sanitation items from the treatment items so neither side has to guess.
 
-Call or text 207-740-4441 for a free inspection, landlord or tenant.
+Call or text 207-740-4441 for a free residential inspection, landlord or tenant.
 
 ## When the building has to be involved
 

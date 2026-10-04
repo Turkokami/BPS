@@ -16,12 +16,12 @@ const services = attestedServices();
 const towns = linkableTowns();
 const faqs = [
   { q: 'What areas do you cover?', a: `Blouin Pest Services works across ${counties.slice(0, -1).join(', ')} and ${counties.slice(-1)} in southern and central Maine.` },
-  { q: 'Do you charge for an inspection?', a: 'No. Inspections and quotes are free, and the quote separates treatment from any sealing or exclusion work so you can see what you are paying for.' },
+  { q: 'Do you charge for an inspection?', a: 'Not for a home. Residential inspections and quotes are free; commercial inspections carry a fee that is credited toward the work if you go ahead. The quote separates treatment from any sealing or exclusion work so you can see what you are paying for.' },
   { q: 'Who turns up?', a: `${BUSINESS.owner.name} does the inspection, the treatment and the follow-up. It is the same person each visit.` },
   { q: 'How soon can someone come out?', a: BUSINESS.emergency },
 ];
 const t = title('Maine Pest Control');
-const d = description('Owner-operated pest control across southern and central Maine: rodents, ants, ticks, mosquitoes, cockroaches and bed bugs. Free inspections. Call or text 207-740-4441.');
+const d = description('Owner-operated pest control across southern and central Maine: rodents, ants, ticks, mosquitoes, cockroaches and bed bugs. Free home inspections. Call or text 207-740-4441.');
 ---
 <BaseLayout title={t} description={d} path="/" extraNodes={[faqNode('/', faqs)]}>
   <h1>Pest control across Maine, from the person who does the work</h1>
@@ -84,9 +84,9 @@ const d = description('Owner-operated pest control across southern and central M
 
   <h2>When we are busiest, and when we are not</h2>
   <p>
-    Tick and mosquito programmes run monthly from April to September. Rodent work peaks with the first hard cold, and
-    exclusion done in September prevents the winter that follows. If you are reading this outside tick season, that is the
-    cheapest month of the year to have the building sealed properly.
+    Tick work runs monthly from April into the autumn adult peak in October; mosquito work runs April to September. Rodent work peaks with the first hard cold, and
+    exclusion done before the cold reduces what the winter brings in. Outside tick season is a good time to have the building
+    sealed properly.
   </p>
 
   <h2>Licensed, and checkable</h2>

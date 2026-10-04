@@ -1,17 +1,17 @@
 ---
 title: "Commercial Pest Control in Maine"
-description: "Pest control for Maine restaurants, rentals, offices and multi-unit buildings: documentation, scheduled service, and treatment timed around your hours. 207-740-4441."
+description: "Pest control for Maine restaurants, rentals, offices and multi-unit buildings: documentation and scheduled service. Call or text 207-740-4441."
 answer: "Commercial pest control is the same inspection discipline as residential work plus documentation and scheduling. Food premises and multi-unit buildings need a service record that stands up to an inspection, treatment timed around trading hours, and a plan that covers the units either side of the one that complained."
 snippetShape: "paragraph+list"
 quantifiedFact: "Maine's category 7A explicitly covers Structural General Pest Control including food processing, and a firm licence costs $300 for three years and requires proof of insurance and a designated Commercial Master applicator."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "In a multi-unit building, treating only the unit that called is a temporary result. We scope the adjacent units from the start."
 firstPartyData: "Recurring pest problem in an apartment property resolved within a couple of visits after a long-running issue (confirmed job, about ten months ago)."
-updated: "2026-10-02"
+updated: "2026-10-04"
 service: "commercial-pest-control"
 faqs:
-  - q: "Can you work outside business hours?"
-    a: "Yes. Kitchens and dining rooms are generally serviced before opening or after close, and the schedule is set with you rather than assigned."
+  - q: "Can you work around our trading hours?"
+    a: "Yes. Kitchens and dining rooms are scheduled around your trading hours within our 9am–5pm day, and the schedule is set with you rather than assigned."
   - q: "Do you provide service documentation?"
     a: "Every visit produces a written record of what was inspected, found, applied and recommended, kept in a format you can hand to an inspector."
   - q: "What about tenant access problems?"
@@ -31,7 +31,7 @@ Commercial work is judged on two things a homeowner never thinks about: whether 
 ## What a commercial programme includes
 
 1. A baseline inspection of the interior, the exterior, the waste area and the deliveries route, with the conducive conditions written down.
-2. A service schedule that fits your hours, not ours.
+2. A service schedule agreed with you and fitted around trading, inside our 9am–5pm working day.
 3. A written record for every visit: areas inspected, evidence found, materials applied and where, recommendations outstanding.
 4. Monitoring devices where they are useful, placed and numbered so trends over time mean something.
 5. A named contact — the same person each visit.
@@ -50,13 +50,13 @@ The rule that does most to shape commercial and multi-unit work in this state is
 - **Rented homes and condominiums.** Residents of a unit being treated at someone else's request get the notice individually in the same 24-hour-to-seven-day window; for common areas it is posted and left up for 48 hours after.
 - **Information on request.** Anyone notified may ask for the product's trade name and EPA registration number, the date, time and location, the label's re-entry interval, and a contact name and number, and the applicator must supply them.
 - **Tenant consent.** A tenant's unit may not be treated over their objection unless a public health or code enforcement official has found an immediate need.
-- **Exemptions.** Baits, gels, pastes, dusts and granular products placed where occupants cannot readily reach them, and crack-and-crevice treatments done to minimise vapours, are exempt from the notice steps.
+- **Exemptions.** Baits, gels, pastes, dusts and granular products placed where occupants cannot readily reach them, and crack-and-crevice treatments placed where occupants cannot readily reach them and done to minimise vapours, are exempt from the notice steps.
 
 The applicator can hand the notice to the building manager to post or distribute, but must confirm it was done before treating. On a multi-unit job that confirmation is part of the schedule, which is one more reason the first visit is a planning visit.
 
 ## What Chapter 26 asks of the applicator
 
-The same rule requires commercial applicators working inside these buildings to use integrated pest management, identify the pest and how bad the infestation is before applying anything, and give the client a written evaluation of the conditions that encourage pests along with specific, practical non-pesticide recommendations. Chapter 26 also limits what can be used while people are in the room: unless the label prohibits it, only baits, gels, pastes, granules and crack-and-crevice treatments. The rule's own definition of IPM says applications are not made to a pre-determined schedule but only where monitoring or history shows they are needed. The written conditions report described above is not a courtesy; for these buildings it is part of the rule.
+The same rule requires commercial applicators working inside these buildings to use integrated pest management, identify the pest and how bad the infestation is before applying anything (with narrow exceptions for out-of-reach baits and crack-and-crevice work), and give the client a written evaluation of the conditions that encourage pests along with specific, practical non-pesticide recommendations. Chapter 26 also limits what can be used while people are in the room: unless the label prohibits it, only baits, gels, pastes, granules and crack-and-crevice treatments. The rule's own definition of IPM says applications are not made to a pre-determined schedule but only where monitoring or history shows they are needed. The written conditions report described above is not a courtesy; for these buildings it is part of the rule.
 
 ## What a small business said
 
@@ -66,7 +66,7 @@ Quoted exactly from the business's Google profile:
 
 ## Licensing and insurance
 
-The Maine Board of Pesticides Control requires a firm licence for custom applicator companies other than sole proprietors with no employees. That licence runs $300 for three years, and requires both proof of insurance and a designated Commercial Master applicator who carries responsibility for pest management decisions and employee training. Any commercial customer is entitled to ask a contractor for those details, and to check the Board's public directory of licensed commercial applicators.
+The Maine Board of Pesticides Control requires a firm licence for custom applicator companies other than sole proprietors with no employees, and for any incorporated company (Chapter 31). That licence runs $300 for three years, and requires both proof of insurance and a designated Commercial Master applicator who carries responsibility for pest management decisions and employee training. Any commercial customer is entitled to ask a contractor for those details, and to check the Board's public directory of licensed commercial applicators.
 
 ## The site survey
 
@@ -86,7 +86,7 @@ A file showing the same open recommendation month after month is worse than no f
 
 ## Restaurants and food premises
 
-Food premises get the same inspection discipline with tighter constraints: service outside trading hours, no product on or near food-contact surfaces, monitoring placed where it will not be disturbed by cleaning, and particular attention to the three places problems start — the waste area, the delivery route, and the void behind and beneath fixed equipment.
+Food premises get the same inspection discipline with tighter constraints: visits scheduled around your trading hours within our 9am–5pm day, no product on or near food-contact surfaces, monitoring placed where it will not be disturbed by cleaning, and particular attention to the three places problems start — the waste area, the delivery route, and the void behind and beneath fixed equipment.
 
 The conducive conditions that cause most restaurant pest problems are structural or procedural rather than biological: a door propped open in summer, a gap under a delivery door, cardboard stored against a wall, a floor drain that is never cleaned, a grease trap serviced late. Those go in the report, because they are cheaper to fix than to treat around forever.
 
@@ -102,7 +102,7 @@ Where a site is one of several, we will keep the reporting in a format that can 
 
 ## Frequency, and how to pick it
 
-Monthly is the default for food premises for a reason: it matches how fast a population can establish between visits and it produces enough data points for a trend. Quarterly suits low-risk offices and retail. Weekly or fortnightly belongs to a building working through an active infestation, and it should have an end date rather than becoming the permanent arrangement.
+Monthly monitoring visits are the default for food premises; products are applied only where monitoring shows a need. That frequency matches how fast a population can establish between visits and it produces enough data points for a trend. Quarterly suits low-risk offices and retail. Weekly or fortnightly belongs to a building working through an active infestation, and it should have an end date rather than becoming the permanent arrangement.
 
 We will recommend the lowest frequency that fits the risk, and say plainly when a site is being serviced more often than it needs.
 

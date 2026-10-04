@@ -3,17 +3,17 @@ title: "Residential Pest Control in Maine"
 description: "A year-round home pest programme built around Maine's seasons: what is covered, when visits happen, and what is left out. Call or text Ryan at 207-740-4441."
 answer: "A residential programme covers the pests a Maine house actually gets across the year — rodents in autumn, ants in spring, ticks and mosquitoes through summer, cockroaches and bed bugs whenever they arrive — with scheduled visits timed to the seasons rather than to a billing cycle."
 snippetShape: "paragraph+table"
-quantifiedFact: "Maine issues sixteen commercial applicator categories; a residential structural programme runs under 7A, and yard tick or mosquito work under 7E."
+quantifiedFact: "Maine issues commercial applicator licences by category; a residential structural programme runs under 7A, and yard tick or mosquito work under 7E."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "One person does the inspection, the treatment and the follow-up. You are not handed to a different technician who has not seen the house."
 firstPartyData: "Ongoing exterior programme on a residential property — fence line and exterior of the home treated on a monthly schedule (confirmed job, current customer)."
-updated: "2026-10-02"
+updated: "2026-10-04"
 service: "residential-pest-control"
 faqs:
   - q: "Am I locked into a contract?"
     a: "The programme is a schedule, not a trap. Ask what the cancellation terms are before you sign anything with anyone, and get the answer in writing."
   - q: "What is not covered?"
-    a: "Work that needs a different trade — roofing, carpentry, moisture remediation — and wildlife that is not a structural pest. We will name those and say who does them."
+    a: "Work that needs a different trade — roofing, carpentry, moisture remediation — and wildlife removal of any kind. We will name those and say who does them."
   - q: "Do I need to be home?"
     a: "For the interior portion of a visit, yes. Exterior work can be done without you there, and you get the report either way."
 ---
@@ -43,7 +43,7 @@ Every visit produces a short report: what was inspected, what was found, what wa
 
 Blouin Pest Services is owner-operated. The same person inspects, treats and follows up, which is the practical difference between a programme and a route stop.
 
-Call or text 207-740-4441 and you will speak to the person who will be at the house. Hours are 9am to 5pm, seven days a week, and same-day emergency service is available when there is an opening.
+Call or text 207-740-4441 and you will speak to the person who will be at the house. Hours are 9am to 5pm, seven days a week. Same-day emergency service is available. Call or text for the next opening.
 
 One customer described signing up after a one-off nest job, quoted exactly from the business's Google profile:
 

@@ -1,19 +1,19 @@
 ---
 title: "Cockroach Control in Maine"
-description: "German cockroach treatment for Maine homes, rentals and food premises: sanitation-led baiting, follow-up rounds, and what landlords and tenants each need to do. 207-740-4441."
+description: "German cockroach treatment for Maine homes, rentals and food premises: sanitation-led baiting and follow-up rounds. Call or text 207-740-4441."
 answer: "Cockroach control is baiting plus sanitation, run in rounds. German cockroaches live and breed inside the structure, so the job is finding the harbourages — warm, tight, near water — and treating them, while removing the food and moisture that keep the population fed between visits."
 snippetShape: "paragraph+list"
 quantifiedFact: "Cockroach work in a Maine restaurant or food premises falls under category 7A, which the Board of Pesticides Control defines as Structural General Pest Control including food processing."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "Spraying cockroaches scatters them. We bait, we treat harbourages, and we write down the sanitation items that decide whether it holds."
 firstPartyData: "Cockroaches appear twice in the hundred customer reviews read on 24 September 2026, against seven that describe commercial, rental or restaurant premises. That is the shape of the work in this service area: German cockroach calls here arrive from multi-unit and food premises far more often than from detached single-family houses."
-updated: "2026-09-23"
+updated: "2026-10-04"
 service: "cockroach-control"
 faqs:
   - q: "Why did spraying make it worse?"
     a: "Repellent sprays push German cockroaches out of a harbourage and into new ones, often in adjacent rooms or units. Baiting works with their behaviour rather than against it, which is why it is the backbone of the programme."
   - q: "Can this be solved in one visit?"
-    a: "Rarely. A population has egg cases that no application reaches, so a second round two to three weeks later is part of the plan rather than an upsell."
+    a: "Rarely. A population has egg cases that no application reaches, so a second round two to three weeks later is part of the plan. The quote states how many rounds are included."
   - q: "I rent. Whose problem is this?"
     a: "In practice it is both: the landlord arranges treatment and access, the tenant handles the preparation and the sanitation that keeps it gone. We write the scope so each side can see what belongs to them."
 ---
@@ -51,17 +51,17 @@ We put these in the written report so a landlord, a tenant or a manager can see 
 
 ## Rentals, multi-unit and food premises
 
-In a multi-unit building, treating a single unit is a temporary result. Adjacent units should be inspected, and treated where evidence shows movement. For food premises, the treatment plan works around service hours and the product placement respects food-contact surfaces.
+In a multi-unit building, treating a single unit is a temporary result. Adjacent units should be inspected, and treated where evidence shows movement. For food premises, visits fit around service within our 9am–5pm day, and product placement respects food-contact surfaces.
 
-Free inspection and quote, follow-up rounds built into the plan, and a written sanitation scope that tells everyone involved what their part is.
+Free residential inspection and quote, the number of rounds stated in writing, and a written sanitation scope that tells everyone involved what their part is.
 
 ## How long it takes, honestly
 
-A light population in a single-family home is usually resolved in two rounds plus a verification visit. A heavy population in an apartment with neighbouring units involved takes longer — typically three rounds across six to ten weeks, and the timeline depends far more on access and sanitation than on the products used. Anyone quoting a one-visit resolution for an established German cockroach population is describing something the insect's reproductive cycle does not allow.
+A light population in a single-family home is usually resolved in two rounds plus a verification visit. A heavy population in an apartment with neighbouring units involved takes longer — typically three rounds across six to ten weeks, and the timeline depends far more on access and sanitation than on the products used. A one-visit resolution for an established German cockroach population is not something the insect's reproductive cycle allows.
 
 ## The follow-up interval
 
-Follow-up lands two to four weeks after the first treatment, set by how heavy the population was rather than by a fixed diary date. That interval exists because of the egg case: it is carried until shortly before it hatches, so the generation that matters emerges after the first visit.
+Follow-up lands two to three weeks after the first treatment, set by how heavy the population was rather than by a fixed diary date. That interval exists because of the egg case: it is carried until shortly before it hatches, so the generation that matters emerges after the first visit.
 
 ## What a verification visit checks
 
@@ -96,11 +96,11 @@ Not every roach in a Maine house is a German cockroach. Larger species — the o
 
 ## Pricing and what changes it
 
-A cockroach quote is built from density, the number of rooms or units involved, and how much of the sanitation work the household or the business can do between visits. A light population in one kitchen is a short job. A heavy population across a shared wall is a programme. We inspect before quoting, and the follow-up rounds are in the price rather than added after.
+A cockroach quote is built from density, the number of rooms or units involved, and how much of the sanitation work the household or the business can do between visits. A light population in one kitchen is a short job. A heavy population across a shared wall is a programme. We inspect before quoting, and the quote states how many rounds are included.
 
 ## Working around a business
 
-Where the premises is a restaurant, a café or a food store, treatment is scheduled outside trading hours, product placement respects food-contact surfaces and preparation areas, and monitoring is placed where cleaning will not disturb it. The written record is kept in a form that can be handed to an inspector.
+Where the premises is a restaurant, a café or a food store, treatment is scheduled around your trading hours within our 9am–5pm day, product placement respects food-contact surfaces and preparation areas, and monitoring is placed where cleaning will not disturb it. The written record is kept in a form that can be handed to an inspector.
 
 ## The difference between control and elimination
 

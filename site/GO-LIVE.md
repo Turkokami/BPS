@@ -240,3 +240,57 @@ The rendered audit and the crawl are a floor, not an audit. Still needs a person
   firstPartyData (need a real job); every client item in section 5. Two small
   things to confirm with Ryan: the attic FAQ's "a day or two of work", and the
   wasp page's "quoted per nest".
+
+---
+
+## Pre-launch audit — 4 October 2026
+
+Three read-only auditors (town/county fact-check, service/library fact-check,
+claims and compliance) plus a technical pass. About 460 claims re-checked
+against their sources; about 400 verified as written. Everything below was fixed:
+
+- **Gate leak (blocker):** /our-guarantee/ and /privacy/ were noindex but linked
+  from all 42 indexable pages (header chip, CTA, footer). Links now render only
+  when `guaranteePublishable()` / `privacyPublishable()` are true, and
+  `gate-integrity.mjs` now fails the build on ANY noindex page linked from an
+  indexable one (proven against the old build: 2 failures).
+- **Pesticide safety claims (blocker):** Cheri's review ("how safe this is for my
+  dog") and the owner reply saying pesticides are applied "safely" removed —
+  republished by the business they become its claims (FTC 16 CFR 255; EPA 40 CFR
+  156.10(a)(5)(ix)).
+- **Free inspections (blocker):** one consistent statement everywhere —
+  residential inspections and quotes free; commercial inspections carry a fee
+  credited toward the work (the contact page's wording).
+- **Free re-treatment wording (blocker):** "keep working" and "follow-up rounds
+  included in the price" removed from bed bug / cockroach pages; quotes now
+  "state how many rounds are included".
+- **Factual errors fixed:** Waterville growth % (wrong baseline), Augusta "four
+  cities" comparison, "sixteen" BPC categories (there are 22), hantavirus
+  first-case attribution (Maine CDC, 2011; a second case in 2025), firm-licence
+  checkability, Chapter 31 insurance terms, misattributed UMaine/IPM advice, tick
+  season (adult peak is late October), one statewide Lyme figure (230.0) and one
+  source site-wide, town tick data labelled 2019–2022.
+- **Unattested promises softened or removed:** same-day/response-time wording
+  (now the attested emergency line), "only/most common call" claims, competitor
+  put-downs, "unmarked"/"discreet" visits, after-hours service, "greener option",
+  the "How we ask for reviews" list.
+- **Technical:** aggregateRating removed from schema; /favicon.ico added; the old
+  placeholder favicon.svg removed; X-Frame-Options, CSP frame-ancestors and
+  Permissions-Policy added; one-week cache on /brand/ assets; 12 descriptions
+  shortened so the phone line survives trimming; sealed-page notice made plain.
+
+### Ryan must answer before launch
+1. **Bath job.** The Bath page and the Sagadahoc hub rest on a job mined from
+   Nik's review, which never names a town — "Bath" was probably matched from
+   "bathed". Was there a job in Bath? If not, re-seal both.
+2. **Inspections.** Residential free, commercial fee credited toward the work — correct?
+3. **Staff.** The site says Ryan is the only applicator and "the same person each
+   visit"; published reviews mention "his team", "these gentlemen", a cousin.
+   Which is true? If anyone else applies pesticides, "only applicator" must go.
+4. **Matthew Blouin** — family? His review is excluded either way, but the
+   100-review total includes it, and the site builder's own review.
+5. Confirm or drop: rounds included in bed bug / cockroach quotes; "most homes
+   stop producing activity within two to three weeks"; a photographed written
+   record of every visit; attic clean-out "a day or two of work"; wasp nests
+   "quoted per nest".
+6. EcoVIA MT — registered for use in Maine?

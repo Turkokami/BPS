@@ -1,13 +1,13 @@
 ---
 title: "Flea Control in Maine Homes"
-description: "Fleas in a house: why treatment and the vet have to happen in the same week, what preparation actually matters, and why one visit is rarely enough. 207-740-4441."
+description: "Fleas in a house: why treatment and the vet need the same week, what preparation matters, and why one visit is rarely enough. 207-740-4441."
 answer: "A flea problem in a house is two problems: the adults you see on the pet, and the eggs, larvae and pupae in the carpet, the bedding and the cracks. Treatment handles the environment and the vet handles the animal. UMaine Cooperative Extension puts the cat flea's full life cycle at 27 to 40 days, so doing one without the other leaves the next generation already developing in the floor."
 snippetShape: "paragraph+list"
 quantifiedFact: "UMaine Cooperative Extension (Pest Management Fact Sheet #5020) says cat flea eggs hatch in one to twelve days, larvae mature in seven to 15 days, and the whole life cycle takes 27 to 40 days."
 primaryAuthority: "UMaine Cooperative Extension"
 statedPosition: "We will not treat a house for fleas while the pet is untreated. It wastes your money, and we will say so on the phone rather than after the invoice."
 firstPartyData: null
-updated: "2026-10-02"
+updated: "2026-10-04"
 service: "flea-control"
 faqs:
   - q: "We have no pets. Where did they come from?"
@@ -99,6 +99,6 @@ UMaine Cooperative Extension observes that sandy soil and gravel driveways make 
 
 ## When to call
 
-Call once the vet has confirmed fleas on the animal and you are still seeing them in the house, when you have bites and a house that has stood empty, or when you have done the vacuuming and the washing for a fortnight and nothing has changed. Same-day emergency service is available for urgent situations, and routine visits run 9am to 5pm, seven days a week.
+Call once the vet has confirmed fleas on the animal and you are still seeing them in the house, when you have bites and a house that has stood empty, or when you have done the vacuuming and the washing for a fortnight and nothing has changed. Routine visits run 9am to 5pm, seven days a week. Same-day emergency service is available. Call or text for the next opening.
 
 Free residential inspections and quotes. Call or text Ryan Blouin on 207-740-4441.

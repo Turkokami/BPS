@@ -7,7 +7,7 @@ quantifiedFact: "UMaine Cooperative Extension's Tick Lab reports adult deer tick
 primaryAuthority: "University of Maine Cooperative Extension (Tick Lab; Home and Garden IPM); Maine CDC; Maine Board of Pesticides Control"
 statedPosition: "Almost every seasonal pest problem in this state is cheaper to prevent by four weeks than to treat on the day it arrives."
 firstPartyData: null
-updated: "2026-10-02"
+updated: "2026-10-04"
 faqs:
   - q: "What is the single best month to do exclusion work?"
     a: "Late summer. UMaine Extension's cluster fly fact sheet has adults searching for overwintering sites in late summer and puts exterior treatment of their resting areas at mid to late August, and the same gaps let in the bugs and beetles that follow in September and October. Sealing in November means sealing with insects already inside."
@@ -19,11 +19,11 @@ Maine's pest pressure is seasonal in a way that southern states' is not, and the
 
 | Period | What the sources say happens | What to do ahead of it |
 | --- | --- | --- |
-| January–March | Cluster flies wake and appear at windows on warm, sunny days (Got Pests?, Maine Board of Pesticides Control); browntail webs can still be clipped (Maine Forest Service) | Vacuum, note which walls they come from; clip reachable browntail webs before mid-April |
+| January–March | Cluster flies wake and appear at windows on warm, sunny days (UMaine Extension; Got Pests?); browntail webs can still be clipped (Maine Forest Service) | Vacuum, note which walls they come from; clip reachable browntail webs before mid-April |
 | April–May | First adult deer tick peak (UMaine Tick Lab); yellowjacket queens emerge and start nests (Maine State Apiarist); boxelder bugs try to leave buildings (Got Pests?) | Rake leaf litter, create a tick-safe edge; check eaves and sheds for starter nests |
 | June–July | Deer tick nymphs peak (UMaine Tick Lab); wasp colonies growing fast (UMaine Extension) | Daily tick checks; deal with nests near doors while they are small |
 | August | Wasp colonies at or near peak (UMaine Extension); cluster flies start seeking overwintering sites (UMaine Extension) | Seal and screen the sunny walls; exterior cluster fly treatment window |
-| September–October | Western conifer seed bugs enter (UMaine Extension); Asian lady beetles move indoors, typically in October (UMaine Extension); second adult tick peak in late October (UMaine Tick Lab) | Finish exclusion; last tick precautions of the year |
+| September–October | Western conifer seed bugs enter (UMaine Extension); Asian lady beetles move indoors, typically in October (UMaine Extension); second adult tick peak in late October (UMaine Tick Lab) | Finish exclusion; keep up tick precautions through the late-October adult peak |
 | October–December | Yellowjacket colonies die after the first hard frost (Maine State Apiarist); two hard frosts sharply reduce mosquito-borne disease risk (Maine CDC) | Leave late wasp nests to the cold; plan next year's exclusion list |
 
 ## The two dates that matter most

@@ -7,7 +7,7 @@ quantifiedFact: "Structural ant treatment in Maine is licensed under category 7A
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "The moisture source goes in the report with a photograph, even when the repair belongs to a carpenter rather than to us."
 firstPartyData: "A confirmed job where carpenter ants in an outbuilding were treated the same day the customer called (about a year ago)."
-updated: "2026-09-23"
+updated: "2026-10-04"
 service: "ant-control"
 faqs:
   - q: "Is the damage like termite damage?"
@@ -40,7 +40,7 @@ Treatment targets the colony where it lives — injected into the galleries when
 
 The report names the moisture condition and what would fix it. That part is not pest control, and it is the part that decides whether the ants come back.
 
-Free inspection, honest answer. Call or text 207-740-4441.
+Free residential inspection, honest answer. Call or text 207-740-4441.
 
 ## The satellite and the parent
 
@@ -56,7 +56,7 @@ Activity often increases for a few days as the colony is disturbed and foragers 
 
 - Tap along the suspect wall or sill. Galleries sound hollow against solid framing.
 - Look for frass at floor level below windows, doors and ceiling seams, and check again a day after sweeping it up.
-- Watch at dusk. Carpenter ants forage most actively in the evening, and following one for a few minutes usually points at the route.
+- Look after dark. Carpenter ants are most active at night — UMaine puts the peak between 10 pm and 2 am — so a torch after dark, and a few minutes following one ant, usually points at the route.
 - Check outside for wood touching soil, branches touching the roof, and gutters overflowing onto trim.
 - Photograph what you find, with something for scale.
 

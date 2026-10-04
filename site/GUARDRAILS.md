@@ -31,22 +31,14 @@ from nowhere — `scripts/gate-integrity.mjs` asserts all of that on every build
 
 **Five county hubs are published, two are not.** Androscoggin, Cumberland, Kennebec, Oxford and Sagadahoc were written on 2 October 2026 to the same substance gate as the towns (`src/content/county/`, schema in `config.ts`) and flipped to PAGE in the demand map. Franklin and York have no job on record and stay sealed. A hub with no document renders the old link-list scaffold, so flipping a county to PAGE without writing it first would publish a thin page — write, then flip.
 
-**No license number anywhere.** `BUSINESS.license.number` is `null`, so the
-credential is absent from the page and from the `Person` node rather than being
-approximated. The About page says so in plain language instead of implying a
-credential. Fill `business.ts` and it appears everywhere at once.
+**The applicator licence is published; the firm licence number is not.** CMA-6425 (7A, 7E, expiring 2027-12-31) is read from the Board's own applicator record and appears on the site and in the `Person` node. The firm licence number is still outstanding, so the compliance page says the company is listed in the Board's For Hire directory rather than claiming the firm licence can be checked there.
 
 **The About page has no owner biography.** Pending. The site will not write a
 personal history on Ryan's behalf.
 
-**The reviews page has no review text.** The rating and count are published
-(5.0 from 98, read from the Google Business Profile on 22 September 2026) because
-they were observed. The review text is not, because reproducing customer words
-requires the real words. The page says that plainly.
+**The reviews page quotes 21 Google reviews word for word** (`src/data/reviews.ts`, read 1 Oct 2026). Reviews containing guarantee wording, a price, a meaning-reversing typo, a pesticide-safety statement, the owner's surname or the site builder's own review are excluded on purpose — the file says why. The rating is shown on the page, dated, but is **not** in the schema: Google's rules exclude ratings collected on another site.
 
-**No images, and no `ImageObject` in the graph.** The client has supplied no
-photographs. `scripts/validate-schema.mjs` re-enables the `ImageObject`
-requirement automatically as soon as any template renders an `<img>`.
+**The only images are the client's own brand assets** — the logo banner (supplied 1 Oct 2026) and the Services picture buttons. There is still no job photography. The logo is an `ImageObject` in the graph, which `validate-schema.mjs` requires as soon as a template renders an `<img>`.
 
 **Five word-band warnings.** Advisory under v3.2 — bands are editorial defaults,
 not floors. After wave 2 the site carries ~19,000 words, median page 1,127, and

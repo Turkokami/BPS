@@ -1,19 +1,19 @@
 ---
 title: "Carpenter Ant Control in Maine"
-description: "Carpenter ants in sills, framing and porch posts: finding the nest, treating the colony, and naming the water that let them in. Call or text Ryan on 207-740-4441."
+description: "Carpenter ants in sills, framing and porch posts: finding the nest, treating the colony, naming the water that let them in. Call 207-740-4441."
 answer: "Carpenter ants do not eat wood — they excavate it to nest, and they strongly prefer wood that water has already softened. So the job is two jobs: treat the colony where it lives, and identify the moisture that made the timber attractive. Treating the ants and ignoring the water buys you a single quiet season."
 snippetShape: "paragraph+table"
 quantifiedFact: "UMaine Cooperative Extension (Pest Management Fact Sheet #5007) describes carpenter ant workers as about 1/4 inch long, and says a well-fed colony may take two to five years to produce a reproductive generation."
 primaryAuthority: "UMaine Cooperative Extension"
-statedPosition: "Exterior treatment plus interior gel and traps, and the moisture source written into the report — even when the repair belongs to a carpenter rather than to us."
+statedPosition: "Find and treat the nest: targeted exterior treatment at entry points and nest sites, interior gel and traps, and the moisture source written into the report — even when the repair belongs to a carpenter rather than to us."
 firstPartyData: "Carpenter ant call in Lewiston: the problem area was located and treated, and the customer reported the ants gone (confirmed job). Carpenter ants in a customer's shed treated the same day they called, alongside tick and mosquito work on the same property."
-updated: "2026-10-02"
+updated: "2026-10-04"
 service: "carpenter-ant-control"
 faqs:
   - q: "How do I know they are carpenter ants and not something else?"
     a: "Size and sawdust. Carpenter ants are large and usually black, and they push out coarse frass that looks like pencil sharpenings below the galleries they are cutting. Winged ants at an interior window in spring mean a mature colony, and in Maine in late winter that colony is almost always inside the building rather than outside it."
   - q: "What does the treatment involve?"
-    a: "Exterior treatment around the structure, plus gel bait and traps inside where the activity is. Where the galleries are reachable the material goes into the void directly; where they are not, the foragers carry the bait back."
+    a: "The nest is the target. Targeted exterior treatment at entry points and nest sites rather than a blanket ring round the house, plus gel bait and traps inside where the activity is. Where the galleries are reachable the material goes into the void directly; where they are not, the foragers carry the bait back."
   - q: "Will they be back next year?"
     a: "Not the same colony, if the colony was treated and the moisture corrected. New colonies can find a house that still has soft wood or ground contact, which is why the report names those conditions."
   - q: "Do you treat termites?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Are carpenter ants going to bring the house down?"
     a: "Rarely. The Maine Department of Agriculture's school IPM programme says carpenter ant damage seldom compromises a building's structural integrity. The damage is real and it grows the longer a colony stays, but the more pressing finding is usually the water that softened the wood in the first place."
   - q: "Is it safe to bring firewood inside?"
-    a: "Check it first. UMaine Cooperative Extension advises inspecting firewood for carpenter ants before it comes indoors, and its fact sheet recommends keeping the woodpile outside rather than stacked against the house."
+    a: "Check it first. UMaine Cooperative Extension (fact sheet #5019) advises checking firewood for carpenter ants before it comes indoors, storing it in a woodshed off the ground, and bringing in no more than about two weeks' supply at a time."
 ---
 
 Carpenter ants are among the most commonly half-treated pests in a Maine house. The difference between an ant problem that ends and one that repeats every May is almost never the product. It is whether anyone worked out where the colony actually lives and what made that spot attractive.
@@ -41,7 +41,7 @@ The point that matters for a house is their diet. UMaine Cooperative Extension s
 | Large black ants indoors in February or March | A colony inside the structure — nothing forages in from outside in a Maine winter | Locate the galleries, treat the colony, correct the moisture |
 | Coarse sawdust below a window, sill or ceiling seam | Active excavation right above it | Structural inspection, treatment, then repair |
 | Winged ants at an interior window in spring | A mature colony producing swarmers indoors | Same as above, and the source is close |
-| A steady trail along a counter in July | Foraging from outside | Exterior treatment and entry points |
+| A steady trail along a counter in July | Foraging from outside | Targeted treatment at entry points and nest sites |
 | Ants under a sink or in a bathroom | Moisture before food | Find the leak first |
 
 Penn State Extension supports the winter reading: carpenter ants are active through the cold months when the nest is in a heated part of a building. The University of New Hampshire Extension adds that outdoor nests are inactive in winter, though individuals occasionally come out on warm days — so a single ant on a mild February afternoon is less telling than a steady stream of them.
@@ -73,7 +73,7 @@ The school IPM programme suggests checking trees and stumps near the building at
 5. Roof deck under an old ice-dam leak
 6. A crawlspace with no vapour barrier
 
-That list lines up with the authorities. UMaine Cooperative Extension's control advice starts with eliminating moisture from leaks around chimneys, roofs, gutters and windows, and the Maine school IPM programme says nests in buildings are usually associated with moisture problems such as roof or plumbing leaks. Every condition on the list is named and photographed in the report. Where the repair is carpentry or roofing rather than pest control, we say so instead of treating around it.
+That list lines up with the authorities. UMaine Cooperative Extension traces infestations to leaks around chimneys, roof valleys, gutters, windows and door frames, and to plumbing leaks — the same water this list is looking for — and the Maine school IPM programme says nests in buildings are usually associated with moisture problems such as roof or plumbing leaks. Every condition on the list is named and photographed in the report. Where the repair is carpentry or roofing rather than pest control, we say so instead of treating around it.
 
 ## Satellite colonies, and why the exterior walk matters
 
@@ -85,7 +85,7 @@ So the inspection covers the tree line, any wood in ground contact, stumps withi
 
 - Confirm the species from the insect rather than the description
 - Follow the trail rather than the sighting — foragers travel along framing, wiring and pipe runs
-- Treat the exterior of the structure where the entry and activity are
+- Targeted exterior treatment at entry points and nest sites, not a blanket perimeter ring — the nest is what has to be treated
 - Gel bait and traps inside, placed in the harbourages rather than smeared along baseboards
 - Inject the galleries directly where they can be reached
 - Write down the conditions keeping the house attractive
@@ -100,7 +100,7 @@ One customer's account of a carpenter ant visit, quoted exactly as posted:
 ## What you can do yourself
 
 - **Fix the water you already know about.** A dripping outside tap, a gutter that overflows onto trim, a window that weeps in a storm.
-- **Move the woodpile.** UMaine Cooperative Extension recommends keeping firewood outside and checking it before bringing it in.
+- **Mind the firewood.** UMaine's fact sheet #5019 suggests a woodshed that keeps the wood off the ground, a check for ants before any of it comes inside, and only about a fortnight's supply indoors at once.
 - **Cut back contact points.** The school IPM programme advises trimming plants so they do not touch the building, and keeping screens, weather stripping, door sweeps and gutters in good repair.
 - **Vacuum the strays.** The same programme suggests vacuuming winged ants and small numbers of workers indoors.
 - **Be careful with shop baits.** UMaine's fact sheet says baits should be labelled for carpenter ants and placed out of reach of children and pets. A bait that kills foragers without reaching the nest can make the colony harder to find.

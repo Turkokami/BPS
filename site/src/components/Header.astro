@@ -10,9 +10,12 @@ const primary = [
   { href: '/about/', label: 'About' },
   { href: '/contact/', label: 'Contact' },
 ];
+import { guaranteePublishable } from '../data/business';
+/* Gated pages (guarantee, privacy) are linked only once they are publishable —
+   gate-integrity.mjs fails the build on a link to any noindex route. */
 const secondary = [
+  ...(guaranteePublishable() ? [{ href: '/our-guarantee/', label: 'Our guarantee' }] : []),
   { href: '/reviews/', label: 'Reviews' },
-  { href: '/our-guarantee/', label: 'Our guarantee' },
   { href: '/compliance/maine-pesticide-licensing/', label: 'Licensing' },
 ];
 ---

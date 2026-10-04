@@ -14,21 +14,21 @@ localFacts:
   - "Median home value $235,100 and median gross rent $986 (U.S. Census Bureau QuickFacts, 2020–2024)"
   - "8,763 of Lewiston's 17,105 housing units (51.2%) are in buildings of two or more units, including 3,125 in buildings of five to nine; only 43.4% are detached houses (U.S. Census Bureau, American Community Survey 2020–2024 5-year, table B25024)"
   - "5,410 Lewiston housing units (31.6%) were built in 1939 or earlier (U.S. Census Bureau, American Community Survey 2020–2024 5-year, table B25034)"
-  - "12 of 32 ticks submitted from Lewiston (37.5%) carried the Lyme bacterium and 5 (15.6%) carried Babesia (UMaine Cooperative Extension Tick Lab, all available town data)"
+  - "12 of 32 ticks submitted from Lewiston (37.5%) carried the Lyme bacterium and 5 (15.6%) carried Babesia (UMaine Cooperative Extension Tick Lab town data, 2019–2022 seasons)"
 firstPartyProof: "Carpenter ant job in Lewiston, confirmed by the owner: the problem area was located, treated, and the customer reported the ants gone."
 uniqueFact: "Blouin Pest Services works out of Lewiston, and the 1.5-hour service radius is measured from here. No competitor covering this city is based in it."
 faqs:
   - q: "How quickly can you get here?"
-    a: "Lewiston is the base, so same-day is often possible and emergency work is genuinely same-day rather than 'next available'. Call or text and you will get a straight answer about timing rather than a promise nobody can keep."
+    a: "Lewiston is the base. Same-day emergency service is available; call or text for the next opening and you will get a straight answer about timing rather than a promise nobody can keep."
   - q: "Do you work on multi-unit buildings?"
     a: "Yes, including rentals. In a building with shared walls the units either side of the one that reported the problem get inspected, because treating a single unit in a multi-unit building is a temporary result."
   - q: "What do you get called for most here?"
-    a: "Carpenter ants and rodents, in that order. Both are usually a moisture or an access problem wearing a pest costume, and the report will say which."
+    a: "Carpenter ants and rodents are both common here. Both are usually a moisture or an access problem wearing a pest costume, and the report will say which."
   - q: "I rent. Should I call you or my landlord?"
     a: "Tell your landlord first, and in writing. In a shared building the fix usually involves units other than yours, and only the owner can arrange access to those. An inspection can be booked by either of you; the owner is the one who can authorise the building-wide part."
 ---
 
-Lewiston is where this business is based, and it is where most of its work happens. Nearly 39,000 people, just over 16,000 households, and a housing stock that runs from mill-era multi-unit buildings through to post-war single-family homes on the edges.
+Lewiston is where this business is based. Nearly 39,000 people, just over 16,000 households, and a housing stock that runs from mill-era multi-unit buildings through to post-war single-family homes on the edges.
 
 ## What that housing produces
 
@@ -56,7 +56,7 @@ The <a href="/services/bed-bug-control/">bed bug</a> and <a href="/services/cock
 
 ## Carpenter ants here
 
-This is the call we take most often in spring, and the one people most often half-solve with a spray. Large black ants moving inside a Lewiston house in February are not visitors — nothing forages in from outside in a Maine winter. They are living in the structure, usually in timber that a gutter, a window seal or an old roof leak has softened.
+It is a common spring call, and one people often half-solve with a spray. Large black ants moving inside a Lewiston house in February are unlikely to be visitors — in a Maine winter they usually point to a colony inside the building. They are living in the structure, usually in timber that a gutter, a window seal or an old roof leak has softened.
 
 We did exactly that job in this city: the customer called about carpenter ants, we located the area they were working in, treated it, and the ants were gone. The part that matters afterwards is the moisture note in the report, because that is what decides whether the next colony finds the same conditions.
 
@@ -74,9 +74,9 @@ Exclusion is quoted separately from trapping, itemised opening by opening, so yo
 
 ## Ticks inside city limits
 
-Ticks are not only a rural problem: a city lot with a wooded or overgrown boundary can hold them too. UMaine Cooperative Extension's Tick Lab has tested 32 ticks sent in from Lewiston: 12 (37.5%) carried the Lyme bacterium *Borrelia burgdorferi* and five (15.6%) carried *Babesia*, the parasite behind babesiosis. It is a small set of ticks that people chose to submit, so it shows what is present rather than how common it is. Of the four cities on this site, Lewiston's submissions had the highest *Babesia* share, though with only 32 ticks tested a couple of results either way would change that ranking.
+Ticks are not only a rural problem: a city lot with a wooded or overgrown boundary can hold them too. UMaine Cooperative Extension's Tick Lab has tested 32 ticks sent in from Lewiston: 12 (37.5%) carried the Lyme bacterium *Borrelia burgdorferi* and five (15.6%) carried *Babesia*, the parasite behind babesiosis. It is a small set of ticks that people chose to submit, so it shows what is present rather than how common it is. Of the seven towns on this site, Lewiston's submissions had the highest *Babesia* share, though with only 32 ticks tested a couple of results either way would change that ranking.
 
-For the county as a whole, Maine CDC's 2024 reportable-disease summary counted 45 anaplasmosis cases among Androscoggin residents (39.0 per 100,000) alongside 153 cases of Lyme disease — both well under the state's per-capita rates for the year, but present every season. Yard treatment is covered on the <a href="/services/tick-control/">tick control</a> page.
+For the county as a whole, Maine CDC's 2024 tickborne illness report counted 45 anaplasmosis cases among Androscoggin residents (39.0 per 100,000) alongside 153 cases of Lyme disease — both well under the state's per-capita rates for the year, but present every season. Yard treatment is covered on the <a href="/services/tick-control/">tick control</a> page.
 
 ## Working in the Lewiston–Auburn corridor
 

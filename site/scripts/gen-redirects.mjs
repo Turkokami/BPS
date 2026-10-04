@@ -88,7 +88,23 @@ const config = {
       headers: [
         { key: 'X-Content-Type-Options', value: 'nosniff' },
         { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+        /* Anti-framing and capability lockdown. Deliberately not a full CSP yet:
+           the GorillaDesk booking embed (BUSINESS.forms) is still to come, and a
+           script/frame allowlist written now would silently break it. */
+        { key: 'X-Frame-Options', value: 'DENY' },
+        { key: 'Content-Security-Policy', value: "frame-ancestors 'none'; base-uri 'self'; object-src 'none'" },
+        { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=(), payment=(), usb=()' },
       ],
+    },
+    /* Brand and button images are not content-hashed, so a week rather than
+       immutable: a replaced logo reaches everyone within seven days. */
+    {
+      source: '/brand/(.*)',
+      headers: [{ key: 'Cache-Control', value: 'public, max-age=604800, stale-while-revalidate=86400' }],
+    },
+    {
+      source: '/(favicon.ico|favicon-48.png|apple-touch-icon.png|og-default.png)',
+      headers: [{ key: 'Cache-Control', value: 'public, max-age=604800, stale-while-revalidate=86400' }],
     },
   ],
 };

@@ -7,7 +7,7 @@ quantifiedFact: "Maine charges $105 for a commercial applicator licence, renewab
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "Trapping without exclusion is a subscription, not a solution — we quote the sealing work with the trapping."
 firstPartyData: "Mice in a wall on a Maine home: we located the entry along the foundation and sealed it, and showed the household where the animals had been getting in (confirmed job, about six months ago). Separately, a mouse infestation at a seasonal camp, resolved and not recurring since (about four months ago)."
-updated: "2026-09-23"
+updated: "2026-10-04"
 service: "rodent-control"
 faqs:
   - q: "How long does it take to get mice out of a house?"
@@ -34,7 +34,7 @@ The job starts outside. Rodent work that starts with a trap in the kitchen is so
 
 ## Removal, then exclusion
 
-Once the route is known, removal is the fast part. Traps go where the evidence is — along runways, against walls, in the void the animals are actually using, not where it is convenient to reach. Nothing is placed where a child or a pet can get to it.
+Once the route is known, removal is the fast part. Traps go where the evidence is — along runways, against walls, in the void the animals are actually using, not where it is convenient to reach. Traps and bait go in tamper-resistant stations or out of reach of children and pets, as the label requires.
 
 Exclusion is the part that decides whether you call anyone again. Sealing is a material job: copper mesh and sealant in small gaps, hardware cloth over vents and larger openings, and metal where a rodent has already chewed something soft. A foam-only repair fails, because a mouse chews foam.
 

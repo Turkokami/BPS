@@ -7,7 +7,7 @@ quantifiedFact: "The U.S. CDC says mice can fit through a hole the width of a pe
 primaryAuthority: "U.S. Centers for Disease Control and Prevention"
 statedPosition: "Trapping without exclusion is a subscription, not a solution. The sealing gets quoted with the trapping, and anything that needs a carpenter is named as carpentry."
 firstPartyData: "Whole-home inspection in Auburn found several entry points, including the garage door seals where the garage meets the house. The seals were replaced, exterior bait stations added, and the rodent issue resolved (confirmed job). On another Maine home the entry was found along the foundation, sealed, and the household shown the route."
-updated: "2026-10-02"
+updated: "2026-10-04"
 service: "rodent-exclusion"
 faqs:
   - q: "How small a gap does a mouse need?"
@@ -22,7 +22,7 @@ faqs:
     a: "Yes. University of California IPM says a female house mouse may produce five to ten litters a year of about five or six pups each, and the young are sexually mature five to six weeks after birth. A small number of animals getting in through one open route in autumn is a large number by spring."
 ---
 
-Most rodent jobs in Maine are sold as treatment and priced as treatment. The part that decides whether you call anybody again is the part nobody quotes: closing the ways in.
+Trapping deals with the animals already inside a building. Exclusion is the part that decides whether you call again: closing the ways in.
 
 ## How small is small
 
@@ -70,7 +70,7 @@ One household's experience of that order, quoted word for word:
 
 University of California IPM says a female house mouse may have five to ten litters a year, each of about five or six pups, and that the young can breed five to six weeks after birth. Trapping takes out the animals already inside. It does nothing about the population outside, which will find the same open gap next autumn. A building that stays open is a building that refills.
 
-That is also the health argument. The UMaine Animal Health Laboratory, advising Maine residents on hantavirus after the state's first diagnosed human case in 2011, summed up the prevention approach as keeping rodents out of your house, barn or camp. The U.S. CDC names the deer mouse as the most common hantavirus carrier in the United States. Exclusion is the step that keeps the droppings out of the space in the first place; if they are already there, see [attic clean-outs and sanitation](/services/attic-cleanout-and-sanitation/) for the safe way to deal with them.
+That is also the health argument. Maine CDC has confirmed two human hantavirus cases in the state, in 2011 and 2025, and after the first of them the UMaine Animal Health Laboratory's director summed up prevention for Maine residents as keeping rodents out of your house, barn or camp. The U.S. CDC says the deer mouse spreads the hantavirus responsible for most illness in the United States. Exclusion is the step that keeps the droppings out of the space in the first place; if they are already there, see [attic clean-outs and sanitation](/services/attic-cleanout-and-sanitation/) for the safe way to deal with them.
 
 ## What you can do around the house
 
@@ -90,10 +90,7 @@ If you are reading this mid-winter with noise overhead, the order changes: remov
 
 ## Rural homes and camps
 
-University of California IPM says deer mice are not normally found in residential areas unless fields, forests or similar habitat surround them — which describes plenty of houses outside the town centres. A second account from a customer in that position, quoted exactly:
-
-> "I live in the country and had a little mouse problem. These gentleman came to my house and explained every where they were coming in and explained the whole process of how we can eliminate them. Even went on to tell me how safe this is for my dog. Very, very respectful guys! Would highly recommend to anyone needing some help!!"
-> — Cheri, March 2026, Google review
+University of California IPM says deer mice are not normally found in residential areas unless fields, forests or similar habitat surround them — which describes plenty of houses outside the town centres.
 
 For camps that sit closed through the winter, the survey is best done before closing up rather than after opening, so the building is shut against the season it is most exposed to.
 

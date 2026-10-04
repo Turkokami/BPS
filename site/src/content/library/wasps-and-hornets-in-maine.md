@@ -7,7 +7,7 @@ quantifiedFact: "The Maine School IPM Program's wasp fact sheet (Maine Departmen
 primaryAuthority: "University of Maine Cooperative Extension (Home and Garden IPM); Maine Department of Agriculture, Conservation and Forestry"
 statedPosition: "We will tell you when a nest can be left alone. Not every nest needs treating, and late-season nests die out on their own."
 firstPartyData: "Stinging-insect work is a real and under-advertised part of this book: five of the hundred customer reviews read on 24 September 2026 name wasps, hornets or yellowjackets. Three describe the job — three nests cleared after the householder's own spraying had failed, hornet nests removed before the property was treated, and a bee nest located in a hard-to-reach void under a deck (confirmed jobs, between three months and a year ago)."
-updated: "2026-10-02"
+updated: "2026-10-04"
 faqs:
   - q: "Do wasps reuse last year's nest?"
     a: "No. Paper nests are annual — the colony dies with the cold and a new queen starts somewhere else in spring. Removing an old empty nest is cosmetic, though it does stop you wondering about it next June."
@@ -62,9 +62,9 @@ For an ordinary sting, NIOSH's first-aid steps are simple: wash the site with so
 Most of the useful work is prevention, and it is free.
 
 - **Look early.** UMaine Extension notes that nuisance nests are most easily removed in early spring, before the colony has had a chance to grow. A walk round the eaves, the deck rail and the shed door once a week in May finds nests while they are tiny.
-- **Close the cavities.** The Maine IPM Council's yellowjacket tip sheet recommends sealing openings in outside walls, fences, pipes and meter boxes so wasps cannot nest inside them — but never the entrance of an active nest.
+- **Close the cavities.** The Maine IPM Council's yellowjacket tip sheet recommends sealing openings in outside walls, fences, pipes and meter boxes so wasps cannot nest inside them. The Maine School IPM Program adds the exception: never seal the entrance of an active nest until the colony is dead.
 - **Manage the food.** Covered drinks, covered pet food, and bins with tight lids that are emptied and rinsed often cut the late-summer foraging pressure more than any spray.
-- **Leave ground and wall nests alone.** That same tip sheet says removing underground or inaccessible nests is not practical for a homeowner, and that stings are likely while spraying — and possible the next day from wasps that were only partly knocked down.
+- **Leave ground and wall nests alone.** The IPM Council's tip sheet says removing underground or inaccessible nests is not practical for a homeowner, and that stings are likely while spraying — and possible the next day from wasps that were only partly knocked down.
 
 ## Why ground nests are the dangerous ones
 

@@ -89,4 +89,4 @@ Sealing work done in September is prevention. The same work in January is a repa
 
 An inspection that starts outside, a written list of every entry point found, a quote that separates treatment from sealing, and a plain answer about anything that belongs to a carpenter, a roofer or a plumber rather than to a pest control company.
 
-Free inspections and quotes across Bath, and call or text Ryan Blouin directly on 207-740-4441.
+Free residential inspections and quotes across Bath, and call or text Ryan Blouin directly on 207-740-4441.

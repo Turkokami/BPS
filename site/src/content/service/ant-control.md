@@ -1,13 +1,13 @@
 ---
 title: "Ant Control in Maine"
-description: "Carpenter ants and pavement ants in Maine homes: how to tell nesting from foraging, what treatment actually works, and what it costs. Call or text 207-740-4441."
-answer: "Ant control in Maine turns on one question: are the ants nesting in the structure or foraging through it? Carpenter ants nesting in damp framing are a building problem that needs the moisture fixed as well as the colony treated. Ants trailing in from outside are a perimeter and entry-point problem, and spraying the trail you can see is the least useful thing you can do about it."
+description: "Carpenter ants and pavement ants in Maine homes: telling nesting from foraging, and the treatment that works. Call or text 207-740-4441."
+answer: "Ant control in Maine turns on one question: are the ants nesting in the structure or foraging through it? Carpenter ants nesting in damp framing are a building problem that needs the moisture fixed as well as the colony treated. Ants trailing in from outside are an entry-point and outdoor-nest problem, and spraying the trail you can see is the least useful thing you can do about it."
 snippetShape: "paragraph+table"
-quantifiedFact: "Structural ant work in Maine sits in licence category 7A, Structural General Pest Control, one of sixteen commercial categories the Maine Board of Pesticides Control issues."
+quantifiedFact: "Structural ant work in Maine sits in licence category 7A, Structural General Pest Control, one of the commercial categories the Maine Board of Pesticides Control issues."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "If carpenter ants are in wet wood, the wet wood is the job. We name the moisture source in the report even when the repair is someone else's work."
 firstPartyData: "Carpenter ants in a customer's shed treated the same day they called, alongside tick and mosquito work on the same property (confirmed job, about a year ago). Ants and mice together at a newly purchased home in Bath, after the household had tried retail aerosols first (about a year ago)."
-updated: "2026-09-23"
+updated: "2026-10-04"
 service: "ant-control"
 faqs:
   - q: "How do I know if they are carpenter ants?"
@@ -18,7 +18,7 @@ faqs:
     a: "Not from the same colony if the colony was treated and the moisture that attracted it was corrected. New colonies can find a house that still has soft wood and ground contact, which is why the report names those conditions."
 ---
 
-Ants are the most common call a Maine pest control company takes, and the most commonly mistreated. The difference between an ant problem that ends and one that repeats every May is almost never the product used. It is whether anyone worked out where the colony actually is.
+Ants are among the most common calls a Maine pest control company takes, and among the most commonly mistreated. The difference between an ant problem that ends and one that repeats every May is almost never the product used. It is whether anyone worked out where the colony actually is.
 
 ## Nesting or foraging
 
@@ -27,7 +27,7 @@ Ants are the most common call a Maine pest control company takes, and the most c
 | Large black ants indoors in late winter | A colony already inside the structure | Locate the galleries, treat the colony, correct the moisture |
 | Coarse sawdust below a window or sill | Active carpenter ant excavation | Structural inspection, treatment, then repair |
 | Winged ants at an interior window in spring | A mature colony producing swarmers indoors | Same as above, and the source is close |
-| Small ants trailing along a counter | Foraging from outside | Perimeter treatment, entry points, food and moisture discipline |
+| Small ants trailing along a counter | Foraging from outside | Targeted exterior treatment at entry points and nest sites, food and moisture discipline |
 | Ants in a bathroom or under a sink | Moisture, not food | Find the leak first |
 
 ## Carpenter ants and Maine houses
@@ -43,12 +43,12 @@ Satellite colonies complicate it further. A mature carpenter ant colony will est
 1. Confirm the species. Pavement ants, carpenter ants, odorous house ants and field ants all get called "ants" on the phone and none of them is treated the same way.
 2. Follow the trail rather than the sighting. Foragers travel along edges — framing, wiring, pipe runs, baseboards — and the trail leads back toward the nest or the entry.
 3. Treat where the colony lives, and use a bait the foragers will carry when the nest is not reachable.
-4. Treat the perimeter where the entry points are, not as a blanket ring for its own sake.
+4. Use targeted exterior treatment at entry points and nest sites, not a blanket perimeter ring for its own sake.
 5. Name the conditions keeping the house attractive: ground contact, mulch against siding, branches touching the roof, standing water at the foundation.
 
 ## The seasonal pattern here
 
-Maine's ant calendar is compressed. Activity indoors in February or March generally means an interior colony, because nothing is foraging in from outside in the snow. Late April through June is the swarm and expansion window, when winged reproductives appear and new colonies establish. Midsummer is foraging season, when a kitchen trail is usually a perimeter problem. By September the colony is provisioning rather than expanding, and treatment timing shifts accordingly.
+Maine's ant calendar is compressed. Activity indoors in February or March generally means an interior colony, because nothing is foraging in from outside in the snow. Late April through June is the swarm and expansion window, when winged reproductives appear and new colonies establish. Midsummer is foraging season, when a kitchen trail usually leads back to an outdoor nest and an entry point. By September the colony is provisioning rather than expanding, and treatment timing shifts accordingly.
 
 That calendar is why a one-visit spray in June often looks like a success and reads like a failure by the following spring.
 
@@ -56,7 +56,7 @@ That calendar is why a one-visit spray in June often looks like a success and re
 
 **Carpenter ants.** Large, black, and the ones that matter structurally. Indoors in winter means an interior colony. Frass below a sill means active excavation. Covered at length above.
 
-**Pavement ants.** Small, dark, usually trailing in from a slab edge, a patio joint, or the gap where a walkway meets the foundation. Almost always a foraging problem rather than a structural one, and generally resolved with perimeter work plus finding the entry.
+**Pavement ants.** Small, dark, usually trailing in from a slab edge, a patio joint, or the gap where a walkway meets the foundation. Almost always a foraging problem rather than a structural one, and generally resolved by treating the nest and the entry rather than spraying a ring round the house.
 
 **Odorous house ants.** Small, and they give off a distinctive smell when crushed. They nest in wall voids, under insulation, and in wet areas, and they are the species most likely to produce the "we sprayed and now there are more trails" complaint, because a repellent application splits the colony into several.
 
@@ -69,7 +69,7 @@ That calendar is why a one-visit spray in June often looks like a success and re
 1. A walk of the interior where the activity is, including the spaces above and below it.
 2. A walk of the exterior: foundation, siding contact, mulch depth, gutters, branches touching the roof, and anything wooden sitting on soil.
 3. Species identification from the insect rather than from a description.
-4. Treatment appropriate to that species — colony treatment, bait, or perimeter — and an explanation of which we chose and why.
+4. Treatment appropriate to that species — colony treatment, bait, or targeted exterior treatment at entry points — and an explanation of which we chose and why.
 5. A written record of the moisture and structural conditions found, photographed.
 
 ## How long it takes to see a result
@@ -80,7 +80,7 @@ Foraging populations usually drop within days. A colony inside a wall takes long
 
 Ant work on a structure in Maine falls under commercial applicator category 7A, Structural General Pest Control. The Maine Board of Pesticides Control requires a licence for any pesticide applied as a service for compensation, and requires each company to designate a Commercial Master applicator responsible for pest management decisions and training. Products are applied to the label, in the categories the licence covers, and the report says what was used and where.
 
-Free inspections and quotes, and a plain answer about whether what you have is an ant problem or a water problem.
+Free residential inspections and quotes, and a plain answer about whether what you have is an ant problem or a water problem.
 
 ## What we will not do
 

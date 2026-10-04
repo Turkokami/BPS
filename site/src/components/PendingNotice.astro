@@ -1,12 +1,15 @@
 ---
 /** Rendered on any route the Part 6A gate has not authorised. The page exists so
  *  it can be reviewed and flipped in one CSV edit; it is noindex and unlinked
- *  until then, and this notice makes that state visible to anyone previewing.
+ *  until then.
  *
- *  The trailing sentence used to say "until the evidence is on record", which
- *  became wrong for the five county hubs whose evidence IS on record and which
- *  are held back on page quality instead. It states the mechanism now, and the
- *  reason prop states the cause. */
+ *  A visitor who lands here (an old bookmark, a typed URL) sees a plain message
+ *  and the phone number. The gate's own reason — signals, competitor coverage —
+ *  is internal jargon that read as garbled on the public page (4 Oct 2026 audit),
+ *  so it is kept for reviewers as an HTML comment in the source instead. */
+import { BUSINESS } from '../data/business';
 const { reason } = Astro.props;
+const comment = `<!-- Not published: ${String(reason).replace(/--/g, '—')} Excluded from every sitemap, linked from nowhere, noindex until that changes. -->`;
 ---
-<p class="notice"><strong>Not published.</strong> {reason} It is excluded from every sitemap, linked from nowhere, and carries noindex until that changes.</p>
+<Fragment set:html={comment} />
+<p class="notice"><strong>This page is not finished yet.</strong> For anything it would have covered, call or text {BUSINESS.owner.name} on <a href={`tel:${BUSINESS.phoneE164}`}>{BUSINESS.phone}</a>.</p>

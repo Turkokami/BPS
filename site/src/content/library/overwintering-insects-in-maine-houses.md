@@ -5,9 +5,9 @@ answer: "Insects at a sunny window in late winter are overwintering pests — cl
 snippetShape: "paragraph+table"
 quantifiedFact: "The Maine Department of Agriculture, Conservation and Forestry reports brown marmorated stink bugs overwintering in Maine structures verified from 90 towns in 13 counties. Exterior treatment for overwintering pests falls under licence category 7A (Maine Board of Pesticides Control)."
 primaryAuthority: "University of Maine Cooperative Extension (Pest Management Fact Sheet #5010); Maine Department of Agriculture, Conservation and Forestry"
-statedPosition: "We do not sell indoor treatment for cluster flies. Vacuum them, and let us seal the building in September instead."
+statedPosition: "We do not sell indoor treatment for cluster flies. Vacuum them, and let us seal the building in late summer, August into September, instead."
 firstPartyData: null
-updated: "2026-10-02"
+updated: "2026-10-04"
 faqs:
   - q: "Do they breed inside the house?"
     a: "No. Cluster flies develop in soil, parasitising earthworms, and the rest are outdoor feeders. Nothing is reproducing in your walls, which is why the population does not grow through the winter even though it feels like it does."
