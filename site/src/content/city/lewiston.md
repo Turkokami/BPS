@@ -1,6 +1,6 @@
 ---
 title: "Pest Control in Lewiston, Maine"
-description: "Carpenter ants, rodents and general pest control in Lewiston — from the applicator who does the work himself. Call or text Ryan on 207-740-4441."
+description: "Carpenter ants, rodents and general pest control in Lewiston — from the applicator who does the work himself. Call or text Ryan at 207-740-4441."
 answer: "Lewiston is Maine's second city and the base this business works out of. Its housing is a mix of mill-era multi-unit buildings and post-war single-family homes, and that split decides the work: carpenter ants and rodents in the older stock, and the access-and-sequencing problems that come with any building holding more than one household."
 snippetShape: "paragraph+list"
 quantifiedFact: "The U.S. Census Bureau counts 16,099 households in Lewiston and a July 2025 population of 38,866, up 4.7% on the 2020 census, with owner occupancy at 51.2%."
@@ -25,16 +25,16 @@ faqs:
   - q: "What do you get called for most here?"
     a: "Carpenter ants and rodents are both common here. Both are usually a moisture or an access problem wearing a pest costume, and the report will say which."
   - q: "I rent. Should I call you or my landlord?"
-    a: "Tell your landlord first, and in writing. In a shared building the fix usually involves units other than yours, and only the owner can arrange access to those. An inspection can be booked by either of you; the owner is the one who can authorise the building-wide part."
+    a: "Tell your landlord first, and in writing. In a shared building the fix usually involves units other than yours, and only the owner can arrange access to those. An inspection can be booked by either of you; the owner is the one who can authorize the building-wide part."
 ---
 
 Lewiston is where this business is based. Nearly 39,000 people, just over 16,000 households, and a housing stock that runs from mill-era multi-unit buildings through to post-war single-family homes on the edges.
 
 ## What that housing produces
 
-Roughly half of Lewiston's occupied homes are owner-occupied, which means the other half are rentals — and rental buildings change how pest work has to be organised. Cockroaches and bed bugs move between units through wall voids and pipe chases; a landlord who treats only the unit that complained pays for the same job again a few months later.
+Roughly half of Lewiston's occupied homes are owner-occupied, which means the other half are rentals — and rental buildings change how pest work has to be organized. Cockroaches and bed bugs move between units through wall voids and pipe chases; a landlord who treats only the unit that complained pays for the same job again a few months later.
 
-In the older single-family stock the pattern is different: carpenter ants in sills and window framing where water has been getting in, and mice entering low at the foundation and travelling up inside the walls.
+In the older single-family stock the pattern is different: carpenter ants in sills and window framing where water has been getting in, and mice entering low at the foundation and traveling up inside the walls.
 
 ## The buildings, counted
 
@@ -56,7 +56,7 @@ The <a href="/services/bed-bug-control/">bed bug</a> and <a href="/services/cock
 
 ## Carpenter ants here
 
-It is a common spring call, and one people often half-solve with a spray. Large black ants moving inside a Lewiston house in February are unlikely to be visitors — in a Maine winter they usually point to a colony inside the building. They are living in the structure, usually in timber that a gutter, a window seal or an old roof leak has softened.
+It is a common spring call, and one people often half-solve with a spray. Large black ants moving inside a Lewiston house in February are unlikely to be visitors — in a Maine winter they usually point to a colony inside the building. They are living in the structure, usually in wood that a gutter, a window seal or an old roof leak has softened.
 
 We did exactly that job in this city: the customer called about carpenter ants, we located the area they were working in, treated it, and the ants were gone. The part that matters afterwards is the moisture note in the report, because that is what decides whether the next colony finds the same conditions.
 
@@ -70,7 +70,7 @@ Older foundations, attached garages and mature trees close to rooflines give mic
 - Garage door bottom and side seals, and the door into the house
 - The roofline, particularly soffit returns left open inside the boxed corner
 
-Exclusion is quoted separately from trapping, itemised opening by opening, so you can compare it against anyone else's quote line by line.
+Exclusion is quoted separately from trapping, itemized opening by opening, so you can compare it against anyone else's quote line by line.
 
 ## Ticks inside city limits
 
@@ -82,4 +82,4 @@ For the county as a whole, Maine CDC's 2024 tickborne illness report counted 45 
 
 The two cities share a housing market, a river and a set of pest pressures, and we work both sides of it daily. If your address is in Auburn, see <a href="/locations/auburn/">pest control in Auburn</a>.
 
-Free residential inspections and quotes. Commercial inspections carry a fee that varies with the property and is credited toward the work if you proceed. Call or text Ryan Blouin on 207-740-4441.
+Free residential inspections and quotes. Commercial inspections carry a fee that varies with the property and is credited toward the work if you proceed. Call or text Ryan Blouin at 207-740-4441.

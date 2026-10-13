@@ -1,7 +1,7 @@
 ---
 title: "Pest Control in Bath, Maine"
 description: "Rodent, ant and tick control for Bath homes — including the new-owner inspection that finds what the seller did not mention. Call or text 207-740-4441."
-answer: "Bath packs about 8,800 people into nine square miles, which by Maine standards is dense, and the housing is close together and mostly owner-occupied. The pest pattern that produces is neighbourly: mice, carpenter ants and pavement ants moving between adjoining properties, and problems that are usually discovered by whoever just bought the house."
+answer: "Bath packs about 8,800 people into nine square miles, which by Maine standards is dense, and the housing is close together and mostly owner-occupied. The pest pattern that produces is neighborly: mice, carpenter ants and pavement ants moving between adjoining properties, and problems that are usually discovered by whoever just bought the house."
 snippetShape: "paragraph+list"
 quantifiedFact: "The U.S. Census Bureau counts 4,335 households in Bath across 9.12 square miles of land, a density of 961 people per square mile, with 64.3% of homes owner-occupied."
 primaryAuthority: "U.S. Census Bureau QuickFacts"
@@ -17,10 +17,10 @@ localFacts:
   - "Sagadahoc County recorded 139 Lyme disease cases in 2024, a rate of 369.9 per 100,000 against a statewide 230, up from 27 cases in 2020; it is one of eight counties above the state rate for the second year running (Maine CDC, Lyme and Other Tickborne Illnesses 2024 Annual Report, preliminary)"
   - "45 of 124 blacklegged ticks tested from Sagadahoc County in 2025 (36.3%) carried the Lyme bacterium and 3 (2.4%) carried Powassan virus (UMaine Cooperative Extension Tick Surveillance Program, 2025 Annual Report)"
 firstPartyProof: "Ants and mice at a newly purchased home in Bath, approximately a year ago, confirmed by the owner. The household had treated it themselves with retail aerosols before calling."
-uniqueFact: "Bath's density — roughly 961 people per square mile on nine square miles — is why pest pressure here behaves like a neighbourhood problem rather than a property one. No competitor page in this market makes that connection."
+uniqueFact: "Bath's density — roughly 961 people per square mile on nine square miles — is why pest pressure here behaves like a neighborhood problem rather than a property one. No competitor page in this market makes that connection."
 faqs:
   - q: "We just bought a house here and found droppings. What now?"
-    a: "Stop spraying, and get the house looked at before anything is treated. The evidence tells us where the animals are travelling and where they are getting in, and retail products applied first can scatter a population and obscure the trail."
+    a: "Stop spraying, and get the house looked at before anything is treated. The evidence tells us where the animals are traveling and where they are getting in, and retail products applied first can scatter a population and obscure the trail."
   - q: "Do you cover Woolwich, Phippsburg and West Bath?"
     a: "Those towns are in the same corner of Sagadahoc County and we work across it. Call and ask about your address — if it is outside what we can service properly we will say so."
   - q: "Is carpenter ant damage common in older Bath homes?"
@@ -35,7 +35,7 @@ Bath is a small city by population and a dense one by Maine standards: roughly 8
 
 The Census Bureau's American Community Survey for 2020–2024 puts 57.5% of Bath's housing units — 2,756 of 4,796 — in buildings dating from 1939 or earlier. That is a higher share than Portland, and it means the typical Bath call is about a house that has been standing for the best part of a century and has been opened up, extended and patched many times since.
 
-Most of that stock is single houses rather than flats: the same survey counts 59.7% of units as detached houses, with a little over a third in buildings of two or more units. So unlike a city where the apartment block is the unit of work, in Bath it is usually one household and one old structure, with a neighbour's equally old structure a few yards away.
+Most of that stock is single houses rather than apartments: the same survey counts 59.7% of units as detached houses, with a little over a third in buildings of two or more units. So unlike a city where the apartment block is the unit of work, in Bath it is usually one household and one old structure, with a neighbor's equally old structure a few yards away.
 
 A house built before 1940, wherever it stands, tends to offer pests the same handful of openings, and these are the ones we check first:
 
@@ -51,7 +51,7 @@ UMaine Cooperative Extension explains that carpenter ants excavate rather than e
 
 Extension's carpenter ant guidance also gives a useful rule for homeowners: in Maine, a wingless ant about three-quarters of an inch long is almost certainly a queen carpenter ant. Finding one indoors in late winter, along with coarse sawdust under trim or a baseboard, is the point to have the framing looked at rather than to buy another can of spray. Our [carpenter ant control](/services/carpenter-ant-control/) page covers what a treatment and repair conversation looks like.
 
-## Close neighbours, shared pressure
+## Close neighbors, shared pressure
 
 When properties sit on small lots with shared fence lines, mature trees and adjoining garages, a rodent or carpenter ant population is rarely confined to one address. A woodpile against a wall, an unsecured bin, a neglected shed two doors down — each of them sustains pressure that arrives at your foundation regardless of what you do inside your own house.
 
@@ -89,4 +89,4 @@ Sealing work done in September is prevention. The same work in January is a repa
 
 An inspection that starts outside, a written list of every entry point found, a quote that separates treatment from sealing, and a plain answer about anything that belongs to a carpenter, a roofer or a plumber rather than to a pest control company.
 
-Free residential inspections and quotes across Bath, and call or text Ryan Blouin directly on 207-740-4441.
+Free residential inspections and quotes across Bath, and call or text Ryan Blouin directly at 207-740-4441.

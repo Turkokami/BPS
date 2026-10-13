@@ -3,10 +3,10 @@ title: "Wasp, Hornet and Carpenter Bee Control in Maine"
 description: "Wasp, yellowjacket, hornet and carpenter bee work in Maine: which nests need treating, why ground nests are the risky ones, and how a visit works."
 answer: "A wasp or hornet nest is treated where it lives, after dark or at dusk when the colony is inside, and the entry is sealed only once activity has stopped. Not every nest needs treating — a paper wasp nest away from doors and seating does little harm — but a yellowjacket nest in a lawn or a wall void near a doorway does."
 snippetShape: "paragraph+table"
-quantifiedFact: "UMaine Cooperative Extension describes yellowjackets as about 1/2 to 3/4 of an inch long and bald-faced hornets as 5/8 to 3/4 of an inch, and says both can sting repeatedly. Structural stinging-insect work sits in Maine licence category 7A (Maine Board of Pesticides Control)."
+quantifiedFact: "UMaine Cooperative Extension describes yellowjackets as about 1/2 to 3/4 of an inch long and bald-faced hornets as 5/8 to 3/4 of an inch, and says both can sting repeatedly. Structural stinging-insect work sits in Maine license category 7A (Maine Board of Pesticides Control)."
 primaryAuthority: "University of Maine Cooperative Extension (Home and Garden IPM); Maine Board of Pesticides Control"
 statedPosition: "We will tell you when a nest can be left alone, and when a nest found in October is already finishing on its own."
-firstPartyData: "Three wasp nests cleared for a customer whose own spraying had not worked, who then took a monthly programme (confirmed job, about four months ago). A bee nest located and treated in a hard-to-reach spot under a deck (about a year ago). A property with recurring wasp, hornet and yellowjacket nests every year, now on a programme (about three months ago)."
+firstPartyData: "Three wasp nests cleared for a customer whose own spraying had not worked, who then took a monthly program (confirmed job, about four months ago). A bee nest located and treated in a hard-to-reach spot under a deck (about a year ago). A property with recurring wasp, hornet and yellowjacket nests every year, now on a program (about three months ago)."
 updated: "2026-10-04"
 service: "wasp-and-hornet-control"
 faqs:
@@ -17,10 +17,10 @@ faqs:
   - q: "Will they come back to the same spot next year?"
     a: "Not the same colony — paper nests are annual and the colony dies with the cold. A new queen can pick the same sheltered spot, which is why the entry point gets closed after treatment rather than left as an invitation."
   - q: "Do carpenter bees sting?"
-    a: "The males that dive at you cannot sting at all, according to Penn State's Center for Pollinator Research; the females can but rarely do unless handled. The concern with carpenter bees is the timber, not the sting."
+    a: "The males that dive at you cannot sting at all, according to Penn State's Center for Pollinator Research; the females can but rarely do unless handled. The concern with carpenter bees is the wood, not the sting."
 ---
 
-Maine's stinging-insect season is short and it escalates fast. UMaine Cooperative Extension explains that each colony is started in spring by a single fertilised queen and keeps growing through the summer as new workers hatch, with the worst nuisance in mid to late summer when colonies peak. In practice that means a nest nobody noticed in June is at full strength in August — exactly when people are outside using the deck.
+Maine's stinging-insect season is short and it escalates fast. UMaine Cooperative Extension explains that each colony is started in spring by a single fertilized queen and keeps growing through the summer as new workers hatch, with the worst nuisance in mid to late summer when colonies peak. In practice that means a nest nobody noticed in June is at full strength in August — exactly when people are outside using the deck.
 
 ## What is actually on your property
 
@@ -28,7 +28,7 @@ Maine's stinging-insect season is short and it escalates fast. UMaine Cooperativ
 | --- | --- | --- |
 | Paper wasp | Open, umbrella-shaped comb under eaves, rails and grills | Least aggressive; stings when the nest itself is disturbed |
 | Yellowjacket | Enclosed, in the ground, in wall voids, in sheds | Most likely to sting in numbers; scavenges food and drink in late summer |
-| Bald-faced hornet | Large grey paper nest, often in a tree or on a wall | Very defensive within a few metres of the nest |
+| Bald-faced hornet | Large gray paper nest, often in a tree or on a wall | Very defensive within a few meters of the nest |
 | European hornet | Paper nest | Listed by UMaine Extension among Maine's social, stinging vespids; handled like any other hornet nest near people |
 | Mud dauber | Small mud tubes on walls and in sheds | Solitary, rarely stings; usually best left alone |
 | Carpenter bee | Round hole in bare wood with sawdust below | Males bluff, females bore. A structural question rather than a sting question |
@@ -75,12 +75,12 @@ The yellowjackets at your picnic table in August are not defending anything — 
 
 ## Carpenter bees
 
-Round holes about the width of a finger in bare fascia, rails, deck framing or shed timber, with coarse sawdust below and a male hovering nearby doing a convincing impression of a threat. Penn State's Center for Pollinator Research, whose fact sheet places the eastern carpenter bee's range north into Maine, says those defensive males cannot sting, and that the females — the ones that bore — rarely sting unless handled. The same publication notes that nests are reused and extended year after year, and that the bees favour pine and cedar.
+Round holes about the width of a finger in bare fascia, rails, deck framing or shed wood, with coarse sawdust below and a male hovering nearby doing a convincing impression of a threat. Penn State's Center for Pollinator Research, whose fact sheet places the eastern carpenter bee's range north into Maine, says those defensive males cannot sting, and that the females — the ones that bore — rarely sting unless handled. The same publication notes that nests are reused and extended year after year, and that the bees favor pine and cedar.
 
-The sequence that fact sheet recommends is the one we use: treat the gallery itself, seal the entrance afterwards, and then paint or stain the surface so the timber stops being attractive. Penn State is explicit that paint applied over an occupied gallery does not reach the bees inside, so finishing comes after treatment, not instead of it.
+The sequence that fact sheet recommends is the one we use: treat the gallery itself, seal the entrance afterwards, and then paint or stain the surface so the wood stops being attractive. Penn State is explicit that paint applied over an occupied gallery does not reach the bees inside, so finishing comes after treatment, not instead of it.
 
 Woodpeckers make this worse by opening galleries to get at the larvae, which turns a tidy hole into a torn one. If a fascia board has been worked over by both, it is a carpentry repair with a pest control step in front of it, and the report will say so.
 
 ## What a nest job costs
 
-Nest work is quoted per nest, and the price is driven by access and height far more than by species: a nest reachable from the ground is straightforward, one in a third-storey gable is not. Where a property produces nests every year — and some do, because the eaves and the shade suit them — a programme can make more sense than repeat call-outs, and we will say which of the two your property actually needs. See [residential pest control](/services/residential-pest-control/) for how an ongoing programme is put together, and the [wasps and hornets library page](/library/wasps-and-hornets-in-maine/) for a longer guide to telling the species apart.
+Nest work is quoted per nest, and the price is driven by access and height far more than by species: a nest reachable from the ground is straightforward, one in a third-story gable is not. Where a property produces nests every year — and some do, because the eaves and the shade suit them — a program can make more sense than repeat call-outs, and we will say which of the two your property actually needs. See [residential pest control](/services/residential-pest-control/) for how an ongoing program is put together, and the [wasps and hornets library page](/library/wasps-and-hornets-in-maine/) for a longer guide to telling the species apart.

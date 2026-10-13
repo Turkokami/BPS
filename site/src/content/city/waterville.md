@@ -38,7 +38,7 @@ Fewer than half of Waterville's occupied homes are owner-occupied, and the renta
 
 A property-management company called us about bed bugs in one unit. The inspection found a large infestation in that unit — and evidence that it had already spread into connecting units. We treated the affected units together rather than one at a time, and the infestation was eliminated.
 
-That sequencing is the whole difference. Treating the reporting unit alone would have produced a quiet fortnight and then a second call from next door.
+That sequencing is the whole difference. Treating the reporting unit alone would have produced a quiet two weeks and then a second call from next door.
 
 ## A city of two- and four-unit houses
 
@@ -48,7 +48,7 @@ That shape changes the scope in a useful way. In a duplex or a small multi-famil
 
 The age profile is unusual too. The same survey dates 2,239 units (30.6%) to 1939 or earlier, but the next-largest group is the 1970s, with 1,579 units, or 21.6% — a bigger share for that one decade than in Lewiston, Auburn or Augusta. A 1970s apartment building and a pre-war two-family house need different inspections, and the scope says which one it was written for.
 
-In the older two-family stock, the inspection spends its time on the shared cellar, the stone or brick foundation, the back stairs and any porch built onto the original frame, because those are where mice get in and where damp timber invites carpenter ants. In a 1970s building the questions move indoors: the plumbing chases and electrical runs that link kitchens and bathrooms stacked above each other, the gaps behind baseboard heating, and the common corridor. Those internal routes are what German cockroaches and bed bugs use, and they are why one unit's problem becomes three.
+In the older two-family stock, the inspection spends its time on the shared cellar, the stone or brick foundation, the back stairs and any porch built onto the original frame, because those are where mice get in and where damp wood invites carpenter ants. In a 1970s building the questions move indoors: the plumbing chases and electrical runs that link kitchens and bathrooms stacked above each other, the gaps behind baseboard heating, and the common corridor. Those internal routes are what German cockroaches and bed bugs use, and they are why one unit's problem becomes three.
 
 ## What a building-level scope contains
 
@@ -64,7 +64,7 @@ The <a href="/services/bed-bug-control/">bed bug control</a> page sets out the t
 
 Waterville's numbers from UMaine Cooperative Extension's Tick Lab stand out among the four river cities on this site (Waterville, Augusta, Lewiston and Auburn). Of 36 ticks submitted from the town, 16 (44.4%) tested positive for *Borrelia burgdorferi*, the Lyme bacterium, and 10 (27.8%) for *Anaplasma*, which causes anaplasmosis — the highest proportions for either organism among Waterville, Augusta, Lewiston and Auburn in the lab's town data. The sample is small and self-selected, so read it as a sign of what local ticks carry rather than a measured rate.
 
-Across Kennebec County, Maine CDC's 2024 tickborne illness report lists a Lyme disease rate of 229.6 cases per 100,000 residents, effectively level with the state's 230.0. Properties with a wooded or overgrown boundary are where yard treatment earns its keep; the <a href="/services/tick-control/">tick control</a> page explains the April-to-September programme.
+Across Kennebec County, Maine CDC's 2024 tickborne illness report lists a Lyme disease rate of 229.6 cases per 100,000 residents, effectively level with the state's 230.0. Properties with a wooded or overgrown boundary are where yard treatment earns its keep; the <a href="/services/tick-control/">tick control</a> page explains the April-to-September program.
 
 ## For homeowners here
 
@@ -74,4 +74,4 @@ The same city also has ordinary single-family work: mice moving in with the firs
 
 Waterville is within the routine 1.5-hour radius from Lewiston. Same-day emergency service is available; call or text for the next opening. For larger or commercial jobs, further travel is available.
 
-Free residential inspections and quotes. Commercial inspections carry a fee based on the property, the documentation required and the pest, credited toward the work if you proceed. Call or text Ryan Blouin on 207-740-4441.
+Free residential inspections and quotes. Commercial inspections carry a fee based on the property, the documentation required and the pest, credited toward the work if you proceed. Call or text Ryan Blouin at 207-740-4441.

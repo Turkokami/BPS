@@ -1,12 +1,12 @@
 ---
 title: "Scratching in the Attic at Night"
 description: "What scratching overhead in a Maine house usually means, how to tell mice from squirrels, and what to do first. Call or text 207-740-4441."
-answer: "Overhead scratching after dark is usually mice or flying squirrels; daytime activity in the same space is more often grey squirrels. The species matters because it changes where the entry is — mice come in low and travel up, squirrels come in at the roofline."
+answer: "Overhead scratching after dark is usually mice or flying squirrels; daytime activity in the same space is more often gray squirrels. The species matters because it changes where the entry is — mice come in low and travel up, squirrels come in at the roofline."
 snippetShape: "paragraph+table"
 quantifiedFact: "Structural rodent work in Maine is performed under category 7A, Structural General Pest Control, one of the commercial categories the Maine Board of Pesticides Control issues."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "We identify the species from evidence before quoting anything, because the wrong identification means the wrong entry point and a repeat visit."
-firstPartyData: "A confirmed job on a Maine home where the mice were travelling inside the structure: the entry was found along the foundation and sealed, and the household was shown the route (about six months ago)."
+firstPartyData: "A confirmed job on a Maine home where the mice were traveling inside the structure: the entry was found along the foundation and sealed, and the household was shown the route (about six months ago)."
 updated: "2026-10-04"
 service: "rodent-control"
 faqs:
@@ -22,8 +22,8 @@ Noise overhead at night is the most common way a Maine household finds out it ha
 | --- | --- | --- | --- |
 | Light scratching, scurrying, faint squeaks | After dark, especially the first hours | Mice | Rodent control (us) |
 | Gliding thumps, quick runs, chirps | Dusk and night | Flying squirrels | A wildlife specialist |
-| Heavy rolling, gnawing, daytime movement | Daylight, early morning | Grey squirrels | A wildlife specialist |
-| Slow heavy movement, vocalisations | Night | Raccoons | A wildlife specialist |
+| Heavy rolling, gnawing, daytime movement | Daylight, early morning | Gray squirrels | A wildlife specialist |
+| Slow heavy movement, vocalizations | Night | Raccoons | A wildlife specialist |
 
 ## What to do first
 
@@ -63,7 +63,7 @@ On Maine houses the same handful of details turn up again and again:
 3. **Gable and ridge vent screening.** Screen rusts. A hole the size of a coin is enough.
 4. **Chimney and flashing junctions.** Mortar fails, flashing lifts, and the gap sits in the warmest part of the roofline.
 
-A fifth, less obvious route: mice entering at ground level and travelling up inside a wall cavity to the attic without ever crossing a living space. That is why an attic problem is often solved at the sill.
+A fifth, less obvious route: mice entering at ground level and traveling up inside a wall cavity to the attic without ever crossing a living space. That is why an attic problem is often solved at the sill.
 
 ## Cleaning up afterwards
 
@@ -73,4 +73,4 @@ Insulation in the travel paths is usually compressed and soiled after a season o
 
 ## What it costs, roughly
 
-The removal portion of an attic rodent job is the smaller number. The exclusion is the one that varies, because it depends on how many openings there are and how high they are. Ground-level sealing is straightforward; roofline work at height on a steep pitch is a different quote. We itemise both, and you get a written list of every opening found whether or not you hire us for the sealing.
+The removal portion of an attic rodent job is the smaller number. The exclusion is the one that varies, because it depends on how many openings there are and how high they are. Ground-level sealing is straightforward; roofline work at height on a steep pitch is a different quote. We itemize both, and you get a written list of every opening found whether or not you hire us for the sealing.

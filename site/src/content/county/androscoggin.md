@@ -41,11 +41,11 @@ The U.S. Census Bureau's 2020–2024 American Community Survey gives a clear pic
 
 A median build year of 1969 is the oldest of the five counties where we have work on record, and roughly one home in four here predates 1940. Older frame buildings settle. Sill plates shrink away from foundations, clapboard ends open up, and decades of plumbing and wiring changes leave holes that were never properly closed. Every one of those is an entry point for a mouse, and many of them are damp enough to suit carpenter ants.
 
-The rental share — just under a third of occupied homes, by the Census Bureau's count — matters for a different reason. Multi-unit buildings share walls, pipe chases and basements. A problem in one apartment is rarely confined to it, which is why bed bug work in a shared building is scoped across the neighbouring units rather than one apartment at a time.
+The rental share — just under a third of occupied homes, by the Census Bureau's count — matters for a different reason. Multi-unit buildings share walls, pipe chases and basements. A problem in one apartment is rarely confined to it, which is why bed bug work in a shared building is scoped across the neighboring units rather than one apartment at a time.
 
 ## The city and the rest of the county
 
-Pest pressure is not uniform across Androscoggin. In the dense neighbourhoods of the two cities the work leans towards rodents moving between attached buildings, bed bugs in apartments, and carpenter ants in porches and window framing on older multi-unit buildings. Out in the rural towns the pattern shifts towards field mice coming in at the first frost, wood stored against the house, and properties that back onto woodland or overgrown field edges — the habitat deer ticks prefer.
+Pest pressure is not uniform across Androscoggin. In the dense neighborhoods of the two cities the work leans towards rodents moving between attached buildings, bed bugs in apartments, and carpenter ants in porches and window framing on older multi-unit buildings. Out in the rural towns the pattern shifts towards field mice coming in at the first frost, wood stored against the house, and properties that back onto woodland or overgrown field edges — the habitat deer ticks prefer.
 
 The inspection changes with the building. On a city multi-unit it starts in the shared basement and follows the pipe runs and stairwells upwards, because that is where rodents and bed bugs travel between households. On a farmhouse or a rural ranch it starts outside: the sill line, the bulkhead, the woodpile, the shed sitting on bare soil, and the places where the lawn stops and the brush begins. Either way the report names what was found and where, so the owner can see the reasoning rather than take it on trust.
 
@@ -70,4 +70,4 @@ For a yard on the edge of woods, the practical answer is the one on our [tick co
 
 Because the business works from Lewiston, Androscoggin addresses are the closest we serve. Same-day emergency service is available; call or text for the next opening. Routine work is booked around the same seven-day, nine-to-five schedule as everywhere else.
 
-Ryan Blouin holds Maine Commercial Master Applicator licence CMA-6425, in categories 7A and 7E, and does the work himself. Call or text 207-740-4441.
+Ryan Blouin holds Maine Commercial Master Applicator license CMA-6425, in categories 7A and 7E, and does the work himself. Call or text 207-740-4441.

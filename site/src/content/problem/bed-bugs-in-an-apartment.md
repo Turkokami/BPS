@@ -59,7 +59,7 @@ Bed bugs walk. They travel along pipe chases and wiring runs, through the gaps a
 - Baseboard and carpet edge nearest the bed
 - Night tables, drawer runners and anything screwed to the wall near the bed
 
-Where the sofa is the sleeping surface, it is the primary harbourage and it gets the same attention.
+Where the sofa is the sleeping surface, it is the primary harborage and it gets the same attention.
 
 ## Preparation that actually helps
 

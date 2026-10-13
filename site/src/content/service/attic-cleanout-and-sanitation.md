@@ -1,12 +1,12 @@
 ---
 title: "Attic Clean-Outs, Insulation Removal and Sanitation"
-description: "After rodents: removing soiled insulation, sanitising and re-insulating, in the right order, once the building is sealed. Call 207-740-4441."
+description: "After rodents: removing soiled insulation, sanitizing and re-insulating, in the right order, once the building is sealed. Call 207-740-4441."
 answer: "An attic that has been occupied through a Maine winter usually has compressed, soiled insulation along the travel paths, droppings through the bays, and sometimes gnawed wiring. The order that matters is: exclude, remove the animals, then clean out and re-insulate. New insulation installed over an open roofline is new insulation with a runway through it by spring."
 snippetShape: "paragraph+list"
 quantifiedFact: "The U.S. CDC's rodent clean-up method: ventilate for 30 minutes, wear rubber or plastic gloves, soak droppings and urine with 1.5 cups of household bleach per gallon of water (1 part bleach to 9 parts water) for 5 minutes, and never sweep or vacuum them."
 primaryAuthority: "U.S. Centers for Disease Control and Prevention"
 statedPosition: "Not every attic needs stripping, and we will say so when yours does not. A clean-out sold before the building is sealed is a clean-out you will pay for twice."
-firstPartyData: "On a Maine home where mice were travelling inside the structure, the entry was located along the foundation and sealed before any remediation was discussed, and the household was shown the route the animals had been using (confirmed job)."
+firstPartyData: "On a Maine home where mice were traveling inside the structure, the entry was located along the foundation and sealed before any remediation was discussed, and the household was shown the route the animals had been using (confirmed job)."
 updated: "2026-10-04"
 service: "attic-cleanout-and-sanitation"
 faqs:
@@ -19,12 +19,12 @@ faqs:
   - q: "Is hantavirus actually found in Maine?"
     a: "Yes. Maine CDC confirmed the state's first human case of hantavirus in 2011 and a second in 2025, and the U.S. CDC says the hantavirus behind most illness in the United States is spread by the deer mouse. Cases are uncommon, but the clean-up precautions are cheap and the illness is not."
   - q: "How do I tell a deer mouse from a house mouse?"
-    a: "University of California IPM says the bicoloured tail is the easiest feature: a deer mouse's tail is dark on top and white underneath, and the animal has white feet and underparts with larger eyes and ears than a house mouse. Treat droppings from either species with the same care, because you cannot tell them apart by the droppings."
+    a: "University of California IPM says the bicolored tail is the easiest feature: a deer mouse's tail is dark on top and white underneath, and the animal has white feet and underparts with larger eyes and ears than a house mouse. Treat droppings from either species with the same care, because you cannot tell them apart by the droppings."
   - q: "How much insulation should go back in?"
     a: "ENERGY STAR recommends R60 for an uninsulated attic in climate zones 6 and 7, or R49 where three to four inches already exist, and the Maine State Fire Marshal's energy code guide places Maine in zones 6 and 7. The depth that goes back is set against that, and against what was there before."
 ---
 
-Rodent damage in an attic is cumulative and invisible until somebody goes up there. The insulation loses its loft where animals have been travelling, droppings work down through the bays, and any exposed wiring is a question worth answering before anything else.
+Rodent damage in an attic is cumulative and invisible until somebody goes up there. The insulation loses its loft where animals have been traveling, droppings work down through the bays, and any exposed wiring is a question worth answering before anything else.
 
 ## What the assessment covers
 
@@ -37,7 +37,7 @@ Rodent damage in an attic is cumulative and invisible until somebody goes up the
 
 ## Signs the attic has been occupied
 
-Most people find out from a noise at night, but the attic usually tells you more than the ceiling does. University of California IPM says droppings and gnaw marks are what reveal house mouse activity, and that a characteristic musky odour is common where an infestation is large or long-standing. Add to that the things you can see from the hatch with a torch: insulation flattened into paths along the eaves, shredded paper or fabric pushed into a corner, and dark smudges where animals squeeze past the same rafter every night.
+Most people find out from a noise at night, but the attic usually tells you more than the ceiling does. University of California IPM says droppings and gnaw marks are what reveal house mouse activity, and that a characteristic musky odor is common where an infestation is large or long-standing. Add to that the things you can see from the hatch with a flashlight: insulation flattened into paths along the eaves, shredded paper or fabric pushed into a corner, and dark smudges where animals squeeze past the same rafter every night.
 
 If you see any of those, look from the hatch and stop there. Climbing in to investigate is exactly the dry disturbance the precautions below are written to avoid.
 
@@ -57,7 +57,7 @@ A few droppings on a shelf or along one stretch of the attic floor are a reasona
 2. **Glove up.** Wear rubber or plastic gloves. University of California IPM specifies non-fabric gloves — rubber, latex, vinyl or nitrile.
 3. **Mix the solution.** The CDC's ratio is 1.5 cups of household bleach to a gallon of water, which is one part bleach to nine parts water. An EPA-registered disinfectant used to its label is the alternative.
 4. **Soak, do not scrub.** Spray the droppings and urine until very wet and leave them for 5 minutes, or for the time on the disinfectant label.
-5. **Wipe and bin.** Pick the material up with paper towels and put them in a covered rubbish bin that is emptied regularly.
+5. **Wipe and bin.** Pick the material up with paper towels and put them in a covered trash bin that is emptied regularly.
 6. **Finish the surface.** Mop or sponge the area with disinfectant.
 7. **Wash.** Remove the gloves and wash your hands with soap and warm water.
 
@@ -70,7 +70,7 @@ Where the job is bigger than that — droppings through most of the bays, nestin
 1. **Exclude.** Every opening found is closed, with materials that hold. Until this is done, nothing else is worth paying for.
 2. **Remove.** The animals inside come out first, and activity is confirmed to have stopped.
 3. **Clean out.** Contaminated insulation and nesting material are removed damp, bagged in the space, and taken away rather than carried loose through the house.
-4. **Sanitise.** The affected surfaces are treated, and the space ventilated.
+4. **Sanitize.** The affected surfaces are treated, and the space ventilated.
 5. **Re-insulate.** New material goes in last, to the depth the space actually needs, with baffles kept clear.
 
 The first step is a job of its own, covered on the [rodent exclusion](/services/rodent-exclusion/) page. The second is [rodent control](/services/rodent-control/). If you are still hearing animals overhead, start with those rather than here — and if the noise is at night above a bedroom, [mice in the attic](/services/rodent-control/mice-in-the-attic/) explains what it usually means.
@@ -83,7 +83,7 @@ Those are recommendations, not a sales target. What goes back is matched to what
 
 ## Deer mice or house mice
 
-Both use attics, and the clean-up is the same either way. Identification still matters, because deer mice are the hantavirus concern. University of California IPM gives the clearest field mark: a bicoloured tail, dark above and white below, along with white feet and underparts and larger eyes and ears than a house mouse. The same source notes that deer mice often move into vacated homes, cabins and other structures to nest and store food, which is why a camp or a seasonal cottage opened up in spring deserves the full CDC routine before anyone starts sweeping.
+Both use attics, and the clean-up is the same either way. Identification still matters, because deer mice are the hantavirus concern. University of California IPM gives the clearest field mark: a bicolored tail, dark above and white below, along with white feet and underparts and larger eyes and ears than a house mouse. The same source notes that deer mice often move into vacated homes, cabins and other structures to nest and store food, which is why a camp or a seasonal cottage opened up in spring deserves the full CDC routine before anyone starts sweeping.
 
 ## What you get afterwards
 
@@ -95,6 +95,6 @@ A light scattering of droppings in a corner of an otherwise sound attic does not
 
 ## Who does the work
 
-The pest control side of this job falls under Maine commercial applicator category 7A, which Ryan holds under licence CMA-6425. Wildlife removal is not a service this business offers. If the animal in the roof is a squirrel, a raccoon or a bat rather than a mouse or a rat, it needs a wildlife specialist before any clean-out is worth paying for.
+The pest control side of this job falls under Maine commercial applicator category 7A, which Ryan holds under license CMA-6425. Wildlife removal is not a service this business offers. If the animal in the roof is a squirrel, a raccoon or a bat rather than a mouse or a rat, it needs a wildlife specialist before any clean-out is worth paying for.
 
-Free residential inspections and quotes. Call or text Ryan Blouin on 207-740-4441.
+Free residential inspections and quotes. Call or text Ryan Blouin at 207-740-4441.

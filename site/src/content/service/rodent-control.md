@@ -3,7 +3,7 @@ title: "Rodent Control in Maine"
 description: "Mice and rats in a Maine home: how the inspection works, what gets sealed, and what the treatment plan looks like. Call or text Ryan at 207-740-4441."
 answer: "Rodent control in a Maine home is three jobs in order: find how they are getting in, remove the animals that are already inside, and close the entry points so the next ones cannot follow. Trapping alone empties a house for a season; sealing the entries is what keeps it empty."
 snippetShape: "paragraph+table"
-quantifiedFact: "Maine charges $105 for a commercial applicator licence, renewable every three years, and a Commercial Master must earn nine continuing-education credits in each of those three-year cycles (Maine Board of Pesticides Control)."
+quantifiedFact: "Maine charges $105 for a commercial applicator license, renewable every three years, and a Commercial Master must earn nine continuing-education credits in each of those three-year cycles (Maine Board of Pesticides Control)."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "Trapping without exclusion is a subscription, not a solution — we quote the sealing work with the trapping."
 firstPartyData: "Mice in a wall on a Maine home: we located the entry along the foundation and sealed it, and showed the household where the animals had been getting in (confirmed job, about six months ago). Separately, a mouse infestation at a seasonal camp, resolved and not recurring since (about four months ago)."
@@ -11,7 +11,7 @@ updated: "2026-10-04"
 service: "rodent-control"
 faqs:
   - q: "How long does it take to get mice out of a house?"
-    a: "Most homes stop producing new activity within two to three weeks of the first visit, provided the entry points found during the inspection are sealed. Houses with an active exterior food source — bird feeders, open compost, a neighbouring barn — take longer and need the source addressed."
+    a: "Most homes stop producing new activity within two to three weeks of the first visit, provided the entry points found during the inspection are sealed. Houses with an active exterior food source — bird feeders, open compost, a neighboring barn — take longer and need the source addressed."
   - q: "Do you use rodent bait outside the house?"
     a: "Only where it is appropriate for the property and the label allows it, and never as a substitute for exclusion. Every product used is one the applicator is licensed for under the category the work falls in, which for structural rodent work in Maine is 7A."
   - q: "Will I know where they were getting in?"
@@ -44,7 +44,7 @@ Maine homes see house mice, deer mice and, in the older housing stock and near c
 
 A mouse needs a gap about the width of a pencil. It nests close to a food source, usually inside the structure itself — in insulation, behind a knee wall, inside a cabinet kick space — and a single female can produce litters through the winter once she is somewhere warm. Mouse work is mostly interior voids and small exterior gaps.
 
-A Norway rat is a bigger animal with a bigger appetite for structure. It burrows, it travels along foundations and sewer lines, and it chews openings rather than finding them. Rat work moves outward: burrows along the foundation, the bulkhead, the crawlspace vents, the gap under a deck or shed, the drain line that was capped with something soft. Rat pressure in a neighbourhood is rarely one property's problem, and the honest version of the conversation includes what your neighbours' bins and feeders are contributing.
+A Norway rat is a bigger animal with a bigger appetite for structure. It burrows, it travels along foundations and sewer lines, and it chews openings rather than finding them. Rat work moves outward: burrows along the foundation, the bulkhead, the crawlspace vents, the gap under a deck or shed, the drain line that was capped with something soft. Rat pressure in a neighborhood is rarely one property's problem, and the honest version of the conversation includes what your neighbors' bins and feeders are contributing.
 
 Deer mice matter for a different reason. They are the species most associated with hantavirus in the United States, which is why we do not sweep or vacuum droppings dry in an attic or crawlspace, and why a cleanup recommendation comes with ventilation and wetting instructions rather than a broom.
 
@@ -58,7 +58,7 @@ Deer mice matter for a different reason. They are the species most associated wi
 
 ## Why the sealing work gets quoted with the trapping
 
-A trapping-only programme produces a quiet house and a standing invoice. The animals inside are removed, the openings stay open, and the population outside refills the space on its own schedule — which in Maine is usually the first hard cold of the next autumn. Every visit after that is billed.
+A trapping-only program produces a quiet house and a standing invoice. The animals inside are removed, the openings stay open, and the population outside refills the space on its own schedule — which in Maine is usually the first hard cold of the next autumn. Every visit after that is billed.
 
 Sealing costs more the first time and less every year after. It is also the part of the job that survives a change of pest control company, because a sealed soffit return stays sealed whoever you call next.
 
@@ -66,13 +66,13 @@ Sealing costs more the first time and less every year after. It is also the part
 
 Once rodents have been in an attic through a winter, the insulation in the travel paths is compressed, soiled, and no longer doing its job. Not every attic needs to be stripped, and we will say so when it does not. When it does, the sequence is: exclude first, remove the animals, then remediate — because new insulation installed while the entry points are open is new insulation with a mouse runway through it by spring.
 
-## How the programme runs
+## How the program runs
 
 A rodent job here is a full inspection, sealing of the entry points found, and a separate quote for anything that needs more serious repair. Ongoing cover runs monthly or quarterly depending on the property and the pressure, and the point of it is that the exclusion list gets shorter every year rather than the visits getting more frequent.
 
 ## What this costs and how we quote it
 
-Inspections and quotes are free, and the quote separates the treatment from the sealing so you can see what you are paying for. If a job needs a contractor rather than a pest control licence — a rotted sill, a roof repair — we say so rather than sealing over it.
+Inspections and quotes are free, and the quote separates the treatment from the sealing so you can see what you are paying for. If a job needs a contractor rather than a pest control license — a rotted sill, a roof repair — we say so rather than sealing over it.
 
 ## What we check before quoting exclusion
 
@@ -83,7 +83,7 @@ Sealing a house is not one price per house. What it costs depends on how many op
 3. **Rooflines.** Soffit returns, the joint where a roof plane meets a wall, lifted drip edge, gable and ridge vents.
 4. **Penetrations.** Dryer vents, bath fan terminations, hose bibs, mini-split line sets, radon fan piping, electrical service entry.
 5. **Material condition.** A rotted sill or a soft fascia board cannot hold a repair. That is named as carpentry, quoted by someone else, and we say so before you spend money sealing it.
-6. **Ongoing pressure.** Woodpiles against the foundation, feeders, compost, a shed with a gap under it, a neighbouring barn.
+6. **Ongoing pressure.** Woodpiles against the foundation, feeders, compost, a shed with a gap under it, a neighboring barn.
 
 ## Winter work versus autumn work
 
@@ -93,10 +93,10 @@ If you are reading this in the middle of winter with activity overhead, the sequ
 
 ## What we leave you with
 
-A written list of every opening found and what it needs, the removal plan, the sealing quote item by item, and anything that belongs to another trade. If a second company quotes the same house, you should be able to lay the two quotes side by side and compare them line for line. That is the point of itemising it.
+A written list of every opening found and what it needs, the removal plan, the sealing quote item by item, and anything that belongs to another trade. If a second company quotes the same house, you should be able to lay the two quotes side by side and compare them line for line. That is the point of itemizing it.
 
 ## Working inside the rules
 
-The Maine Board of Pesticides Control requires a commercial applicator licence for any pesticide applied as a service for compensation, and structural rodent work sits in category 7A. Each company must have one Commercial Master applicator who carries responsibility for pest management decisions and training. The Board states that a commercial licence costs $105, runs for three years, and a Master must complete nine continuing-education credits within each cycle. That is the framework every legitimate Maine operator works inside, and it is worth asking any company you call which categories they hold.
+The Maine Board of Pesticides Control requires a commercial applicator license for any pesticide applied as a service for compensation, and structural rodent work sits in category 7A. Each company must have one Commercial Master applicator who carries responsibility for pest management decisions and training. The Board states that a commercial license costs $105, runs for three years, and a Master must complete nine continuing-education credits within each cycle. That is the framework every legitimate Maine operator works inside, and it is worth asking any company you call which categories they hold.
 
 Rodent pressure in a Maine house is seasonal but the damage is not: gnawed wiring, contaminated insulation, and droppings in a space you store things in are all cumulative. The point of doing it properly once is that you stop paying for it every autumn.

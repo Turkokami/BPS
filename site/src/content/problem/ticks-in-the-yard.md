@@ -30,7 +30,7 @@ The useful question about ticks is not how many are on the property but where pe
 
 ## What treatment adds
 
-A targeted application to the edge habitat reduces what is present in that band for a period of weeks. Run monthly from April into the second adult peak, which the UMaine Tick Lab puts in late October, it covers both the nymph window in late spring and the autumn adult surge — the two periods when unnoticed bites are most likely. It does not stop ticks arriving on deer, and a programme that claims otherwise is selling certainty it does not have.
+A targeted application to the edge habitat reduces what is present in that band for a period of weeks. Run monthly from April into the second adult peak, which the UMaine Tick Lab puts in late October, it covers both the nymph window in late spring and the autumn adult surge — the two periods when unnoticed bites are most likely. It does not stop ticks arriving on deer, and a program that claims otherwise is selling certainty it does not have.
 
 ## After time outdoors
 

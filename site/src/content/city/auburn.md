@@ -51,13 +51,13 @@ From the street, a lot of Auburn reads as mid-century suburb. The numbers say ot
 
 A house of that age has been worked on many times. New wiring, a replacement boiler, a heat pump line set, a cable run, a dryer vent moved when the laundry came up from the cellar — each one went through the shell, and each one left a gap that was either packed with something soft or not packed at all. When we inspect a pre-war Auburn house, those retrofit holes are as likely to be the entry as the garage, and the report lists every one with what it should be closed with.
 
-The same Census survey puts 5,843 Auburn units, or 52.5%, in detached single-family houses — again the largest share of the four. That is why exclusion here is mostly a perimeter job. There is no neighbour's unit on the other side of the wall to worry about; there is a foundation, a sill, a roofline and a garage, and once they are closed the house is closed. Our <a href="/services/rodent-exclusion/">rodent exclusion</a> page explains how that work is itemised and quoted.
+The same Census survey puts 5,843 Auburn units, or 52.5%, in detached single-family houses — again the largest share of the four. That is why exclusion here is mostly a perimeter job. There is no neighbor's unit on the other side of the wall to worry about; there is a foundation, a sill, a roofline and a garage, and once they are closed the house is closed. Our <a href="/services/rodent-exclusion/">rodent exclusion</a> page explains how that work is itemized and quoted.
 
 ## Carpenter ants in the older stock
 
-Auburn's older neighbourhoods produce the same carpenter ant work as Lewiston — colonies in sills and window framing where water has been getting in. On a house approaching its centenary, the places we check first are predictable: the sill plate where soil or mulch has crept up to meet the siding, the joint where a later porch or mudroom was added onto the original frame, and window frames that have been repainted for decades rather than replaced.
+Auburn's older neighborhoods produce the same carpenter ant work as Lewiston — colonies in sills and window framing where water has been getting in. On a house approaching its centenary, the places we check first are predictable: the sill plate where soil or mulch has crept up to meet the siding, the joint where a later porch or mudroom was added onto the original frame, and window frames that have been repainted for decades rather than replaced.
 
-Large black ants seen indoors in late winter, piles of fine wood shavings under a window, or a rustling in a wall at night are all worth a call. What finishes the job is not the treatment alone but the moisture note: if the leak that softened the timber is still there, the next colony will find it. See <a href="/services/carpenter-ant-control/">carpenter ant control</a> for what the treatment involves.
+Large black ants seen indoors in late winter, piles of fine wood shavings under a window, or a rustling in a wall at night are all worth a call. What finishes the job is not the treatment alone but the moisture note: if the leak that softened the wood is still there, the next colony will find it. See <a href="/services/carpenter-ant-control/">carpenter ant control</a> for what the treatment involves.
 
 ## Ticks: what the local evidence says
 
@@ -73,4 +73,4 @@ For a yard backing onto woods, the useful work is at the edge: the strip where l
 
 Auburn is next door to Lewiston, where the business is based. Same-day emergency service is available in Auburn; call or text for the next opening. If you are across the river, the <a href="/locations/lewiston/">Lewiston page</a> covers that side.
 
-Free residential inspections and quotes. Call or text Ryan Blouin on 207-740-4441.
+Free residential inspections and quotes. Call or text Ryan Blouin at 207-740-4441.

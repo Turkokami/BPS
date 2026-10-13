@@ -3,14 +3,14 @@ title: "Cluster Flies, Stink Bugs and Ladybugs in a Maine House"
 description: "Why insects appear at sunny windows in February, which ones they are, why spraying indoors does not help, and what actually stops them next autumn."
 answer: "Insects at a sunny window in late winter are overwintering pests — cluster flies, brown marmorated stink bugs, boxelder bugs, western conifer seed bugs and Asian lady beetles — that entered in autumn and have been dormant in wall voids and attics since. They are a nuisance rather than a threat, and the fix is exterior exclusion in late summer and early autumn, not indoor spraying in February."
 snippetShape: "paragraph+table"
-quantifiedFact: "The Maine Department of Agriculture, Conservation and Forestry reports brown marmorated stink bugs overwintering in Maine structures verified from 90 towns in 13 counties. Exterior treatment for overwintering pests falls under licence category 7A (Maine Board of Pesticides Control)."
+quantifiedFact: "The Maine Department of Agriculture, Conservation and Forestry reports brown marmorated stink bugs overwintering in Maine structures verified from 90 towns in 13 counties. Exterior treatment for overwintering pests falls under license category 7A (Maine Board of Pesticides Control)."
 primaryAuthority: "University of Maine Cooperative Extension (Pest Management Fact Sheet #5010); Maine Department of Agriculture, Conservation and Forestry"
 statedPosition: "We do not sell indoor treatment for cluster flies. Vacuum them, and let us seal the building in late summer, August into September, instead."
 firstPartyData: null
 updated: "2026-10-04"
 faqs:
   - q: "Do they breed inside the house?"
-    a: "No. Cluster flies develop in soil, parasitising earthworms, and the rest are outdoor feeders. Nothing is reproducing in your walls, which is why the population does not grow through the winter even though it feels like it does."
+    a: "No. Cluster flies develop in soil, parasitizing earthworms, and the rest are outdoor feeders. Nothing is reproducing in your walls, which is why the population does not grow through the winter even though it feels like it does."
   - q: "Why do they always appear on the south side?"
     a: "Sun. A warm wall in February raises the temperature in the void behind it, the insects wake, and they move toward light — which is usually the window on that side."
   - q: "Is spraying inside worth it?"
@@ -29,15 +29,15 @@ The Board of Pesticides Control's Got Pests? service describes the cluster fly p
 | --- | --- | --- |
 | Sluggish fly, slightly larger than a housefly, golden hairs on the thorax, clustered at windows | Cluster fly | Parasite of earthworms; does not bite and is not drawn to garbage (UMaine Extension fact sheet #5010) |
 | Shield-shaped, mottled brown bug, often in numbers | Brown marmorated stink bug | Invasive; overwinters in homes, sometimes in large numbers (Maine DACF) |
-| Black bug about 1/2 inch long with red lines along the sides and wings | Boxelder bug | Feeds on boxelder and maples; no odour, no damage to wood, cloth, food, people or pets (Got Pests?, Maine Board of Pesticides Control) |
+| Black bug about 1/2 inch long with red lines along the sides and wings | Boxelder bug | Feeds on boxelder and maples; no odor, no damage to wood, cloth, food, people or pets (Got Pests?, Maine Board of Pesticides Control) |
 | Long brown "leaf-footed" bug that buzzes like a wasp in flight | Western conifer seed bug | Sap feeder on pines, spruces and hemlocks; gives off a foul smell when handled or crushed (UMaine Extension) |
 | Orange to red beetle, variable spots, black "W" behind the head | Multicolored Asian lady beetle | Does not breed, lay eggs or feed indoors; secretions can stain fabric (UMaine Extension) |
 
-None of these damages the structure, the food in your cupboards, or your family. They are a nuisance, and the honest answer to "what do I spray" is usually "nothing, indoors."
+None of these damages the structure, the food in your cabinets, or your family. They are a nuisance, and the honest answer to "what do I spray" is usually "nothing, indoors."
 
 ## The five species, briefly
 
-**Cluster flies.** UMaine Cooperative Extension's Pest Management Fact Sheet #5010 explains that cluster flies spend the summer unnoticed as parasites of earthworms, can run to four or more generations a season, and are most abundant where earthworms are — grassy areas with good soil and moisture, and old farm ground where manure was stored. That is why a farmhouse on a field gets them by the hundred and a house in town gets a handful. In late summer the adults search for protected overwintering sites such as attics, wall voids and loose bark, and the fact sheet records, from casual observation, that they seem to favour light-coloured buildings.
+**Cluster flies.** UMaine Cooperative Extension's Pest Management Fact Sheet #5010 explains that cluster flies spend the summer unnoticed as parasites of earthworms, can run to four or more generations a season, and are most abundant where earthworms are — grassy areas with good soil and moisture, and old farm ground where manure was stored. That is why a farmhouse on a field gets them by the hundred and a house in town gets a handful. In late summer the adults search for protected overwintering sites such as attics, wall voids and loose bark, and the fact sheet records, from casual observation, that they seem to favor light-colored buildings.
 
 **Brown marmorated stink bugs.** The Maine Department of Agriculture, Conservation and Forestry notes this invasive species was first discovered in Pennsylvania in 2001 and has done heavy crop damage in mid-Atlantic states. In Maine its main showing so far is indoors: the department has verified overwintering reports from 90 towns in 13 counties, and it warns that homes often see the bug in large numbers two to three years before crop damage becomes noticeable.
 
@@ -72,7 +72,7 @@ UMaine Extension's advice for cluster flies is to "build them out", and the same
 - Repair lifted or damaged siding, fascia and trim where a gap has opened.
 - Where pressure is heavy, a timed exterior application to the resting areas reduces how many get in at all. The cluster fly fact sheet puts that window at mid to late August, and notes many people hire a professional for an exterior barrier. Applied in November, after the insects have settled in, it is a waste of money.
 
-That last item is licensed work. Maine's stated policy, printed on every Got Pests? page by the Department of Agriculture, Conservation and Forestry, is to minimise reliance on pesticides and use them only as a last resort within integrated pest management — which, for overwintering insects, means sealing comes first and spraying a distant second.
+That last item is licensed work. Maine's stated policy, printed on every Got Pests? page by the Department of Agriculture, Conservation and Forestry, is to minimize reliance on pesticides and use them only as a last resort within integrated pest management — which, for overwintering insects, means sealing comes first and spraying a distant second.
 
 ## The pattern worth noticing
 

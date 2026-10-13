@@ -1,7 +1,7 @@
 ---
 title: "Pest Control in Cumberland County, Maine"
 description: "Bed bugs in Portland apartments, mice in lake camps, ticks on wooded lots: how pest work differs across Cumberland County. Call or text 207-740-4441."
-answer: "Cumberland is Maine's most populous county and two counties in one for pest work. Portland and its neighbours bring rentals, shared walls and bed bugs; the inland lake towns bring camps and woodland ticks. The U.S. Census Bureau counts 15,786 seasonal or occasional-use homes here — about one housing unit in ten — and the UMaine Tick Lab received more deer ticks from this county in 2025 than from any other."
+answer: "Cumberland is Maine's most populous county and two counties in one for pest work. Portland and its neighbors bring rentals, shared walls and bed bugs; the inland lake towns bring camps and woodland ticks. The U.S. Census Bureau counts 15,786 seasonal or occasional-use homes here — about one housing unit in ten — and the UMaine Tick Lab received more deer ticks from this county in 2025 than from any other."
 snippetShape: "paragraph+table"
 quantifiedFact: "The UMaine Cooperative Extension Tick Lab received 645 deer ticks from Cumberland County in 2025, more than from any other Maine county; 249 of the 627 it tested (39.7%) carried the Lyme disease bacterium."
 primaryAuthority: "UMaine Cooperative Extension Tick Lab, Tick Surveillance Program Annual Report 2025"
@@ -24,7 +24,7 @@ faqs:
     a: "Before you close it for the winter. A building that sits empty from autumn to spring is where mice settle, and the cheapest point to stop them is while you can still seal the gaps and set stations outside."
 ---
 
-Cumberland County holds more people than any other county in Maine — 308,827 residents by the U.S. Census Bureau's 2020–2024 American Community Survey — and the work here splits cleanly in two. Along the coast and in Portland the calls are about shared buildings: bed bugs moving between apartments, mice travelling through party walls, and older housing that has been subdivided more than once. Inland, around the lakes and the wooded towns, the work looks more like Oxford County's: camps that sit empty half the year, and yards that back onto deer-tick habitat.
+Cumberland County holds more people than any other county in Maine — 308,827 residents by the U.S. Census Bureau's 2020–2024 American Community Survey — and the work here splits cleanly in two. Along the coast and in Portland the calls are about shared buildings: bed bugs moving between apartments, mice traveling through party walls, and older housing that has been subdivided more than once. Inland, around the lakes and the wooded towns, the work looks more like Oxford County's: camps that sit empty half the year, and yards that back onto deer-tick habitat.
 
 ## The county in figures
 
@@ -39,7 +39,7 @@ Cumberland County holds more people than any other county in Maine — 308,827 r
 
 ## Rentals and shared walls
 
-Close to a third of the county's occupied homes are rented, by the Census Bureau's count, and in Portland itself the Bureau's figures put renters in the majority. Rental housing is where bed bugs do best. Tenants move furniture in and out, units turn over, and the insects travel along wiring, pipes and baseboards into the next apartment. The job that matters here is not the one room that was reported; it is the building. Mice behave the same way in an older Portland multi-family: a gap behind a radiator pipe on the ground floor can feed activity three storeys up, and sealing one apartment while the basement stays open changes very little.
+Close to a third of the county's occupied homes are rented, by the Census Bureau's count, and in Portland itself the Bureau's figures put renters in the majority. Rental housing is where bed bugs do best. Tenants move furniture in and out, units turn over, and the insects travel along wiring, pipes and baseboards into the next apartment. The job that matters here is not the one room that was reported; it is the building. Mice behave the same way in an older Portland multi-family: a gap behind a radiator pipe on the ground floor can feed activity three stories up, and sealing one apartment while the basement stays open changes very little.
 
 That is how we approach a Portland bed bug call: confirm the infestation from physical evidence, then look at the units on either side and above and below before writing a treatment plan. A landlord who treats one unit and waits usually finds the problem back within weeks, from next door. The [bed bug control](/services/bed-bug-control/) page covers the preparation tenants are asked to do, and the [bed bugs in an apartment](/services/bed-bug-control/bed-bugs-in-an-apartment/) page explains why the scope has to widen.
 
@@ -53,7 +53,7 @@ The UMaine Cooperative Extension Tick Lab received 645 deer ticks from Cumberlan
 
 Maine CDC's 2024 annual report puts the county's Lyme case count at 414, the largest of any county, at a rate of 131.9 per 100,000 residents. That rate has more than doubled since 2020, when it stood at 60.3. The same report records 147 anaplasmosis cases, 39 babesiosis cases and two Powassan virus cases among county residents in 2024.
 
-One more detail from the Tick Lab's 2025 report is worth knowing: the lab received Maine's first Asian longhorned tick, a nymph acquired in Cumberland County. The lab's report names it, with the lone star tick, as an invasive species that threatens human, wildlife and domestic animal health. If you find a tick you do not recognise, the Tick Lab accepts submissions from the public.
+One more detail from the Tick Lab's 2025 report is worth knowing: the lab received Maine's first Asian longhorned tick, a nymph acquired in Cumberland County. The lab's report names it, with the lone star tick, as an invasive species that threatens human, wildlife and domestic animal health. If you find a tick you do not recognize, the Tick Lab accepts submissions from the public.
 
 For a property on the edge of woodland, [tick control](/services/tick-control/) runs through the warm months and treats the edge habitat where ticks wait; [mosquito control](/services/mosquito-control/) follows a similar calendar for wet lots near the lakes.
 

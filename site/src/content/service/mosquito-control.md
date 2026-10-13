@@ -1,6 +1,6 @@
 ---
 title: "Mosquito Control in Maine"
-description: "Mosquito reduction for Maine properties: breeding-site removal, targeted treatment, and honest limits on any yard programme. Call 207-740-4441."
+description: "Mosquito reduction for Maine properties: breeding-site removal, targeted treatment, and honest limits on any yard program. Call 207-740-4441."
 answer: "Mosquito control on a property is breeding-site removal first and treatment second. Mosquitoes develop in standing water measured in tablespoons, not ponds, so the walk-through that finds the water sources on your property does more for the season than any single application."
 snippetShape: "paragraph+list"
 quantifiedFact: "Mosquito and biting-fly work in Maine is licensed under commercial category 7E, and the Board of Pesticides Control requires applicators to treat only in the categories they hold."
@@ -11,14 +11,14 @@ updated: "2026-10-04"
 service: "mosquito-control"
 faqs:
   - q: "How long does a treatment last?"
-    a: "A residual harbourage treatment holds for a few weeks depending on rain and heat, which is why programmes are staged through the season rather than sold as a single visit."
+    a: "A residual harborage treatment holds for a few weeks depending on rain and heat, which is why programs are staged through the season rather than sold as a single visit."
   - q: "What about my vegetable garden and the bees?"
     a: "Flowering plants and food crops are marked and avoided, applications are timed to periods of low pollinator activity, and the treatment plan names the areas left untreated."
   - q: "Will this help with black flies too?"
     a: "Partly. Black flies breed in moving water, often well off your property, so yard treatment reduces resting adults but cannot touch the source the way it can with mosquitoes."
 ---
 
-Mosquitoes on a Maine property come from two places: water on the property itself, and adults arriving from elsewhere that then rest in the shaded, humid parts of the yard. The programme works on both, and the honest version is that the first one is where the leverage is.
+Mosquitoes on a Maine property come from two places: water on the property itself, and adults arriving from elsewhere that then rest in the shaded, humid parts of the yard. The program works on both, and the honest version is that the first one is where the leverage is.
 
 ## The water audit
 
@@ -43,7 +43,7 @@ Areas are chosen and areas are excluded. Flowering plants, vegetable gardens and
 
 ## What this cannot do
 
-A yard programme will not make an evening on a Maine porch in July feel like an evening in January. Adults fly in from wetland, ditch and neighbouring property, and nothing applied inside your boundary changes that. What a programme reasonably does is cut what your own property produces and knock down what is resting in it, which for most households is the difference between unusable and pleasant.
+A yard program will not make an evening on a Maine porch in July feel like an evening in January. Adults fly in from wetland, ditch and neighboring property, and nothing applied inside your boundary changes that. What a program reasonably does is cut what your own property produces and knock down what is resting in it, which for most households is the difference between unusable and pleasant.
 
 ## Licensing
 
@@ -57,7 +57,7 @@ Where a treatment is for a specific date — a wedding, a graduation party, a we
 
 ## What we record
 
-The plan names the treated zones, the excluded zones, the water sources found and who is going to deal with each one. If the biggest producer on your property is a neighbour's uncovered rain barrel three metres over the line, the report says so, because you cannot fix what nobody has told you about.
+The plan names the treated zones, the excluded zones, the water sources found and who is going to deal with each one. If the biggest producer on your property is a neighbor's uncovered rain barrel three meters over the line, the report says so, because you cannot fix what nobody has told you about.
 
 ## Why a mosquito problem is really a water problem
 
@@ -79,7 +79,7 @@ Plenty of Maine properties have features that hold water on purpose. A rain barr
 
 ## Black flies, and being honest about them
 
-Black flies breed in moving water — streams and brooks, often well beyond your property line — so nothing applied to your yard touches the source. Treatment reduces resting adults and that is all it does. In black fly season the practical measures are timing, clothing and repellent, and we would rather say so than sell a programme that cannot deliver.
+Black flies breed in moving water — streams and brooks, often well beyond your property line — so nothing applied to your yard touches the source. Treatment reduces resting adults and that is all it does. In black fly season the practical measures are timing, clothing and repellent, and we would rather say so than sell a program that cannot deliver.
 
 ## What you can do without hiring anyone
 
@@ -93,7 +93,7 @@ Treatment is scheduled around rain and heat rather than a fixed calendar date, a
 
 ## What the report contains
 
-Every water source found, with a note on who deals with it and how. The resting habitat we intend to treat, and the areas excluded — vegetable beds, flowering plants, ponds with fish, chicken runs. The treatment schedule for the season, with the two or three rounds that matter most flagged. And an honest note about anything on a neighbouring property that is driving the problem more than your own yard is.
+Every water source found, with a note on who deals with it and how. The resting habitat we intend to treat, and the areas excluded — vegetable beds, flowering plants, ponds with fish, chicken runs. The treatment schedule for the season, with the two or three rounds that matter most flagged. And an honest note about anything on a neighboring property that is driving the problem more than your own yard is.
 
 ## Questions worth asking any mosquito company
 
@@ -103,4 +103,4 @@ Every water source found, with a note on who deals with it and how. The resting 
 4. How does the schedule change when it rains?
 5. What result am I actually buying — fewer mosquitoes, or none?
 
-The last one is the one that separates honest programmes from oversold ones.
+The last one is the one that separates honest programs from oversold ones.

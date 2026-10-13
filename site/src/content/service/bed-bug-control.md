@@ -3,7 +3,7 @@ title: "Bed Bug Control in Maine"
 description: "Bed bug treatment for Maine homes and apartments: confirmation, preparation, treatment rounds and follow-up. Call or text 207-740-4441."
 answer: "Bed bug control is a process, not a visit. Confirmation comes first, because most reported bed bug bites turn out to be something else. Treatment then runs in rounds two to three weeks apart, because eggs survive an application that kills adults, and the follow-up round is the one that ends the infestation."
 snippetShape: "paragraph+list"
-quantifiedFact: "Bed bug work sits in Maine licence category 7A, and the Board of Pesticides Control requires the responsible Commercial Master applicator at each company to hold nine continuing-education credits per three-year cycle."
+quantifiedFact: "Bed bug work sits in Maine license category 7A, and the Board of Pesticides Control requires the responsible Commercial Master applicator at each company to hold nine continuing-education credits per three-year cycle."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "We confirm before we treat. Treating a bedroom on a description costs a customer money for nothing and hides whatever is actually biting them."
 firstPartyData: "Bed bug call in Portland where the household needed somebody quickly and, in the customer's words, 'They came quickly' (confirmed job, about eleven months ago)."
@@ -26,7 +26,7 @@ A large share of bed bug calls are not bed bugs. Fleas, mites, dry skin, contact
 
 - Live insects in the seams of the mattress, the folds of the box spring fabric, or the frame joints
 - Cast skins, which look like empty translucent shells, in the same places
-- Eggs — pearly white, about a millimetre, glued in clusters into cracks
+- Eggs — pearly white, about a millimeter, glued in clusters into cracks
 - Fecal spotting: dark, ink-like dots that bleed slightly into fabric, along seams and behind the headboard
 - Live insects in the joints of upholstered furniture, the underside of a night table, or the edge of the carpet against the baseboard
 
@@ -44,7 +44,7 @@ Preparation lists that run to three pages produce households that cannot comply 
 
 ## Treatment rounds
 
-The first round targets the harbourages found during inspection: bed frame joints, headboard, box spring, furniture voids, baseboard gaps, and anything else the evidence identified. Encasements go on the mattress and box spring, which converts them from a hiding place into a sealed unit.
+The first round targets the harborages found during inspection: bed frame joints, headboard, box spring, furniture voids, baseboard gaps, and anything else the evidence identified. Encasements go on the mattress and box spring, which converts them from a hiding place into a sealed unit.
 
 The second round, two to three weeks later, exists because eggs hatch after the first application. Skipping it is the single most common reason a bed bug job fails and has to be started over.
 
@@ -54,7 +54,7 @@ A verification visit closes the job. Where activity is still present, we say so 
 
 A bed bug inspection is slow and physical. The mattress comes off the box spring, the box spring dust cover is checked and often opened, the bed frame joints are examined, the headboard comes off the wall, and the furniture within a few feet of the bed is checked joint by joint. In a bedroom with an infestation of any age, the evidence is usually in three or four of those places rather than one.
 
-Where the sleeping area is a sofa — and in a lot of apartments it is — the sofa is the primary harbourage and it gets the same treatment attention a bed would.
+Where the sleeping area is a sofa — and in a lot of apartments it is — the sofa is the primary harborage and it gets the same treatment attention a bed would.
 
 ## Heat, chemical, or both
 
@@ -72,7 +72,7 @@ Keep the encasements on — they are doing work for months, not days. Reintroduc
 
 Bed bugs arrive on things, not on dirt. The common routes are travel, second-hand furniture and mattresses, moving boxes, shared laundry, and adjoining units in a multi-unit building. They do not arrive because a house is untidy, and clutter matters only because it gives them more places to hide and makes treatment harder.
 
-The practical version for a Maine household: check hotel mattress seams and keep luggage off the bed and the floor when you travel; inspect anything second-hand before it comes through the door; and treat a neighbour's infestation in an apartment building as your problem too, because it is.
+The practical version for a Maine household: check hotel mattress seams and keep luggage off the bed and the floor when you travel; inspect anything second-hand before it comes through the door; and treat a neighbor's infestation in an apartment building as your problem too, because it is.
 
 ## What early looks like
 
@@ -87,7 +87,7 @@ Caught at that stage, treatment is a bedroom rather than an apartment.
 
 ## Costs, and why quotes differ so much
 
-Bed bug quotes vary more than any other pest job, and usually for legible reasons: the number of rooms involved, the amount of upholstered furniture, whether the sleeping surface is a bed or a sofa, how much preparation the household can realistically do, and whether the building requires neighbouring units to be included. A quote given over the phone without any of that information is a number, not a quote.
+Bed bug quotes vary more than any other pest job, and usually for legible reasons: the number of rooms involved, the amount of upholstered furniture, whether the sleeping surface is a bed or a sofa, how much preparation the household can realistically do, and whether the building requires neighboring units to be included. A quote given over the phone without any of that information is a number, not a quote.
 
 We inspect first, then quote in writing. The quote states how many rounds are included.
 
@@ -107,6 +107,6 @@ We will put that in writing for a landlord or property manager, because it is a 
 
 ## Privacy
 
-We are not going to announce what we are doing to your neighbours, and a visit can be booked at a time that suits you within our 9am–5pm day.
+We are not going to announce what we are doing to your neighbors, and a visit can be booked at a time that suits you within our 9am–5pm day.
 
 Free residential inspection and confirmation, a clear written scope, and a quote that sets out the number of rounds it covers.

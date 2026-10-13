@@ -1,11 +1,11 @@
 ---
 title: "Bed Bug and Pest Control in Portland, Maine"
-description: "Pest control for Portland homes and apartments, from the owner who does the work. Bed bugs, rodents, ants and ticks. Call or text Ryan on 207-740-4441."
+description: "Pest control for Portland homes and apartments, from the owner who does the work. Bed bugs, rodents, ants and ticks. Call or text Ryan at 207-740-4441."
 answer: "Portland is a rental city more than an owner-occupied one — the Census Bureau puts owner occupancy at 46.9%, meaning most households here rent. That single fact shapes almost every pest job in the city: bed bugs and cockroaches spread between units through shared walls, so a Portland job that treats one apartment and stops is a job that comes back."
 snippetShape: "paragraph+list"
 quantifiedFact: "The U.S. Census Bureau puts Portland's owner-occupied housing rate at 46.9% for 2020–2024 and the city's population at 69,911 as of July 2025."
 primaryAuthority: "U.S. Census Bureau QuickFacts"
-statedPosition: "In a multi-unit building we scope the neighbouring units at the start. Treating only the unit that called is a temporary result and everybody involved knows it by the third visit."
+statedPosition: "In a multi-unit building we scope the neighboring units at the start. Treating only the unit that called is a temporary result and everybody involved knows it by the third visit."
 updated: "2026-10-02"
 town: "portland"
 localFacts:
@@ -30,17 +30,17 @@ faqs:
     a: "Under 14 M.R.S. §6021-A, a landlord who is told about possible bed bugs must inspect within five days and, if they are confirmed, contact a certified, insured pest control agent within ten. The same section obliges the tenant to give access and follow the preparation steps."
 ---
 
-Portland is the largest city in Maine and it is the one place in this service area where the building matters more than the house. According to the Census Bureau, fewer than half of Portland's occupied homes are owner-occupied, and that changes how pest work has to be organised here.
+Portland is the largest city in Maine and it is the one place in this service area where the building matters more than the house. According to the Census Bureau, fewer than half of Portland's occupied homes are owner-occupied, and that changes how pest work has to be organized here.
 
 ## The numbers behind a Portland pest job
 
-The Census Bureau's American Community Survey for 2020–2024 counts 36,559 housing units in the city. Three of its figures explain most of the calls we get from the peninsula and the older neighbourhoods around it:
+The Census Bureau's American Community Survey for 2020–2024 counts 36,559 housing units in the city. Three of its figures explain most of the calls we get from the peninsula and the older neighborhoods around it:
 
-- **Renters are the majority.** 17,520 of the 32,965 occupied homes are rented, so the person who finds the problem is often not the person who can authorise the fix.
+- **Renters are the majority.** 17,520 of the 32,965 occupied homes are rented, so the person who finds the problem is often not the person who can authorize the fix.
 - **Most homes share a structure.** 59.2% of Portland's housing units are in buildings of two or more units, and 9,697 of those are in the two-, three- and four-unit buildings that line so many of the city's streets. Detached houses are only about a third of the stock.
 - **The stock is old.** The survey puts 45.8% of the city's housing units — 16,740 of them — in buildings put up in 1939 or earlier.
 
-An old building divided into several flats is the ideal arrangement for bed bugs, German cockroaches and mice alike: shared plumbing walls, shared basements, decades of service penetrations, and more than one household's habits deciding the outcome.
+An old building divided into several apartments is the ideal arrangement for bed bugs, German cockroaches and mice alike: shared plumbing walls, shared basements, decades of service penetrations, and more than one household's habits deciding the outcome.
 
 ## Why the rental share decides the job
 
@@ -54,13 +54,13 @@ We scope a Portland bed bug job to include the units sharing a wall, a floor or 
 
 Bed bugs in a Maine rental are not left to goodwill. Section 6021-A of Title 14 of the Maine Revised Statutes sets out the duties: a landlord told about possible bed bugs must inspect the unit within five days, must contact a pest control agent within ten days of confirming them, may not rent a unit known or suspected to be infested, and must tell a prospective tenant if an adjacent unit is infested or being treated. The tenant, in turn, must report promptly, allow access on reasonable notice, and follow the control measures — and the statute makes a tenant who unreasonably fails to comply financially responsible for the treatments that failure causes.
 
-The statute defines that agent as a certified commercial pesticide applicator, and it requires the landlord to use one carrying current liability insurance. Our own licence and insurance details are on the [about page](/about/). Our scope documents are written with those deadlines and duties in mind, so both parties can see where they stand.
+The statute defines that agent as a certified commercial pesticide applicator, and it requires the landlord to use one carrying current liability insurance. Our own license and insurance details are on the [about page](/about/). Our scope documents are written with those deadlines and duties in mind, so both parties can see where they stand.
 
 ## What we get called for in Portland
 
 - [Bed bugs](/services/bed-bug-control/) in apartments and in owner-occupied condos
 - [German cockroaches](/services/cockroach-control/) in kitchens, often in buildings where several units share plumbing runs
-- Mice in older housing stock, entering low at the sill and travelling up inside the walls
+- Mice in older housing stock, entering low at the sill and traveling up inside the walls
 - Ants — pavement ants at slab edges and carpenter ants where a gutter has been overflowing onto trim
 - [Ticks](/services/tick-control/) in the yards on the city's edges, especially where lawns meet the wooded margins
 
@@ -82,4 +82,4 @@ Portland is not tick country in the way the Midcoast is. Maine CDC's 2024 report
 
 If you are a tenant, you can call us and we will tell you what we see, but the treatment has to be arranged by whoever holds the building. If you are a landlord or a property manager, we will put the scope in writing: the units to inspect, the treatment dates, the second-round dates, and a record of any unit we could not access. That last item is the one that explains most buildings that are still seeing activity six months later.
 
-Free residential inspections and quotes. Call or text Ryan Blouin on 207-740-4441.
+Free residential inspections and quotes. Call or text Ryan Blouin at 207-740-4441.

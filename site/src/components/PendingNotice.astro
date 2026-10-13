@@ -12,4 +12,4 @@ const { reason } = Astro.props;
 const comment = `<!-- Not published: ${String(reason).replace(/--/g, '—')} Excluded from every sitemap, linked from nowhere, noindex until that changes. -->`;
 ---
 <Fragment set:html={comment} />
-<p class="notice"><strong>This page is not finished yet.</strong> For anything it would have covered, call or text {BUSINESS.owner.name} on <a href={`tel:${BUSINESS.phoneE164}`}>{BUSINESS.phone}</a>.</p>
+<p class="notice"><strong>This page is not finished yet.</strong> For anything it would have covered, call or text {BUSINESS.owner.name} at <a href={`tel:${BUSINESS.phoneE164}`}>{BUSINESS.phone}</a>.</p>

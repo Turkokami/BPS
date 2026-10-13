@@ -3,7 +3,7 @@ title: "Wasps and Hornets Around a Maine House"
 description: "Telling paper wasps, yellowjackets and bald-faced hornets apart, when a nest is worth removing, and what to do about a ground nest in the lawn."
 answer: "Most stinging-insect nests on a Maine property are paper wasps, yellowjackets or bald-faced hornets. Paper wasps under an eave are usually tolerable; yellowjackets in the ground or in a wall void near a doorway are not, because colonies grow through the summer and defend the nest aggressively by August."
 snippetShape: "paragraph+table"
-quantifiedFact: "The Maine School IPM Program's wasp fact sheet (Maine Department of Agriculture, Conservation and Forestry) states that as many as 40 allergic people die from stings in the U.S. each year. Stinging-insect work on a structure sits in Maine licence category 7A (Maine Board of Pesticides Control)."
+quantifiedFact: "The Maine School IPM Program's wasp fact sheet (Maine Department of Agriculture, Conservation and Forestry) states that as many as 40 allergic people die from stings in the U.S. each year. Stinging-insect work on a structure sits in Maine license category 7A (Maine Board of Pesticides Control)."
 primaryAuthority: "University of Maine Cooperative Extension (Home and Garden IPM); Maine Department of Agriculture, Conservation and Forestry"
 statedPosition: "We will tell you when a nest can be left alone. Not every nest needs treating, and late-season nests die out on their own."
 firstPartyData: "Stinging-insect work is a real and under-advertised part of this book: five of the hundred customer reviews read on 24 September 2026 name wasps, hornets or yellowjackets. Three describe the job — three nests cleared after the householder's own spraying had failed, hornet nests removed before the property was treated, and a bee nest located in a hard-to-reach void under a deck (confirmed jobs, between three months and a year ago)."
@@ -19,21 +19,21 @@ faqs:
     a: "Not technically. UMaine Cooperative Extension classes it as a kind of yellowjacket that happens to be black and white rather than yellow. It behaves like one, too: defensive, and able to sting repeatedly."
 ---
 
-Almost every stinging insect that builds a nest on a Maine house belongs to one family, the Vespidae, and UMaine Cooperative Extension sums up their year in two sentences: a single fertilised queen starts the colony each spring, and it keeps growing through the summer as workers hatch, peaking in mid to late summer. Everything practical about wasps follows from that cycle. A nest is smallest and easiest to deal with in May, largest and most defensive in August, and finished by the first hard frosts.
+Almost every stinging insect that builds a nest on a Maine house belongs to one family, the Vespidae, and UMaine Cooperative Extension sums up their year in two sentences: a single fertilized queen starts the colony each spring, and it keeps growing through the summer as workers hatch, peaking in mid to late summer. Everything practical about wasps follows from that cycle. A nest is smallest and easiest to deal with in May, largest and most defensive in August, and finished by the first hard frosts.
 
 ## Telling them apart
 
-| Insect | Size and colour | Nest | Temperament |
+| Insect | Size and color | Nest | Temperament |
 | --- | --- | --- | --- |
 | Yellowjacket | About 1/2–3/4 inch, yellow and black (UMaine Extension) | Usually underground; also wall voids, sheds, logs | The most aggressive; defends the colony and stings repeatedly |
-| Bald-faced hornet | 5/8–3/4 inch, black and white, no yellow (UMaine Extension) | Large grey enclosed paper nest in trees, shrubs or on a wall | Aggressive close to the nest; may attack with little provocation |
+| Bald-faced hornet | 5/8–3/4 inch, black and white, no yellow (UMaine Extension) | Large gray enclosed paper nest in trees, shrubs or on a wall | Aggressive close to the nest; may attack with little provocation |
 | Paper wasp | Several species in Maine, including the northern paper wasp (UMaine Extension) | Open, umbrella-shaped comb with the cells visible, under eaves and rails | Mild unless the comb itself is bumped |
 | Aerial yellowjacket | Yellow and black | Paper nest on trees or buildings, often mistaken for a hornet nest (Maine State Apiarist) | As defensive as its ground-nesting relatives |
 | Cicada-killer | About 1.5 inches (UMaine Extension) | Solitary burrow in the ground | Non-aggressive; frightening to look at, rarely a problem |
 | Mud dauber / potter wasp | Small, solitary | Small mud cells on walls and in sheds | Solitary; UMaine Extension calls potter wasps rarely aggressive |
-| Carpenter bee | Large, shiny black abdomen | Round hole drilled into bare wood | Males hover and bluff but cannot sting; a timber issue, not a sting issue |
+| Carpenter bee | Large, shiny black abdomen | Round hole drilled into bare wood | Males hover and bluff but cannot sting; a wood issue, not a sting issue |
 
-The detail that saves most confusion: an enclosed grey paper ball is either a bald-faced hornet or an aerial yellowjacket, and the open comb you can see into is a paper wasp. A hole in the lawn with traffic in and out is almost always yellowjackets.
+The detail that saves most confusion: an enclosed gray paper ball is either a bald-faced hornet or an aerial yellowjacket, and the open comb you can see into is a paper wasp. A hole in the lawn with traffic in and out is almost always yellowjackets.
 
 ## The Maine year, from queen to frost
 
@@ -78,4 +78,4 @@ Not everything that stings is a pest. The Maine School IPM Program describes bee
 
 Location first: a nest is treated where it lives, not where the insects are seen. UMaine Extension advises treating at night, when the wasps are least active, with product going straight into the nest entrance whether it is above or below ground. Enclosed nests in wall voids are the exception that catches people out — Extension's guidance is to treat the entrance but not plug it, so the product is carried into the nest and the wasps do not chew through into the house.
 
-Afterwards the nest material comes down where it can be reached, and the entry point is closed once the colony is dead so the cavity is not adopted next spring. For carpenter bees the gallery is treated and then sealed, and the bare timber needs paint or stain to stop the next female choosing it. The [wasp, hornet and carpenter bee service page](/services/wasp-and-hornet-control/) covers how a visit runs and what customers have said about it.
+Afterwards the nest material comes down where it can be reached, and the entry point is closed once the colony is dead so the cavity is not adopted next spring. For carpenter bees the gallery is treated and then sealed, and the bare wood needs paint or stain to stop the next female choosing it. The [wasp, hornet and carpenter bee service page](/services/wasp-and-hornet-control/) covers how a visit runs and what customers have said about it.

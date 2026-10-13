@@ -30,13 +30,13 @@ Fleas are one of the few pest problems where the most important step is not ours
 
 UMaine Cooperative Extension says the flea most often found in Maine homes is the cat flea, and that it passes through four stages: egg, larva, pupa and adult. Only the last of those lives on the animal. The rest of the population is in the house, and that is the part a pet product alone does not reach.
 
-The same Extension fact sheet sets out the timing. Eggs hatch in one to twelve days. The larvae — eyeless, legless and pale — work their way into floor cracks, carpet and pet beds, moult three times, and mature in seven to 15 days. After roughly a week in the cocoon, the adults are ready to emerge. UMaine puts the full cycle at 27 to 40 days, which is why a flea problem that seemed to arrive overnight has usually been building for a month.
+The same Extension fact sheet sets out the timing. Eggs hatch in one to twelve days. The larvae — eyeless, legless and pale — work their way into floor cracks, carpet and pet beds, molt three times, and mature in seven to 15 days. After roughly a week in the cocoon, the adults are ready to emerge. UMaine puts the full cycle at 27 to 40 days, which is why a flea problem that seemed to arrive overnight has usually been building for a month.
 
-What the larvae eat matters for the clean-up. UMaine Cooperative Extension lists food crumbs, animal waste and the droppings of adult fleas, so the material a larva lives on is exactly what gathers in a pet's favourite sleeping spot. Thorough vacuuming takes away both the larvae and their food.
+What the larvae eat matters for the clean-up. UMaine Cooperative Extension lists food crumbs, animal waste and the droppings of adult fleas, so the material a larva lives on is exactly what gathers in a pet's favorite sleeping spot. Thorough vacuuming takes away both the larvae and their food.
 
 ## Why it takes more than one visit
 
-The eggs fall off the animal and collect wherever it sleeps and walks — carpet fibres, upholstery, the gaps between floorboards, pet bedding. The pupal stage sits inside a cocoon, and no treatment applied on a single day can be relied on to reach every one of them.
+The eggs fall off the animal and collect wherever it sleeps and walks — carpet fibers, upholstery, the gaps between floorboards, pet bedding. The pupal stage sits inside a cocoon, and no treatment applied on a single day can be relied on to reach every one of them.
 
 Those adults do not leave the cocoon on a timetable. UMaine Cooperative Extension says they can rest inside until a noise or vibration indicates an animal or a person nearby, and the U.S. CDC says fleas find hosts by detecting body heat, movement, vibration and breathing. In practice that means they hatch when you walk past. Seeing fleas after a treatment is the expected pattern rather than a failure, and the follow-up visit is what catches the emerging generation.
 
@@ -63,7 +63,7 @@ None of that replaces treating the house when the population is established. All
 
 ## Preparation that actually matters
 
-1. Vacuum everywhere the pet goes, including upholstery and along the skirting, then empty the canister into an outside bin immediately.
+1. Vacuum everywhere the pet goes, including upholstery and along the baseboards, then empty the canister into an outside bin immediately.
 2. Wash pet bedding on the hottest cycle the fabric allows.
 3. Clear floors so that treatable surfaces can actually be reached.
 4. Book the vet in the same week — a treated environment with an untreated animal is a short-lived result.
@@ -73,7 +73,7 @@ None of that replaces treating the house when the population is established. All
 
 Interior treatment concentrated where the animal rests and travels rather than applied uniformly across every room, the pet's bedding areas, and the entry points and crawlspaces where wildlife may be maintaining a population outside. Where a crawlspace or a deck void is the real source, that gets addressed rather than treated around.
 
-The work falls under Maine commercial applicator category 7A, which Ryan holds under licence CMA-6425. EcoVIA MT is offered as a named product option; if you want it considered for your house, raise it when you book so the conversation about where it fits happens before the visit rather than during it.
+The work falls under Maine commercial applicator category 7A, which Ryan holds under license CMA-6425. EcoVIA MT is offered as a named product option; if you want it considered for your house, raise it when you book so the conversation about where it fits happens before the visit rather than during it.
 
 ## Pets, children and product placement
 
@@ -99,6 +99,6 @@ UMaine Cooperative Extension observes that sandy soil and gravel driveways make 
 
 ## When to call
 
-Call once the vet has confirmed fleas on the animal and you are still seeing them in the house, when you have bites and a house that has stood empty, or when you have done the vacuuming and the washing for a fortnight and nothing has changed. Routine visits run 9am to 5pm, seven days a week. Same-day emergency service is available. Call or text for the next opening.
+Call once the vet has confirmed fleas on the animal and you are still seeing them in the house, when you have bites and a house that has stood empty, or when you have done the vacuuming and the washing for two weeks and nothing has changed. Routine visits run 9am to 5pm, seven days a week. Same-day emergency service is available. Call or text for the next opening.
 
-Free residential inspections and quotes. Call or text Ryan Blouin on 207-740-4441.
+Free residential inspections and quotes. Call or text Ryan Blouin at 207-740-4441.

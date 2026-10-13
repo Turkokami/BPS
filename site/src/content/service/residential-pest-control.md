@@ -1,24 +1,24 @@
 ---
 title: "Residential Pest Control in Maine"
-description: "A year-round home pest programme built around Maine's seasons: what is covered, when visits happen, and what is left out. Call or text Ryan at 207-740-4441."
-answer: "A residential programme covers the pests a Maine house actually gets across the year — rodents in autumn, ants in spring, ticks and mosquitoes through summer, cockroaches and bed bugs whenever they arrive — with scheduled visits timed to the seasons rather than to a billing cycle."
+description: "A year-round home pest program built around Maine's seasons: what is covered, when visits happen, and what is left out. Call or text Ryan at 207-740-4441."
+answer: "A residential program covers the pests a Maine house actually gets across the year — rodents in autumn, ants in spring, ticks and mosquitoes through summer, cockroaches and bed bugs whenever they arrive — with scheduled visits timed to the seasons rather than to a billing cycle."
 snippetShape: "paragraph+table"
-quantifiedFact: "Maine issues commercial applicator licences by category; a residential structural programme runs under 7A, and yard tick or mosquito work under 7E."
+quantifiedFact: "Maine issues commercial applicator licenses by category; a residential structural program runs under 7A, and yard tick or mosquito work under 7E."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "One person does the inspection, the treatment and the follow-up. You are not handed to a different technician who has not seen the house."
-firstPartyData: "Ongoing exterior programme on a residential property — fence line and exterior of the home treated on a monthly schedule (confirmed job, current customer)."
+firstPartyData: "Ongoing exterior program on a residential property — fence line and exterior of the home treated on a monthly schedule (confirmed job, current customer)."
 updated: "2026-10-04"
 service: "residential-pest-control"
 faqs:
   - q: "Am I locked into a contract?"
-    a: "The programme is a schedule, not a trap. Ask what the cancellation terms are before you sign anything with anyone, and get the answer in writing."
+    a: "The program is a schedule, not a trap. Ask what the cancellation terms are before you sign anything with anyone, and get the answer in writing."
   - q: "What is not covered?"
     a: "Work that needs a different trade — roofing, carpentry, moisture remediation — and wildlife removal of any kind. We will name those and say who does them."
   - q: "Do I need to be home?"
     a: "For the interior portion of a visit, yes. Exterior work can be done without you there, and you get the report either way."
 ---
 
-Most Maine households do not have one pest problem; they have a sequence of them that arrives on a schedule. A programme exists so somebody is watching that sequence instead of you reacting to it.
+Most Maine households do not have one pest problem; they have a sequence of them that arrives on a schedule. A program exists so somebody is watching that sequence instead of you reacting to it.
 
 ## What the year looks like
 
@@ -27,9 +27,9 @@ Most Maine households do not have one pest problem; they have a sequence of them
 | Late winter | Interior carpenter ant activity, overwintering rodents | Interior inspection, colony work, entry-point check |
 | Spring | Ant swarms, first tick activity, cluster flies | Perimeter, ant treatment, tick edge treatment begins |
 | Summer | Mosquitoes, ticks, wasps, stored-product pests | Habitat work, staged exterior treatment |
-| Autumn | Rodents moving indoors, spiders, boxelder and stink bugs | Exclusion review, sealing, rodent programme |
+| Autumn | Rodents moving indoors, spiders, boxelder and stink bugs | Exclusion review, sealing, rodent program |
 
-## How a programme is built
+## How a program is built
 
 The first visit is a full inspection, inside and out, and it produces two things: a treatment plan and an exclusion list. The exclusion list is the part that shrinks the plan over time — gaps sealed in year one are gaps nobody treats in year three.
 
@@ -41,7 +41,7 @@ Every visit produces a short report: what was inspected, what was found, what wa
 
 ## The person doing the work
 
-Blouin Pest Services is owner-operated. The same person inspects, treats and follows up, which is the practical difference between a programme and a route stop.
+Blouin Pest Services is owner-operated. The same person inspects, treats and follows up, which is the practical difference between a program and a route stop.
 
 Call or text 207-740-4441 and you will speak to the person who will be at the house. Hours are 9am to 5pm, seven days a week. Same-day emergency service is available. Call or text for the next opening.
 
@@ -51,17 +51,17 @@ One customer described signing up after a one-off nest job, quoted exactly from 
 
 ## What a first year usually looks like
 
-The first year of a programme is front-loaded: a full inspection, the exclusion work that comes out of it, and treatment for whatever is already active. By the second year the exclusion list is shorter, the visits are lighter, and the conversation moves from fixing to watching. That is the shape a programme should have. If your costs are identical in year three to year one, nothing structural was ever fixed.
+The first year of a program is front-loaded: a full inspection, the exclusion work that comes out of it, and treatment for whatever is already active. By the second year the exclusion list is shorter, the visits are lighter, and the conversation moves from fixing to watching. That is the shape a program should have. If your costs are identical in year three to year one, nothing structural was ever fixed.
 
-## How Maine's rules shape a home programme
+## How Maine's rules shape a home program
 
-The Maine Board of Pesticides Control's Got Pests? service states the state's policy plainly: Maine aims to minimise reliance on pesticides, and the Department of Agriculture, Conservation and Forestry and the Maine IPM Council encourage integrated pest management, with pesticides as a last resort. A residential programme built that way leans on inspection, exclusion and the conditions list, and treats where the evidence points.
+The Maine Board of Pesticides Control's Got Pests? service states the state's policy plainly: Maine aims to minimize reliance on pesticides, and the Department of Agriculture, Conservation and Forestry and the Maine IPM Council encourage integrated pest management, with pesticides as a last resort. A residential program built that way leans on inspection, exclusion and the conditions list, and treats where the evidence points.
 
 Who you are matters too. The Board's Chapter 26 rule on indoor applications covers condominiums and rented residential buildings, among others. Under it, a tenant whose unit is to be treated without their own request must get the Board's written notice at least 24 hours and no more than seven days beforehand, and the rule bars treating a tenant's unit over their objection unless a public health or code enforcement official has found an immediate need. The chapter exempts a commercial application that residents have contracted for in their own home, so a homeowner hiring for their own house sits outside it, but the rule's thinking — identify the pest first, choose the lower-risk product, keep people out of the treated room — is a fair standard to ask of anyone working in your home. Landlords and condominium boards should read the [commercial pest control](/services/commercial-pest-control/) page, which covers the notice and posting side.
 
 ## Questions worth asking any company, including us
 
-1. Which Maine applicator categories do you hold, and what is your licence number?
+1. Which Maine applicator categories do you hold, and what is your license number?
 2. Who will actually be at my house, and will it be the same person each visit?
 3. What are the cancellation terms, in writing?
 4. What is included in a visit, and what triggers an extra charge?
@@ -81,11 +81,11 @@ The first visit is longer than the ones that follow, because it is the one that 
 
 ## What the visits after that look like
 
-Shorter, and more targeted. Each visit checks the conditions that produced the last problem, re-treats where seasonally appropriate, and updates the exclusion list. Interior work happens when something needs it rather than as a routine — spraying the inside of a house on a schedule is rarely the right answer, and a programme that does it by default is selling visits rather than results.
+Shorter, and more targeted. Each visit checks the conditions that produced the last problem, re-treats where seasonally appropriate, and updates the exclusion list. Interior work happens when something needs it rather than as a routine — spraying the inside of a house on a schedule is rarely the right answer, and a program that does it by default is selling visits rather than results.
 
 ## Exclusion, and why it shrinks your bill
 
-The exclusion list is the part of a residential programme that should get shorter every year. Each sealed opening is a route that does not need treating again. A programme that costs the same in year three as in year one has not fixed anything structural, and that is a fair question to ask any company, including us.
+The exclusion list is the part of a residential program that should get shorter every year. Each sealed opening is a route that does not need treating again. A program that costs the same in year three as in year one has not fixed anything structural, and that is a fair question to ask any company, including us.
 
 ## Pets, children and product choice
 
@@ -103,12 +103,12 @@ Exterior work does not need you home; interior work does. Visits are scheduled w
 
 Call or text and describe what you are seeing. The point of the written record is that whoever looks at it next starts from what was already found, which product went where, and which gap was still open — rather than from scratch.
 
-## What is not in a programme
+## What is not in a program
 
-Wildlife removal — raccoons, squirrels, bats, birds — is not work Blouin Pest Services offers, and nor are termite work or browntail moth treatment; the services page names all three. Carpentry, roofing, gutter and moisture repairs are named in the report and quoted by the relevant trade. Lawn and ornamental treatments sit in different licence categories and are not part of a structural pest programme unless we hold and state those categories.
+Wildlife removal — raccoons, squirrels, bats, birds — is not work Blouin Pest Services offers, and nor are termite work or browntail moth treatment; the services page names all three. Carpentry, roofing, gutter and moisture repairs are named in the report and quoted by the relevant trade. Lawn and ornamental treatments sit in different license categories and are not part of a structural pest program unless we hold and state those categories.
 
-Saying so up front avoids the most common disappointment in this trade: a customer who believed a general programme covered everything that walks, flies or leaks.
+Saying so up front avoids the most common disappointment in this trade: a customer who believed a general program covered everything that walks, flies or leaks.
 
 ## Leaving
 
-If you want to stop, say so and it stops. Ask any pest control company for the cancellation terms in writing before you sign, including ours. A programme that is hard to leave is a programme that stopped competing for your business.
+If you want to stop, say so and it stops. Ask any pest control company for the cancellation terms in writing before you sign, including ours. A program that is hard to leave is a program that stopped competing for your business.

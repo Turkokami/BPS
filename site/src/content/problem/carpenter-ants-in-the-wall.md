@@ -3,7 +3,7 @@ title: "Carpenter Ants in the Wall"
 description: "Carpenter ants inside a Maine wall: how to confirm it, why the moisture matters more than the ants, and what treatment actually involves."
 answer: "Carpenter ants in a wall mean two things: a colony you need treated, and wood soft enough to excavate, which almost always means water. Treating the colony without finding the water gets you one quiet season."
 snippetShape: "paragraph+list"
-quantifiedFact: "Structural ant treatment in Maine is licensed under category 7A, and applicators may only treat in the categories their licence covers."
+quantifiedFact: "Structural ant treatment in Maine is licensed under category 7A, and applicators may only treat in the categories their license covers."
 primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "The moisture source goes in the report with a photograph, even when the repair belongs to a carpenter rather than to us."
 firstPartyData: "A confirmed job where carpenter ants in an outbuilding were treated the same day the customer called (about a year ago)."
@@ -56,7 +56,7 @@ Activity often increases for a few days as the colony is disturbed and foragers 
 
 - Tap along the suspect wall or sill. Galleries sound hollow against solid framing.
 - Look for frass at floor level below windows, doors and ceiling seams, and check again a day after sweeping it up.
-- Look after dark. Carpenter ants are most active at night — UMaine puts the peak between 10 pm and 2 am — so a torch after dark, and a few minutes following one ant, usually points at the route.
+- Look after dark. Carpenter ants are most active at night — UMaine puts the peak between 10 pm and 2 am — so a flashlight after dark, and a few minutes following one ant, usually points at the route.
 - Check outside for wood touching soil, branches touching the roof, and gutters overflowing onto trim.
 - Photograph what you find, with something for scale.
 

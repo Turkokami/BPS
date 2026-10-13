@@ -74,7 +74,7 @@ That is a habitat conversation as much as a treatment one, and the report you ge
 
 ## Our work in Oxford
 
-We have serviced a home here recently — ordinary residential work, quoted on site, done as described. Lauren, who reviewed us on Google in July 2026, wrote: "Friendly service, very knowledgeable and fair pricing. Serviced our home in Oxford." That is typical of the work we have done here.: straightforward jobs on properties where access is easy and the pressure comes from the surrounding land rather than from a neighbouring building.
+We have serviced a home here recently — ordinary residential work, quoted on site, done as described. Lauren, who reviewed us on Google in July 2026, wrote: "Friendly service, very knowledgeable and fair pricing. Serviced our home in Oxford." That is typical of the work we have done here.: straightforward jobs on properties where access is easy and the pressure comes from the surrounding land rather than from a neighboring building.
 
 ## What we cover here
 
@@ -84,4 +84,4 @@ We have serviced a home here recently — ordinary residential work, quoted on s
 - Wasp, hornet and yellowjacket nests around eaves, sheds and decks
 - Mosquito reduction where standing water on the property is producing them
 
-Free residential inspections and quotes across Oxford, Norway, Paris and the surrounding towns. Call or text Ryan Blouin on 207-740-4441.
+Free residential inspections and quotes across Oxford, Norway, Paris and the surrounding towns. Call or text Ryan Blouin at 207-740-4441.

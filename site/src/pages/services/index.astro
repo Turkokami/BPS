@@ -8,7 +8,7 @@ const services = attestedServices();
    per service page that has artwork, in the sheet's order. Only slugs that are a
    live, attested service render; the sheet's Spider, Termite/WDO and "Core
    Protection Programs" tiles have no page here and are not used (termite work is
-   in NOT_OFFERED and outside the 7A/7E licence). Masters: site/brand/buttons/. */
+   in NOT_OFFERED and outside the 7A/7E license). Masters: site/brand/buttons/. */
 /* alt = the words printed on the tile, so a voice-control user can say what they see. */
 const BUTTONS: [string, string][] = [
   ['rodent-control', 'Rodent Control'], ['ant-control', 'Ant Control'], ['tick-control', 'Tick Control'],
@@ -21,7 +21,7 @@ const buttons = BUTTONS.filter(([slug]) => live.has(slug)).map(([slug, label]) =
 ---
 <BaseLayout
   title={title('Pest Control Services in Maine')}
-  description={description('Every service Blouin Pest Services offers in Maine: rodents, ants, ticks, mosquitoes, cockroaches, bed bugs, and residential and commercial programmes.')}
+  description={description('Every service Blouin Pest Services offers in Maine: rodents, ants, ticks, mosquitoes, cockroaches, bed bugs, and residential and commercial programs.')}
   path="/services/"
   crumbs={[{ name: 'Services', item: '/services/' }]}
 >

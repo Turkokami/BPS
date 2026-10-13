@@ -1,7 +1,7 @@
 ---
 title: "Cockroaches in a Maine Rental"
 description: "What tenants and landlords each need to do about German cockroaches in a Maine rental, and why treating one unit rarely ends it."
-answer: "German cockroaches in a rental are a building problem the moment they appear in one unit. Treatment works when the landlord arranges access to the neighbouring units and the tenant handles preparation and sanitation — either half alone produces a temporary result."
+answer: "German cockroaches in a rental are a building problem the moment they appear in one unit. Treatment works when the landlord arranges access to the neighboring units and the tenant handles preparation and sanitation — either half alone produces a temporary result."
 snippetShape: "paragraph+list"
 quantifiedFact: "Cockroach work in Maine rentals and food premises is performed under category 7A, defined by the Board of Pesticides Control as Structural General Pest Control including food processing."
 primaryAuthority: "Maine Board of Pesticides Control"
@@ -16,12 +16,12 @@ faqs:
     a: "At minimum the affected unit and those sharing a wall, floor or ceiling with it. The inspection decides the rest."
 ---
 
-German cockroaches live inside the structure, close to warmth, food and water, and they move between units through wall voids and pipe chases. That is why a single treated apartment in a building with an untreated neighbour is a holding action.
+German cockroaches live inside the structure, close to warmth, food and water, and they move between units through wall voids and pipe chases. That is why a single treated apartment in a building with an untreated neighbor is a holding action.
 
 ## What the tenant does
 
 1. Clear clutter from under the sink, behind and beneath appliances.
-2. Store food in sealed containers, wipe surfaces nightly, and take rubbish out each evening.
+2. Store food in sealed containers, wipe surfaces nightly, and take trash out each evening.
 3. Break down and remove cardboard promptly.
 4. Report the first sighting rather than the tenth — density is what decides how long treatment takes.
 5. Let the technician in at the scheduled time; a missed round restarts the clock.
@@ -36,13 +36,13 @@ German cockroaches live inside the structure, close to warmth, food and water, a
 
 ## What we do
 
-Baiting in the harbourages, growth regulator where the population is established, a quote that states how many rounds are included, and a written scope that separates the sanitation items from the treatment items so neither side has to guess.
+Baiting in the harborages, growth regulator where the population is established, a quote that states how many rounds are included, and a written scope that separates the sanitation items from the treatment items so neither side has to guess.
 
 Call or text 207-740-4441 for a free residential inspection, landlord or tenant.
 
 ## When the building has to be involved
 
-One unit with heavy activity and neighbours reporting nothing is usually a unit that has been quietly infested for months. One unit with light activity and two neighbours reporting sightings is a building problem already. The inspection decides which of those you have, and the answer changes who needs to be in the conversation.
+One unit with heavy activity and neighbors reporting nothing is usually a unit that has been quietly infested for months. One unit with light activity and two neighbors reporting sightings is a building problem already. The inspection decides which of those you have, and the answer changes who needs to be in the conversation.
 
 Maine landlords and tenants each carry obligations here, and the fastest route through it is a written scope that says which items belong to whom, with dates. We provide that as a matter of course, because the alternative is two parties each waiting for the other.
 
@@ -62,7 +62,7 @@ That is a scheduling problem more than a pest control problem, and it is solved 
 
 ## What good looks like from a landlord's side
 
-- The affected unit and its neighbours are inspected together
+- The affected unit and its neighbors are inspected together
 - Access is arranged rather than hoped for, and non-access is documented
 - Structural items — sealing around plumbing, cover plates, damaged cabinet backs — get fixed
 - Records are kept, because a repeat problem six months later starts from those notes

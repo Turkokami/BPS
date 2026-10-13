@@ -23,9 +23,9 @@ faqs:
   - q: "How are bait stations placed around pets and children?"
     a: "Exterior stations are secured and placed where the travel routes are, not where children and pets go. Interior work is trapping rather than bait, because an animal that dies inside a wall creates a second problem."
   - q: "Will they come back?"
-    a: "Not if the burrows are filled, the entries sealed with material they cannot chew, and the food source dealt with. If the food source belongs to a neighbour, the report says so, because nothing on your side of the line solves that alone."
+    a: "Not if the burrows are filled, the entries sealed with material they cannot chew, and the food source dealt with. If the food source belongs to a neighbor, the report says so, because nothing on your side of the line solves that alone."
   - q: "I live in a mobile home park. Can you treat just my home?"
-    a: "Yes, and the inspection will look at your skirting, your underside and your lot. If the burrows or the food source sit on a neighbouring lot or common ground, the report names that, so the park owner has something specific to act on."
+    a: "Yes, and the inspection will look at your skirting, your underside and your lot. If the burrows or the food source sit on a neighboring lot or common ground, the report names that, so the park owner has something specific to act on."
 ---
 
 Augusta is a city of small households — 9,453 of them, averaging under two people each — with a mix of older single-family housing, rented apartments, mobile and manufactured homes, and outbuildings. Rodent work here reflects that mix.
@@ -43,7 +43,7 @@ The trailer job was not a one-off type of building for this city. The U.S. Censu
 On a manufactured home, the places that matter are specific:
 
 - The skirting, where panels have lifted, cracked or been left off behind steps
-- The ground line along the skirting, where a burrow entrance hides behind vegetation
+- The ground line along the baseboards, where a burrow entrance hides behind vegetation
 - The plumbing drop and the electrical feed, where they pass up through the floor
 - The underbelly wrap, which should be continuous and not hanging down in pockets
 - Steps, decks and additions built against the home, which often have open undersides of their own
@@ -64,13 +64,13 @@ Rats chew. Foam alone fails, loose steel wool fails, and a plastic vent cover fa
 
 ## A mid-century city, mostly
 
-Augusta's housing is younger, on average, than its neighbours up and down the river corridors. The same Census survey dates 28.7% of the city's units to 1939 or earlier, the lowest pre-war share of the six cities this site covers (only the town of Oxford, at 10.9%, is lower), while 1,495 units (14.7%) were built in the 1970s and 1,128 (11.1%) in the 1960s. It also counts 1,598 units — 15.7% — in buildings of ten or more apartments.
+Augusta's housing is younger, on average, than its neighbors up and down the river corridors. The same Census survey dates 28.7% of the city's units to 1939 or earlier, the lowest pre-war share of the six cities this site covers (only the town of Oxford, at 10.9%, is lower), while 1,495 units (14.7%) were built in the 1970s and 1,128 (11.1%) in the 1960s. It also counts 1,598 units — 15.7% — in buildings of ten or more apartments.
 
-That spread matters for which pest turns up where. On a 1960s or 1970s house the inspection still walks the whole shell, but the usual suspects shift towards the sill, the garage door and the utility entries. A larger apartment building brings the shared-wall questions — cockroaches and bed bugs travelling between units — that the <a href="/services/cockroach-control/">cockroach</a> and <a href="/services/bed-bug-control/">bed bug</a> pages deal with.
+That spread matters for which pest turns up where. On a 1960s or 1970s house the inspection still walks the whole shell, but the usual suspects shift towards the sill, the garage door and the utility entries. A larger apartment building brings the shared-wall questions — cockroaches and bed bugs traveling between units — that the <a href="/services/cockroach-control/">cockroach</a> and <a href="/services/bed-bug-control/">bed bug</a> pages deal with.
 
-## The neighbourhood conversation
+## The neighborhood conversation
 
-Rats forage across property lines, so an Augusta rat job is often a street problem rather than a property one. Where the burrow system or the food source is next door, the report says so plainly — and we will put it in writing if that helps you raise it with a neighbour or a landlord.
+Rats forage across property lines, so an Augusta rat job is often a street problem rather than a property one. Where the burrow system or the food source is next door, the report says so plainly — and we will put it in writing if that helps you raise it with a neighbor or a landlord.
 
 ## Ticks in Kennebec County
 
@@ -84,4 +84,4 @@ If you find an attached tick, remove it, keep it, and note the date; the lab's o
 
 The same city produces ordinary residential work: mice with the first cold, carpenter ants in damp framing, ants and wasps in summer, and tick work on properties with a wooded edge from April through September.
 
-Free residential inspections and quotes. Call or text Ryan Blouin on 207-740-4441.
+Free residential inspections and quotes. Call or text Ryan Blouin at 207-740-4441.

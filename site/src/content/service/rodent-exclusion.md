@@ -90,14 +90,14 @@ If you are reading this mid-winter with noise overhead, the order changes: remov
 
 ## Rural homes and camps
 
-University of California IPM says deer mice are not normally found in residential areas unless fields, forests or similar habitat surround them — which describes plenty of houses outside the town centres.
+University of California IPM says deer mice are not normally found in residential areas unless fields, forests or similar habitat surround them — which describes plenty of houses outside the town centers.
 
 For camps that sit closed through the winter, the survey is best done before closing up rather than after opening, so the building is shut against the season it is most exposed to.
 
 ## What you are left with
 
-A written list of every opening found and what each one needs, the removal plan, the sealing quote itemised, and a clear note of anything belonging to another trade. If a second company quotes the same house you should be able to lay the two side by side and compare them line by line. That is the point of itemising it.
+A written list of every opening found and what each one needs, the removal plan, the sealing quote itemized, and a clear note of anything belonging to another trade. If a second company quotes the same house you should be able to lay the two side by side and compare them line by line. That is the point of itemizing it.
 
-Exclusion sits alongside [rodent control](/services/rodent-control/), which covers the removal side of the same job. The work falls under Maine commercial applicator category 7A, held under licence CMA-6425.
+Exclusion sits alongside [rodent control](/services/rodent-control/), which covers the removal side of the same job. The work falls under Maine commercial applicator category 7A, held under license CMA-6425.
 
-Free residential inspections and quotes. Call or text Ryan Blouin on 207-740-4441.
+Free residential inspections and quotes. Call or text Ryan Blouin at 207-740-4441.

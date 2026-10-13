@@ -1,17 +1,17 @@
 ---
 title: "Cockroach Control in Maine"
 description: "German cockroach treatment for Maine homes, rentals and food premises: sanitation-led baiting and follow-up rounds. Call or text 207-740-4441."
-answer: "Cockroach control is baiting plus sanitation, run in rounds. German cockroaches live and breed inside the structure, so the job is finding the harbourages — warm, tight, near water — and treating them, while removing the food and moisture that keep the population fed between visits."
+answer: "Cockroach control is baiting plus sanitation, run in rounds. German cockroaches live and breed inside the structure, so the job is finding the harborages — warm, tight, near water — and treating them, while removing the food and moisture that keep the population fed between visits."
 snippetShape: "paragraph+list"
 quantifiedFact: "Cockroach work in a Maine restaurant or food premises falls under category 7A, which the Board of Pesticides Control defines as Structural General Pest Control including food processing."
 primaryAuthority: "Maine Board of Pesticides Control"
-statedPosition: "Spraying cockroaches scatters them. We bait, we treat harbourages, and we write down the sanitation items that decide whether it holds."
+statedPosition: "Spraying cockroaches scatters them. We bait, we treat harborages, and we write down the sanitation items that decide whether it holds."
 firstPartyData: "Cockroaches appear twice in the hundred customer reviews read on 24 September 2026, against seven that describe commercial, rental or restaurant premises. That is the shape of the work in this service area: German cockroach calls here arrive from multi-unit and food premises far more often than from detached single-family houses."
 updated: "2026-10-04"
 service: "cockroach-control"
 faqs:
   - q: "Why did spraying make it worse?"
-    a: "Repellent sprays push German cockroaches out of a harbourage and into new ones, often in adjacent rooms or units. Baiting works with their behaviour rather than against it, which is why it is the backbone of the programme."
+    a: "Repellent sprays push German cockroaches out of a harborage and into new ones, often in adjacent rooms or units. Baiting works with their behavior rather than against it, which is why it is the backbone of the program."
   - q: "Can this be solved in one visit?"
     a: "Rarely. A population has egg cases that no application reaches, so a second round two to three weeks later is part of the plan. The quote states how many rounds are included."
   - q: "I rent. Whose problem is this?"
@@ -29,13 +29,13 @@ The cockroach that causes real problems in Maine is the German cockroach. It is 
 - In the seams of small appliances: microwave, toaster, coffee maker
 - Behind cover plates and in the recesses around plumbing penetrations
 
-The inspection is a flashlight job in those spaces, and the density of what turns up there decides the programme.
+The inspection is a flashlight job in those spaces, and the density of what turns up there decides the program.
 
 ## Bait first
 
-Baiting is the backbone because it uses the insect's own behaviour. A cockroach that feeds on bait returns to its harbourage, and the material moves through the population by contact and by feeding. Repellent sprays do the opposite: they break the harbourage apart and scatter survivors into places you have not treated, which in an apartment building means the next unit.
+Baiting is the backbone because it uses the insect's own behavior. A cockroach that feeds on bait returns to its harborage, and the material moves through the population by contact and by feeding. Repellent sprays do the opposite: they break the harborage apart and scatter survivors into places you have not treated, which in an apartment building means the next unit.
 
-Bait is placed in the harbourages, not smeared along baseboards. Growth regulators go in where the population is established, to stop the next generation reaching maturity.
+Bait is placed in the harborages, not smeared along baseboards. Growth regulators go in where the population is established, to stop the next generation reaching maturity.
 
 ## The sanitation half
 
@@ -43,8 +43,8 @@ Cockroaches persist where they can feed between visits. The items that matter mo
 
 1. Clean under and behind the appliances, not just the visible floor.
 2. Fix the dripping trap or shutoff — a cockroach can go longer without food than without water.
-3. Store dry goods in sealed containers, and take rubbish out nightly.
-4. Clear cardboard. Corrugated cardboard is harbourage and it arrives with deliveries.
+3. Store dry goods in sealed containers, and take trash out nightly.
+4. Clear cardboard. Corrugated cardboard is harborage and it arrives with deliveries.
 5. Keep pet food dishes off the floor overnight.
 
 We put these in the written report so a landlord, a tenant or a manager can see exactly what belongs to them.
@@ -57,7 +57,7 @@ Free residential inspection and quote, the number of rounds stated in writing, a
 
 ## How long it takes, honestly
 
-A light population in a single-family home is usually resolved in two rounds plus a verification visit. A heavy population in an apartment with neighbouring units involved takes longer — typically three rounds across six to ten weeks, and the timeline depends far more on access and sanitation than on the products used. A one-visit resolution for an established German cockroach population is not something the insect's reproductive cycle allows.
+A light population in a single-family home is usually resolved in two rounds plus a verification visit. A heavy population in an apartment with neighboring units involved takes longer — typically three rounds across six to ten weeks, and the timeline depends far more on access and sanitation than on the products used. A one-visit resolution for an established German cockroach population is not something the insect's reproductive cycle allows.
 
 ## The follow-up interval
 
@@ -65,7 +65,7 @@ Follow-up lands two to three weeks after the first treatment, set by how heavy t
 
 ## What a verification visit checks
 
-Monitors placed at the first visit are read at every subsequent one. Empty monitors in the harbourage zones, no fresh evidence behind the appliances, and no new sightings reported by the household across two weeks is the standard for closing a job. We do not close on the absence of complaints alone.
+Monitors placed at the first visit are read at every subsequent one. Empty monitors in the harborage zones, no fresh evidence behind the appliances, and no new sightings reported by the household across two weeks is the standard for closing a job. We do not close on the absence of complaints alone.
 
 ## How a German cockroach population grows
 
@@ -75,7 +75,7 @@ That biology explains three things people find frustrating. It explains why the 
 
 ## What the inspection records
 
-- Where the live insects are, by room and by harbourage
+- Where the live insects are, by room and by harborage
 - Where the monitors are placed, numbered so the next visit is comparable
 - The moisture points: leaking trap, sweating pipe, condensation behind the fridge
 - The food points: crumbs under the range, pet dishes, open storage, bin practice
@@ -96,7 +96,7 @@ Not every roach in a Maine house is a German cockroach. Larger species — the o
 
 ## Pricing and what changes it
 
-A cockroach quote is built from density, the number of rooms or units involved, and how much of the sanitation work the household or the business can do between visits. A light population in one kitchen is a short job. A heavy population across a shared wall is a programme. We inspect before quoting, and the quote states how many rounds are included.
+A cockroach quote is built from density, the number of rooms or units involved, and how much of the sanitation work the household or the business can do between visits. A light population in one kitchen is a short job. A heavy population across a shared wall is a program. We inspect before quoting, and the quote states how many rounds are included.
 
 ## Working around a business
 
@@ -104,10 +104,10 @@ Where the premises is a restaurant, a café or a food store, treatment is schedu
 
 ## The difference between control and elimination
 
-Control means the population is suppressed and stays suppressed while the programme runs. Elimination means it is gone and monitors stay empty without ongoing treatment. Both are achievable in a single-family home. In a multi-unit building, elimination in one unit is only realistic when the neighbouring units are clear too, which is why we are careful about the word.
+Control means the population is suppressed and stays suppressed while the program runs. Elimination means it is gone and monitors stay empty without ongoing treatment. Both are achievable in a single-family home. In a multi-unit building, elimination in one unit is only realistic when the neighboring units are clear too, which is why we are careful about the word.
 
 Ask any company which of the two they are quoting for. It changes the price and it changes what you are entitled to expect.
 
 ## What we leave behind after the final visit
 
-Numbered monitors in the harbourage zones, the written sanitation and structural list with anything outstanding flagged, and a note of what was applied and where. If activity reappears, that record is where the next visit starts.
+Numbered monitors in the harborage zones, the written sanitation and structural list with anything outstanding flagged, and a note of what was applied and where. If activity reappears, that record is where the next visit starts.
