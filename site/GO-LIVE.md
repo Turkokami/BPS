@@ -294,3 +294,34 @@ against their sources; about 400 verified as written. Everything below was fixed
    record of every visit; attic clean-out "a day or two of work"; wasp nests
    "quoted per nest".
 6. EcoVIA MT — registered for use in Maine?
+
+---
+
+## Post-cutover redirects — 13 October 2026
+
+DNS moved to Vercel on 13 Oct. GSC on the old property showed old URLs 404ing
+and every legacy redirect taking two hops. Fixed in `scripts/gen-redirects.mjs`
+(deployment `dpl_7pqDGVKLK55WyHVewBVMG32AZa4x`, commit 24b5406):
+
+- **One hop.** `trailingSlash: true` is gone from vercel.json — it 308'd
+  `/foo` → `/foo/` before redirects matched. Sources now match `/old{/}?`, and a
+  single catch-all (`/:path((?:[^/]+/)*[^/.]+)` → `/:path/`) at the end keeps
+  the trailing-slash URL style for every other page. Files are untouched.
+- **Old pages that were 404ing** now redirect: /about-us, /tick-and-mosquito-control
+  (→ mosquito), /rodent-control, /bed-bug-control, /ant-control, /roach-control,
+  /pest-control-lewiston(-1) (→ /locations/lewiston/).
+- **/pest-control-industry is the town of Industry** (Franklin County; twin of
+  /pest-control-industry-maine), not commercial work → /service-area/.
+- **Old town URLs → county hub.** Unpublished towns now go to their published
+  county hub (70 URLs) rather than /service-area/. 30 stay on /service-area/:
+  every York and Franklin County town, plus both county URLs — no hub yet.
+  Hallowell goes to the Kennebec hub (the town rule), not /locations/augusta/.
+- **Verified live:** 246 legacy variants (with/without slash) all 308 → 200 in
+  one hop (apex: two); 42 sitemap URLs all a direct 200; all 23 redirect
+  destinations are in a sitemap. Simulated beforehand with
+  `@vercel/routing-utils`, the library Vercel compiles vercel.json with.
+
+**Still in GSC (browser, turkokami@gmail.com):** remove the bad `/about` sitemap
+entry; request indexing for /, /locations/lewiston/, /services/bed-bug-control/,
+/services/commercial-pest-control/, /services/mosquito-control/,
+/services/ant-control/, /locations/auburn/; re-check Indexing → Pages around 20 Oct.
