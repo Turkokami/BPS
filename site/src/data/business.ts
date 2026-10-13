@@ -13,7 +13,7 @@ export const BUSINESS = {
   legalName: 'Blouin Pest Services LLC',       // attested 28 Sep 2026
   owner: {
     name: 'Ryan Blouin',
-    role: 'Owner and Commercial Master Applicator',
+    role: 'Owner',
     experienceYears: 7,                        // attested 28 Sep 2026
     mentor: 'Anthony Ciriello',                // attested: trained and mentored by
     bio: 'supplied',                           // rendered from src/content/sitePage/about-ryan.md
@@ -32,6 +32,9 @@ export const BUSINESS = {
   license: {
     authority: 'Maine Board of Pesticides Control',
     type: 'Commercial Master Applicator',
+    /** Owner's instruction, 13 Oct 2026: licensing stays generic on the site — no
+     *  number, categories or fees. Kept here for the record; publishDetails gates it. */
+    publishDetails: false,
     number: 'CMA-6425',                        // attested 28 Sep; verified against the Board's own record 29 Sep
     categories: ['7A Structural General Pest Control', '7E Biting Fly and Other Arthropod Vectors'],
     firmLicense: 'held',                       // listed FH in the Board's for-hire directory; the number itself is not in that dataset
@@ -96,7 +99,7 @@ export const BUSINESS = {
   site: 'https://www.blouinpest.com',
 } as const;
 
-export const hasLicenceNumber = () => Boolean(BUSINESS.license.number);
+export const hasLicenceNumber = () => BUSINESS.license.publishDetails && Boolean(BUSINESS.license.number);
 /** Terms exist, but the page publishes only once the written agreement does. */
 export const hasGuarantee = () => Boolean(BUSINESS.guarantee.name && BUSINESS.guarantee.terms);
 export const guaranteePublishable = () => hasGuarantee() && BUSINESS.guarantee.agreementSigned;

@@ -3,8 +3,8 @@ title: "Mosquito Control in Maine"
 description: "Mosquito reduction for Maine properties: breeding-site removal, targeted treatment, and honest limits on any yard program. Call 207-740-4441."
 answer: "Mosquito control on a property is breeding-site removal first and treatment second. Mosquitoes develop in standing water measured in tablespoons, not ponds, so the walk-through that finds the water sources on your property does more for the season than any single application."
 snippetShape: "paragraph+list"
-quantifiedFact: "Mosquito and biting-fly work in Maine is licensed under commercial category 7E, and the Board of Pesticides Control requires applicators to treat only in the categories they hold."
-primaryAuthority: "Maine Board of Pesticides Control"
+quantifiedFact: "Maine CDC advises emptying and refilling outdoor birdbaths and pet bowls at least once a week so they cannot breed mosquitoes."
+primaryAuthority: "Maine CDC"
 statedPosition: "We will not promise a mosquito-free yard. We reduce what the property produces and treat where they rest, and we tell you which of the two is doing the work."
 firstPartyData: "Lawn treated for mosquitoes alongside tick work on the same property, same-day booking (confirmed job, about a year ago)."
 updated: "2026-10-04"
@@ -45,9 +45,9 @@ Areas are chosen and areas are excluded. Flowering plants, vegetable gardens and
 
 A yard program will not make an evening on a Maine porch in July feel like an evening in January. Adults fly in from wetland, ditch and neighboring property, and nothing applied inside your boundary changes that. What a program reasonably does is cut what your own property produces and knock down what is resting in it, which for most households is the difference between unusable and pleasant.
 
-## Licensing
+## Who does the work
 
-Mosquito and biting-fly work sits in category 7E with the Maine Board of Pesticides Control, separate from structural pest control, and applicators may only treat in the categories they hold. The Board publishes a public directory of licensed commercial applicators.
+Mosquito treatment is licensed pest control work in Maine, and the person who walks your property for water sources is the same person who applies the treatment and writes the plan.
 
 Free property walk-through and quote, with the water sources listed whether or not you hire us.
 

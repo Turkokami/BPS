@@ -64,7 +64,7 @@ const d = description('Owner-operated pest control across southern and central M
   <h2>What happens when you call</h2>
   <ol>
     <li><strong>Inspect first.</strong> The room you noticed the problem in is usually not the room the problem lives in.</li>
-    <li><strong>Treat what is there</strong>, in the licensed category the work falls under.</li>
+    <li><strong>Treat what is there</strong>, with the method the problem actually calls for.</li>
     <li><strong>Close the way in.</strong> Sealing is what stops you paying for the same job every year.</li>
     <li><strong>Write it down.</strong> Every visit produces a record of what was found, what was applied and what is recommended — including work that belongs to another trade.</li>
   </ol>
@@ -91,8 +91,7 @@ const d = description('Owner-operated pest control across southern and central M
 
   <h2>Licensed, and checkable</h2>
   <p>
-    {BUSINESS.license.type} #{BUSINESS.license.number}, categories {BUSINESS.license.categories.map((c) => c.split(' ')[0]).join(' and ')},
-    licensed and regulated by the {BUSINESS.license.authority}. <a href="/compliance/maine-pesticide-licensing/">What that means and how to check it</a>.
+    Licensed by the {BUSINESS.license.authority} and insured.
   </p>
 
   <Faq faqs={faqs} />

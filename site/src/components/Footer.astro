@@ -37,7 +37,6 @@ const year = new Date().getFullYear();
           <li><a href="/about/">About</a></li>
           <li><a href="/reviews/">Reviews</a></li>
           <li><a href="/library/">Pest library</a></li>
-          <li><a href="/compliance/maine-pesticide-licensing/">Licensing and compliance</a></li>
           <li><a href="/contact/">Contact</a></li>
           {privacyPublishable() && <li><a href="/privacy/">Privacy</a></li>}
         </ul>
@@ -45,7 +44,7 @@ const year = new Date().getFullYear();
     </div>
     <p class="colophon">
       &copy; {year} {BUSINESS.legalName}.
-      {hasLicenceNumber() && <span> {BUSINESS.license.type} #{BUSINESS.license.number}, licensed and regulated by the {BUSINESS.license.authority}.</span>}
+      {hasLicenceNumber() ? <span> {BUSINESS.license.type} #{BUSINESS.license.number}, licensed and regulated by the {BUSINESS.license.authority}.</span> : <span> Licensed by the {BUSINESS.license.authority} and insured.</span>}
     </p>
   </div>
 </footer>

@@ -31,7 +31,7 @@ from nowhere — `scripts/gate-integrity.mjs` asserts all of that on every build
 
 **Five county hubs are published, two are not.** Androscoggin, Cumberland, Kennebec, Oxford and Sagadahoc were written on 2 October 2026 to the same substance gate as the towns (`src/content/county/`, schema in `config.ts`) and flipped to PAGE in the demand map. Franklin and York have no job on record and stay sealed. A hub with no document renders the old link-list scaffold, so flipping a county to PAGE without writing it first would publish a thin page — write, then flip.
 
-**The applicator licence is published; the firm licence number is not.** CMA-6425 (7A, 7E, expiring 2027-12-31) is read from the Board's own applicator record and appears on the site and in the `Person` node. The firm licence number is still outstanding, so the compliance page says the company is listed in the Board's For Hire directory rather than claiming the firm licence can be checked there.
+**Licensing is generic on purpose.** At Ryan's request (13 Oct 2026) the site says only that the business is licensed by the Maine Board of Pesticides Control and insured: no licence number, no categories, no fees, and the licensing explainer page is retired (its URL redirects to /about/). The details stay in `business.ts` for the record behind `license.publishDetails: false`, which `hasLicenceNumber()` respects everywhere — footer, schema, share card. He is not required to publish a number.
 
 **The About page has no owner biography.** Pending. The site will not write a
 personal history on Ryan's behalf.

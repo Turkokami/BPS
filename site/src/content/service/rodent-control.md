@@ -3,8 +3,6 @@ title: "Rodent Control in Maine"
 description: "Mice and rats in a Maine home: how the inspection works, what gets sealed, and what the treatment plan looks like. Call or text Ryan at 207-740-4441."
 answer: "Rodent control in a Maine home is three jobs in order: find how they are getting in, remove the animals that are already inside, and close the entry points so the next ones cannot follow. Trapping alone empties a house for a season; sealing the entries is what keeps it empty."
 snippetShape: "paragraph+table"
-quantifiedFact: "Maine charges $105 for a commercial applicator license, renewable every three years, and a Commercial Master must earn nine continuing-education credits in each of those three-year cycles (Maine Board of Pesticides Control)."
-primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "Trapping without exclusion is a subscription, not a solution — we quote the sealing work with the trapping."
 firstPartyData: "Mice in a wall on a Maine home: we located the entry along the foundation and sealed it, and showed the household where the animals had been getting in (confirmed job, about six months ago). Separately, a mouse infestation at a seasonal camp, resolved and not recurring since (about four months ago)."
 updated: "2026-10-04"
@@ -13,7 +11,7 @@ faqs:
   - q: "How long does it take to get mice out of a house?"
     a: "Most homes stop producing new activity within two to three weeks of the first visit, provided the entry points found during the inspection are sealed. Houses with an active exterior food source — bird feeders, open compost, a neighboring barn — take longer and need the source addressed."
   - q: "Do you use rodent bait outside the house?"
-    a: "Only where it is appropriate for the property and the label allows it, and never as a substitute for exclusion. Every product used is one the applicator is licensed for under the category the work falls in, which for structural rodent work in Maine is 7A."
+    a: "Only where it is appropriate for the property and the label allows it, and never as a substitute for exclusion. Every product is applied to its label."
   - q: "Will I know where they were getting in?"
     a: "Yes. The inspection ends with the entry points named and photographed, and the quote lists the sealing work item by item so you can compare it against anyone else's."
 ---
@@ -97,6 +95,6 @@ A written list of every opening found and what it needs, the removal plan, the s
 
 ## Working inside the rules
 
-The Maine Board of Pesticides Control requires a commercial applicator license for any pesticide applied as a service for compensation, and structural rodent work sits in category 7A. Each company must have one Commercial Master applicator who carries responsibility for pest management decisions and training. The Board states that a commercial license costs $105, runs for three years, and a Master must complete nine continuing-education credits within each cycle. That is the framework every legitimate Maine operator works inside, and it is worth asking any company you call which categories they hold.
+Rodent work done for a fee in Maine is licensed pest control work, and it is worth asking any company you call whether it is licensed and insured.
 
 Rodent pressure in a Maine house is seasonal but the damage is not: gnawed wiring, contaminated insulation, and droppings in a space you store things in are all cumulative. The point of doing it properly once is that you stop paying for it every autumn.

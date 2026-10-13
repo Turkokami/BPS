@@ -70,4 +70,4 @@ For a yard on the edge of woods, the practical answer is the one on our [tick co
 
 Because the business works from Lewiston, Androscoggin addresses are the closest we serve. Same-day emergency service is available; call or text for the next opening. Routine work is booked around the same seven-day, nine-to-five schedule as everywhere else.
 
-Ryan Blouin holds Maine Commercial Master Applicator license CMA-6425, in categories 7A and 7E, and does the work himself. Call or text 207-740-4441.
+Ryan Blouin is licensed by the Maine Board of Pesticides Control, carries insurance, and does the work himself. Call or text 207-740-4441.

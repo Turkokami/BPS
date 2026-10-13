@@ -3,8 +3,8 @@ title: "Tick Control in Maine"
 description: "Yard tick control in Maine: where ticks live on a property, what a perimeter treatment does and does not do. Call or text 207-740-4441."
 answer: "Tick control on a Maine property is a habitat job with a treatment component, not the other way round. Ticks concentrate where lawn meets woods, leaf litter and stone walls; treating that edge and changing the habitat reduces pressure where people and pets actually spend time. No treatment makes a yard tick-free, and anyone promising that is selling something."
 snippetShape: "paragraph+list"
-quantifiedFact: "Tick work in Maine is licensed under category 7E, Biting Fly and Other Arthropod Vectors, a separate commercial category from structural pest control — the Maine Board of Pesticides Control requires an applicator to hold each category they treat in."
-primaryAuthority: "Maine Board of Pesticides Control"
+quantifiedFact: "Adult deer ticks surge again in autumn, peaking in late October by the UMaine Tick Lab's count, and stay active whenever the ground is unfrozen."
+primaryAuthority: "UMaine Tick Lab (University of Maine Cooperative Extension)"
 statedPosition: "We treat the edge habitat and tell you what the yard itself is doing. A tick program that skips the habitat conversation is selling repeat visits."
 firstPartyData: "Lawn treated for ticks and mosquitoes on the same visit as a carpenter ant job on the property, booked and completed the day the customer called (confirmed job, about a year ago)."
 updated: "2026-10-04"
@@ -92,9 +92,5 @@ Remove an attached tick with fine-tipped tweezers: grasp close to the skin, pull
 ## What we will not claim
 
 We will not tell you a treated yard is a safe yard. Ticks arrive on animals that do not respect property lines, and no product applied inside your boundary changes deer movement. What we will tell you is how much of the pressure is coming from your own edge habitat, what changing it would do, and what a staged treatment adds on top. Anyone promising a tick-free property in Maine is selling a claim they cannot support.
-
-## Licensing, and why the category matters
-
-Tick and biting-fly work in Maine sits in commercial applicator category 7E, which is separate from the 7A category that covers structural pest control. The Maine Board of Pesticides Control is explicit that commercial applicators may only apply in the categories they are licensed for, and it publishes a directory of licensed commercial applicators that anyone can check before hiring.
 
 Free residential inspection and quote, an honest answer about what treatment will and will not do, and a yard plan you can act on whether or not you hire us.

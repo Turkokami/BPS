@@ -95,6 +95,6 @@ A light scattering of droppings in a corner of an otherwise sound attic does not
 
 ## Who does the work
 
-The pest control side of this job falls under Maine commercial applicator category 7A, which Ryan holds under license CMA-6425. Wildlife removal is not a service this business offers. If the animal in the roof is a squirrel, a raccoon or a bat rather than a mouse or a rat, it needs a wildlife specialist before any clean-out is worth paying for.
+The pest control side of this job is licensed, insured work that Ryan does himself. Wildlife removal is not a service this business offers. If the animal in the roof is a squirrel, a raccoon or a bat rather than a mouse or a rat, it needs a wildlife specialist before any clean-out is worth paying for.
 
 Free residential inspections and quotes. Call or text Ryan Blouin at 207-740-4441.

@@ -8,7 +8,7 @@ const services = attestedServices();
    per service page that has artwork, in the sheet's order. Only slugs that are a
    live, attested service render; the sheet's Spider, Termite/WDO and "Core
    Protection Programs" tiles have no page here and are not used (termite work is
-   in NOT_OFFERED and outside the 7A/7E license). Masters: site/brand/buttons/. */
+   in NOT_OFFERED). Masters: site/brand/buttons/. */
 /* alt = the words printed on the tile, so a voice-control user can say what they see. */
 const BUTTONS: [string, string][] = [
   ['rodent-control', 'Rodent Control'], ['ant-control', 'Ant Control'], ['tick-control', 'Tick Control'],
@@ -62,8 +62,8 @@ const buttons = BUTTONS.filter(([slug]) => live.has(slug)).map(([slug, label]) =
     <p>Saying so here saves you a phone call, and us one:</p>
     <ul>{NOT_OFFERED.map((n) => <li>{n}</li>)}</ul>
     <p>
-      Maine licenses pest control by category and an applicator may only treat in the categories they hold. Blouin Pest Services
-      holds 7A and 7E, which covers everything listed above this section and nothing in the list below it.
+      If your problem is one of these, we will say so on the phone and point you toward the right kind of specialist rather than
+      treating around it.
     </p>
   </section>
   <CallToAction />

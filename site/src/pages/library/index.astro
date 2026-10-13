@@ -9,6 +9,5 @@ const docs = (await getCollection('library')).sort((a, b) => a.data.title.locale
   <p class="lede">Written for Maine conditions, with the sources named in the text.</p>
   <ul>
     {docs.map((d) => <li><a href={`/library/${d.slug}/`}>{d.data.title}</a> — {d.data.description}</li>)}
-    <li><a href="/compliance/maine-pesticide-licensing/">Maine pesticide licensing, explained for homeowners</a></li>
   </ul>
 </BaseLayout>

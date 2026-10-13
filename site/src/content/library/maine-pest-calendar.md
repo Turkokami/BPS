@@ -3,8 +3,8 @@ title: "The Maine Pest Calendar"
 description: "What shows up in and around a Maine house through the year, with timing from UMaine Extension and Maine CDC, and what to do ahead of each arrival."
 answer: "Maine's pest year has fixed points the state's own experts publish: adult deer ticks peak in April–May and again in late October and nymphs in June and early July (UMaine Tick Lab); wasp colonies start in spring and peak in mid to late summer (UMaine Extension); cluster flies, seed bugs and lady beetles move into buildings from late summer through October (UMaine Extension); and two hard frosts sharply cut mosquito-borne disease risk (Maine CDC). Work done a few weeks ahead of each point costs less than work done during it."
 snippetShape: "paragraph+table"
-quantifiedFact: "UMaine Cooperative Extension's Tick Lab reports adult deer ticks from early spring to late fall with two peaks, one in April or May and another in late October, and nymph numbers peaking in June and early July. Maine licenses structural pest work under category 7A and tick work under 7E (Maine Board of Pesticides Control)."
-primaryAuthority: "University of Maine Cooperative Extension (Tick Lab; Home and Garden IPM); Maine CDC; Maine Board of Pesticides Control"
+quantifiedFact: "UMaine Cooperative Extension's Tick Lab reports adult deer ticks from early spring to late fall with two peaks, one in April or May and another in late October, and nymph numbers peaking in June and early July."
+primaryAuthority: "University of Maine Cooperative Extension (Tick Lab; Home and Garden IPM); Maine CDC"
 statedPosition: "Almost every seasonal pest problem in this state is cheaper to prevent by four weeks than to treat on the day it arrives."
 firstPartyData: null
 updated: "2026-10-04"
@@ -67,7 +67,3 @@ Bed bugs and cockroaches do not follow the seasons — they follow travel, furni
 **Fix water, and most insect problems get smaller.** UMaine Extension's carpenter ant fact sheet traces infestations to leaks around chimneys, roof valleys, gutters, windows and door frames, and to plumbing leaks under kitchens and bathrooms. A gutter that overflows onto a sill is both a carpenter ant risk and a pool of standing water; [mosquito control](/services/mosquito-control/) covers the water side.
 
 **Seal before the cold, not during it.** Every overwintering insect in Extension's fact sheets is looking for a way in from late summer onward. Sealing in August is prevention; the same work in January is a repair with the insects already inside.
-
-## How this connects to licensing
-
-Each item in this calendar sits in a licensed category. Structural work — rodents, ants, cockroaches, bed bugs, wasp nests and overwintering insects on a building — is category 7A. Ticks and biting flies are 7E. The Maine Board of Pesticides Control requires commercial applicators to treat only in the categories they hold, and publishes a public directory so anyone can check before hiring. The [licensing page](/compliance/maine-pesticide-licensing/) sets out what each category means.

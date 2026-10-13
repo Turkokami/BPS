@@ -3,7 +3,7 @@ title: "Cluster Flies, Stink Bugs and Ladybugs in a Maine House"
 description: "Why insects appear at sunny windows in February, which ones they are, why spraying indoors does not help, and what actually stops them next autumn."
 answer: "Insects at a sunny window in late winter are overwintering pests — cluster flies, brown marmorated stink bugs, boxelder bugs, western conifer seed bugs and Asian lady beetles — that entered in autumn and have been dormant in wall voids and attics since. They are a nuisance rather than a threat, and the fix is exterior exclusion in late summer and early autumn, not indoor spraying in February."
 snippetShape: "paragraph+table"
-quantifiedFact: "The Maine Department of Agriculture, Conservation and Forestry reports brown marmorated stink bugs overwintering in Maine structures verified from 90 towns in 13 counties. Exterior treatment for overwintering pests falls under license category 7A (Maine Board of Pesticides Control)."
+quantifiedFact: "The Maine Department of Agriculture, Conservation and Forestry reports brown marmorated stink bugs overwintering in Maine structures verified from 90 towns in 13 counties."
 primaryAuthority: "University of Maine Cooperative Extension (Pest Management Fact Sheet #5010); Maine Department of Agriculture, Conservation and Forestry"
 statedPosition: "We do not sell indoor treatment for cluster flies. Vacuum them, and let us seal the building in late summer, August into September, instead."
 firstPartyData: null

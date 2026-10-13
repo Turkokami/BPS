@@ -73,7 +73,7 @@ None of that replaces treating the house when the population is established. All
 
 Interior treatment concentrated where the animal rests and travels rather than applied uniformly across every room, the pet's bedding areas, and the entry points and crawlspaces where wildlife may be maintaining a population outside. Where a crawlspace or a deck void is the real source, that gets addressed rather than treated around.
 
-The work falls under Maine commercial applicator category 7A, which Ryan holds under license CMA-6425. EcoVIA MT is offered as a named product option; if you want it considered for your house, raise it when you book so the conversation about where it fits happens before the visit rather than during it.
+Flea treatment is licensed pest control work in Maine, and Ryan does it himself. EcoVIA MT is offered as a named product option; if you want it considered for your house, raise it when you book so the conversation about where it fits happens before the visit rather than during it.
 
 ## Pets, children and product placement
 

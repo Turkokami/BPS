@@ -3,8 +3,8 @@ title: "Commercial Pest Control in Maine"
 description: "Pest control for Maine restaurants, rentals, offices and multi-unit buildings: documentation and scheduled service. Call or text 207-740-4441."
 answer: "Commercial pest control is the same inspection discipline as residential work plus documentation and scheduling. Food premises and multi-unit buildings need a service record that stands up to an inspection, treatment timed around trading hours, and a plan that covers the units either side of the one that complained."
 snippetShape: "paragraph+list"
-quantifiedFact: "Maine's category 7A explicitly covers Structural General Pest Control including food processing, and a firm license costs $300 for three years and requires proof of insurance and a designated Commercial Master applicator."
-primaryAuthority: "Maine Board of Pesticides Control"
+quantifiedFact: "Chapter 26 of the Maine Board of Pesticides Control's rules requires the written notice in a business to be posted at least 24 hours and no more than seven days before an indoor application, and to stay up for at least 48 hours afterwards."
+primaryAuthority: "Maine Board of Pesticides Control (Chapter 26)"
 statedPosition: "In a multi-unit building, treating only the unit that called is a temporary result. We scope the adjacent units from the start."
 firstPartyData: "Recurring pest problem in an apartment property resolved within a couple of visits after a long-running issue (confirmed job, about ten months ago)."
 updated: "2026-10-04"
@@ -66,7 +66,7 @@ Quoted exactly from the business's Google profile:
 
 ## Licensing and insurance
 
-The Maine Board of Pesticides Control requires a firm license for custom applicator companies other than sole proprietors with no employees, and for any incorporated company (Chapter 31). That license runs $300 for three years, and requires both proof of insurance and a designated Commercial Master applicator who carries responsibility for pest management decisions and employee training. Any commercial customer is entitled to ask a contractor for those details, and to check the Board's public directory of licensed commercial applicators.
+Blouin Pest Services is licensed by the Maine Board of Pesticides Control and insured. Any commercial customer is entitled to ask a contractor to confirm both before work starts.
 
 ## The site survey
 
@@ -80,7 +80,7 @@ Commercial pest control is judged on evidence of a system. In practice that mean
 - A site plan showing monitoring devices, numbered and located
 - A trend over time rather than a stack of identical visit sheets
 - Evidence that recommendations were acted on and closed out
-- Product records: what was applied, where, in what category, by whom
+- Product records: what was applied, where, and by whom
 
 A file showing the same open recommendation month after month is worse than no file, because it documents that the business knew and did nothing. We write recommendations so they can be closed, and we record when they are.
 

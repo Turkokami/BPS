@@ -3,8 +3,6 @@ title: "Ant Control in Maine"
 description: "Carpenter ants and pavement ants in Maine homes: telling nesting from foraging, and the treatment that works. Call or text 207-740-4441."
 answer: "Ant control in Maine turns on one question: are the ants nesting in the structure or foraging through it? Carpenter ants nesting in damp framing are a building problem that needs the moisture fixed as well as the colony treated. Ants trailing in from outside are an entry-point and outdoor-nest problem, and spraying the trail you can see is the least useful thing you can do about it."
 snippetShape: "paragraph+table"
-quantifiedFact: "Structural ant work in Maine sits in license category 7A, Structural General Pest Control, one of the commercial categories the Maine Board of Pesticides Control issues."
-primaryAuthority: "Maine Board of Pesticides Control"
 statedPosition: "If carpenter ants are in wet wood, the wet wood is the job. We name the moisture source in the report even when the repair is someone else's work."
 firstPartyData: "Carpenter ants in a customer's shed treated the same day they called, alongside tick and mosquito work on the same property (confirmed job, about a year ago). Ants and mice together at a newly purchased home in Bath, after the household had tried retail aerosols first (about a year ago)."
 updated: "2026-10-04"
@@ -78,7 +76,7 @@ Foraging populations usually drop within days. A colony inside a wall takes long
 
 ## Working inside the rules
 
-Ant work on a structure in Maine falls under commercial applicator category 7A, Structural General Pest Control. The Maine Board of Pesticides Control requires a license for any pesticide applied as a service for compensation, and requires each company to designate a Commercial Master applicator responsible for pest management decisions and training. Products are applied to the label, in the categories the license covers, and the report says what was used and where.
+Ant work on a Maine house is done as licensed pest control work by an insured business. Products are applied to the label, and the report says what was used, where, and why. If you want to know what a product is before it goes down, ask at the visit and you will get a straight answer.
 
 Free residential inspections and quotes, and a plain answer about whether what you have is an ant problem or a water problem.
 
@@ -88,4 +86,4 @@ We will not sell a perimeter spray as a solution to a colony inside a wall, and 
 
 ## Ants around food premises and rentals
 
-In a rental or a restaurant, ants get treated under the same category and the same rules, but the plan changes in two ways: product placement has to respect food-contact surfaces and preparation areas, and the sanitation and structural items have to be written down so the landlord or the manager can act on them. A café with a persistent ant trail almost always has a moisture point behind an appliance or a gap at a delivery door, and treating around it monthly is more expensive over a year than fixing it once.
+In a rental or a restaurant, ants get treated under the same rules, but the plan changes in two ways: product placement has to respect food-contact surfaces and preparation areas, and the sanitation and structural items have to be written down so the landlord or the manager can act on them. A café with a persistent ant trail almost always has a moisture point behind an appliance or a gap at a delivery door, and treating around it monthly is more expensive over a year than fixing it once.

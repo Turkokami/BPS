@@ -81,6 +81,11 @@
       "permanent": true
     },
     {
+      "source": "/compliance/maine-pesticide-licensing{/}?",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
       "source": "/pest-control-auburn-maine{/}?",
       "destination": "/locations/auburn/",
       "permanent": true

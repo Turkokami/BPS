@@ -98,6 +98,6 @@ For camps that sit closed through the winter, the survey is best done before clo
 
 A written list of every opening found and what each one needs, the removal plan, the sealing quote itemized, and a clear note of anything belonging to another trade. If a second company quotes the same house you should be able to lay the two side by side and compare them line by line. That is the point of itemizing it.
 
-Exclusion sits alongside [rodent control](/services/rodent-control/), which covers the removal side of the same job. The work falls under Maine commercial applicator category 7A, held under license CMA-6425.
+Exclusion sits alongside [rodent control](/services/rodent-control/), which covers the removal side of the same job. Both are done as licensed pest control work by an insured, owner-operated business.
 
 Free residential inspections and quotes. Call or text Ryan Blouin at 207-740-4441.

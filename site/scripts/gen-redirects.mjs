@@ -44,6 +44,8 @@ const LEGACY_EXTRA = {
   '/roach-control': '/services/cockroach-control/',
   '/pest-control-lewiston': '/locations/lewiston/',
   '/pest-control-lewiston-1': '/locations/lewiston/',
+  // Retired 13 Oct 2026 at the owner's request: licensing stays generic.
+  '/compliance/maine-pesticide-licensing': '/about/',
 };
 /* Old town URLs missing from the sitemap list. /pest-control-industry is the
    town of Industry (Franklin County) — the old site's pest-control-<town>

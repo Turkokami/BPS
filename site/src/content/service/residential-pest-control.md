@@ -3,8 +3,8 @@ title: "Residential Pest Control in Maine"
 description: "A year-round home pest program built around Maine's seasons: what is covered, when visits happen, and what is left out. Call or text Ryan at 207-740-4441."
 answer: "A residential program covers the pests a Maine house actually gets across the year — rodents in autumn, ants in spring, ticks and mosquitoes through summer, cockroaches and bed bugs whenever they arrive — with scheduled visits timed to the seasons rather than to a billing cycle."
 snippetShape: "paragraph+table"
-quantifiedFact: "Maine issues commercial applicator licenses by category; a residential structural program runs under 7A, and yard tick or mosquito work under 7E."
-primaryAuthority: "Maine Board of Pesticides Control"
+quantifiedFact: "Under Chapter 26 of the Maine Board of Pesticides Control's rules, a tenant whose unit is treated without their own request must get written notice at least 24 hours and no more than seven days beforehand."
+primaryAuthority: "Maine Board of Pesticides Control (Chapter 26)"
 statedPosition: "One person does the inspection, the treatment and the follow-up. You are not handed to a different technician who has not seen the house."
 firstPartyData: "Ongoing exterior program on a residential property — fence line and exterior of the home treated on a monthly schedule (confirmed job, current customer)."
 updated: "2026-10-04"
@@ -61,13 +61,13 @@ Who you are matters too. The Board's Chapter 26 rule on indoor applications cove
 
 ## Questions worth asking any company, including us
 
-1. Which Maine applicator categories do you hold, and what is your license number?
+1. Are you licensed and insured for this work in Maine?
 2. Who will actually be at my house, and will it be the same person each visit?
 3. What are the cancellation terms, in writing?
 4. What is included in a visit, and what triggers an extra charge?
 5. What will you tell me about my house that is not pest control?
 
-A company that answers all five in plain language is a company you can work with. The Maine Board of Pesticides Control publishes a public directory of licensed commercial applicators, and you are entitled to check any answer you get.
+A company that answers all five in plain language is a company you can work with.
 
 ## What a first visit includes
 
@@ -76,7 +76,7 @@ The first visit is longer than the ones that follow, because it is the one that 
 - A full interior walk: basement or crawlspace, mechanical room, kitchen, bathrooms, attic access, and any space where activity has been noticed.
 - A full exterior walk: foundation, sill line, doors and windows, roofline, vents and penetrations, decks and porches, outbuildings, woodpiles, grounds.
 - Identification of anything active, from evidence rather than description.
-- Treatment of what is present, in the licensed category the work falls under.
+- Treatment of what is present.
 - A written report: what was inspected, what was found, what was applied and where, what is recommended, and what belongs to another trade.
 
 ## What the visits after that look like
@@ -105,7 +105,7 @@ Call or text and describe what you are seeing. The point of the written record i
 
 ## What is not in a program
 
-Wildlife removal — raccoons, squirrels, bats, birds — is not work Blouin Pest Services offers, and nor are termite work or browntail moth treatment; the services page names all three. Carpentry, roofing, gutter and moisture repairs are named in the report and quoted by the relevant trade. Lawn and ornamental treatments sit in different license categories and are not part of a structural pest program unless we hold and state those categories.
+Wildlife removal — raccoons, squirrels, bats, birds — is not work Blouin Pest Services offers, and nor are termite work or browntail moth treatment; the services page names all three. Carpentry, roofing, gutter and moisture repairs are named in the report and quoted by the relevant trade. Lawn and ornamental treatments are not part of a structural pest program.
 
 Saying so up front avoids the most common disappointment in this trade: a customer who believed a general program covered everything that walks, flies or leaks.
 
