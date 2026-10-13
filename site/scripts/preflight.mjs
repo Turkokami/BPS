@@ -168,9 +168,13 @@ if (fs.existsSync('vercel.json')) {
     seenSource.add(r.source);
     const dest = r.destination.split('#')[0];
     if (/^https?:/.test(dest)) continue;
+    // Pattern rules (the trailing-slash catch-all, /:path/) have no single destination to check.
+    if (dest.includes(':')) continue;
     if (!pages.has(dest)) fail.push(`REDIRECT   ${r.source} → ${dest} — destination was not built`);
     else if (pages.get(dest).noindex) fail.push(`REDIRECT   ${r.source} → ${dest} — destination is noindex`);
-    if (pages.has(r.source)) fail.push(`REDIRECT   ${r.source} is both a redirect source and a real page`);
+    // Sources are written "/old{/}?" (with or without slash); compare the slashed form.
+    const src = `${r.source.replace(/\{\/\}\?$/, '').replace(/\/$/, '')}/`;
+    if (pages.has(src)) fail.push(`REDIRECT   ${r.source} is both a redirect source and a real page`);
   }
   note.push(`${(vj.redirects ?? []).length} legacy redirects, all destinations built`);
 }

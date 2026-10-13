@@ -2,12 +2,18 @@
 /**
  * Generates vercel.json redirects from the legacy Squarespace URL set.
  *
- * Rule, and it is a deliberate one: a legacy town URL does NOT redirect to its
- * new /locations/<town>/ route, because those routes are held back by the Part
- * 6A gate (noindex, not in the sitemap). Sending inbound equity and users to a
- * noindex page wastes both. Legacy town and county URLs therefore land on the
- * indexed service-area hub until their town clears the gate, at which point the
- * map is regenerated and they point at the real page.
+ * Rule, and it is a deliberate one: a legacy URL only ever points at an
+ * INDEXABLE page. A legacy town goes to its own /locations/<town>/ page once the
+ * town clears the Part 6A gate; otherwise to its county hub if that hub is
+ * published; otherwise to /service-area/. Sending inbound equity to a noindex
+ * page wastes it. Regenerate after any demand-map change.
+ *
+ * Single hop (13 Oct 2026, post-cutover GSC handoff): vercel.json used to set
+ * trailingSlash: true, which made Vercel 308 /foo -> /foo/ BEFORE redirects were
+ * matched, so every legacy URL took two hops (three from the apex). Now every
+ * source matches with or without the slash ({/}?), and a single catch-all rule
+ * at the END adds the trailing slash for everything else — so the site's URL
+ * style is unchanged and a legacy URL reaches its page in one redirect.
  */
 import fs from 'node:fs';
 
@@ -27,26 +33,30 @@ const SERVICE_MAP = {
   '/home': '/',
 };
 
-/*
- * A legacy town URL points at its new town page once that town clears the Part
- * 6A gate, and at the service-area hub until then. Regenerate this file whenever
- * the demand map changes — that is the whole reason it is generated rather than
- * hand-maintained.
- */
+/* Old Squarespace pages Google still showed after the cutover but which were
+   never in the sitemap the build was given (GSC, 13 Oct 2026). */
+const LEGACY_EXTRA = {
+  '/about-us': '/about/',
+  '/tick-and-mosquito-control': '/services/mosquito-control/',
+  '/rodent-control': '/services/rodent-control/',
+  '/bed-bug-control': '/services/bed-bug-control/',
+  '/ant-control': '/services/ant-control/',
+  '/roach-control': '/services/cockroach-control/',
+  '/pest-control-lewiston': '/locations/lewiston/',
+  '/pest-control-lewiston-1': '/locations/lewiston/',
+};
+/* Old town URLs missing from the sitemap list. /pest-control-industry is the
+   town of Industry (Franklin County) — the old site's pest-control-<town>
+   pattern, with /pest-control-industry-maine as its twin — not "commercial
+   industry", so it follows the town rule like every other town. */
+const LEGACY_TOWNS_EXTRA = ['/pest-control-industry'];
+
 const authorised = JSON.parse(fs.readFileSync('../architecture/demand/authorised-towns.json', 'utf8'));
 const slugOf = (legacy) => legacy
   .replace(/^\/pest-control-/, '').replace(/-maine(-\d+)?$/, '')
   .replace(/^\//, '').replace(/-me-pest-control$/, '');
-/*
- * With trailingSlash: true, Vercel 308s /foo to /foo/ BEFORE redirects are
- * matched, so a slash-less source never fires and every legacy URL 404s. Sources
- * are written with the slash; a rule whose source is then its own destination
- * (/about -> /about/) is just the slash redirect and is dropped.
- */
-const withSlash = (s) => `${s.replace(/\/$/, '')}/`;
-/* County legacy URLs (/pest-control-oxford-county-maine, /york-county-pest-control)
-   follow the same rule: their own hub once it is PAGE in the demand map, the
-   service-area hub until then. Quote-aware split, as in gate-integrity.mjs. */
+
+/* Quote-aware split, as in gate-integrity.mjs: evidence cells contain commas. */
 const splitRow = (line) => {
   const out = []; let cur = ''; let q = false;
   for (const ch of line) {
@@ -58,28 +68,41 @@ const splitRow = (line) => {
 };
 const demand = fs.readFileSync('../architecture/demand/demand-map.csv', 'utf8').replace(/\r/g, '').trim().split('\n').map(splitRow);
 const dHead = demand[0];
-const publishedCounties = new Set(demand.slice(1)
-  .filter((r) => r[dHead.indexOf('url')].startsWith('/service-area/') && r[dHead.indexOf('decision')] === 'PAGE')
-  .map((r) => r[dHead.indexOf('county')]));
+const iU = dHead.indexOf('url'), iG = dHead.indexOf('geo'), iC = dHead.indexOf('county'), iD = dHead.indexOf('decision');
+const publishedCounties = new Set(demand.slice(1).filter((r) => r[iU].startsWith('/service-area/') && r[iD] === 'PAGE').map((r) => r[iC]));
+const townCounty = new Map(demand.slice(1).filter((r) => r[iU].startsWith('/locations/')).map((r) => [r[iG], r[iC]]));
+/* County legacy URLs (/pest-control-oxford-county-maine, /york-county-pest-control). */
 const countyOf = (legacy) => (legacy.match(/(androscoggin|cumberland|franklin|kennebec|oxford|sagadahoc|york)-county/) || [])[1];
+const countyHub = (c) => (c && publishedCounties.has(c) ? `/service-area/${c}-county/` : '/service-area/');
 
-const redirects = [
-  ...Object.entries(SERVICE_MAP).map(([source, destination]) => ({ source, destination, permanent: true })),
-  ...LEGACY_TOWNS.map((source) => {
+// Match the old path with or without its trailing slash, in one rule.
+const bothForms = (s) => `${s.replace(/\/$/, '')}{/}?`;
+
+const legacy = [
+  ...Object.entries(SERVICE_MAP).map(([source, destination]) => ({ source, destination })),
+  ...Object.entries(LEGACY_EXTRA).map(([source, destination]) => ({ source, destination })),
+  ...[...LEGACY_TOWNS, ...LEGACY_TOWNS_EXTRA].map((source) => {
     const county = countyOf(source);
-    if (county) return { source, destination: publishedCounties.has(county) ? `/service-area/${county}-county/` : '/service-area/', permanent: true };
+    if (county) return { source, destination: countyHub(county) };
     const slug = slugOf(source);
-    const destination = authorised.includes(slug) ? `/locations/${slug}/` : '/service-area/';
-    return { source, destination, permanent: true };
+    return { source, destination: authorised.includes(slug) ? `/locations/${slug}/` : countyHub(townCounty.get(slug)) };
   }),
-].map((r) => ({ ...r, source: withSlash(r.source) })).filter((r) => r.source !== r.destination);
+]
+  // /about -> /about/ is just the slash rule below; don't duplicate it.
+  .filter((r) => `${r.source.replace(/\/$/, '')}/` !== r.destination)
+  .map((r) => ({ source: bothForms(r.source), destination: r.destination, permanent: true }));
+
+/* Everything else without a trailing slash gets one, in one hop. Last, so the
+   legacy rules above win. A last segment containing a dot is a file
+   (/sitemap.xml, /favicon.ico, /_astro/x.css, /brand/x.webp) and is untouched. */
+const SLASH_RULE = { source: '/:path((?:[^/]+/)*[^/.]+)', destination: '/:path/', permanent: true };
+const redirects = [...legacy, SLASH_RULE];
 
 const config = {
   $schema: 'https://openapi.vercel.sh/vercel.json',
   framework: 'astro',
   buildCommand: 'npm run build',
   outputDirectory: 'dist',
-  trailingSlash: true,
   cleanUrls: false,
   redirects,
   headers: [
@@ -109,5 +132,9 @@ const config = {
   ],
 };
 fs.writeFileSync('vercel.json', `${JSON.stringify(config, null, 2)}\n`);
-const toTown = redirects.filter((r) => r.destination.startsWith('/locations/')).length;
-console.log(`gen-redirects: ${redirects.length} redirects written — ${Object.keys(SERVICE_MAP).length} mapped, ${toTown} legacy URLs now pointing at published town pages, ${LEGACY_TOWNS.length - toTown} still parked on /service-area/`);
+const count = (fn) => legacy.filter(fn).length;
+console.log(`gen-redirects: ${legacy.length} legacy redirects + slash rule — ` +
+  `${count((r) => r.destination.startsWith('/locations/'))} to town pages, ` +
+  `${count((r) => /^\/service-area\/.+-county\/$/.test(r.destination))} to county hubs, ` +
+  `${count((r) => r.destination === '/service-area/')} on /service-area/, ` +
+  `${count((r) => !r.destination.startsWith('/locations/') && !r.destination.startsWith('/service-area/'))} to service/other pages`);
