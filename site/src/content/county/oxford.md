@@ -5,7 +5,7 @@ answer: "Oxford County is camp country. The U.S. Census Bureau counts 10,568 hom
 snippetShape: "paragraph+table"
 quantifiedFact: "The U.S. Census Bureau's 2020–2024 American Community Survey counts 10,568 of Oxford County's 36,855 housing units — 28.7% — as held for seasonal, recreational or occasional use."
 primaryAuthority: "U.S. Census Bureau, American Community Survey 2020–2024"
-statedPosition: "For a camp that stands empty through the winter, the visit worth paying for is the closing-up visit in autumn. By the time it reopens in spring, the mice have had seven months."
+statedPosition: "For a camp that stands empty through the winter, the visit worth paying for is the closing-up visit in fall. By the time it reopens in spring, the mice have had seven months."
 updated: "2026-10-02"
 county: "oxford"
 localFacts:
@@ -17,7 +17,7 @@ firstPartyProof: "A home in the town of Oxford serviced within the last few mont
 uniqueFact: "More than one housing unit in four in Oxford County — 28.7%, or 10,568 homes — is a seasonal, recreational or occasional-use property by the Census Bureau's 2020–2024 count. That is more seasonal housing than Androscoggin, Kennebec and Sagadahoc counties hold between them, and it makes the closed-up camp the defining pest job here."
 faqs:
   - q: "When should I book work on a camp I only use in summer?"
-    a: "In early autumn, before you shut it. Exterior stations and sealed gaps protect the building through the months nobody is there. An opening-up visit in spring then checks what, if anything, got past them."
+    a: "In early fall, before you shut it. Exterior stations and sealed gaps protect the building through the months nobody is there. An opening-up visit in spring then checks what, if anything, got past them."
   - q: "How bad are ticks in Oxford County?"
     a: "Worse than they were. Maine CDC counted 131 Lyme cases among county residents in 2024, a rate of 218.2 per 100,000, against 74.2 in 2020. The UMaine Tick Lab found the Lyme bacterium in 40.4% of the county's deer ticks it tested in 2025."
   - q: "Do you cover the whole county?"

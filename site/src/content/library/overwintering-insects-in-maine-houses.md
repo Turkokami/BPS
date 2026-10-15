@@ -1,7 +1,7 @@
 ---
 title: "Cluster Flies, Stink Bugs and Ladybugs in a Maine House"
-description: "Why insects appear at sunny windows in February, which ones they are, why spraying indoors does not help, and what actually stops them next autumn."
-answer: "Insects at a sunny window in late winter are overwintering pests — cluster flies, brown marmorated stink bugs, boxelder bugs, western conifer seed bugs and Asian lady beetles — that entered in autumn and have been dormant in wall voids and attics since. They are a nuisance rather than a threat, and the fix is exterior exclusion in late summer and early autumn, not indoor spraying in February."
+description: "Why insects appear at sunny windows in February, which ones they are, why spraying indoors does not help, and what actually stops them next fall."
+answer: "Insects at a sunny window in late winter are overwintering pests — cluster flies, brown marmorated stink bugs, boxelder bugs, western conifer seed bugs and Asian lady beetles — that entered in fall and have been dormant in wall voids and attics since. They are a nuisance rather than a threat, and the fix is exterior exclusion in late summer and early fall, not indoor spraying in February."
 snippetShape: "paragraph+table"
 quantifiedFact: "The Maine Department of Agriculture, Conservation and Forestry reports brown marmorated stink bugs overwintering in Maine structures verified from 90 towns in 13 counties."
 primaryAuthority: "University of Maine Cooperative Extension (Pest Management Fact Sheet #5010); Maine Department of Agriculture, Conservation and Forestry"
@@ -19,7 +19,7 @@ faqs:
     a: "The Maine Department of Agriculture, Conservation and Forestry asks people who think they have found a brown marmorated stink bug indoors to photograph it and report it through its pest survey page, because overwintering records help predict crop damage."
 ---
 
-Every Maine winter produces the same call: it is February, the sun is out, and there are twenty insects at the window in an upstairs bedroom. Nothing is wrong with the house, nobody is unhygienic, and no infestation is under way. What is happening is that insects which moved into the building's walls in autumn have been woken up by a warm wall.
+Every Maine winter produces the same call: it is February, the sun is out, and there are twenty insects at the window in an upstairs bedroom. Nothing is wrong with the house, nobody is unhygienic, and no infestation is under way. What is happening is that insects which moved into the building's walls in fall have been woken up by a warm wall.
 
 The Board of Pesticides Control's Got Pests? service describes the cluster fly pattern precisely: they usually appear in late fall or early winter and again on warm, sunny days in early spring, gathering in numbers at windows — often in rooms that are not regularly used. If that sounds like your spare room, read on.
 
@@ -49,7 +49,7 @@ None of these damages the structure, the food in your cabinets, or your family. 
 
 ## Why they are in the wall in the first place
 
-From late summer into autumn these insects look for a sheltered place to spend winter, and a heated building radiating warmth on a cool afternoon is the most attractive thing in the landscape. They gather on the sunny side and work into the first gap they find: around window frames, under lifted siding, behind fascia, through unscreened soffit and ridge vents, and around utility penetrations. UMaine's cluster fly fact sheet makes the point directly — where siding is tight, the flies have less opportunity to get into the structure.
+From late summer into fall these insects look for a sheltered place to spend winter, and a heated building radiating warmth on a cool afternoon is the most attractive thing in the landscape. They gather on the sunny side and work into the first gap they find: around window frames, under lifted siding, behind fascia, through unscreened soffit and ridge vents, and around utility penetrations. UMaine's cluster fly fact sheet makes the point directly — where siding is tight, the flies have less opportunity to get into the structure.
 
 Once inside the void they go quiet. Then something warms the wall. The cluster fly fact sheet describes flies becoming active on warm days in early winter or when the heat is turned on, apparently only after a spell of cold, and moving toward warmth and light into the living space rather than back out the way they came. That is why it is always a window, and always in the middle of winter.
 
@@ -62,7 +62,7 @@ Once inside the void they go quiet. Then something warms the wall. The cluster f
 
 Handle lady beetles and seed bugs gently, or vacuum them, rather than crushing them: Extension notes lady beetle secretions stain furniture, curtains and rugs, and seed bugs smell when crushed.
 
-## What to do before autumn, which is the actual fix
+## What to do before fall, which is the actual fix
 
 UMaine Extension's advice for cluster flies is to "build them out", and the same work keeps every species on this page outside. On the sunny side of the building first:
 

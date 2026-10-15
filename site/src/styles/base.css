@@ -121,6 +121,25 @@ nav.site.secondary { padding-top: .55rem; }
 nav.site.secondary a { min-height: 40px; border-color: transparent; color: var(--muted); font-size: .9375rem; font-weight: 500; padding-inline: .5rem; }
 nav.site.secondary a:hover { background: transparent; color: var(--blue-lift); text-decoration: underline; }
 
+/* ---- sticky, shrinking header ------------------------------------------- */
+/* .js-sticky is set by the inline script in BaseLayout; without it the header
+   scrolls away exactly as before. Fixed + a spacer of the full height means the
+   compact state never changes layout, so nothing on the page jumps. */
+.js-sticky .site-top { position: fixed; top: 0; left: 0; right: 0; z-index: 30; }
+.js-sticky .site-top-spacer { height: var(--site-top-h, 0px); }
+/* Keep in-page jumps and keyboard focus clear of the compact header. */
+.js-sticky { scroll-padding-top: 190px; }
+header.site .banner img, header.site .wrap, nav.site a { transition: max-width .2s ease, padding .2s ease, min-height .2s ease, font-size .2s ease; }
+.is-compact header.site .banner img { max-width: 156px; }
+.is-compact header.site .wrap { padding: .4rem 0 .5rem; }
+.is-compact nav.site { padding-top: 0; }
+.is-compact nav.site.secondary { display: none; }
+.is-compact nav.site a { min-height: 38px; padding: .35rem .85rem; font-size: .9rem; }
+.is-compact header.site { box-shadow: 0 6px 18px rgba(0, 0, 0, .45); }
+@media (prefers-reduced-motion: reduce) {
+  header.site .banner img, header.site .wrap, nav.site a { transition: none; }
+}
+
 /* ---- buttons ----------------------------------------------------------- */
 .cta {
   display: inline-flex; align-items: center; justify-content: center; gap: .45rem;
@@ -318,6 +337,11 @@ footer.site .colophon { border-top: 1px solid var(--hairline); margin-top: 1.8re
   .topbar .wrap { justify-content: flex-end; }
   .ctaband { padding: 1.75rem 1.15rem; }
   .answer { padding-right: 1.15rem; }
+  /* On a phone two rows of menu buttons would take a quarter of the screen, so
+     the compact header is the call bar and a slim logo; the menu is back at the top. */
+  .is-compact header.site .wrap { display: none; }
+  .is-compact header.site .banner img { max-width: 132px; }
+  .js-sticky { scroll-padding-top: 130px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

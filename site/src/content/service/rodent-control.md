@@ -56,7 +56,7 @@ Deer mice matter for a different reason. They are the species most associated wi
 
 ## Why the sealing work gets quoted with the trapping
 
-A trapping-only program produces a quiet house and a standing invoice. The animals inside are removed, the openings stay open, and the population outside refills the space on its own schedule — which in Maine is usually the first hard cold of the next autumn. Every visit after that is billed.
+A trapping-only program produces a quiet house and a standing invoice. The animals inside are removed, the openings stay open, and the population outside refills the space on its own schedule — which in Maine is usually the first hard cold of the next fall. Every visit after that is billed.
 
 Sealing costs more the first time and less every year after. It is also the part of the job that survives a change of pest control company, because a sealed soffit return stays sealed whoever you call next.
 
@@ -83,7 +83,7 @@ Sealing a house is not one price per house. What it costs depends on how many op
 5. **Material condition.** A rotted sill or a soft fascia board cannot hold a repair. That is named as carpentry, quoted by someone else, and we say so before you spend money sealing it.
 6. **Ongoing pressure.** Woodpiles against the foundation, feeders, compost, a shed with a gap under it, a neighboring barn.
 
-## Winter work versus autumn work
+## Winter work versus fall work
 
 The cheapest rodent job is the one done in September. The most expensive is the one done in January, because by then the animals are established, the insulation is already soiled, and half the exterior is under snow and ice where sealing work cannot be done properly.
 
@@ -97,4 +97,4 @@ A written list of every opening found and what it needs, the removal plan, the s
 
 Rodent work done for a fee in Maine is licensed pest control work, and it is worth asking any company you call whether it is licensed and insured.
 
-Rodent pressure in a Maine house is seasonal but the damage is not: gnawed wiring, contaminated insulation, and droppings in a space you store things in are all cumulative. The point of doing it properly once is that you stop paying for it every autumn.
+Rodent pressure in a Maine house is seasonal but the damage is not: gnawed wiring, contaminated insulation, and droppings in a space you store things in are all cumulative. The point of doing it properly once is that you stop paying for it every fall.

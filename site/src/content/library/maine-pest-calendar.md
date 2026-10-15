@@ -42,7 +42,7 @@ Maine's pest pressure is seasonal in a way that southern states' is not, and the
 
 **April.** The UMaine Tick Lab puts the first adult deer tick peak in April or May. Rake leaf litter away from the lawn edge and the play area. Maine CDC's tick-safe-zone advice includes keeping the lawn mowed, moving wood piles and bird feeders away from the house, and laying a 3-foot strip of wood chips or crushed stone between lawn and woods.
 
-**May.** Overwintered yellowjacket queens are out choosing nest sites, according to the Maine State Apiarist. UMaine Extension adds that nuisance nests are most easily removed in early spring, before the colony grows, so a weekly look under eaves, deck rails and the shed door pays off now. Boxelder bugs that wintered indoors are heading out; Got Pests? describes them gathering on the south and west sides of buildings on sunny days, trying to get in each autumn and out each spring.
+**May.** Overwintered yellowjacket queens are out choosing nest sites, according to the Maine State Apiarist. UMaine Extension adds that nuisance nests are most easily removed in early spring, before the colony grows, so a weekly look under eaves, deck rails and the shed door pays off now. Boxelder bugs that wintered indoors are heading out; Got Pests? describes them gathering on the south and west sides of buildings on sunny days, trying to get in each fall and out each spring.
 
 **June.** Nymph ticks at their peak (UMaine Tick Lab). Carpenter ant workers indoors this time of year have often come in from an outdoor nest looking for food and water, by UMaine Extension's account — worth tracing back rather than spraying where they are seen.
 
@@ -56,7 +56,7 @@ Maine's pest pressure is seasonal in a way that southern states' is not, and the
 
 **November.** The Maine State Apiarist notes that yellowjacket colonies die after the first hard frost, so a nest found now rarely needs treating. Maine CDC says two hard frosts across most of the state dramatically reduce the risk of mosquito-borne disease.
 
-**December.** Interior season. Firewood brought in now deserves a look first — UMaine Extension advises always checking it for carpenter ants before it comes indoors. Whatever got in during the autumn is now in the walls until spring; the useful work is noting where, so the gaps can be closed before next August.
+**December.** Interior season. Firewood brought in now deserves a look first — UMaine Extension advises always checking it for carpenter ants before it comes indoors. Whatever got in during the fall is now in the walls until spring; the useful work is noting where, so the gaps can be closed before next August.
 
 ## What the calendar does not cover
 

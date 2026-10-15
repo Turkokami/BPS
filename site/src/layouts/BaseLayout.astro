@@ -41,8 +41,38 @@ const nodes = [...core, ...webPageNode(path, title, description, [{ name: 'Home'
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
-    <TopBar />
-    <Header path={path} />
+    <div class="site-top" id="site-top">
+      <TopBar />
+      <Header path={path} />
+    </div>
+    <div class="site-top-spacer" aria-hidden="true"></div>
+    {/* Sticky, shrinking header (client request, 15 Oct 2026). The only client JS
+        on the site: the header is fixed with a spacer holding its full height, so
+        shrinking never changes layout (no jump, no flicker loop), and the class
+        has hysteresis. Without JS the header simply scrolls away, as before. */}
+    <script is:inline>
+      (() => {
+        const d = document.documentElement, top = document.getElementById('site-top');
+        if (!top) return;
+        let compact = false, ticking = false;
+        const measure = () => {
+          if (compact) d.classList.remove('is-compact');
+          d.style.setProperty('--site-top-h', top.offsetHeight + 'px');
+          if (compact) d.classList.add('is-compact');
+        };
+        const update = () => {
+          ticking = false;
+          const y = window.scrollY;
+          if (!compact && y > 140) { compact = true; d.classList.add('is-compact'); }
+          else if (compact && y < 60) { compact = false; d.classList.remove('is-compact'); }
+        };
+        d.classList.add('js-sticky');
+        measure();
+        update();
+        addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+        addEventListener('resize', measure, { passive: true });
+      })();
+    </script>
     {crumbs.length > 0 && (
       <nav class="wrap crumbs" aria-label="Breadcrumb">
         <a href="/">Home</a>

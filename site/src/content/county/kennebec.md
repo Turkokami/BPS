@@ -47,7 +47,7 @@ The Census Bureau's 2020–2024 survey counts just over a quarter of the county'
 
 ## Lake country: camps and the long empty season
 
-The same survey counts 6,070 homes in Kennebec held for seasonal, recreational or occasional use. Whether it is a lakeside camp or a second home, an unheated building that nobody visits between autumn and spring is a reliable place for mice to overwinter, and the owner usually finds out on the first visit of the year, when the nesting and droppings are already there. Closing a camp properly — exterior stations set, gaps at the sill and plumbing sealed, soft goods stored in sealed bins — costs less than cleaning one out. See [rodent exclusion](/services/rodent-exclusion/) and, where the insulation has been soiled, [attic clean-outs and sanitation](/services/attic-cleanout-and-sanitation/).
+The same survey counts 6,070 homes in Kennebec held for seasonal, recreational or occasional use. Whether it is a lakeside camp or a second home, an unheated building that nobody visits between fall and spring is a reliable place for mice to overwinter, and the owner usually finds out on the first visit of the year, when the nesting and droppings are already there. Closing a camp properly — exterior stations set, gaps at the sill and plumbing sealed, soft goods stored in sealed bins — costs less than cleaning one out. See [rodent exclusion](/services/rodent-exclusion/) and, where the insulation has been soiled, [attic clean-outs and sanitation](/services/attic-cleanout-and-sanitation/).
 
 ## Ticks: Central Maine is catching up
 

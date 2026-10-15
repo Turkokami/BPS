@@ -97,3 +97,15 @@ rather than by looking:
 | Lighthouse SEO | `/locations/lewiston/` linked to Auburn as "here" — cost the page 8 points | Now reads "pest control in Auburn" |
 | axe-core, rendered | Utility bar and breadcrumbs outside any landmark, every page | Labelled region; `nav[aria-label="Breadcrumb"]` |
 | Overflow check at 320px | Markdown tables overflowed the viewport on four pages | Rehype plugin wraps every table in the scroll container |
+
+## Sticky header (15 October 2026)
+
+At the client's request the header now stays with the reader and shrinks once
+they scroll ~140px: on desktop the logo drops to ~52px and the menu tightens
+(the Reviews row tucks away); on phones it is the call bar plus a slim logo, and
+the menu returns at the top. This is the site's only client JavaScript — a few
+inline lines in `BaseLayout.astro`. The header is `position: fixed` with a spacer
+holding its full height, so the compact state never changes layout (measured: the
+h1's page position is identical before and after). Without JS it scrolls away as
+before; `prefers-reduced-motion` drops the transition; `scroll-padding-top` keeps
+in-page jumps and keyboard focus clear of it.

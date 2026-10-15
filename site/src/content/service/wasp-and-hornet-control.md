@@ -41,7 +41,7 @@ UMaine Extension's own advice is that hornet, wasp and yellowjacket nests should
 
 The nests that need dealing with are the ones near where people live: beside a door, over a deck or patio, in a bedroom wall, in a play area, anywhere in a lawn that gets mown, and any nest at all where somebody in the household has a sting allergy. UMaine Extension states plainly that stings can be life-threatening to people with allergies, and the U.S. CDC's NIOSH guidance warns that venom-allergic people may go into anaphylaxis and should carry an epinephrine auto-injector. If anyone in the house has reacted badly before, say so when you call.
 
-Nests found in late October are usually already collapsing. The Maine State Apiarist's yellowjacket fact sheet says the colony dies after the first hard frost of the autumn, so the weather often finishes a late nest without anyone's help.
+Nests found in late October are usually already collapsing. The Maine State Apiarist's yellowjacket fact sheet says the colony dies after the first hard frost of the fall, so the weather often finishes a late nest without anyone's help.
 
 ## Ground nests are the dangerous ones
 

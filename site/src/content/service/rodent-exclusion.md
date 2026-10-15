@@ -19,7 +19,7 @@ faqs:
   - q: "Can I do the sealing myself?"
     a: "Some of it, yes. The CDC's checklist of places to look and materials to use is a good start, and small gaps at ground level are well within a homeowner's reach. Rooflines, soffit returns and anything behind siding are where a survey earns its cost, because they are hard to see and harder to reach."
   - q: "Do mice breed fast enough that a few gaps matter?"
-    a: "Yes. University of California IPM says a female house mouse may produce five to ten litters a year of about five or six pups each, and the young are sexually mature five to six weeks after birth. A small number of animals getting in through one open route in autumn is a large number by spring."
+    a: "Yes. University of California IPM says a female house mouse may produce five to ten litters a year of about five or six pups each, and the young are sexually mature five to six weeks after birth. A small number of animals getting in through one open route in fall is a large number by spring."
 ---
 
 Trapping deals with the animals already inside a building. Exclusion is the part that decides whether you call again: closing the ways in.
@@ -68,7 +68,7 @@ One household's experience of that order, quoted word for word:
 
 ## Why sealing beats trapping on its own
 
-University of California IPM says a female house mouse may have five to ten litters a year, each of about five or six pups, and that the young can breed five to six weeks after birth. Trapping takes out the animals already inside. It does nothing about the population outside, which will find the same open gap next autumn. A building that stays open is a building that refills.
+University of California IPM says a female house mouse may have five to ten litters a year, each of about five or six pups, and that the young can breed five to six weeks after birth. Trapping takes out the animals already inside. It does nothing about the population outside, which will find the same open gap next fall. A building that stays open is a building that refills.
 
 That is also the health argument. Maine CDC has confirmed two human hantavirus cases in the state, in 2011 and 2025, and after the first of them the UMaine Animal Health Laboratory's director summed up prevention for Maine residents as keeping rodents out of your house, barn or camp. The U.S. CDC says the deer mouse spreads the hantavirus responsible for most illness in the United States. Exclusion is the step that keeps the droppings out of the space in the first place; if they are already there, see [attic clean-outs and sanitation](/services/attic-cleanout-and-sanitation/) for the safe way to deal with them.
 

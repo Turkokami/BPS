@@ -1,7 +1,7 @@
 ---
 title: "Residential Pest Control in Maine"
 description: "A year-round home pest program built around Maine's seasons: what is covered, when visits happen, and what is left out. Call or text Ryan at 207-740-4441."
-answer: "A residential program covers the pests a Maine house actually gets across the year — rodents in autumn, ants in spring, ticks and mosquitoes through summer, cockroaches and bed bugs whenever they arrive — with scheduled visits timed to the seasons rather than to a billing cycle."
+answer: "A residential program covers the pests a Maine house actually gets across the year — rodents in fall, ants in spring, ticks and mosquitoes through summer, cockroaches and bed bugs whenever they arrive — with scheduled visits timed to the seasons rather than to a billing cycle."
 snippetShape: "paragraph+table"
 quantifiedFact: "Under Chapter 26 of the Maine Board of Pesticides Control's rules, a tenant whose unit is treated without their own request must get written notice at least 24 hours and no more than seven days beforehand."
 primaryAuthority: "Maine Board of Pesticides Control (Chapter 26)"
@@ -27,7 +27,7 @@ Most Maine households do not have one pest problem; they have a sequence of them
 | Late winter | Interior carpenter ant activity, overwintering rodents | Interior inspection, colony work, entry-point check |
 | Spring | Ant swarms, first tick activity, cluster flies | Perimeter, ant treatment, tick edge treatment begins |
 | Summer | Mosquitoes, ticks, wasps, stored-product pests | Habitat work, staged exterior treatment |
-| Autumn | Rodents moving indoors, spiders, boxelder and stink bugs | Exclusion review, sealing, rodent program |
+| Fall | Rodents moving indoors, spiders, boxelder and stink bugs | Exclusion review, sealing, rodent program |
 
 ## How a program is built
 

@@ -14,7 +14,7 @@ faqs:
   - q: "What about a nest in the ground?"
     a: "Usually yellowjackets. They are the most likely to sting in numbers, they are common in lawns and banks, and hitting the hole with a retail spray in daylight is how people end up stung repeatedly."
   - q: "Is it worth treating in October?"
-    a: "Often not. Colonies collapse with hard frost, and a nest found in late autumn is usually already finishing. We will say so rather than take the job."
+    a: "Often not. Colonies collapse with hard frost, and a nest found in late fall is usually already finishing. We will say so rather than take the job."
   - q: "Is a bald-faced hornet a real hornet?"
     a: "Not technically. UMaine Cooperative Extension classes it as a kind of yellowjacket that happens to be black and white rather than yellow. It behaves like one, too: defensive, and able to sting repeatedly."
 ---
@@ -41,9 +41,9 @@ The detail that saves most confusion: an enclosed gray paper ball is either a ba
 
 **Early summer.** The first workers take over building and foraging, and the queen does nothing but lay eggs. Growth from here is fast.
 
-**Late summer.** Colonies reach their peak, and by the Apiarist's account the wasps are still increasing as autumn begins. Natural food runs short at the same time, which is why the late-August picnic table suddenly attracts them.
+**Late summer.** Colonies reach their peak, and by the Apiarist's account the wasps are still increasing as fall begins. Natural food runs short at the same time, which is why the late-August picnic table suddenly attracts them.
 
-**Autumn.** The colony raises new queens, they mate and go off to overwinter, and the Apiarist notes that in a normal year the old colony dies after the first hard frost. The Maine School IPM Program's fact sheet adds that nests are not reused the following season.
+**Fall.** The colony raises new queens, they mate and go off to overwinter, and the Apiarist notes that in a normal year the old colony dies after the first hard frost. The Maine School IPM Program's fact sheet adds that nests are not reused the following season.
 
 ## When a nest can be left alone
 

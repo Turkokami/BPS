@@ -21,7 +21,7 @@ faqs:
   - q: "What is the Asian longhorned tick, and should I worry?"
     a: "It is an invasive tick, first confirmed in Maine through a 2025 Tick Lab specimen from this county. One find is a reason to pay attention rather than to panic. If you pull an unfamiliar tick off a person or pet, the UMaine Tick Lab will identify it."
   - q: "I own a camp on one of the lakes. When should I call?"
-    a: "Before you close it for the winter. A building that sits empty from autumn to spring is where mice settle, and the cheapest point to stop them is while you can still seal the gaps and set stations outside."
+    a: "Before you close it for the winter. A building that sits empty from fall to spring is where mice settle, and the cheapest point to stop them is while you can still seal the gaps and set stations outside."
 ---
 
 Cumberland County holds more people than any other county in Maine — 308,827 residents by the U.S. Census Bureau's 2020–2024 American Community Survey — and the work here splits cleanly in two. Along the coast and in Portland the calls are about shared buildings: bed bugs moving between apartments, mice traveling through party walls, and older housing that has been subdivided more than once. Inland, around the lakes and the wooded towns, the work looks more like Oxford County's: camps that sit empty half the year, and yards that back onto deer-tick habitat.
@@ -45,7 +45,7 @@ That is how we approach a Portland bed bug call: confirm the infestation from ph
 
 ## Camps, lakes and the empty season
 
-The other Cumberland is seasonal. The Census Bureau counts 15,786 homes in the county held for seasonal, recreational or occasional use — more vacation housing than in Androscoggin, Kennebec and Sagadahoc combined. A camp that is shut from autumn to spring is close to ideal rodent habitat: warm enough, undisturbed, full of bedding and cushions, and inspected by nobody until the owners return and find the droppings. The time to deal with it is before it closes, with exterior stations set and the gaps along the sill and the plumbing sealed. Our [rodent exclusion](/services/rodent-exclusion/) page lists what gets sealed and why.
+The other Cumberland is seasonal. The Census Bureau counts 15,786 homes in the county held for seasonal, recreational or occasional use — more vacation housing than in Androscoggin, Kennebec and Sagadahoc combined. A camp that is shut from fall to spring is close to ideal rodent habitat: warm enough, undisturbed, full of bedding and cushions, and inspected by nobody until the owners return and find the droppings. The time to deal with it is before it closes, with exterior stations set and the gaps along the sill and the plumbing sealed. Our [rodent exclusion](/services/rodent-exclusion/) page lists what gets sealed and why.
 
 ## Ticks: the most samples in the state
 
