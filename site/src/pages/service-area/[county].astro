@@ -50,7 +50,9 @@ const reason = hasJob
       <div class="answer"><p>{doc.data.answer}</p></div>
       <ActionRow />
       {rendered && <rendered.Content />}
-      <FieldProof text={doc.data.firstPartyProof} heading={`Work we have done in ${name}`} id={`proof-${slug}`} />
+      {doc.data.firstPartyProof
+        ? <FieldProof text={doc.data.firstPartyProof} heading={`Work we have done in ${name}`} id={`proof-${slug}`} />
+        : <FieldProof text={doc.data.nearestWork} heading="Nearest confirmed work" id={`proof-${slug}`} />}
       <section aria-labelledby={`facts-${slug}`}>
         <h2 id={`facts-${slug}`}>Local detail, with its source</h2>
         <ul>{doc.data.localFacts.map((f: string) => <li>{f}</li>)}</ul>

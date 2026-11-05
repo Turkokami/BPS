@@ -25,8 +25,13 @@ const citable = {
 const cityGate = {
   town: z.string(),
   localFacts: z.array(z.string()).min(3),
-  firstPartyProof: z.string(),
+  firstPartyProof: z.string().optional(),
   uniqueFact: z.string(),
+  /** Owner-designated expansion market (Ryan, 4 Nov 2026): published without a
+   *  job in the town yet. Such a page must NOT carry firstPartyProof, and must
+   *  carry nearestWork — an honest pointer to the closest confirmed job. */
+  expansion: z.boolean().default(false),
+  nearestWork: z.string().optional(),
 };
 
 /** County hubs carry the same substance gate as towns, keyed by county slug
@@ -35,8 +40,10 @@ const cityGate = {
 const countyGate = {
   county: z.string(),
   localFacts: z.array(z.string()).min(3),
-  firstPartyProof: z.string(),
+  firstPartyProof: z.string().optional(),
   uniqueFact: z.string(),
+  expansion: z.boolean().default(false),
+  nearestWork: z.string().optional(),
 };
 
 export const collections = {

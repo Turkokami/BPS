@@ -107,7 +107,7 @@
     },
     {
       "source": "/pest-control-lisbon-falls-maine{/}?",
-      "destination": "/service-area/androscoggin-county/",
+      "destination": "/locations/lisbon/",
       "permanent": true
     },
     {
@@ -202,12 +202,12 @@
     },
     {
       "source": "/pest-control-scarborough-maine{/}?",
-      "destination": "/service-area/cumberland-county/",
+      "destination": "/locations/scarborough/",
       "permanent": true
     },
     {
       "source": "/pest-control-south-portland-maine{/}?",
-      "destination": "/service-area/cumberland-county/",
+      "destination": "/locations/south-portland/",
       "permanent": true
     },
     {
@@ -217,7 +217,7 @@
     },
     {
       "source": "/pest-control-westbrook-maine{/}?",
-      "destination": "/service-area/cumberland-county/",
+      "destination": "/locations/westbrook/",
       "permanent": true
     },
     {
@@ -472,7 +472,7 @@
     },
     {
       "source": "/topsham-me-pest-control{/}?",
-      "destination": "/service-area/sagadahoc-county/",
+      "destination": "/locations/topsham/",
       "permanent": true
     },
     {
@@ -487,92 +487,92 @@
     },
     {
       "source": "/alfred-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
       "source": "/arundel-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
       "source": "/berwick-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
       "source": "/biddeford-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/locations/biddeford/",
       "permanent": true
     },
     {
       "source": "/kennebunk-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/locations/kennebunk/",
       "permanent": true
     },
     {
       "source": "/kennebunkport-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/locations/kennebunkport/",
       "permanent": true
     },
     {
       "source": "/kittery-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
       "source": "/lebanon-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
       "source": "/lyman-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
       "source": "/north-berwick-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
       "source": "/ogunquit-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
       "source": "/saco-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/locations/saco/",
       "permanent": true
     },
     {
       "source": "/sanford-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
       "source": "/shapleigh-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
       "source": "/south-berwick-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
       "source": "/waterboro-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
       "source": "/wells-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
       "source": "/york-me-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
@@ -617,7 +617,7 @@
     },
     {
       "source": "/york-county-pest-control{/}?",
-      "destination": "/service-area/",
+      "destination": "/service-area/york-county/",
       "permanent": true
     },
     {
@@ -626,7 +626,7 @@
       "permanent": true
     },
     {
-      "source": "/:path((?:[^/]+/)*[^/.]+)",
+      "source": "/:path((?!api/)(?:[^/]+/)*[^/.]+)",
       "destination": "/:path/",
       "permanent": true
     }

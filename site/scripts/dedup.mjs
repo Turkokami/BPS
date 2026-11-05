@@ -4,7 +4,12 @@
  *  were legitimate (NAP line, legal statement, headings). Read the survivors, do
  *  not chase them to zero. */
 import fs from 'node:fs'; import path from 'node:path';
+import { BUSINESS } from '../src/data/business.ts';
 const ROOT = 'src/content', MIN_WORDS = 10, MAX_PAGES = 2;
+/* Attested wording that is MEANT to be verbatim everywhere it appears (the
+   emergency line must not be paraphrased into a promise). Read from business.ts
+   so the exemption can never drift from the attested text. */
+const ATTESTED = new Set([BUSINESS.emergency].map((s) => s.replace(/\s+/g, ' ').trim()));
 const walk = (d, out = []) => { if (!fs.existsSync(d)) return out;
   for (const e of fs.readdirSync(d, { withFileTypes: true })) {
     const p = path.join(d, e.name).replace(/\\/g, '/'); e.isDirectory() ? walk(p, out) : /\.(md|mdx)$/.test(p) && out.push(p);
@@ -15,7 +20,7 @@ for (const f of walk(ROOT)) {
     .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/^#{1,6}\s.*$/gm, '');
   for (const s of body.split(/(?<=[.!?])\s+/)) {
     const t = s.replace(/\s+/g, ' ').trim();
-    if ((t.match(/\S+/g) || []).length < MIN_WORDS) continue;
+    if ((t.match(/\S+/g) || []).length < MIN_WORDS || ATTESTED.has(t)) continue;
     map.set(t, new Set([...(map.get(t) || []), f]));
   }
 }

@@ -1,0 +1,19 @@
+---
+/** Where a no-JavaScript form submission lands after the endpoint confirms
+    delivery. noindex, linked from nowhere, in no sitemap. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { BUSINESS } from '../../data/business';
+import { title } from '../../lib/seo';
+---
+<BaseLayout
+  title={title('Message sent')}
+  description="Your message has reached Blouin Pest Services. Ryan will get back to you; for anything urgent, call or text 207-740-4441."
+  path="/contact/thank-you/"
+  noindex={true}
+  crumbs={[{ name: 'Contact', item: '/contact/' }, { name: 'Message sent', item: '/contact/thank-you/' }]}
+>
+  <h1>Thanks — your message is on its way</h1>
+  <p class="lede">It has gone to {BUSINESS.owner.name}, and he will get back to you.</p>
+  <p>If it is urgent, call or text <a href={`tel:${BUSINESS.phoneE164}`}>{BUSINESS.phone}</a>. {BUSINESS.emergency}</p>
+  <p><a href="/">Back to the home page</a></p>
+</BaseLayout>

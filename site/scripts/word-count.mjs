@@ -107,7 +107,13 @@ for (const f of files) {
     // placeholder becomes the loophole that defeats the gate.
     const placeholder = /(PENDING|TBD|TODO|FIXME|XXX)/i;
     const field = (k) => ((fm.match(new RegExp(`^${k}:\\s*["']?(.*?)["']?\\s*$`, 'm')) || [])[1] || '');
-    if (!/firstPartyProof:/.test(fm)) {
+    const isExpansion = /^expansion:\s*true\s*$/m.test(fm);
+    if (isExpansion) {
+      // Owner-designated expansion market: no job here yet, so no proof may be
+      // claimed — but the page must say honestly where the nearest real work is.
+      if (/^firstPartyProof:/m.test(fm)) failures.push(`SUBSTANCE GATE  ${rel}: expansion page claims firstPartyProof — an expansion town has no job on record`);
+      if (!/^nearestWork:\s*\S/m.test(fm) || placeholder.test(field('nearestWork'))) failures.push(`SUBSTANCE GATE  ${rel}: expansion page needs a real nearestWork pointer`);
+    } else if (!/firstPartyProof:/.test(fm)) {
       failures.push(`SUBSTANCE GATE  ${rel}: no firstPartyProof — item 2 requires proof from this geography`);
     } else if (placeholder.test(field('firstPartyProof'))) {
       failures.push(`SUBSTANCE GATE  ${rel}: firstPartyProof is a placeholder — item 2 needs a real job, photo or review`);

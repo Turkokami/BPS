@@ -54,9 +54,13 @@ const LEGACY_EXTRA = {
 const LEGACY_TOWNS_EXTRA = ['/pest-control-industry'];
 
 const authorised = JSON.parse(fs.readFileSync('../architecture/demand/authorised-towns.json', 'utf8'));
-const slugOf = (legacy) => legacy
+/* Villages that belong to a town with its own page. Lisbon Falls is part of
+   the town of Lisbon (one municipality), so its old URL goes to /locations/lisbon/. */
+const TOWN_ALIASES = { 'lisbon-falls': 'lisbon' };
+const slugOfRaw = (legacy) => legacy
   .replace(/^\/pest-control-/, '').replace(/-maine(-\d+)?$/, '')
   .replace(/^\//, '').replace(/-me-pest-control$/, '');
+const slugOf = (legacy) => { const s = slugOfRaw(legacy); return TOWN_ALIASES[s] ?? s; };
 
 /* Quote-aware split, as in gate-integrity.mjs: evidence cells contain commas. */
 const splitRow = (line) => {
@@ -97,7 +101,8 @@ const legacy = [
 /* Everything else without a trailing slash gets one, in one hop. Last, so the
    legacy rules above win. A last segment containing a dot is a file
    (/sitemap.xml, /favicon.ico, /_astro/x.css, /brand/x.webp) and is untouched. */
-const SLASH_RULE = { source: '/:path((?:[^/]+/)*[^/.]+)', destination: '/:path/', permanent: true };
+// (?!api/) — the contact form POSTs to /api/inquiry; a slash redirect there would miss the function.
+const SLASH_RULE = { source: '/:path((?!api/)(?:[^/]+/)*[^/.]+)', destination: '/:path/', permanent: true };
 const redirects = [...legacy, SLASH_RULE];
 
 const config = {

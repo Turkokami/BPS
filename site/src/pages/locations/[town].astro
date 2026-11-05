@@ -52,7 +52,9 @@ const noindex = !isIndexableTown(row.slug);
       <ActionRow />
       <QuickMenu label="What we handle" items={attestedServices().map((s) => ({ href: `/services/${s.slug}/`, label: s.name }))} />
       {rendered && <rendered.Content />}
-      <FieldProof text={doc.data.firstPartyProof} heading={`Work we have done in ${name}`} id={`proof-${row.slug}`} />
+      {doc.data.firstPartyProof
+        ? <FieldProof text={doc.data.firstPartyProof} heading={`Work we have done in ${name}`} id={`proof-${row.slug}`} />
+        : <FieldProof text={doc.data.nearestWork} heading="Nearest confirmed work" id={`proof-${row.slug}`} />}
       <section aria-labelledby={`facts-${row.slug}`}>
         <h2 id={`facts-${row.slug}`}>Local detail, with its source</h2>
         <ul>{doc.data.localFacts.map((f: string) => <li>{f}</li>)}</ul>

@@ -1,0 +1,158 @@
+---
+/**
+ * InquiryForm.astro — the contact form on /contact/ (Ryan, 4 Nov 2026: "a simple
+ * info grab" — full name, email, phone, and check boxes for what they need).
+ *
+ * Works with JavaScript off: a native POST to /api/inquiry, which emails Ryan
+ * through Resend and 303s to /contact/thank-you/; every failure returns a page
+ * that says nothing was sent and gives the phone number. The inline script only
+ * adds inline validation, an in-page success message and the time-on-form stamp.
+ * Spam control without a third party: a honeypot and a minimum fill time.
+ *
+ * Accessibility: every control has a bound <label>; the services sit in a
+ * <fieldset>/<legend>; the error summary is role="alert" and is focused on a
+ * failed submit so a screen reader hears the whole list.
+ */
+import { BUSINESS } from '../data/business';
+
+/** Must match SERVICES in api/inquiry.js — anything else is ignored there. */
+const SERVICES = [
+  'Ticks and mosquitoes', 'Ants', 'Spiders', 'Beetles', 'Rodents', 'Exclusion (sealing entry points)',
+  'Inspection', 'Bed bugs', 'Cockroaches', 'Wasps and hornets', 'Fleas', 'Something else',
+];
+const ENDPOINT = '/api/inquiry';
+const { source = '/contact/', id = 'inquiry' } = Astro.props;
+const p = (k: string) => `${id}-${k}`;
+---
+<section class="inquiry" id={id} aria-labelledby={p('heading')} data-inquiry>
+  <h2 id={p('heading')}>Send a message</h2>
+  <p>
+    Tell us how to reach you and what you need, and {BUSINESS.owner.name} will get back to you. If you would rather talk,
+    call or text <a href={`tel:${BUSINESS.phoneE164}`}>{BUSINESS.phone}</a>.
+  </p>
+
+  <div class="form-errors" role="alert" tabindex="-1" hidden data-errors>
+    <h3>There is a problem with this form</h3>
+    <ul data-errors-list></ul>
+  </div>
+
+  <form class="form" method="post" action={ENDPOINT} data-form>
+    <div class="hp" aria-hidden="true">
+      <label for={p('secondary-ref')}>Leave this field empty</label>
+      <input type="text" id={p('secondary-ref')} name="secondary_ref" tabindex="-1" autocomplete="off" data-1p-ignore data-lpignore="true" data-form-type="other" />
+    </div>
+    <input type="hidden" name="rendered_at" value="" data-rendered-at />
+    <input type="hidden" name="source_page" value={source} />
+
+    <div class="field">
+      <label for={p('name')}>Full name</label>
+      <input id={p('name')} name="name" type="text" required autocomplete="name" autocapitalize="words" maxlength="200" />
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label for={p('email')}>Email</label>
+        <input id={p('email')} name="email" type="email" required autocomplete="email" maxlength="254" />
+      </div>
+      <div class="field">
+        <label for={p('phone')}>Phone</label>
+        <input id={p('phone')} name="phone" type="tel" required autocomplete="tel" inputmode="tel" maxlength="60" />
+      </div>
+    </div>
+
+    <fieldset class="choices">
+      <legend>What can we help with? <span class="optional">Check any that apply</span></legend>
+      <div class="choice-grid">
+        {SERVICES.map((s, i) => (
+          <div class="choice">
+            <input type="checkbox" id={p(`svc-${i}`)} name="services" value={s} />
+            <label for={p(`svc-${i}`)}>{s}</label>
+          </div>
+        ))}
+      </div>
+    </fieldset>
+
+    <div class="field">
+      <label for={p('town')}>Town <span class="optional">optional</span></label>
+      <input id={p('town')} name="town" type="text" autocomplete="address-level2" maxlength="120" />
+    </div>
+    <div class="field">
+      <label for={p('message')}>Anything else we should know? <span class="optional">optional</span></label>
+      <textarea id={p('message')} name="message" rows="4" maxlength="4000"></textarea>
+    </div>
+
+    <div class="form-actions">
+      <button class="cta" type="submit" data-submit>Send message</button>
+      <p class="form-note">Used only to reply to you. Sending this does not sign you up to anything.</p>
+    </div>
+  </form>
+
+  <div class="form-sent" role="status" tabindex="-1" hidden data-sent>
+    <h3>Thanks — your message is on its way to {BUSINESS.owner.name}</h3>
+    <p>He will get back to you. If it is urgent, call or text <a href={`tel:${BUSINESS.phoneE164}`}>{BUSINESS.phone}</a>.</p>
+  </div>
+</section>
+
+<script is:inline>
+  (function () {
+    document.querySelectorAll('[data-inquiry]').forEach(function (root) {
+    var form = root.querySelector('[data-form]');
+    if (!form) return;
+    var summary = root.querySelector('[data-errors]');
+    var list = root.querySelector('[data-errors-list]');
+    var sent = root.querySelector('[data-sent]');
+    var button = form.querySelector('[data-submit]');
+    var stamp = form.querySelector('[data-rendered-at]');
+    if (stamp) stamp.value = String(Date.now());
+    form.noValidate = true;
+    var LABELS = { name: 'Full name', email: 'Email', phone: 'Phone' };
+    var FALLBACK = 'Your message was not delivered. Call or text (207) 740-4441 or email ryan@blouinpest.com instead.';
+
+    function showErrors(messages, targets) {
+      list.textContent = '';
+      messages.forEach(function (m, i) {
+        var li = document.createElement('li');
+        var t = targets && targets[i];
+        if (t && t.id) {
+          var a = document.createElement('a');
+          a.href = '#' + t.id; a.textContent = m;
+          a.addEventListener('click', function (ev) { ev.preventDefault(); t.focus(); });
+          li.appendChild(a);
+        } else { li.textContent = m; }
+        list.appendChild(li);
+      });
+      summary.hidden = false; summary.focus();
+    }
+    function validate() {
+      var messages = [], targets = [];
+      form.querySelectorAll('[aria-invalid="true"]').forEach(function (el) { el.removeAttribute('aria-invalid'); });
+      ['name', 'email', 'phone'].forEach(function (n) {
+        var el = form.elements[n];
+        var v = el.value.trim(), msg = null;
+        if (!v) msg = LABELS[n] + ' is needed before this can be sent.';
+        else if (n === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) msg = 'That email address does not look complete.';
+        else if (n === 'phone' && (v.match(/\d/g) || []).length < 10) msg = 'That phone number is short by a digit or two.';
+        if (msg) { messages.push(msg); targets.push(el); el.setAttribute('aria-invalid', 'true'); }
+      });
+      if (messages.length) { showErrors(messages, targets); return false; }
+      summary.hidden = true; return true;
+    }
+    form.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      if (!validate()) return;
+      var hp = form.querySelector('[name="secondary_ref"]'); if (hp) hp.value = '';
+      button.disabled = true; var label = button.textContent; button.textContent = 'Sending…';
+      fetch(form.getAttribute('action'), { method: 'POST', headers: { Accept: 'application/json' }, body: new FormData(form) })
+        .then(function (res) { return res.json().catch(function () { return { ok: false }; }); })
+        .then(function (data) {
+          if (data && data.ok) { summary.hidden = true; form.hidden = true; sent.hidden = false; sent.focus(); return; }
+          var msgs = (data && data.errors ? data.errors : []).concat([(data && data.message) || FALLBACK]);
+          showErrors(msgs, null); button.disabled = false; button.textContent = label;
+        })
+        .catch(function () {
+          showErrors(['The connection failed, so nothing reached us.', FALLBACK], null);
+          button.disabled = false; button.textContent = label;
+        });
+    });
+    });
+  })();
+</script>

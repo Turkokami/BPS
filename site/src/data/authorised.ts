@@ -7,16 +7,26 @@ export type GeoRow = { slug: string; county: string; signals: number; s4: string
 export const AUTHORISED_TOWNS: GeoRow[] = [
   { slug: "auburn", county: "androscoggin", signals: 2, s4: "Y (GreenShield+PineState+BigBlueBug)" },
   { slug: "lewiston", county: "androscoggin", signals: 2, s4: "Y (GreenShield+PineState+BigBlueBug)" },
+  { slug: "lisbon", county: "androscoggin", signals: 1, s4: "Y (GreenShield+PineState)" },
   { slug: "portland", county: "cumberland", signals: 2, s4: "Y (GreenShield+PineState+BigBlueBug+ModernPest)" },
+  { slug: "scarborough", county: "cumberland", signals: 1, s4: "Y (GreenShield+PineState)" },
+  { slug: "south-portland", county: "cumberland", signals: 1, s4: "Y (GreenShield+PineState+BigBlueBug)" },
+  { slug: "westbrook", county: "cumberland", signals: 1, s4: "Y (GreenShield+PineState)" },
   { slug: "augusta", county: "kennebec", signals: 2, s4: "Y (GreenShield+PineState+BigBlueBug+ModernPest)" },
   { slug: "waterville", county: "kennebec", signals: 2, s4: "Y (GreenShield+PineState)" },
   { slug: "oxford", county: "oxford", signals: 2, s4: "Y (GreenShield+PineState)" },
-  { slug: "bath", county: "sagadahoc", signals: 2, s4: "Y (GreenShield+PineState)" }
+  { slug: "bath", county: "sagadahoc", signals: 2, s4: "Y (GreenShield+PineState)" },
+  { slug: "topsham", county: "sagadahoc", signals: 1, s4: "Y (GreenShield+PineState)" },
+  { slug: "biddeford", county: "york", signals: 0, s4: "N (GreenShield)" },
+  { slug: "kennebunk", county: "york", signals: 0, s4: "N (GreenShield)" },
+  { slug: "kennebunkport", county: "york", signals: 0, s4: "N (GreenShield)" },
+  { slug: "saco", county: "york", signals: 0, s4: "N (none)" },
+  { slug: "brunswick", county: "cumberland", signals: 1, s4: "not measured" },
+  { slug: "old-orchard-beach", county: "york", signals: 1, s4: "not measured" }
 ];
 
 export const PENDING_TOWNS: GeoRow[] = [
   { slug: "durham", county: "androscoggin", signals: 1, s4: "Y (GreenShield+PineState)" },
-  { slug: "lisbon", county: "androscoggin", signals: 1, s4: "Y (GreenShield+PineState)" },
   { slug: "mechanic-falls", county: "androscoggin", signals: 1, s4: "Y (GreenShield+PineState)" },
   { slug: "minot", county: "androscoggin", signals: 1, s4: "Y (GreenShield+PineState)" },
   { slug: "poland", county: "androscoggin", signals: 1, s4: "Y (GreenShield+PineState)" },
@@ -31,10 +41,7 @@ export const PENDING_TOWNS: GeoRow[] = [
   { slug: "naples", county: "cumberland", signals: 1, s4: "Y (GreenShield+PineState)" },
   { slug: "new-gloucester", county: "cumberland", signals: 1, s4: "Y (GreenShield+PineState)" },
   { slug: "north-yarmouth", county: "cumberland", signals: 1, s4: "Y (GreenShield+PineState)" },
-  { slug: "scarborough", county: "cumberland", signals: 1, s4: "Y (GreenShield+PineState)" },
-  { slug: "south-portland", county: "cumberland", signals: 1, s4: "Y (GreenShield+PineState+BigBlueBug)" },
   { slug: "standish", county: "cumberland", signals: 1, s4: "Y (GreenShield+PineState)" },
-  { slug: "westbrook", county: "cumberland", signals: 1, s4: "Y (GreenShield+PineState)" },
   { slug: "windham", county: "cumberland", signals: 1, s4: "Y (GreenShield+PineState+BigBlueBug)" },
   { slug: "yarmouth", county: "cumberland", signals: 1, s4: "Y (GreenShield+PineState)" },
   { slug: "farmington", county: "franklin", signals: 1, s4: "Y (GreenShield+ModernPest)" },
@@ -47,7 +54,6 @@ export const PENDING_TOWNS: GeoRow[] = [
   { slug: "norway", county: "oxford", signals: 1, s4: "Y (GreenShield+PineState)" },
   { slug: "bowdoin", county: "sagadahoc", signals: 1, s4: "Y (GreenShield+PineState)" },
   { slug: "bowdoinham", county: "sagadahoc", signals: 1, s4: "Y (GreenShield+PineState)" },
-  { slug: "topsham", county: "sagadahoc", signals: 1, s4: "Y (GreenShield+PineState)" },
   { slug: "woolwich", county: "sagadahoc", signals: 1, s4: "Y (GreenShield+PineState)" }
 ];
 
@@ -96,15 +102,11 @@ export const DECLINED_TOWNS: string[] = [
   "alfred",
   "arundel",
   "berwick",
-  "biddeford",
-  "kennebunk",
-  "kennebunkport",
   "kittery",
   "lebanon",
   "lyman",
   "north-berwick",
   "ogunquit",
-  "saco",
   "sanford",
   "shapleigh",
   "south-berwick",
@@ -119,12 +121,12 @@ export const AUTHORISED_COUNTIES: GeoRow[] = [
   { slug: "cumberland-county", county: "cumberland", signals: 2, s4: "Y (county-level coverage by GreenShield + PineState)" },
   { slug: "kennebec-county", county: "kennebec", signals: 2, s4: "Y (county-level coverage by GreenShield + PineState)" },
   { slug: "oxford-county", county: "oxford", signals: 2, s4: "Y (county-level coverage by GreenShield + PineState)" },
-  { slug: "sagadahoc-county", county: "sagadahoc", signals: 2, s4: "Y (county-level coverage by GreenShield + PineState)" }
+  { slug: "sagadahoc-county", county: "sagadahoc", signals: 2, s4: "Y (county-level coverage by GreenShield + PineState)" },
+  { slug: "york-county", county: "york", signals: 1, s4: "Y (county-level coverage by GreenShield + PineState)" }
 ];
 
 export const PENDING_COUNTIES: GeoRow[] = [
-  { slug: "franklin-county", county: "franklin", signals: 1, s4: "Y (county-level coverage by GreenShield + PineState)" },
-  { slug: "york-county", county: "york", signals: 1, s4: "Y (county-level coverage by GreenShield + PineState)" }
+  { slug: "franklin-county", county: "franklin", signals: 1, s4: "Y (county-level coverage by GreenShield + PineState)" }
 ];
 
 /** Every town with a route, in either state. Routes enumerate this. */

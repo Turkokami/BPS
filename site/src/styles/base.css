@@ -251,6 +251,41 @@ figure { margin: .4rem 0 1.4rem; }
 }
 @media (prefers-reduced-motion: reduce) { .pestbuttons a { transition: none; } .pestbuttons a:hover { transform: none; } }
 h2.allservices { margin-top: 1rem; }
+/* ---- contact form (InquiryForm.astro) ----------------------------------- */
+.inquiry { margin: 2rem 0; padding: 1.4rem 1.4rem 1.6rem; background: var(--panel); border: 1px solid var(--hairline); border-top: 3px solid var(--rule); border-radius: var(--r); }
+.inquiry h2 { margin-top: 0; }
+.form .field { display: flex; flex-direction: column; gap: .35rem; margin: 0 0 1rem; }
+.form .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1rem; }
+.form label, .form legend { font-weight: 600; color: var(--paper); }
+.form .optional { font-weight: 400; font-size: .875rem; color: var(--faint); }
+.form input[type="text"], .form input[type="email"], .form input[type="tel"], .form textarea {
+  width: 100%; min-height: 46px; padding: .6rem .75rem; font: inherit; color: var(--paper);
+  background: var(--page); border: 1px solid var(--muted); border-radius: var(--r-sm);
+}
+.form textarea { min-height: 7rem; resize: vertical; }
+.form input:focus-visible, .form textarea:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; border-color: var(--blue); }
+.form [aria-invalid="true"] { border-color: var(--amber); }
+.form fieldset.choices { border: 0; padding: 0; margin: 0 0 1rem; }
+.form legend { margin-bottom: .55rem; padding: 0; }
+.form .choice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .45rem 1rem; }
+.form .choice { display: flex; align-items: center; gap: .6rem; min-height: 40px; }
+.form .choice input { width: 1.25rem; height: 1.25rem; margin: 0; accent-color: var(--fill); flex: none; }
+.form .choice label { font-weight: 500; }
+.form .hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.form .form-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; margin-top: .4rem; }
+.form button.cta { border: 0; cursor: pointer; font: inherit; font-weight: 700; }
+.form button.cta[disabled] { opacity: .7; cursor: progress; }
+.form .form-note { margin: 0; font-size: .875rem; color: var(--faint); }
+.form-errors { border: 1px solid var(--amber); border-radius: var(--r-sm); padding: .8rem 1rem; margin: 0 0 1rem; background: var(--page); }
+.form-errors h3 { margin: 0 0 .4rem; font-size: 1rem; color: var(--amber); }
+.form-errors ul { margin: 0; }
+.form-errors a { color: var(--amber); }
+.form-sent { padding: .4rem 0; }
+.form-sent h3 { margin-top: 0; }
+@media (max-width: 559px) {
+  .form .field-row, .form .choice-grid { grid-template-columns: 1fr; }
+  .inquiry { padding: 1.1rem 1rem 1.3rem; }
+}
 /* Quoted reviews: hairline-separated, like the FAQ, not a card wall. */
 .reviews { margin: 1rem 0 1.6rem; }
 .review { margin: 0; padding: 1.1rem 0; border-top: 1px solid var(--hairline); }

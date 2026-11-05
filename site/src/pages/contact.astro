@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { BUSINESS, hasForm } from '../data/business';
+import InquiryForm from '../components/InquiryForm.astro';
+import { BUSINESS } from '../data/business';
 import { title, description } from '../lib/seo';
 const path = '/contact/';
 ---
@@ -31,16 +32,7 @@ const path = '/contact/';
     <li>Whether anything has already been treated, and with what.</li>
     <li>Whether there are children, pets or livestock on the property.</li>
   </ul>
-  <h2>Send a message instead</h2>
-  {hasForm() ? (
-    <div set:html={BUSINESS.forms.gorilladeskEmbed} />
-  ) : (
-    <p>
-      A booking form is being connected to the scheduling system Ryan already uses, so that a request lands in the same place as
-      everything else rather than in a separate inbox. Until it is live, calling or texting is the fastest route — and it reaches
-      him directly rather than an answering service.
-    </p>
-  )}
+  <InquiryForm source="/contact/" />
 
   <h2>What it costs to have us look</h2>
   <p>

@@ -325,3 +325,42 @@ and every legacy redirect taking two hops. Fixed in `scripts/gen-redirects.mjs`
 entry; request indexing for /, /locations/lewiston/, /services/bed-bug-control/,
 /services/commercial-pest-control/, /services/mosquito-control/,
 /services/ant-control/, /locations/auburn/; re-check Indexing → Pages around 20 Oct.
+
+---
+
+## Expansion towns and the contact form — 5 November 2026
+
+**Eleven expansion town pages + York County hub (published).** At Ryan's request
+(4 Nov): Lisbon, Brunswick, Topsham, South Portland, Scarborough, Westbrook,
+Saco, Biddeford, Old Orchard Beach, Kennebunk, Kennebunkport — plus the York
+County hub so those five towns don't link to a hidden page. None has a job on
+record, so each carries `expansion: true` and an honest `nearestWork` box instead
+of claiming work there; the substance gate now enforces that (an expansion page
+may not carry firstPartyProof and must carry nearestWork). Every number was
+fetched from the Census (ACS 2020–2024), Maine CDC's 2024 tickborne report or the
+UMaine Tick Lab 2025 report. Old URLs for these towns now redirect to them
+(Lisbon Falls → Lisbon). **When Ryan does a job in one of these towns, add it as
+firstPartyProof and drop `expansion`.** Published: 18 towns, 6 county hubs,
+58 sitemap URLs.
+
+**Contact form (built; needs two settings to deliver).** /contact/ now has the form
+Ryan asked for — full name, email, phone (required), service checkboxes, town and
+a note (optional) — and every page's closing call-to-action links to it. It posts
+to `site/api/inquiry.js`, a Vercel function that emails Ryan through Resend with
+reply-to set to the customer. It never fakes success: until it is configured,
+and on any failure, it tells the visitor nothing was sent and gives the phone
+number. Spam: honeypot + minimum fill time, no captcha, no third-party scripts.
+
+To switch it on:
+1. In Resend, add the domain **blouinpest.com** and add the DNS records it gives
+   you at Squarespace (they go on a `send.` subdomain plus a DKIM TXT record; they
+   do **not** touch the existing Google MX or the Zoho/Apple TXT records).
+2. Create a Resend API key.
+3. In Vercel → bps → Settings → Environment Variables (Production), add
+   `RESEND_API_KEY` and `INQUIRY_TO` (e.g. ryan@blouinpest.com). Optional:
+   `INQUIRY_FROM` (defaults to inquiries@blouinpest.com).
+4. Redeploy (env changes only apply to a new deployment), then send a test.
+
+**Privacy page:** the site now collects names, emails and phone numbers. The
+privacy draft describes the form accurately, but it is still unpublished pending
+Ryan's sign-off — publish it (`privacySignedOff: true`) soon after the form goes live.
