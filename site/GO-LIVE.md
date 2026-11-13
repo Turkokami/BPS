@@ -364,3 +364,9 @@ To switch it on:
 **Privacy page:** the site now collects names, emails and phone numbers. The
 privacy draft describes the form accurately, but it is still unpublished pending
 Ryan's sign-off — publish it (`privacySignedOff: true`) soon after the form goes live.
+
+**12 November 2026: the contact form is live.** Resend is set up on Ryan's
+account, blouinpest.com is verified, and `RESEND_API_KEY` / `INQUIRY_TO` are
+set in Vercel; form submissions now email Ryan. Still open: publish the privacy
+page (`privacySignedOff: true` in business.ts) once Ryan approves the draft, since
+the site now collects names, emails and phone numbers.
