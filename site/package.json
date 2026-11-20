@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/gen-authorised.mjs && astro check && astro build && npm run verify",
+    "build": "node scripts/gen-authorised.mjs && astro check && astro build && npm run verify && node scripts/ai-files.mjs --mode static --out dist --robots",
     "preview": "astro preview",
     "verify": "node scripts/content-links.mjs && node scripts/dead-links.mjs && node scripts/seo-audit.mjs && node scripts/word-count.mjs && node scripts/dedup.mjs && node scripts/citability.mjs && node scripts/a11y.mjs && node scripts/keyword-map-check.mjs && node scripts/validate-schema.mjs && node scripts/gate-integrity.mjs",
     "research": "node scripts/research-report.mjs",
