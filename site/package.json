@@ -19,6 +19,7 @@
     "launch": "npm run build && npm run preflight -- --net && npm run audit:rendered && npm run crawl"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^2.1.0",
     "astro": "^5.0.0"
   },
   "devDependencies": {
